@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ArrayUtil</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ArrayUtil</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---ArrayUtil.php.html">/base/lib/classes/ArrayUtil.php</a> (line <span class="field">6</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#arrayIsAssociative" title="details" class="method-name">arrayIsAssociative</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#arrayWithValuesAsKeys" title="details" class="method-name">arrayWithValuesAsKeys</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#assocKeyPeek" title="details" class="method-name">assocKeyPeek</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#assocPeek" title="details" class="method-name">assocPeek</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#assocUnshift" title="details" class="method-name">assocUnshift</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#inArray" title="details" class="method-name">inArray</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mScalar</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$aArray</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bStrict</span> = <span class="var-default">true</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sKeyMethod</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#runFunctionOnArrayValues" title="details" class="method-name">runFunctionOnArrayValues</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$mCallback</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#setEmptyArrayValuesToNull" title="details" class="method-name">setEmptyArrayValuesToNull</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#trimStringsInArray" title="details" class="method-name">trimStringsInArray</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+									</div>
+								
+																																																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodarrayIsAssociative" id="arrayIsAssociative"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method arrayIsAssociative</span> (line <span class="line-number">24</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			arrayIsAssociative
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodarrayWithValuesAsKeys" id="arrayWithValuesAsKeys"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method arrayWithValuesAsKeys</span> (line <span class="line-number">79</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			arrayWithValuesAsKeys
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodassocKeyPeek" id="assocKeyPeek"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method assocKeyPeek</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			assocKeyPeek
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodassocPeek" id="assocPeek"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method assocPeek</span> (line <span class="line-number">63</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			assocPeek
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodassocUnshift" id="assocUnshift"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method assocUnshift</span> (line <span class="line-number">54</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Prepends an element/multiple elements to the beginning of the associative array  Usage: assocUnshift($array, $key1, value1, key2, value2, …)</p>
+<p class="description"><p>If multiple elements are passed, they end up being in the order in which they are given  Example: assocUnshift($array, 'zero', 0, 'one', 1) will result in $array being array('zero' =&gt; 0, 'one' =&gt; 1, …)</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			assocUnshift
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinArray" id="inArray"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method inArray</span> (line <span class="line-number">35</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			inArray
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mScalar</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$aArray</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bStrict</span> = <span class="var-default">true</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sKeyMethod</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mScalar</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aArray</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bStrict</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sKeyMethod</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrunFunctionOnArrayValues" id="runFunctionOnArrayValues"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method runFunctionOnArrayValues</span> (line <span class="line-number">7</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			runFunctionOnArrayValues
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$mCallback</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mCallback</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetEmptyArrayValuesToNull" id="setEmptyArrayValuesToNull"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method setEmptyArrayValuesToNull</span> (line <span class="line-number">29</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setEmptyArrayValuesToNull
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtrimStringsInArray" id="trimStringsInArray"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method trimStringsInArray</span> (line <span class="line-number">20</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			trimStringsInArray
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$aArray</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$aArray</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:48 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

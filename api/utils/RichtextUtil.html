@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class RichtextUtil</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class RichtextUtil</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---RichtextUtil.php.html">/base/lib/classes/RichtextUtil.php</a> (line <span class="field">5</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$USE_ABSOLUTE_LINKS" title="details" class="var-name">$USE_ABSOLUTE_LINKS</a>
+				</div>
+																							</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#externalLinkCallback" title="details" class="method-name">externalLinkCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#externalLinkCallbackBe" title="details" class="method-name">externalLinkCallbackBe</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#fileLinkCallback" title="details" class="method-name">fileLinkCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#fileLinkCallbackBe" title="details" class="method-name">fileLinkCallbackBe</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#imageCallback" title="details" class="method-name">imageCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#imageCallbackBe" title="details" class="method-name">imageCallbackBe</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#internalLinkCallback" title="details" class="method-name">internalLinkCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#internalLinkCallbackBe" title="details" class="method-name">internalLinkCallbackBe</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#mailtoLinkCallback" title="details" class="method-name">mailtoLinkCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#mailtoLinkCallbackBe" title="details" class="method-name">mailtoLinkCallbackBe</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																								<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parseInputFromMceForStorage" title="details" class="method-name">parseInputFromMceForStorage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sInput</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parseStorageForBackendOutput" title="details" class="method-name">parseStorageForBackendOutput</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parseStorageForFrontendOutput" title="details" class="method-name">parseStorageForFrontendOutput</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parseStorageForOutput" title="details" class="method-name">parseStorageForOutput</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIsAdmin</span>)
+									</div>
+																								
+												<div class="method-definition">
+											<span class="method-result">RichtextUtil</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sAreaName</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aSettings</span> = <span class="var-default">null</span>])
+									</div>
+																																																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getAreaName" title="details" class="method-name">getAreaName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getTrackReferences" title="details" class="method-name">getTrackReferences</a>
+										()
+									</div>
+																																																																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#parseInputFromMce" title="details" class="method-name">parseInputFromMce</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sInput</span> = <span class="var-default">null</span>])
+									</div>
+																																																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setTrackReferences" title="details" class="method-name">setTrackReferences</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mTrackReferences</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#textTagParseCallback" title="details" class="method-name">textTagParseCallback</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oHtmlTag</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParsedChildren</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$USE_ABSOLUTE_LINKS" id="$USE_ABSOLUTE_LINKS"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$USE_ABSOLUTE_LINKS</span>
+			 = <span class="var-default"> false</span>			(line <span class="line-number">9</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodexternalLinkCallback" id="externalLinkCallback"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method externalLinkCallback</span> (line <span class="line-number">158</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			externalLinkCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodexternalLinkCallbackBe" id="externalLinkCallbackBe"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method externalLinkCallbackBe</span> (line <span class="line-number">170</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			externalLinkCallbackBe
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfileLinkCallback" id="fileLinkCallback"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method fileLinkCallback</span> (line <span class="line-number">179</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			fileLinkCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfileLinkCallbackBe" id="fileLinkCallbackBe"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method fileLinkCallbackBe</span> (line <span class="line-number">188</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			fileLinkCallbackBe
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodimageCallback" id="imageCallback"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method imageCallback</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			imageCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodimageCallbackBe" id="imageCallbackBe"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method imageCallbackBe</span> (line <span class="line-number">116</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			imageCallbackBe
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinternalLinkCallback" id="internalLinkCallback"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method internalLinkCallback</span> (line <span class="line-number">131</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			internalLinkCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinternalLinkCallbackBe" id="internalLinkCallbackBe"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method internalLinkCallbackBe</span> (line <span class="line-number">139</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			internalLinkCallbackBe
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmailtoLinkCallback" id="mailtoLinkCallback"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method mailtoLinkCallback</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			mailtoLinkCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmailtoLinkCallbackBe" id="mailtoLinkCallbackBe"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method mailtoLinkCallbackBe</span> (line <span class="line-number">154</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			mailtoLinkCallbackBe
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparseInputFromMceForStorage" id="parseInputFromMceForStorage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parseInputFromMceForStorage</span> (line <span class="line-number">29</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseInputFromMceForStorage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sInput</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sInput</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparseStorageForBackendOutput" id="parseStorageForBackendOutput"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parseStorageForBackendOutput</span> (line <span class="line-number">65</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseStorageForBackendOutput
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sStorage</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparseStorageForFrontendOutput" id="parseStorageForFrontendOutput"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parseStorageForFrontendOutput</span> (line <span class="line-number">61</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseStorageForFrontendOutput
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sStorage</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparseStorageForOutput" id="parseStorageForOutput"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parseStorageForOutput</span> (line <span class="line-number">48</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseStorageForOutput
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sStorage</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIsAdmin</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sStorage</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIsAdmin</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">16</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">RichtextUtil</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sAreaName</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aSettings</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sAreaName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aSettings</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAreaName" id="getAreaName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAreaName</span> (line <span class="line-number">205</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAreaName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTrackReferences" id="getTrackReferences"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTrackReferences</span> (line <span class="line-number">213</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getTrackReferences
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodparseInputFromMce" id="parseInputFromMce"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">parseInputFromMce</span> (line <span class="line-number">35</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseInputFromMce
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sInput</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sInput</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTrackReferences" id="setTrackReferences"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTrackReferences</span> (line <span class="line-number">209</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTrackReferences
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mTrackReferences</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mTrackReferences</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtextTagParseCallback" id="textTagParseCallback"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">textTagParseCallback</span> (line <span class="line-number">224</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			textTagParseCallback
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oHtmlTag</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParsedChildren</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oHtmlTag</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sParsedChildren</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:55 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

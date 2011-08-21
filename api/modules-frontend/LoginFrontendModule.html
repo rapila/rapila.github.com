@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class LoginFrontendModule</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class LoginFrontendModule</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="../rapila/WidgetBasedFrontendModule.html">WidgetBasedFrontendModule</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---modules---frontend---login---LoginFrontendModule.php.html">/base/modules/frontend/login/LoginFrontendModule.php</a> (line <span class="field">11</span>)
+		</p>
+		
+				
+		<pre><a href="../rapila/Module.html">Module</a>
+   |
+   --<a href="../rapila/FrontendModule.html">FrontendModule</a>
+      |
+      --<a href="../rapila/DynamicFrontendModule.html">DynamicFrontendModule</a>
+         |
+         --LoginFrontendModule</pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-vars">Vars</a>
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#MODE_SELECT_KEY" title="details" class="const-name">MODE_SELECT_KEY</a> = 					<span class="var-type"> 'display_mode'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-vars">Vars</a>
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																				
+												<div class="method-definition">
+											<span class="method-result">LoginFrontendModule</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$oLanguageObject</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aRequestPath</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iId</span> = <span class="var-default">1</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getUser" title="details" class="method-name">getUser</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getWidget" title="details" class="method-name">getWidget</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#renderFrontend" title="details" class="method-name">renderFrontend</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sAction</span> = <span class="var-default">'login'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#widgetData" title="details" class="method-name">widgetData</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#widgetSave" title="details" class="method-name">widgetSave</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mData</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../rapila/FrontendModule.html">FrontendModule</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FrontendModule.html#var$aPath">FrontendModule::$aPath</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FrontendModule.html#var$iId">FrontendModule::$iId</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FrontendModule.html#var$MODULE_TYPE">FrontendModule::$MODULE_TYPE</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FrontendModule.html#var$oData">FrontendModule::$oData</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FrontendModule.html#var$oLanguageObject">FrontendModule::$oLanguageObject</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-vars">Vars</a>
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">18</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">LoginFrontendModule</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$oLanguageObject</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aRequestPath</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iId</span> = <span class="var-default">1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">LanguageObject</span>
+				<span class="var-name">$oLanguageObject</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aRequestPath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iId</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../rapila/FrontendModule.html#method__construct">FrontendModule::__construct()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodgetUser" id="getUser"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUser</span> (line <span class="line-number">89</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getUser
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetWidget" id="getWidget"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getWidget</span> (line <span class="line-number">102</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getWidget
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodrenderFrontend" id="renderFrontend"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">renderFrontend</span> (line <span class="line-number">27</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The render method for the login page type. When on a login page type, this is given the login action as determined by the page type. Can be either null (default), 'password_forgotten', or 'password_reset' (or any other string of which a template &quot;$sLoginType_action_$sAction&quot; exists).</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			renderFrontend
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sAction</span> = <span class="var-default">'login'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sAction</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../rapila/FrontendModule.html#methodrenderFrontend">FrontendModule::renderFrontend()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodwidgetData" id="widgetData"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">widgetData</span> (line <span class="line-number">93</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			widgetData
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodwidgetSave" id="widgetSave"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">widgetSave</span> (line <span class="line-number">97</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			widgetSave
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mData</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mData</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/DynamicFrontendModule.html">DynamicFrontendModule</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/DynamicFrontendModule.html#methodacceptedRequestParams">DynamicFrontendModule::acceptedRequestParams()</a></span><br>
+													<span class="method-name"><a href="../rapila/DynamicFrontendModule.html#methodisDynamic">DynamicFrontendModule::isDynamic()</a></span><br>
+											</blockquote>
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/FrontendModule.html">FrontendModule</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#method__construct">FrontendModule::__construct()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodconstructTemplate">FrontendModule::constructTemplate()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetConfigDirectoryForModule">FrontendModule::getConfigDirectoryForModule()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetContentInfo">FrontendModule::getContentInfo()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetCssForFrontend">FrontendModule::getCssForFrontend()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetData">FrontendModule::getData()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetDirectoryForModule">FrontendModule::getDirectoryForModule()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetJsForFrontend">FrontendModule::getJsForFrontend()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetLanguageObject">FrontendModule::getLanguageObject()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetModuleSetting">FrontendModule::getModuleSetting()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetSaveData">FrontendModule::getSaveData()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodgetWords">FrontendModule::getWords()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodisDynamic">FrontendModule::isDynamic()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodlistContentModules">FrontendModule::listContentModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#methodrenderFrontend">FrontendModule::renderFrontend()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#method__sleep">FrontendModule::__sleep()</a></span><br>
+													<span class="method-name"><a href="../rapila/FrontendModule.html#method__wakeup">FrontendModule::__wakeup()</a></span><br>
+											</blockquote>
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplate">Module::constructTemplate()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplateForModuleAndType">Module::constructTemplateForModuleAndType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByName">Module::getClassNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByTypeAndName">Module::getClassNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayName">Module::getDisplayName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByName">Module::getDisplayNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByTypeAndName">Module::getDisplayNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfo">Module::getModuleInfo()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfoByTypeAndName">Module::getModuleInfoByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstance">Module::getModuleInstance()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstanceByTypeAndName">Module::getModuleInstanceByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleMetadataByTypeAndName">Module::getModuleMetadataByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleName">Module::getModuleName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetNameByClassName">Module::getNameByClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetPathArrayByTypeAndName">Module::getPathArrayByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetType">Module::getType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleAllowed">Module::isModuleAllowed()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleEnabled">Module::isModuleEnabled()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisSingleton">Module::isSingleton()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassName">Module::isValidModuleClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassNameOfAnyType">Module::isValidModuleClassNameOfAnyType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistAllModules">Module::listAllModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModules">Module::listModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByAspect">Module::listModulesByAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByType">Module::listModulesByType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByTypeAndAspect">Module::listModulesByTypeAndAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModuleTypes">Module::listModuleTypes()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodmoduleExists">Module::moduleExists()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-vars">Vars</a>
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constMODE_SELECT_KEY" id="MODE_SELECT_KEY"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">MODE_SELECT_KEY</span>
+			 = <span class="const-default"> 'display_mode'</span>
+			(line <span class="line-number">16</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+							<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../rapila/Module.html#constINFO_FILE">Module::INFO_FILE</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:53 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

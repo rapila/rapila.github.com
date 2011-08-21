@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class TemplateResourceFileModule</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class TemplateResourceFileModule</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-consts">Constants</a>
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.</p>
+<p class="description"><p>All modules are found in the folder modules/module_type under either the root or site folder</p><p>Modules always have the following directory structure:</p><p><pre> module_name/
+	templates/ (optional, can be read with $this-><a href="../rapila/Module.html#methodconstructTemplate">constructTemplate</a>('name') inside the module)
+    lang/ (optional, contains translation files with strings)
+    ModuleNameModuleTypeModule.php (contains the actual module code)
+    info.yml (optional) contains info about the module as well as permission settings</pre></p></p>
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---TemplateResourceFileModule.php.html">/base/lib/classes/TemplateResourceFileModule.php</a> (line <span class="field">3</span>)
+		</p>
+		
+				
+		<pre><a href="../rapila/Module.html">Module</a>
+   |
+   --<a href="../rapila/FileModule.html">FileModule</a>
+      |
+      --TemplateResourceFileModule</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-consts">Constants</a>
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/NamespacedPreviewResourceFileModule.html">NamespacedPreviewResourceFileModule</a></td>
+					<td>
+											Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/PageTypeResourceFileModule.html">PageTypeResourceFileModule</a></td>
+					<td>
+											Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/WidgetResourceFileModule.html">WidgetResourceFileModule</a></td>
+					<td>
+											Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/AdminResourceFileModule.html">AdminResourceFileModule</a></td>
+					<td>
+											Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-consts">Constants</a>
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$RESOURCE_TYPES" title="details" class="var-name">$RESOURCE_TYPES</a>
+				</div>
+																																																				<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$sModuleName" title="details" class="var-name">$sModuleName</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$sModuleType" title="details" class="var-name">$sModuleType</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$sResourceType" title="details" class="var-name">$sResourceType</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-consts">Constants</a>
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getAvailableResource" title="details" class="method-name">getAvailableResource</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sModuleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sModuleType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sResourceType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$aParameters</span>)
+									</div>
+																								<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#includeAvailableResources" title="details" class="method-name">includeAvailableResources</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mModule</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bEndDependenciesOnJS</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$oResourceIncluder</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aParameters</span> = <span class="var-default">null</span>])
+									</div>
+																
+												<div class="method-definition">
+											<span class="method-result">TemplateResourceFileModule</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aRequestPath</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getModuleType" title="details" class="method-name">getModuleType</a>
+										()
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#renderFile" title="details" class="method-name">renderFile</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-consts">Constants</a>
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$RESOURCE_TYPES" id="$RESOURCE_TYPES"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$RESOURCE_TYPES</span>
+			 = <span class="var-default">array(ResourceIncluder::RESOURCE_TYPE_CSS, ResourceIncluder::RESOURCE_TYPE_JS, 'html')</span>			(line <span class="line-number">8</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$sModuleName" id="$sModuleName"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$sModuleName</span>
+						(line <span class="line-number">5</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$sModuleType" id="$sModuleType"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$sModuleType</span>
+						(line <span class="line-number">6</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$sResourceType" id="$sResourceType"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$sResourceType</span>
+						(line <span class="line-number">4</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../rapila/FileModule.html">FileModule</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FileModule.html#var$aPath">FileModule::$aPath</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../rapila/FileModule.html#var$MODULE_TYPE">FileModule::$MODULE_TYPE</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-consts">Constants</a>
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetAvailableResource" id="getAvailableResource"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getAvailableResource</span> (line <span class="line-number">64</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAvailableResource
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sModuleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sModuleType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sResourceType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$aParameters</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sModuleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sModuleType</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sResourceType</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aParameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodincludeAvailableResources" id="includeAvailableResources"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method includeAvailableResources</span> (line <span class="line-number">36</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			includeAvailableResources
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mModule</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bEndDependenciesOnJS</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$oResourceIncluder</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$aParameters</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mModule</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bEndDependenciesOnJS</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oResourceIncluder</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aParameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">10</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">TemplateResourceFileModule</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aRequestPath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aRequestPath</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../rapila/FileModule.html#method__construct">FileModule::__construct()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodgetModuleType" id="getModuleType"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getModuleType</span> (line <span class="line-number">34</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getModuleType
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/NamespacedPreviewResourceFileModule.html#methodgetModuleType">NamespacedPreviewResourceFileModule::getModuleType()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageTypeResourceFileModule.html#methodgetModuleType">PageTypeResourceFileModule::getModuleType()</a>
+							</li>
+					<li>
+				<a href="../rapila/WidgetResourceFileModule.html#methodgetModuleType">WidgetResourceFileModule::getModuleType()</a>
+							</li>
+					<li>
+				<a href="../rapila/AdminResourceFileModule.html#methodgetModuleType">AdminResourceFileModule::getModuleType()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodrenderFile" id="renderFile"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">renderFile</span> (line <span class="line-number">20</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			renderFile
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../rapila/FileModule.html#methodrenderFile">FileModule::renderFile()</a></dt>
+					</dl>
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/NamespacedPreviewResourceFileModule.html#methodrenderFile">NamespacedPreviewResourceFileModule::renderFile()</a>
+							</li>
+				</ul>
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/FileModule.html">FileModule</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/FileModule.html#method__construct">FileModule::__construct()</a></span><br>
+													<span class="method-name"><a href="../rapila/FileModule.html#methodrenderFile">FileModule::renderFile()</a></span><br>
+											</blockquote>
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplate">Module::constructTemplate()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplateForModuleAndType">Module::constructTemplateForModuleAndType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByName">Module::getClassNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByTypeAndName">Module::getClassNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayName">Module::getDisplayName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByName">Module::getDisplayNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByTypeAndName">Module::getDisplayNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfo">Module::getModuleInfo()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfoByTypeAndName">Module::getModuleInfoByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstance">Module::getModuleInstance()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstanceByTypeAndName">Module::getModuleInstanceByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleMetadataByTypeAndName">Module::getModuleMetadataByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleName">Module::getModuleName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetNameByClassName">Module::getNameByClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetPathArrayByTypeAndName">Module::getPathArrayByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetType">Module::getType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleAllowed">Module::isModuleAllowed()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleEnabled">Module::isModuleEnabled()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisSingleton">Module::isSingleton()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassName">Module::isValidModuleClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassNameOfAnyType">Module::isValidModuleClassNameOfAnyType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistAllModules">Module::listAllModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModules">Module::listModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByAspect">Module::listModulesByAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByType">Module::listModulesByType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByTypeAndAspect">Module::listModulesByTypeAndAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModuleTypes">Module::listModuleTypes()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodmoduleExists">Module::moduleExists()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../rapila/Module.html#constINFO_FILE">Module::INFO_FILE</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:56 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

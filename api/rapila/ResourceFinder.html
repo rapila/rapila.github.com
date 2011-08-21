@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class ResourceFinder</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class ResourceFinder</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---ResourceFinder.php.html">/base/lib/classes/ResourceFinder.php</a> (line <span class="field">6</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#ANY_NAME_OR_TYPE_PATTERN" title="details" class="const-name">ANY_NAME_OR_TYPE_PATTERN</a> = 					<span class="var-type"> '/^[\\w_]+$/'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_BASE_FIRST" title="details" class="const-name">SEARCH_BASE_FIRST</a> = 					<span class="var-type"> 3</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_BASE_ONLY" title="details" class="const-name">SEARCH_BASE_ONLY</a> = 					<span class="var-type"> 1</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_MAIN_ONLY" title="details" class="const-name">SEARCH_MAIN_ONLY</a> = 					<span class="var-type"> 0</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_PLUGINS_FIRST" title="details" class="const-name">SEARCH_PLUGINS_FIRST</a> = 					<span class="var-type"> 6</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_PLUGINS_ONLY" title="details" class="const-name">SEARCH_PLUGINS_ONLY</a> = 					<span class="var-type"> 5</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_SITE_FIRST" title="details" class="const-name">SEARCH_SITE_FIRST</a> = 					<span class="var-type"> 4</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEARCH_SITE_ONLY" title="details" class="const-name">SEARCH_SITE_ONLY</a> = 					<span class="var-type"> 2</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+									<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#buildSearchPathList" title="details" class="method-name">buildSearchPathList</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findAllResourceObjects" title="details" class="method-name">findAllResourceObjects</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findAllResourceObjectsByExpressions" title="details" class="method-name">findAllResourceObjectsByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findAllResources" title="details" class="method-name">findAllResources</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findAllResourcesByExpressions" title="details" class="method-name">findAllResourcesByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">mixed</span>
+										<a href="#findResource" title="details" class="method-name">findResource</a>
+											(<span class="var-type">array|string</span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bByExpressions</span> = <span class="var-default">false</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bFindAll</span> = <span class="var-default">false</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bReturnObjects</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findResourceByExpressions" title="details" class="method-name">findResourceByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findResourceObject" title="details" class="method-name">findResourceObject</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findResourceObjectByExpressions" title="details" class="method-name">findResourceObjectByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findResourceObjectsByExpressions" title="details" class="method-name">findResourceObjectsByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#findResourcesByExpressions" title="details" class="method-name">findResourcesByExpressions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getFolderContents" title="details" class="method-name">getFolderContents</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sPath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisibles</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#mimeTypeOfFile" title="details" class="method-name">mimeTypeOfFile</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sFile</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#parsePathArguments" title="details" class="method-name">parsePathArguments</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sBaseDirname</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$mPath</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sFileName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#recursiveUnlink" title="details" class="method-name">recursiveUnlink</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sFileName</span>)
+									</div>
+								
+																																																																																																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodbuildSearchPathList" id="buildSearchPathList"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method buildSearchPathList</span> (line <span class="line-number">177</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			buildSearchPathList
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindAllResourceObjects" id="findAllResourceObjects"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findAllResourceObjects</span> (line <span class="line-number">152</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bFindAll and $bReturnObjects set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findAllResourceObjects
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mRelativePath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindAllResourceObjectsByExpressions" id="findAllResourceObjectsByExpressions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findAllResourceObjectsByExpressions</span> (line <span class="line-number">173</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bFindAll, $bByExpressions and $bReturnObjects set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findAllResourceObjectsByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindAllResources" id="findAllResources"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findAllResources</span> (line <span class="line-number">117</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bFindAll set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findAllResources
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mRelativePath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindAllResourcesByExpressions" id="findAllResourcesByExpressions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findAllResourcesByExpressions</span> (line <span class="line-number">138</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bFindAll and $bByExpressions set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findAllResourcesByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResource" id="findResource"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResource</span> (line <span class="line-number">60</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds files which reside inside the CMS’ main direcory. The goal of findResource is to provide a way of accessing all the desired resources from  the most specific location. Files in the site folder override files in the plugins folders which, in turn, override files in the base folder.</p>
+<p class="description"><p>The return type varies depending on the given options ($bByExpressions, $bFindAll, $bReturnObjects).  If $bReturnObjects is false, the returned value(s) will be strings containing the files canonical full path on the file system.  $bReturnObjects set to true will return FileResource objects which store much more information and can be used to get to things such as the  relative path, the directory the relative path was found in, or the frontend path which is used to directly render a file to the user agent.  If $bByExpressions and $bFindAll are set to false, only a single string/object is returned (null if not found). Otherwise, an array is returned.  If $bFindAll is set, the returned array is index-based; if only $bByExpressions is set, the returned array’s keys are the relative paths of the respective files.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			findResource
+		</span>
+					(<span class="var-type">array|string</span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bByExpressions</span> = <span class="var-default">false</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bFindAll</span> = <span class="var-default">false</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bReturnObjects</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array|string</span>
+				<span class="var-name">$mRelativePath</span><span class="var-description">: relative path to search for in base, plugins or site folders. This can be an array or a string of /-separated directory/file names (or expressions if $bByExpressions is true).</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$iFlag</span><span class="var-description">: can be one of either ResourceFinder::SEARCH_MAIN_ONLY, ResourceFinder::SEARCH_BASE_ONLY, ResourceFinder::SEARCH_SITE_ONLY, ResourceFinder::SEARCH_PLUGINS_ONLY, ResourceFinder::SEARCH_BASE_FIRST, ResourceFinder::SEARCH_SITE_FIRST, ResourceFinder::SEARCH_PLUGINS_FIRST. The *_ONLY constants are just for convenience: since they only find files in specific directories, you might just as well do file_exists(MAIN_DIR.'my/dir').</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$bByExpressions</span><span class="var-description">: If set, $mRelativePath becomes not a fixed set of names but an array of regular expressions to evaluate against possible matches. This is slow when used on large directories. There are the following special values which can be used in the expression: ${parent_name} and ${parent_name_camelized} which do exactly what you would expect. For convenience, any array item not starting with a slash is considered to be a regular file name. This means that a slash is the only accepted delimiter.</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$bFindAll</span><span class="var-description">: If set, all matching files will be returned even if they have the same relative path inside different instance prefixes. Note: when used in conjunction with $bByExpressions, the return value becomes an index-based array since there could be duplicate relative urls.</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$bReturnObjects</span><span class="var-description">: If set, all returned paths become FileResource objects. This is much cheaper than calling new FileResource() on the returned value(s) because a) FileResource objects are used internally by findResource and b) the additional information maintained by FileResource was added when it was already known and does not have to be deducted.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResourceByExpressions" id="findResourceByExpressions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResourceByExpressions</span> (line <span class="line-number">124</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Alias for <a href="../rapila/ResourceFinder.html#methodfindResourcesByExpressions">ResourceFinder::findResourcesByExpressions()</a>. Exists for historical reasons.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findResourceByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResourceObject" id="findResourceObject"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResourceObject</span> (line <span class="line-number">145</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bReturnObjects set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findResourceObject
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mRelativePath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mRelativePath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResourceObjectByExpressions" id="findResourceObjectByExpressions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResourceObjectByExpressions</span> (line <span class="line-number">159</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Alias for <a href="../rapila/ResourceFinder.html#methodfindResourceObjectsByExpressions">ResourceFinder::findResourceObjectsByExpressions()</a>. Exists for historical reasons.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findResourceObjectByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResourceObjectsByExpressions" id="findResourceObjectsByExpressions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResourceObjectsByExpressions</span> (line <span class="line-number">166</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bByExpressions and $bReturnObjects set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findResourceObjectsByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindResourcesByExpressions" id="findResourcesByExpressions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method findResourcesByExpressions</span> (line <span class="line-number">131</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Shorthand for <a href="../rapila/ResourceFinder.html#methodfindResource">ResourceFinder::findResource()</a> with $bByExpressions set.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findResourcesByExpressions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aExpressions</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iFlag</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aExpressions</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iFlag</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFolderContents" id="getFolderContents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFolderContents</span> (line <span class="line-number">290</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFolderContents
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sPath</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisibles</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sPath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisibles</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmimeTypeOfFile" id="mimeTypeOfFile"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method mimeTypeOfFile</span> (line <span class="line-number">309</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			mimeTypeOfFile
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sFile</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFile</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparsePathArguments" id="parsePathArguments"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method parsePathArguments</span> (line <span class="line-number">272</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parsePathArguments
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sBaseDirname</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$mPath</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sFileName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sBaseDirname</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mPath</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFileName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrecursiveUnlink" id="recursiveUnlink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method recursiveUnlink</span> (line <span class="line-number">314</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			recursiveUnlink
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sFileName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFileName</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constANY_NAME_OR_TYPE_PATTERN" id="ANY_NAME_OR_TYPE_PATTERN"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">ANY_NAME_OR_TYPE_PATTERN</span>
+			 = <span class="const-default"> '/^[\\w_]+$/'</span>
+			(line <span class="line-number">15</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_BASE_FIRST" id="SEARCH_BASE_FIRST"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_BASE_FIRST</span>
+			 = <span class="const-default"> 3</span>
+			(line <span class="line-number">11</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_BASE_ONLY" id="SEARCH_BASE_ONLY"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_BASE_ONLY</span>
+			 = <span class="const-default"> 1</span>
+			(line <span class="line-number">8</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_MAIN_ONLY" id="SEARCH_MAIN_ONLY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_MAIN_ONLY</span>
+			 = <span class="const-default"> 0</span>
+			(line <span class="line-number">7</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_PLUGINS_FIRST" id="SEARCH_PLUGINS_FIRST"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_PLUGINS_FIRST</span>
+			 = <span class="const-default"> 6</span>
+			(line <span class="line-number">13</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_PLUGINS_ONLY" id="SEARCH_PLUGINS_ONLY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_PLUGINS_ONLY</span>
+			 = <span class="const-default"> 5</span>
+			(line <span class="line-number">10</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_SITE_FIRST" id="SEARCH_SITE_FIRST"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_SITE_FIRST</span>
+			 = <span class="const-default"> 4</span>
+			(line <span class="line-number">12</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEARCH_SITE_ONLY" id="SEARCH_SITE_ONLY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEARCH_SITE_ONLY</span>
+			 = <span class="const-default"> 2</span>
+			(line <span class="line-number">9</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:54 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

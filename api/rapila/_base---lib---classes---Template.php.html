@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page Template.php</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/base/lib/classes/Template.php</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-classes">Classes</a>
+			|									<a href="#sec-constants">Constants</a>
+										</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+		
+			</div>
+</div>
+		
+	<a name="sec-classes"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Classes</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Classes</span>
+			|										<a href="#sec-constants">Constants</a>
+															</div>
+		<div class="info-box-body">	
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../rapila/Template.html">Template</a>
+					</td>
+					<td>
+											class Template  is used to manage building a tree with static template texts and dynamic identifiers that have the form of <div class="src-code"><ol><li><div class="src-line"><span class="src-sym">{{</span><span class="src-id">identifier</span>=<span class="src-id">value</span><span class="src-sym">;</span><span class="src-id">param</span>=<span class="src-id">value</span><span class="src-sym">}}</span></div></li>
+</ol></div>. Those can have special meaning (<a href="../rapila/SpecialTemplateIdentifierActions.html">SpecialTemplateIdentifierActions</a>) and be replaced by the Template class or can be replaced by the user of the template using replaceIdentifier() or replaceIdentifierMultiple().
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	
+	<a name="sec-constants"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-classes">Classes</a>
+				|									<span class="disabled">Constants</span>
+											</div>
+		<div class="info-box-body">	
+			<a name="defineTEMPLATE_IDENTIFIER_END"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_IDENTIFIER_END</span> = TEMPLATE_IDENTIFIER_END_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE
+			(line <span class="line-number">6</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_IDENTIFIER_END_SINGLE"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_IDENTIFIER_END_SINGLE</span> = &quot;}&quot;
+			(line <span class="line-number">3</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_IDENTIFIER_MATCHER"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_IDENTIFIER_MATCHER</span> = &quot;/&quot;.preg_quote(TEMPLATE_IDENTIFIER_START,&quot;/&quot;).&quot;([^&quot;.preg_quote(TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE.TEMPLATE_KEY_VALUE_SEPARATOR.TEMPLATE_PARAMETER_SEPARATOR,&quot;/&quot;).&quot;]+?)(&quot;.preg_quote(TEMPLATE_KEY_VALUE_SEPARATOR,&quot;/&quot;).&quot;(((\\\\[&quot;.preg_quote(TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE.TEMPLATE_PARAMETER_SEPARATOR,&quot;/&quot;).&quot;])|[^&quot;.preg_quote(TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE.TEMPLATE_PARAMETER_SEPARATOR,&quot;/&quot;).&quot;])+)?)?(&quot;.preg_quote(TEMPLATE_PARAMETER_SEPARATOR,&quot;/&quot;).&quot;(((\\\\[&quot;.preg_quote(TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE,&quot;/&quot;).&quot;])|[^&quot;.preg_quote(TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_END_SINGLE,&quot;/&quot;).&quot;])*))?&quot;.preg_quote(TEMPLATE_IDENTIFIER_END,&quot;/&quot;).&quot;/sm&quot;
+			(line <span class="line-number">11</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_IDENTIFIER_START"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_IDENTIFIER_START</span> = TEMPLATE_IDENTIFIER_START_SINGLE.TEMPLATE_IDENTIFIER_START_SINGLE
+			(line <span class="line-number">5</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_IDENTIFIER_START_SINGLE"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_IDENTIFIER_START_SINGLE</span> = &quot;{&quot;
+			(line <span class="line-number">2</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_KEY_VALUE_SEPARATOR"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_KEY_VALUE_SEPARATOR</span> = &quot;=&quot;
+			(line <span class="line-number">8</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineTEMPLATE_PARAMETER_SEPARATOR"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">TEMPLATE_PARAMETER_SEPARATOR</span> = &quot;;&quot;
+			(line <span class="line-number">9</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+		</div>
+	</div>
+	
+	
+	
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:56 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

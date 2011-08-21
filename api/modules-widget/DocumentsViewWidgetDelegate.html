@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class DocumentsViewWidgetDelegate</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class DocumentsViewWidgetDelegate</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---DocumentsViewWidgetDelegate.php.html">/base/lib/classes/DocumentsViewWidgetDelegate.php</a> (line <span class="field">5</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$oDelegateProxy" title="details" class="var-name">$oDelegateProxy</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">DocumentsViewWidgetDelegate</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#allowSort" title="details" class="method-name">allowSort</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sSortColumn</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#doSort" title="details" class="method-name">doSort</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oDocumentToSort</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oRelatedDocument</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sPosition</span> = <span class="var-default">'before'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getColumnIdentifiers" title="details" class="method-name">getColumnIdentifiers</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCriteria" title="details" class="method-name">getCriteria</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDatabaseColumnForColumn" title="details" class="method-name">getDatabaseColumnForColumn</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDelegateProxy" title="details" class="method-name">getDelegateProxy</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDocumentCategoryId" title="details" class="method-name">getDocumentCategoryId</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDocumentCategoryName" title="details" class="method-name">getDocumentCategoryName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDocumentKind" title="details" class="method-name">getDocumentKind</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDocumentKindName" title="details" class="method-name">getDocumentKindName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getFilterTypeForColumn" title="details" class="method-name">getFilterTypeForColumn</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMetadataForColumn" title="details" class="method-name">getMetadataForColumn</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getSearch" title="details" class="method-name">getSearch</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDelegateProxy" title="details" class="method-name">setDelegateProxy</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oDelegateProxy</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDocumentCategoryId" title="details" class="method-name">setDocumentCategoryId</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$iDocumentCategoryId</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDocumentKind" title="details" class="method-name">setDocumentKind</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sDocumentKind</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setSearch" title="details" class="method-name">setSearch</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sSearch</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#toggleIsInactive" title="details" class="method-name">toggleIsInactive</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aRowData</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#toggleIsProtected" title="details" class="method-name">toggleIsProtected</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aRowData</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$oDelegateProxy" id="$oDelegateProxy"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$oDelegateProxy</span>
+						(line <span class="line-number">7</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">12</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">DocumentsViewWidgetDelegate</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodallowSort" id="allowSort"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">allowSort</span> (line <span class="line-number">131</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			allowSort
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sSortColumn</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sSortColumn</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddoSort" id="doSort"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">doSort</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			doSort
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oDocumentToSort</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$oRelatedDocument</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sPosition</span> = <span class="var-default">'before'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sColumnIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oDocumentToSort</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oRelatedDocument</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sPosition</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetColumnIdentifiers" id="getColumnIdentifiers"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getColumnIdentifiers</span> (line <span class="line-number">44</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getColumnIdentifiers
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCriteria" id="getCriteria"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCriteria</span> (line <span class="line-number">168</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCriteria
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDatabaseColumnForColumn" id="getDatabaseColumnForColumn"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDatabaseColumnForColumn</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDatabaseColumnForColumn
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sColumnIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetDelegateProxy" id="getDelegateProxy"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDelegateProxy</span> (line <span class="line-number">24</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDelegateProxy
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDocumentCategoryId" id="getDocumentCategoryId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDocumentCategoryId</span> (line <span class="line-number">188</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDocumentCategoryId
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDocumentCategoryName" id="getDocumentCategoryName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDocumentCategoryName</span> (line <span class="line-number">192</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDocumentCategoryName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDocumentKind" id="getDocumentKind"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDocumentKind</span> (line <span class="line-number">180</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDocumentKind
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDocumentKindName" id="getDocumentKindName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDocumentKindName</span> (line <span class="line-number">203</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDocumentKindName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetFilterTypeForColumn" id="getFilterTypeForColumn"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFilterTypeForColumn</span> (line <span class="line-number">118</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFilterTypeForColumn
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sColumnIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetMetadataForColumn" id="getMetadataForColumn"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMetadataForColumn</span> (line <span class="line-number">52</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMetadataForColumn
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sColumnIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sColumnIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSearch" id="getSearch"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSearch</span> (line <span class="line-number">214</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getSearch
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetDelegateProxy" id="setDelegateProxy"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDelegateProxy</span> (line <span class="line-number">20</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDelegateProxy
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oDelegateProxy</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oDelegateProxy</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDocumentCategoryId" id="setDocumentCategoryId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDocumentCategoryId</span> (line <span class="line-number">184</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDocumentCategoryId
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$iDocumentCategoryId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iDocumentCategoryId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDocumentKind" id="setDocumentKind"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDocumentKind</span> (line <span class="line-number">176</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDocumentKind
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sDocumentKind</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sDocumentKind</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetSearch" id="setSearch"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setSearch</span> (line <span class="line-number">210</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setSearch
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sSearch</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sSearch</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtoggleIsInactive" id="toggleIsInactive"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">toggleIsInactive</span> (line <span class="line-number">28</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			toggleIsInactive
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aRowData</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aRowData</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtoggleIsProtected" id="toggleIsProtected"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">toggleIsProtected</span> (line <span class="line-number">36</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			toggleIsProtected
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aRowData</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aRowData</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 10:12:50 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
