@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class SpecialTemplateIdentifierActions</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class SpecialTemplateIdentifierActions</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---SpecialTemplateIdentifierActions.php.html">/base/lib/classes/SpecialTemplateIdentifierActions.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getAlwaysLastNames" title="details" class="method-name">getAlwaysLastNames</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getSpecialIdentifierNames" title="details" class="method-name">getSpecialIdentifierNames</a>
+										()
+									</div>
+																																																																																																																																																								
+												<div class="method-definition">
+											<span class="method-result">SpecialTemplateIdentifierActions</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplate</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addResourceInclude" title="details" class="method-name">addResourceInclude</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#br" title="details" class="method-name">br</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#doCalculation" title="details" class="method-name">doCalculation</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#includeTemplate" title="details" class="method-name">includeTemplate</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#normalize" title="details" class="method-name">normalize</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#quoteString" title="details" class="method-name">quoteString</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#truncate" title="details" class="method-name">truncate</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeConstantValue" title="details" class="method-name">writeConstantValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeDate" title="details" class="method-name">writeDate</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeDirectInclude" title="details" class="method-name">writeDirectInclude</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeFlashValue" title="details" class="method-name">writeFlashValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeLink" title="details" class="method-name">writeLink</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeManagerPrefix" title="details" class="method-name">writeManagerPrefix</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeParameterizedString" title="details" class="method-name">writeParameterizedString</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeRequestValue" title="details" class="method-name">writeRequestValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeResourceIncludes" title="details" class="method-name">writeResourceIncludes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeServerVariable" title="details" class="method-name">writeServerVariable</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeSessionAttribute" title="details" class="method-name">writeSessionAttribute</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeSettingValue" title="details" class="method-name">writeSettingValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeString" title="details" class="method-name">writeString</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#writeTemplateName" title="details" class="method-name">writeTemplateName</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetAlwaysLastNames" id="getAlwaysLastNames"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getAlwaysLastNames</span> (line <span class="line-number">233</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAlwaysLastNames
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetSpecialIdentifierNames" id="getSpecialIdentifierNames"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getSpecialIdentifierNames</span> (line <span class="line-number">229</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getSpecialIdentifierNames
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">5</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">SpecialTemplateIdentifierActions</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplate</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplate</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddResourceInclude" id="addResourceInclude"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addResourceInclude</span> (line <span class="line-number">204</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addResourceInclude
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodbr" id="br"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">br</span> (line <span class="line-number">38</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			br
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddoCalculation" id="doCalculation"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">doCalculation</span> (line <span class="line-number">43</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			doCalculation
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodincludeTemplate" id="includeTemplate"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">includeTemplate</span> (line <span class="line-number">138</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			includeTemplate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodnormalize" id="normalize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">normalize</span> (line <span class="line-number">33</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			normalize
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodquoteString" id="quoteString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">quoteString</span> (line <span class="line-number">68</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			quoteString
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtruncate" id="truncate"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">truncate</span> (line <span class="line-number">49</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			truncate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$iFlags</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$iFlags</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteConstantValue" id="writeConstantValue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeConstantValue</span> (line <span class="line-number">192</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Outputs the value of constants. Can be used with multiple constants as follows: {{writeConstantValue=DIRNAME_SITE/DIRNAME_WEB/DIRNAME_IMAGES}}.</p>
+<p class="description"><p>FIXME: Allow a null-delimiter</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeConstantValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteDate" id="writeDate"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeDate</span> (line <span class="line-number">151</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeDate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteDirectInclude" id="writeDirectInclude"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeDirectInclude</span> (line <span class="line-number">210</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeDirectInclude
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteFlashValue" id="writeFlashValue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeFlashValue</span> (line <span class="line-number">29</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeFlashValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteLink" id="writeLink"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeLink</span> (line <span class="line-number">109</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeLink
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteManagerPrefix" id="writeManagerPrefix"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeManagerPrefix</span> (line <span class="line-number">184</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeManagerPrefix
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteParameterizedString" id="writeParameterizedString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeParameterizedString</span> (line <span class="line-number">25</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeParameterizedString
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteRequestValue" id="writeRequestValue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeRequestValue</span> (line <span class="line-number">163</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeRequestValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteResourceIncludes" id="writeResourceIncludes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeResourceIncludes</span> (line <span class="line-number">216</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeResourceIncludes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteServerVariable" id="writeServerVariable"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeServerVariable</span> (line <span class="line-number">170</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeServerVariable
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteSessionAttribute" id="writeSessionAttribute"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeSessionAttribute</span> (line <span class="line-number">9</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeSessionAttribute
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteSettingValue" id="writeSettingValue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeSettingValue</span> (line <span class="line-number">177</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeSettingValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteString" id="writeString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeString</span> (line <span class="line-number">17</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeString
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwriteTemplateName" id="writeTemplateName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">writeTemplateName</span> (line <span class="line-number">200</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			writeTemplateName
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oTemplateIdentifier</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oTemplateIdentifier</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 09:15:18 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

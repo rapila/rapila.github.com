@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class NavigationItem</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class NavigationItem</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---NavigationItem.php.html">/base/lib/classes/NavigationItem.php</a> (line <span class="field">3</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/VirtualNavigationItem.html">VirtualNavigationItem</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/PageNavigationItem.html">PageNavigationItem</a></td>
+					<td>
+											
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$aChildren" title="details" class="var-name">$aChildren</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$aCustomChildren" title="details" class="var-name">$aCustomChildren</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$oParent" title="details" class="var-name">$oParent</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">NavigationItem</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oParent</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addChild" title="details" class="method-name">addChild</a>
+											(<span class="var-type"><a href="../rapila/NavigationItem.html">NavigationItem</a></span>&nbsp;<span class="var-name">$oChild</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getChildren" title="details" class="method-name">getChildren</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getChildrenImpl" title="details" class="method-name">getChildrenImpl</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCurrent" title="details" class="method-name">getCurrent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCustomChildren" title="details" class="method-name">getCustomChildren</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getDescription" title="details" class="method-name">getDescription</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getFirstChild" title="details" class="method-name">getFirstChild</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getIdentifier" title="details" class="method-name">getIdentifier</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getLevel" title="details" class="method-name">getLevel</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getLink" title="details" class="method-name">getLink</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getLinkText" title="details" class="method-name">getLinkText</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getName" title="details" class="method-name">getName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getParent" title="details" class="method-name">getParent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getTitle" title="details" class="method-name">getTitle</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasChildren" title="details" class="method-name">hasChildren</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasChildrenImpl" title="details" class="method-name">hasChildrenImpl</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasCustomChildren" title="details" class="method-name">hasCustomChildren</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isAccessible" title="details" class="method-name">isAccessible</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isActive" title="details" class="method-name">isActive</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isChildOfCurrent" title="details" class="method-name">isChildOfCurrent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isCurrent" title="details" class="method-name">isCurrent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isDescendantOfCurrent" title="details" class="method-name">isDescendantOfCurrent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isEnabled" title="details" class="method-name">isEnabled</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isFolder" title="details" class="method-name">isFolder</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isProtected" title="details" class="method-name">isProtected</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isRoot" title="details" class="method-name">isRoot</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isSiblingOfActive" title="details" class="method-name">isSiblingOfActive</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isSiblingOfCurrent" title="details" class="method-name">isSiblingOfCurrent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isVirtual" title="details" class="method-name">isVirtual</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isVisible" title="details" class="method-name">isVisible</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#namedChild" title="details" class="method-name">namedChild</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$aChildren" id="$aChildren"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$aChildren</span>
+						(line <span class="line-number">6</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$aCustomChildren" id="$aCustomChildren"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$aCustomChildren</span>
+						(line <span class="line-number">5</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$oParent" id="$oParent"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$oParent</span>
+						(line <span class="line-number">4</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">8</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">NavigationItem</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oParent</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oParent</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#method__construct">VirtualNavigationItem::__construct()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#method__construct">PageNavigationItem::__construct()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodaddChild" id="addChild"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addChild</span> (line <span class="line-number">165</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addChild
+		</span>
+					(<span class="var-type"><a href="../rapila/NavigationItem.html">NavigationItem</a></span>&nbsp;<span class="var-name">$oChild</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../rapila/NavigationItem.html">NavigationItem</a></span>
+				<span class="var-name">$oChild</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetChildren" id="getChildren"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getChildren</span> (line <span class="line-number">62</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getChildren
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetChildrenImpl" id="getChildrenImpl"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getChildrenImpl</span> (line <span class="line-number">21</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getChildrenImpl
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodgetChildrenImpl">VirtualNavigationItem::getChildrenImpl()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetChildrenImpl">PageNavigationItem::getChildrenImpl()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetCurrent" id="getCurrent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurrent</span> (line <span class="line-number">179</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCurrent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCustomChildren" id="getCustomChildren"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCustomChildren</span> (line <span class="line-number">31</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCustomChildren
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetDescription" id="getDescription"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDescription</span> (line <span class="line-number">125</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getDescription
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodgetDescription">VirtualNavigationItem::getDescription()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetDescription">PageNavigationItem::getDescription()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetFirstChild" id="getFirstChild"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFirstChild</span> (line <span class="line-number">143</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFirstChild
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetIdentifier" id="getIdentifier"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getIdentifier</span> (line <span class="line-number">128</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getIdentifier
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetIdentifier">PageNavigationItem::getIdentifier()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetLevel" id="getLevel"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLevel</span> (line <span class="line-number">14</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getLevel
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetLevel">PageNavigationItem::getLevel()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetLink" id="getLink"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLink</span> (line <span class="line-number">132</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getLink
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetLink">PageNavigationItem::getLink()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetLinkText" id="getLinkText"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLinkText</span> (line <span class="line-number">124</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getLinkText
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodgetLinkText">VirtualNavigationItem::getLinkText()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetLinkText">PageNavigationItem::getLinkText()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetName" id="getName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getName</span> (line <span class="line-number">126</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getName
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodgetName">VirtualNavigationItem::getName()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetName">PageNavigationItem::getName()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetParent" id="getParent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getParent</span> (line <span class="line-number">139</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getParent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTitle" id="getTitle"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTitle</span> (line <span class="line-number">123</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getTitle
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodgetTitle">VirtualNavigationItem::getTitle()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodgetTitle">PageNavigationItem::getTitle()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodhasChildren" id="hasChildren"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasChildren</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasChildren
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhasChildrenImpl" id="hasChildrenImpl"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasChildrenImpl</span> (line <span class="line-number">22</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasChildrenImpl
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodhasChildrenImpl">VirtualNavigationItem::hasChildrenImpl()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodhasChildrenImpl">PageNavigationItem::hasChildrenImpl()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodhasCustomChildren" id="hasCustomChildren"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasCustomChildren</span> (line <span class="line-number">47</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasCustomChildren
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisAccessible" id="isAccessible"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isAccessible</span> (line <span class="line-number">154</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isAccessible
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisAccessible">PageNavigationItem::isAccessible()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisActive" id="isActive"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isActive</span> (line <span class="line-number">84</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isActive
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisActive">PageNavigationItem::isActive()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisChildOfCurrent" id="isChildOfCurrent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isChildOfCurrent</span> (line <span class="line-number">106</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isChildOfCurrent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisCurrent" id="isCurrent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isCurrent</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isCurrent
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisCurrent">VirtualNavigationItem::isCurrent()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisCurrent">PageNavigationItem::isCurrent()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisDescendantOfCurrent" id="isDescendantOfCurrent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isDescendantOfCurrent</span> (line <span class="line-number">113</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isDescendantOfCurrent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisEnabled" id="isEnabled"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isEnabled</span> (line <span class="line-number">161</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isEnabled
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisEnabled">VirtualNavigationItem::isEnabled()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisEnabled">PageNavigationItem::isEnabled()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisFolder" id="isFolder"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isFolder</span> (line <span class="line-number">162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isFolder
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisFolder">VirtualNavigationItem::isFolder()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisFolder">PageNavigationItem::isFolder()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisProtected" id="isProtected"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isProtected</span> (line <span class="line-number">153</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isProtected
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisProtected">VirtualNavigationItem::isProtected()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisProtected">PageNavigationItem::isProtected()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisRoot" id="isRoot"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isRoot</span> (line <span class="line-number">79</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isRoot
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisRoot">PageNavigationItem::isRoot()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisSiblingOfActive" id="isSiblingOfActive"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isSiblingOfActive</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isSiblingOfActive
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisSiblingOfCurrent" id="isSiblingOfCurrent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isSiblingOfCurrent</span> (line <span class="line-number">88</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isSiblingOfCurrent
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisSiblingOfCurrent">PageNavigationItem::isSiblingOfCurrent()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisVirtual" id="isVirtual"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isVirtual</span> (line <span class="line-number">163</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isVirtual
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisVirtual">VirtualNavigationItem::isVirtual()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisVirtual">PageNavigationItem::isVirtual()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodisVisible" id="isVisible"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isVisible</span> (line <span class="line-number">160</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isVisible
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../rapila/VirtualNavigationItem.html#methodisVisible">VirtualNavigationItem::isVisible()</a>
+							</li>
+					<li>
+				<a href="../rapila/HiddenVirtualNavigationItem.html#methodisVisible">HiddenVirtualNavigationItem::isVisible()</a>
+							</li>
+					<li>
+				<a href="../rapila/PageNavigationItem.html#methodisVisible">PageNavigationItem::isVisible()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodnamedChild" id="namedChild"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">namedChild</span> (line <span class="line-number">171</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			namedChild
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sLanguageId</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeDisabled</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bIncludeInvisible</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sLanguageId</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeDisabled</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bIncludeInvisible</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 09:15:17 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

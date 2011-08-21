@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class AdminModule</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class AdminModule</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-consts">Constants</a>
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.</p>
+<p class="description"><p>All modules are found in the folder modules/module_type under either the root or site folder</p><p>Modules always have the following directory structure:</p><p><pre> module_name/
+	templates/ (optional, can be read with $this-><a href="../rapila/Module.html#methodconstructTemplate">constructTemplate</a>('name') inside the module)
+    lang/ (optional, contains translation files with strings)
+    ModuleNameModuleTypeModule.php (contains the actual module code)
+    info.yml (optional) contains info about the module as well as permission settings</pre></p></p>
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---AdminModule.php.html">/base/lib/classes/AdminModule.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre><a href="../rapila/Module.html">Module</a>
+   |
+   --AdminModule</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-consts">Constants</a>
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/GroupsAdminModule.html">GroupsAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/TagsAdminModule.html">TagsAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../rapila/SettingsAdminModule.html">SettingsAdminModule</a></td>
+					<td>
+											Module is the base class for all modules. There are currently five types of modules: page type, filter, file, frontend and admin modules. Read the description in those files to see what they do.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/InstallerAdminModule.html">InstallerAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/UsersAdminModule.html">UsersAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/RolesAdminModule.html">RolesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/PagesAdminModule.html">PagesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/LinksAdminModule.html">LinksAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/LanguagesAdminModule.html">LanguagesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/DashboardAdminModule.html">DashboardAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/LinkCategoriesAdminModule.html">LinkCategoriesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/CheckAdminModule.html">CheckAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/DocumentCategoriesAdminModule.html">DocumentCategoriesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/DocumentTypesAdminModule.html">DocumentTypesAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/StringsAdminModule.html">StringsAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../modules-admin/DocumentsAdminModule.html">DocumentsAdminModule</a></td>
+					<td>
+											
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-consts">Constants</a>
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$MODULE_TYPE" title="details" class="var-name">$MODULE_TYPE</a>
+				</div>
+																							</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-consts">Constants</a>
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getReferences" title="details" class="method-name">getReferences</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$aReferences</span>)
+									</div>
+																																								
+												<div class="method-definition">
+											<span class="method-result">AdminModule</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addResourceParameter" title="details" class="method-name">addResourceParameter</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sResourceType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParameterName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParameterValue</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#includeCustomResources" title="details" class="method-name">includeCustomResources</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$oResourceIncluder</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#mainContent" title="details" class="method-name">mainContent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#sidebarContent" title="details" class="method-name">sidebarContent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#usedWidgets" title="details" class="method-name">usedWidgets</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-consts">Constants</a>
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$MODULE_TYPE" id="$MODULE_TYPE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$MODULE_TYPE</span>
+			 = <span class="var-default"> 'admin'</span>			(line <span class="line-number">3</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../rapila/Module.html#var$MODULE_TYPE">Module::$MODULE_TYPE</a></dt>
+					</dl>
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-consts">Constants</a>
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetReferences" id="getReferences"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getReferences</span> (line <span class="line-number">31</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getReferences
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$aReferences</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aReferences</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">7</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">AdminModule</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../modules-admin/GroupsAdminModule.html#method__construct">GroupsAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/TagsAdminModule.html#method__construct">TagsAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../rapila/SettingsAdminModule.html#method__construct">SettingsAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/InstallerAdminModule.html#method__construct">InstallerAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/UsersAdminModule.html#method__construct">UsersAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/RolesAdminModule.html#method__construct">RolesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/PagesAdminModule.html#method__construct">PagesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinksAdminModule.html#method__construct">LinksAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LanguagesAdminModule.html#method__construct">LanguagesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DashboardAdminModule.html#method__construct">DashboardAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinkCategoriesAdminModule.html#method__construct">LinkCategoriesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/CheckAdminModule.html#method__construct">CheckAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentCategoriesAdminModule.html#method__construct">DocumentCategoriesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentTypesAdminModule.html#method__construct">DocumentTypesAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/StringsAdminModule.html#method__construct">StringsAdminModule::__construct()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentsAdminModule.html#method__construct">DocumentsAdminModule::__construct()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodaddResourceParameter" id="addResourceParameter"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addResourceParameter</span> (line <span class="line-number">23</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addResourceParameter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sResourceType</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParameterName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sParameterValue</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sResourceType</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sParameterName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sParameterValue</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodincludeCustomResources" id="includeCustomResources"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">includeCustomResources</span> (line <span class="line-number">27</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			includeCustomResources
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$oResourceIncluder</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$oResourceIncluder</span>			</li>
+				</ul>
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../modules-admin/DashboardAdminModule.html#methodincludeCustomResources">DashboardAdminModule::includeCustomResources()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodmainContent" id="mainContent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">mainContent</span> (line <span class="line-number">15</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			mainContent
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../modules-admin/GroupsAdminModule.html#methodmainContent">GroupsAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/TagsAdminModule.html#methodmainContent">TagsAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/InstallerAdminModule.html#methodmainContent">InstallerAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/UsersAdminModule.html#methodmainContent">UsersAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/RolesAdminModule.html#methodmainContent">RolesAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinksAdminModule.html#methodmainContent">LinksAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LanguagesAdminModule.html#methodmainContent">LanguagesAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DashboardAdminModule.html#methodmainContent">DashboardAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinkCategoriesAdminModule.html#methodmainContent">LinkCategoriesAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/CheckAdminModule.html#methodmainContent">CheckAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentCategoriesAdminModule.html#methodmainContent">DocumentCategoriesAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentTypesAdminModule.html#methodmainContent">DocumentTypesAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/StringsAdminModule.html#methodmainContent">StringsAdminModule::mainContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentsAdminModule.html#methodmainContent">DocumentsAdminModule::mainContent()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodsidebarContent" id="sidebarContent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">sidebarContent</span> (line <span class="line-number">19</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sidebarContent
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../modules-admin/TagsAdminModule.html#methodsidebarContent">TagsAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/InstallerAdminModule.html#methodsidebarContent">InstallerAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/UsersAdminModule.html#methodsidebarContent">UsersAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/RolesAdminModule.html#methodsidebarContent">RolesAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinksAdminModule.html#methodsidebarContent">LinksAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DashboardAdminModule.html#methodsidebarContent">DashboardAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/CheckAdminModule.html#methodsidebarContent">CheckAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentCategoriesAdminModule.html#methodsidebarContent">DocumentCategoriesAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentTypesAdminModule.html#methodsidebarContent">DocumentTypesAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/StringsAdminModule.html#methodsidebarContent">StringsAdminModule::sidebarContent()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentsAdminModule.html#methodsidebarContent">DocumentsAdminModule::sidebarContent()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodusedWidgets" id="usedWidgets"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">usedWidgets</span> (line <span class="line-number">11</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			usedWidgets
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../modules-admin/GroupsAdminModule.html#methodusedWidgets">GroupsAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/TagsAdminModule.html#methodusedWidgets">TagsAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../rapila/SettingsAdminModule.html#methodusedWidgets">SettingsAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/InstallerAdminModule.html#methodusedWidgets">InstallerAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/UsersAdminModule.html#methodusedWidgets">UsersAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/RolesAdminModule.html#methodusedWidgets">RolesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/PagesAdminModule.html#methodusedWidgets">PagesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinksAdminModule.html#methodusedWidgets">LinksAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LanguagesAdminModule.html#methodusedWidgets">LanguagesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/LinkCategoriesAdminModule.html#methodusedWidgets">LinkCategoriesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/CheckAdminModule.html#methodusedWidgets">CheckAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentCategoriesAdminModule.html#methodusedWidgets">DocumentCategoriesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentTypesAdminModule.html#methodusedWidgets">DocumentTypesAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/StringsAdminModule.html#methodusedWidgets">StringsAdminModule::usedWidgets()</a>
+							</li>
+					<li>
+				<a href="../modules-admin/DocumentsAdminModule.html#methodusedWidgets">DocumentsAdminModule::usedWidgets()</a>
+							</li>
+				</ul>
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplate">Module::constructTemplate()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodconstructTemplateForModuleAndType">Module::constructTemplateForModuleAndType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByName">Module::getClassNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetClassNameByTypeAndName">Module::getClassNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayName">Module::getDisplayName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByName">Module::getDisplayNameByName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetDisplayNameByTypeAndName">Module::getDisplayNameByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfo">Module::getModuleInfo()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInfoByTypeAndName">Module::getModuleInfoByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstance">Module::getModuleInstance()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleInstanceByTypeAndName">Module::getModuleInstanceByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleMetadataByTypeAndName">Module::getModuleMetadataByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetModuleName">Module::getModuleName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetNameByClassName">Module::getNameByClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetPathArrayByTypeAndName">Module::getPathArrayByTypeAndName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodgetType">Module::getType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleAllowed">Module::isModuleAllowed()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisModuleEnabled">Module::isModuleEnabled()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisSingleton">Module::isSingleton()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassName">Module::isValidModuleClassName()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodisValidModuleClassNameOfAnyType">Module::isValidModuleClassNameOfAnyType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistAllModules">Module::listAllModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModules">Module::listModules()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByAspect">Module::listModulesByAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByType">Module::listModulesByType()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModulesByTypeAndAspect">Module::listModulesByTypeAndAspect()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodlistModuleTypes">Module::listModuleTypes()</a></span><br>
+													<span class="method-name"><a href="../rapila/Module.html#methodmoduleExists">Module::moduleExists()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../rapila/Module.html">Module</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../rapila/Module.html#constINFO_FILE">Module::INFO_FILE</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 09:15:11 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

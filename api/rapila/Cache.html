@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Cache</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Cache</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---Cache.php.html">/base/lib/classes/Cache.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#clearAllCaches" title="details" class="method-name">clearAllCaches</a>
+										()
+									</div>
+																																																																																																
+												<div class="method-definition">
+											<span class="method-result">Cache</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sKey</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$mPath</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#ageIsMoreThan" title="details" class="method-name">ageIsMoreThan</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$iSeconds</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iMinutes</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iHours</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iDays</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#cacheFileExists" title="details" class="method-name">cacheFileExists</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$bTakeOffStatusIntoAccount</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#cacheIsOff" title="details" class="method-name">cacheIsOff</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#cacheIsOffForWriting" title="details" class="method-name">cacheIsOffForWriting</a>
+										()
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#fileSize" title="details" class="method-name">fileSize</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getAge" title="details" class="method-name">getAge</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getContentsAsString" title="details" class="method-name">getContentsAsString</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getContentsAsVariable" title="details" class="method-name">getContentsAsVariable</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getFilePath" title="details" class="method-name">getFilePath</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getModificationDate" title="details" class="method-name">getModificationDate</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isOlderThan" title="details" class="method-name">isOlderThan</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$iTimestamp</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isOutdated" title="details" class="method-name">isOutdated</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$mOriginalFilePath</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#passContents" title="details" class="method-name">passContents</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$bOutputContentLength</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#sendCacheControlHeaders" title="details" class="method-name">sendCacheControlHeaders</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$iTimestamp</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setContents" title="details" class="method-name">setContents</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mContents</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodclearAllCaches" id="clearAllCaches"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method clearAllCaches</span> (line <span class="line-number">220</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Removes all cache files but not their parent directories.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			clearAllCaches
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">8</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Cache</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sKey</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$mPath</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sKey</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mPath</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodageIsMoreThan" id="ageIsMoreThan"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">ageIsMoreThan</span> (line <span class="line-number">91</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Convenience function for isOlderThan; takes a relative time and computes an absolute timestamp</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			ageIsMoreThan
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$iSeconds</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iMinutes</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iHours</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$iDays</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iSeconds</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iMinutes</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iHours</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iDays</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcacheFileExists" id="cacheFileExists"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">cacheFileExists</span> (line <span class="line-number">28</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns true if a file representing this cache entry already exists, false otherwise</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			cacheFileExists
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$bTakeOffStatusIntoAccount</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bTakeOffStatusIntoAccount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcacheIsOff" id="cacheIsOff"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">cacheIsOff</span> (line <span class="line-number">204</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns true if, for whatever reason, no data should be read from the cache.</p>
+<p class="description"><p>This returns true if either  The cache is off for writing  The request parameter nocache with a value that evaluates to true is set  The cache-control headers are set to no-cache (i.e. the user forced a super reload in the browser)</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			cacheIsOff
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodcacheIsOffForWriting" id="cacheIsOffForWriting"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">cacheIsOffForWriting</span> (line <span class="line-number">193</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns true if, for whatever reason, no data should be written to the cache.</p>
+<p class="description"><p>This can be triggered by the general-&gt;caching boolean setting in config.yml  Caching of config files is always on</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			cacheIsOffForWriting
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodfileSize" id="fileSize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">fileSize</span> (line <span class="line-number">109</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the size of the cache file without reading the contents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			fileSize
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAge" id="getAge"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAge</span> (line <span class="line-number">54</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the age of the cached contents in seconds</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAge
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetContentsAsString" id="getContentsAsString"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getContentsAsString</span> (line <span class="line-number">102</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the raw (possibly binary) contents of the cache file</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getContentsAsString
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetContentsAsVariable" id="getContentsAsVariable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getContentsAsVariable</span> (line <span class="line-number">126</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the cached contents if they were not a string when saving</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getContentsAsVariable
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetFilePath" id="getFilePath"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFilePath</span> (line <span class="line-number">39</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the full path to the cache file. Note that this file may not yet exist</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFilePath
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetModificationDate" id="getModificationDate"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getModificationDate</span> (line <span class="line-number">47</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the cached content's modification date. Note that this will result in an error if the cache file does not (yet) exist</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getModificationDate
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisOlderThan" id="isOlderThan"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isOlderThan</span> (line <span class="line-number">81</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Compares the timestamp of the cached contents to the given timestamp and returns true if the cached contents are older, false otherwise</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isOlderThan
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$iTimestamp</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iTimestamp</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisOutdated" id="isOutdated"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isOutdated</span> (line <span class="line-number">62</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Looks if the cached contents are older than the modified dates of any of the given files</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isOutdated
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$mOriginalFilePath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mOriginalFilePath</span><span class="var-description">: array $mOriginalFilePath</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodpassContents" id="passContents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">passContents</span> (line <span class="line-number">116</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Outputs the raw contents directly to the client</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			passContents
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$bOutputContentLength</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bOutputContentLength</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsendCacheControlHeaders" id="sendCacheControlHeaders"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">sendCacheControlHeaders</span> (line <span class="line-number">149</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sends the cache control headers Last-Modified and ETag  Uses the given timestamp as base for calculation. If it is omitted, the timestamp of the cache file is used;  Additionally, this method exits if the client sent a matching If-None-Match or If-Modified-Since header  You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sendCacheControlHeaders
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$iTimestamp</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iTimestamp</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetContents" id="setContents"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setContents</span> (line <span class="line-number">133</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Saves the cache file with the given contents. If value is a string, the data is saved to the file in raw, serialized otherwise</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setContents
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mContents</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mContents</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 09:15:12 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

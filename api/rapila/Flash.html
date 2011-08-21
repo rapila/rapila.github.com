@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Flash</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Flash</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_base---lib---classes---Flash.php.html">/base/lib/classes/Flash.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#AFFECTED_INSTANCE_INDEXES_KEY" title="details" class="const-name">AFFECTED_INSTANCE_INDEXES_KEY</a> = 					<span class="var-type"> 'affected_instance_indexes'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#FLASH_KEY" title="details" class="const-name">FLASH_KEY</a> = 					<span class="var-type"> &quot;flash_session_key&quot;</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#STRING_KEY_KEY" title="details" class="const-name">STRING_KEY_KEY</a> = 					<span class="var-type"> 'string_key'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#STRING_PARAMETERS_KEY" title="details" class="const-name">STRING_PARAMETERS_KEY</a> = 					<span class="var-type"> 'string_parameters'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+									<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getFlash" title="details" class="method-name">getFlash</a>
+										()
+									</div>
+																																																								<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#noErrors" title="details" class="method-name">noErrors</a>
+										()
+									</div>
+																																																								
+												<div class="method-definition">
+											<span class="method-result">Flash</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$aArrayToCheck</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addAffectedIndex" title="details" class="method-name">addAffectedIndex</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$iIndex</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addMessage" title="details" class="method-name">addMessage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$mParameters</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForEmail" title="details" class="method-name">checkForEmail</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForExactMatch" title="details" class="method-name">checkForExactMatch</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sString</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForExactNotMatch" title="details" class="method-name">checkForExactNotMatch</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sString</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForFileUpload" title="details" class="method-name">checkForFileUpload</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$aAllowedMimeTypes</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bAllowEmpty</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForInteger" title="details" class="method-name">checkForInteger</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForLength" title="details" class="method-name">checkForLength</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$iMin</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iMax</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForNumber" title="details" class="method-name">checkForNumber</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForPattern" title="details" class="method-name">checkForPattern</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sPattern</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkForValue" title="details" class="method-name">checkForValue</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#finishReporting" title="details" class="method-name">finishReporting</a>
+										()
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMessage" title="details" class="method-name">getMessage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMessageProperties" title="details" class="method-name">getMessageProperties</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMessages" title="details" class="method-name">getMessages</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasMessage" title="details" class="method-name">hasMessage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sMessageName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasMessages" title="details" class="method-name">hasMessages</a>
+										()
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#removeMessage" title="details" class="method-name">removeMessage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setArrayToCheck" title="details" class="method-name">setArrayToCheck</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$aArrayToCheck</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#stick" title="details" class="method-name">stick</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#unfinishReporting" title="details" class="method-name">unfinishReporting</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__sleep" title="details" class="method-name">__sleep</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__wakeup" title="details" class="method-name">__wakeup</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetFlash" id="getFlash"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFlash</span> (line <span class="line-number">230</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFlash
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodnoErrors" id="noErrors"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method noErrors</span> (line <span class="line-number">207</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			noErrors
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">17</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Flash</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$aArrayToCheck</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aArrayToCheck</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddAffectedIndex" id="addAffectedIndex"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addAffectedIndex</span> (line <span class="line-number">46</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addAffectedIndex
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$iIndex</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iIndex</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddMessage" id="addMessage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addMessage</span> (line <span class="line-number">31</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addMessage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$mParameters</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mParameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForEmail" id="checkForEmail"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForEmail</span> (line <span class="line-number">91</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForEmail
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForExactMatch" id="checkForExactMatch"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForExactMatch</span> (line <span class="line-number">123</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForExactMatch
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sString</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sString</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForExactNotMatch" id="checkForExactNotMatch"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForExactNotMatch</span> (line <span class="line-number">111</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForExactNotMatch
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sString</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sString</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForFileUpload" id="checkForFileUpload"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForFileUpload</span> (line <span class="line-number">138</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">adds the following flash messages if</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForFileUpload
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$aAllowedMimeTypes</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$bAllowEmpty</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aAllowedMimeTypes</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$bAllowEmpty</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForInteger" id="checkForInteger"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForInteger</span> (line <span class="line-number">79</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForInteger
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForLength" id="checkForLength"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForLength</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForLength
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$iMin</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$iMax</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iMin</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$iMax</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForNumber" id="checkForNumber"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForNumber</span> (line <span class="line-number">75</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForNumber
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForPattern" id="checkForPattern"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForPattern</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForPattern
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$sPattern</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sPattern</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckForValue" id="checkForValue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkForValue</span> (line <span class="line-number">95</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkForValue
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sFlashName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sFlashName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfinishReporting" id="finishReporting"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">finishReporting</span> (line <span class="line-number">198</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			finishReporting
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMessage" id="getMessage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMessage</span> (line <span class="line-number">173</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMessage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetMessageProperties" id="getMessageProperties"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMessageProperties</span> (line <span class="line-number">189</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMessageProperties
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetMessages" id="getMessages"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMessages</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMessages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodhasMessage" id="hasMessage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasMessage</span> (line <span class="line-number">67</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasMessage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sMessageName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sMessageName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhasMessages" id="hasMessages"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasMessages</span> (line <span class="line-number">63</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasMessages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodremoveMessage" id="removeMessage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeMessage</span> (line <span class="line-number">59</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			removeMessage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$sName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetArrayToCheck" id="setArrayToCheck"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setArrayToCheck</span> (line <span class="line-number">22</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setArrayToCheck
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$aArrayToCheck</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$aArrayToCheck</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstick" id="stick"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">stick</span> (line <span class="line-number">215</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			stick
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodunfinishReporting" id="unfinishReporting"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">unfinishReporting</span> (line <span class="line-number">202</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			unfinishReporting
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method__sleep" id="__sleep"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">__sleep</span> (line <span class="line-number">219</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__sleep
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method__wakeup" id="__wakeup"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">__wakeup</span> (line <span class="line-number">224</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__wakeup
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constAFFECTED_INSTANCE_INDEXES_KEY" id="AFFECTED_INSTANCE_INDEXES_KEY"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">AFFECTED_INSTANCE_INDEXES_KEY</span>
+			 = <span class="const-default"> 'affected_instance_indexes'</span>
+			(line <span class="line-number">6</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constFLASH_KEY" id="FLASH_KEY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">FLASH_KEY</span>
+			 = <span class="const-default"> &quot;flash_session_key&quot;</span>
+			(line <span class="line-number">3</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSTRING_KEY_KEY" id="STRING_KEY_KEY"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">STRING_KEY_KEY</span>
+			 = <span class="const-default"> 'string_key'</span>
+			(line <span class="line-number">7</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSTRING_PARAMETERS_KEY" id="STRING_PARAMETERS_KEY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">STRING_PARAMETERS_KEY</span>
+			 = <span class="const-default"> 'string_parameters'</span>
+			(line <span class="line-number">5</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 21 Aug 2011 09:15:14 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
