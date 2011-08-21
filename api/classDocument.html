@@ -51,7 +51,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -92,9 +91,7 @@ Inheritance diagram for Document:</div>
  <div class="center">
   <img src="classDocument.png" usemap="#Document_map" alt=""/>
   <map id="Document_map" name="Document_map">
-<area href="classBaseDocument.html" alt="BaseDocument" shape="rect" coords="53,56,149,80"/>
-<area href="classBaseObject.html" alt="BaseObject" shape="rect" coords="0,0,96,24"/>
-<area href="interfacePersistent.html" alt="Persistent" shape="rect" coords="106,0,202,24"/>
+<area href="classBaseDocument.html" alt="BaseDocument" shape="rect" coords="0,0,96,24"/>
 </map>
  </div></div>
 
@@ -127,11 +124,11 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a68fa42938445c6a53c77c107e1807d"></a><!-- doxytag: member="Document::getPreview" ref="a4a68fa42938445c6a53c77c107e1807d" args="($iSize=190, $bMayReturnTemplate=false)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>getPreview</b> ($iSize=190, $bMayReturnTemplate=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd551ccfaa9da1c96a7e190b8e8b2d22"></a><!-- doxytag: member="Document::getDataSize" ref="abd551ccfaa9da1c96a7e190b8e8b2d22" args="(PropelPDO $oConnection=null)" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDataSize</b> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $oConnection=null)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDataSize</b> (PropelPDO $oConnection=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c2e3ed3de9c9f8e50508cad2cbc1505"></a><!-- doxytag: member="Document::getFileInfo" ref="a3c2e3ed3de9c9f8e50508cad2cbc1505" args="($sFilesizeFormat= 'auto_iso')" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>getFileInfo</b> ($sFilesizeFormat= 'auto_iso')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocument.html#a6f9596a36c20d3163c479c91383badc5">getLink</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocument.html#ab7938e05c71326782ec7c51e3e5e016c">getDocumentCategory</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocument.html#ab7938e05c71326782ec7c51e3e5e016c">getDocumentCategory</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocument.html#ad71b5bd36bccf68a499f33728994e143">setDocumentCategoryId</a> ($mCategoryId)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b596086c292fe3bccd1863eab4c8193"></a><!-- doxytag: member="Document::isInternallyManaged" ref="a8b596086c292fe3bccd1863eab4c8193" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>isInternallyManaged</b> ()</td></tr>
@@ -144,7 +141,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Document::getDocumentCategory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -154,14 +151,14 @@ Public Member Functions</h2></td></tr>
 <p>Get the associated <a class="el" href="classDocumentCategory.html">DocumentCategory</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentCategory.html">DocumentCategory</a> The associated <a class="el" href="classDocumentCategory.html">DocumentCategory</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -237,7 +234,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 21 2011 10:00:57 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 21 2011 10:13:32 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

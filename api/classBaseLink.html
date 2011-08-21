@@ -51,7 +51,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -90,15 +89,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">BaseLink Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="BaseLink" --><!-- doxytag: inherits="BaseObject,Persistent" --><div class="dynheader">
+<!-- doxytag: class="BaseLink" --><div class="dynheader">
 Inheritance diagram for BaseLink:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classBaseLink.png" usemap="#BaseLink_map" alt=""/>
   <map id="BaseLink_map" name="BaseLink_map">
-<area href="classBaseObject.html" alt="BaseObject" shape="rect" coords="0,0,77,24"/>
-<area href="interfacePersistent.html" alt="Persistent" shape="rect" coords="87,0,164,24"/>
-<area href="classLink.html" alt="Link" shape="rect" coords="43,112,120,136"/>
+<area href="classLink.html" alt="Link" shape="rect" coords="0,56,63,80"/>
 </map>
  </div></div>
 
@@ -139,17 +136,17 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a7db6b36d59b6637f4923773925a32552">hasOnlyDefaultValues</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a3e1c35defd341f1113af9624d2929938">hydrate</a> ($row, $startcol=0, $rehydrate=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a6be06bd55d9247cfde192547ab4147f1">ensureConsistency</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a953f5b739267b19a01587211e9f46873">reload</a> ($deep=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aaa54a7c95a61af24e6ce6a75dc678803">delete</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#af0d4fb6ed1876e2e37c1338f461c2a9f">save</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a953f5b739267b19a01587211e9f46873">reload</a> ($deep=false, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aaa54a7c95a61af24e6ce6a75dc678803">delete</a> (PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#af0d4fb6ed1876e2e37c1338f461c2a9f">save</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ac498fbe5db5f111166ba4d3ce79ea365">getValidationFailures</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ad5e54fe5ae72aef2c95c082f987c30ef">validate</a> ($columns=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ac71fc205ea2b461def713cd17116b4b7">getByName</a> ($name, $type=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ac71fc205ea2b461def713cd17116b4b7">getByName</a> ($name, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a7e061921aaac64b807a1016c5c740d0a">getByPosition</a> ($pos)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a08a1a0a4ad2093a5d45aaa81569cbfee">toArray</a> ($keyType=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ac1e0233c8a431f6595e4fafab0382bb7">setByName</a> ($name, $value, $type=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a08a1a0a4ad2093a5d45aaa81569cbfee">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ac1e0233c8a431f6595e4fafab0382bb7">setByName</a> ($name, $value, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ae631ff548ef7ae5809e8c4c06cd253f1">setByPosition</a> ($pos, $value)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aa34cc7cadfc0dffe6866453890d15948">fromArray</a> ($arr, $keyType=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aa34cc7cadfc0dffe6866453890d15948">fromArray</a> ($arr, $keyType=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#abe9acde9095ec967cb33cf5aa501a351">buildCriteria</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a7fb3ff1b905f7213bf1a4d57693ffbb9">buildPkeyCriteria</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a014d9902ce52007ec592ba1e38434be3">getPrimaryKey</a> ()</td></tr>
@@ -159,15 +156,15 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a38fe2c17a122216922d05139dbf66f7b">copy</a> ($deepCopy=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#acfefce518125c52de5b3dc1e5e47d520">getPeer</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ab446347bead475dc2d5c461337832822">setLanguage</a> (<a class="el" href="classLanguage.html">Language</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aac61f99838f5883f9c5c4994cea08976">getLanguage</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aac61f99838f5883f9c5c4994cea08976">getLanguage</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a640e8e36a40065264321f8ee16e28ed2">setUserRelatedByOwnerId</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aaf3f2efe51338302b12ad4bae8b3eea4">getUserRelatedByOwnerId</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aaf3f2efe51338302b12ad4bae8b3eea4">getUserRelatedByOwnerId</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ae1f0ebd83596e58314668e6ac415c2a2">setLinkCategory</a> (<a class="el" href="classLinkCategory.html">LinkCategory</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aa5d4a41b8ef7824a2c40026bfaffd638">getLinkCategory</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aa5d4a41b8ef7824a2c40026bfaffd638">getLinkCategory</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a5c239196ee33cb9ad5ac6e34174580bf">setUserRelatedByCreatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a292d810e810b0a6420b096f2fce71831">getUserRelatedByCreatedBy</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a292d810e810b0a6420b096f2fce71831">getUserRelatedByCreatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a8bc4c7215dceed3864b914d562da5ec5">setUserRelatedByUpdatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a791b82e6c18077d9fd9372058fae734b">getUserRelatedByUpdatedBy</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a791b82e6c18077d9fd9372058fae734b">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ab020edbb49dacadbff5e75a055efd107">clear</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#a87009ba3f98e93697de0138e52db2892">clearAllReferences</a> ($deep=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#aa88019c53438fd33d5bfbba097422439">getReferees</a> ()</td></tr>
@@ -184,7 +181,7 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#af136040f8ba633a6233a49ec4246a212">PEER</a> = '<a class="el" href="classLinkPeer.html">LinkPeer</a>'</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ae80516c4dc36c4c0f331a903ca6a9dfa">doSave</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ae80516c4dc36c4c0f331a903ca6a9dfa">doSave</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLink.html#ad66f9e05f45b8f2475fe5b9e4cfb90ed">doValidate</a> ($columns=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -254,8 +251,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Initializes internal state of <a class="el" href="classBaseLink.html">BaseLink</a> object. </p>
 <dl class="see"><dt><b>See also:</b></dt><dd>applyDefaults() </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classBaseObject.html#aae39679052147ab30aafe56f4d0b283d">BaseObject</a>.</p>
-
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
@@ -284,8 +279,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>Catches calls to virtual methods </p>
-
-<p>Reimplemented from <a class="el" href="classBaseObject.html#a54141aaa12d02a0b689f98c3006dab64">BaseObject</a>.</p>
 
 </div>
 </div>
@@ -320,8 +313,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Build a <a class="el" href="classCriteria.html">Criteria</a> object containing the values of all modified columns in this object.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classCriteria.html">Criteria</a> The <a class="el" href="classCriteria.html">Criteria</a> object containing all modified values. </dd></dl>
+<p>Build a Criteria object containing the values of all modified columns in this object.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Criteria The Criteria object containing all modified values. </dd></dl>
 
 </div>
 </div>
@@ -338,9 +331,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Builds a <a class="el" href="classCriteria.html">Criteria</a> object containing the primary key for this object.</p>
+<p>Builds a Criteria object containing the primary key for this object.</p>
 <p>Unlike <a class="el" href="classBaseLink.html#abe9acde9095ec967cb33cf5aa501a351">buildCriteria()</a> this method includes the primary key values regardless of whether or not they have been modified.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classCriteria.html">Criteria</a> The <a class="el" href="classCriteria.html">Criteria</a> object containing value(s) for primary key(s). </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Criteria The Criteria object containing value(s) for primary key(s). </dd></dl>
 
 </div>
 </div>
@@ -376,7 +369,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>Resets all collections of referencing foreign keys.</p>
-<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using <a class="el" href="classPropel.html">Propel</a> in certain daemon or large-volumne/high-memory operations.</p>
+<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all associated objects. </td></tr>
@@ -411,7 +404,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> Clone of current object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -453,7 +446,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -467,7 +460,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::delete </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -477,22 +470,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Removes this object from datastore and sets delete attribute.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseObject.html#ac4a9877a8baf3aefa9dea0a5b2c4ab18">BaseObject::setDeleted()</a> </dd>
+<dl class="see"><dt><b>See also:</b></dt><dd>BaseObject::setDeleted() </dd>
 <dd>
-<a class="el" href="classBaseObject.html#ae05cce25634965c69e6f1377a8512604">BaseObject::isDeleted()</a> </dd></dl>
-
-<p>Implements <a class="el" href="interfacePersistent.html#a6b2d42c3e61b82627d36b3383e5f5bae">Persistent</a>.</p>
+BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
@@ -503,7 +494,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::doSave </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em></td><td>)</td>
           <td><code> [protected]</code></td>
         </tr>
@@ -514,14 +505,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the object is new, it inserts it; otherwise an update is performed. All related objects are also updated in this method.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of rows affected by this insert/update and any referring fk objects' <a class="el" href="classBaseLink.html#af0d4fb6ed1876e2e37c1338f461c2a9f">save()</a> operations. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -544,14 +535,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>This function performs the validation work for complex object models.</p>
-<p>In addition to checking the current object, all related objects will also be validated. If all pass then <code>true</code> is returned; otherwise an aggreagated array of <a class="el" href="classValidationFailed.html">ValidationFailed</a> objects will be returned.</p>
+<p>In addition to checking the current object, all related objects will also be validated. If all pass then <code>true</code> is returned; otherwise an aggreagated array of ValidationFailed objects will be returned.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">array</td><td class="paramname">$columns</td><td>Array of column names to validate. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>mixed <code>true</code> if all validations pass; array of <code><a class="el" href="classValidationFailed.html">ValidationFailed</a></code> objets otherwise. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>mixed <code>true</code> if all validations pass; array of <code>ValidationFailed</code> objets otherwise. </dd></dl>
 
 </div>
 </div>
@@ -573,7 +564,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>You can override this method in the stub class, but you should always invoke the base method from the overridden method (i.e. parent::ensureConsistency()), in case your model changes.</p>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -594,7 +585,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>keyType</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>keyType</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -606,7 +597,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <div class="memdoc">
 <p>Populates the object using an array.</p>
 <p>This is particularly useful when populating an object from one of the request arrays (e.g. $_POST). This method goes through the column names, checking to see whether a matching key exists in populated array. If so the <a class="el" href="classBaseLink.html#ac1e0233c8a431f6595e4fafab0382bb7">setByName()</a> method is called for that column.</p>
-<p>You can specify the key type of the array by additionally passing one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a>, <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a>. The default key type is the column's phpname (e.g. 'AuthorId')</p>
+<p>You can specify the key type of the array by additionally passing one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. The default key type is the column's phpname (e.g. 'AuthorId')</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">array</td><td class="paramname">$arr</td><td>An array to populate the object from. </td></tr>
@@ -632,7 +623,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>type</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>type</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -646,7 +637,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>name </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a> <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a> </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM </td></tr>
   </table>
   </dd>
 </dl>
@@ -703,7 +694,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>mixed Formatted date/time value as string or DateTime object (if format is NULL), NULL if column is NULL, and 0 if column value is 0000-00-00 00:00:00 </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if unable to parse/validate the date/time value. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if unable to parse/validate the date/time value. </td></tr>
   </table>
   </dd>
 </dl>
@@ -852,7 +843,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::getLanguage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -862,14 +853,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classLanguage.html">Language</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The associated <a class="el" href="classLanguage.html">Language</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -901,7 +892,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::getLinkCategory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -911,14 +902,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classLinkCategory.html">LinkCategory</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLinkCategory.html">LinkCategory</a> The associated <a class="el" href="classLinkCategory.html">LinkCategory</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1014,8 +1005,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the primary key for this object (row). </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int </dd></dl>
 
-<p>Implements <a class="el" href="interfacePersistent.html#a5ea4c6212f9a99b95973460061ecaa6c">Persistent</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aa88019c53438fd33d5bfbba097422439"></a><!-- doxytag: member="BaseLink::getReferees" ref="aa88019c53438fd33d5bfbba097422439" args="()" -->
@@ -1094,7 +1083,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>mixed Formatted date/time value as string or DateTime object (if format is NULL), NULL if column is NULL, and 0 if column value is 0000-00-00 00:00:00 </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if unable to parse/validate the date/time value. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if unable to parse/validate the date/time value. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1189,7 +1178,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::getUserRelatedByCreatedBy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1199,14 +1188,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The associated <a class="el" href="classUser.html">User</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1220,7 +1209,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::getUserRelatedByOwnerId </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1230,14 +1219,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The associated <a class="el" href="classUser.html">User</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1251,7 +1240,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::getUserRelatedByUpdatedBy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1261,14 +1250,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The associated <a class="el" href="classUser.html">User</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1288,8 +1277,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Gets any <a class="el" href="classValidationFailed.html">ValidationFailed</a> objects that resulted from last call to <a class="el" href="classBaseLink.html#ad5e54fe5ae72aef2c95c082f987c30ef">validate()</a>.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd>array <a class="el" href="classValidationFailed.html">ValidationFailed</a>[] </dd></dl>
+<p>Gets any ValidationFailed objects that resulted from last call to <a class="el" href="classBaseLink.html#ad5e54fe5ae72aef2c95c082f987c30ef">validate()</a>.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>array ValidationFailed[] </dd></dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLink.html#ad5e54fe5ae72aef2c95c082f987c30ef">validate()</a> </dd></dl>
 
 </div>
@@ -1308,7 +1297,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>Indicates whether the columns in this object are only set to default values.</p>
-<p>This method can be used in conjunction with <a class="el" href="classBaseObject.html#a0824bceb0bbc05809c4d1dbfe3e96a5b">isModified()</a> to indicate whether an object is both modified _and_ has some values set which are non-default.</p>
+<p>This method can be used in conjunction with isModified() to indicate whether an object is both modified _and_ has some values set which are non-default.</p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>boolean Whether the columns in this object are only been set with default values. </dd></dl>
 
 </div>
@@ -1356,7 +1345,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int next starting column </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- Any caught Exception will be rewrapped as a <a class="el" href="classPropelException.html">PropelException</a>. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- Any caught Exception will be rewrapped as a PropelException. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1430,7 +1419,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1446,14 +1435,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>(optional) Whether to also de-associated any related objects. </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>(optional) The <a class="el" href="classPropelPDO.html">PropelPDO</a> connection to use. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>(optional) The PropelPDO connection to use. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if this object is deleted, unsaved or doesn't have pk match in db </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if this object is deleted, unsaved or doesn't have pk match in db </td></tr>
   </table>
   </dd>
 </dl>
@@ -1467,7 +1456,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLink::save </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1478,20 +1467,18 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the object is new, it inserts it; otherwise an update is performed. All modified related objects will also be persisted in the <a class="el" href="classBaseLink.html#ae80516c4dc36c4c0f331a903ca6a9dfa">doSave()</a> method. This method wraps all precipitate database operations in a single transaction.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of rows affected by this insert/update and any referring fk objects' <a class="el" href="classBaseLink.html#af0d4fb6ed1876e2e37c1338f461c2a9f">save()</a> operations. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLink.html#ae80516c4dc36c4c0f331a903ca6a9dfa">doSave()</a> </dd></dl>
-
-<p>Implements <a class="el" href="interfacePersistent.html#a30c969a9132da6db02780a6c604c4510">Persistent</a>.</p>
 
 </div>
 </div>
@@ -1515,7 +1502,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>type</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>type</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1530,7 +1517,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>peer name </td></tr>
     <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>field value </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a> <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a> </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM </td></tr>
   </table>
   </dd>
 </dl>
@@ -1748,7 +1735,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1804,7 +1791,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1908,8 +1895,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-
-<p>Implements <a class="el" href="interfacePersistent.html#a320da6dae34e0ac1e8633eb95a805f58">Persistent</a>.</p>
 
 </div>
 </div>
@@ -2037,7 +2022,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2068,7 +2053,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2099,7 +2084,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLink.html">Link</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2114,7 +2099,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="memname">BaseLink::toArray </td>
           <td>(</td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>keyType</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>, </td>
+          <td class="paramname"><em>keyType</em> = <code>BasePeer::TYPE_PHPNAME</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2140,7 +2125,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>You can specify the key type of the array by passing one of the class type constants.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a>, <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a>. Defaults to <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. Defaults to BasePeer::TYPE_PHPNAME. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeLazyLoadColumns</td><td>(optional) Whether to include lazy loaded columns. Defaults to TRUE. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeForeignObjects</td><td>(optional) Whether to include hydrated related objects. Default to FALSE.</td></tr>
   </table>
@@ -2168,7 +2153,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If $columns is either a column name or an array of column names only those columns are validated.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$columns</td><td><a class="el" href="classColumn.html">Column</a> name or an array of column names. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$columns</td><td>Column name or an array of column names. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2215,7 +2200,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 21 2011 10:00:52 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 21 2011 10:13:31 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

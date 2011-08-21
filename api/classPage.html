@@ -51,7 +51,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -93,9 +92,7 @@ Inheritance diagram for Page:</div>
  <div class="center">
   <img src="classPage.png" usemap="#Page_map" alt=""/>
   <map id="Page_map" name="Page_map">
-<area href="classBasePage.html" alt="BasePage" shape="rect" coords="43,56,120,80"/>
-<area href="classBaseObject.html" alt="BaseObject" shape="rect" coords="0,0,77,24"/>
-<area href="interfacePersistent.html" alt="Persistent" shape="rect" coords="87,0,164,24"/>
+<area href="classBasePage.html" alt="BasePage" shape="rect" coords="0,0,69,24"/>
 </map>
  </div></div>
 
@@ -123,7 +120,7 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getPagePropertyValue</b> ($sPropertyName, $sDefaultValue=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aec1b56f7e3969484a65ecafb2f7b939a">updatePageProperty</a> ($sPropertyName, $sPropertyValue)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a287aa1ac838244365573e4b72ff83456">addTempPageProperty</a> ($sName, $sValue)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2669e41102eb44c0875fd3a583ed7a45">getChildren</a> ($oCriteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $oConnection=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2669e41102eb44c0875fd3a583ed7a45">getChildren</a> ($oCriteria=null, PropelPDO $oConnection=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1c315ccc7794c20e506f2f56b4d5c44"></a><!-- doxytag: member="Page::getChildrenWith" ref="aa1c315ccc7794c20e506f2f56b4d5c44" args="($sLanguageId=null, $bIncludeDisabled=false, $bIncludeInvisible=false)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>getChildrenWith</b> ($sLanguageId=null, $bIncludeDisabled=false, $bIncludeInvisible=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4c3cf6ae526199e0020bc5c5c0c9f74"></a><!-- doxytag: member="Page::countChildrenWith" ref="aa4c3cf6ae526199e0020bc5c5c0c9f74" args="($sLanguageId=null, $bIncludeDisabled=false, $bIncludeInvisible=false)" -->
@@ -167,7 +164,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2f1e671b3368d531c39b66aeb4ea87f0">getLink</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a4647ee02ab6d6da85596bd6c4cfc312d">getLinkArray</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a58430090653246ea7a2a10e52151224b">getTree</a> ($bNameOnly=false, $iLevel=0)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a802d30dfd2c5354a05132ef84aaf6870">delete</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a802d30dfd2c5354a05132ef84aaf6870">delete</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf89e5b6cebc5f295be30a0d07dffba6"></a><!-- doxytag: member="Page::deletePageAndDescendants" ref="acf89e5b6cebc5f295be30a0d07dffba6" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>deletePageAndDescendants</b> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
@@ -213,7 +210,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
         <tr>
           <td class="memname">Page::delete </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -223,20 +220,20 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
 <p>Removes this object from datastore and sets delete attribute.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseObject.html#ac4a9877a8baf3aefa9dea0a5b2c4ab18">BaseObject::setDeleted()</a> </dd>
+<dl class="see"><dt><b>See also:</b></dt><dd>BaseObject::setDeleted() </dd>
 <dd>
-<a class="el" href="classBaseObject.html#ae05cce25634965c69e6f1377a8512604">BaseObject::isDeleted()</a> </dd></dl>
+BaseObject::isDeleted() </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classBasePage.html#ad96eff5b839056a9fbfafdd410fcb6a0">BasePage</a>.</p>
 
@@ -255,7 +252,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -269,8 +266,8 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
 <p>Gets the children of the given node</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td><a class="el" href="classCriteria.html">Criteria</a> to filter results. </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>Connection to use. </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>Criteria to filter results. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Connection to use. </td></tr>
   </table>
   </dd>
 </dl>
@@ -340,7 +337,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
 </div>
 <div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>use PagePeer::getRootPage()-&gt;<a class="el" href="classBasePage.html#a7dba73e470fca57cf14a814a78b70931">getIterator()</a> </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>replace usages with <a class="el" href="classPropel.html">Propel</a> 1.5’s RecursiveIterator </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>replace usages with Propel 1.5’s RecursiveIterator </dd></dl>
 
 </div>
 </div>
@@ -400,7 +397,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_COD
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 21 2011 10:01:02 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 21 2011 10:13:34 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -51,7 +51,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -90,15 +89,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">BaseLanguage Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="BaseLanguage" --><!-- doxytag: inherits="BaseObject,Persistent" --><div class="dynheader">
+<!-- doxytag: class="BaseLanguage" --><div class="dynheader">
 Inheritance diagram for BaseLanguage:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classBaseLanguage.png" usemap="#BaseLanguage_map" alt=""/>
   <map id="BaseLanguage_map" name="BaseLanguage_map">
-<area href="classBaseObject.html" alt="BaseObject" shape="rect" coords="0,0,96,24"/>
-<area href="interfacePersistent.html" alt="Persistent" shape="rect" coords="106,0,202,24"/>
-<area href="classLanguage.html" alt="Language" shape="rect" coords="53,112,149,136"/>
+<area href="classLanguage.html" alt="Language" shape="rect" coords="0,56,96,80"/>
 </map>
  </div></div>
 
@@ -123,17 +120,17 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abfd0f7aab9d79d69afd0c97e0ace5305">hasOnlyDefaultValues</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a074ec5e6d34d6058c0a1a5c4725224ad">hydrate</a> ($row, $startcol=0, $rehydrate=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a22b27e474ea1b59e37577146236493f7">ensureConsistency</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ae192cbf57d51087900926b0cdd5f50ae">reload</a> ($deep=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a95afafbf0c703af220060123b0fee6e9">delete</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a256e80f23c2d0be66a444893b547ebd6">save</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ae192cbf57d51087900926b0cdd5f50ae">reload</a> ($deep=false, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a95afafbf0c703af220060123b0fee6e9">delete</a> (PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a256e80f23c2d0be66a444893b547ebd6">save</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5e2f37da0771cbd3faabe3651e7be4af">getValidationFailures</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acfdedff128747d9b2898dcc3def7c15d">validate</a> ($columns=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5917b39920cac713238a272c6a87cf94">getByName</a> ($name, $type=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5917b39920cac713238a272c6a87cf94">getByName</a> ($name, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ae189403b86db8373ef68e08721e4cc4c">getByPosition</a> ($pos)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1e988c59aa665828bb6f39c8ca3cc8fd">toArray</a> ($keyType=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abcdcaa0ee735f2c44967350958a7bd2d">setByName</a> ($name, $value, $type=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1e988c59aa665828bb6f39c8ca3cc8fd">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abcdcaa0ee735f2c44967350958a7bd2d">setByName</a> ($name, $value, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3f43c3377372605af04333dea9b9ac18">setByPosition</a> ($pos, $value)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a89a99ef0f3e1d116b05fb53cd9f4e142">fromArray</a> ($arr, $keyType=<a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a89a99ef0f3e1d116b05fb53cd9f4e142">fromArray</a> ($arr, $keyType=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a2fb72e637bc614275f3e0900730962d5">buildCriteria</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0b889374317ef376b9aceb300d11673d">buildPkeyCriteria</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abcc2b7b39ceaba062e2f3524eb0e8e5e">getPrimaryKey</a> ()</td></tr>
@@ -143,64 +140,64 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5c3a8b95376cc3b6896243cca7b4f182">copy</a> ($deepCopy=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aed22efcea53973ed97fc8150dbb48aa5">getPeer</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6b2b52b8aaca6f321effdc0fdc36c971">setUserRelatedByCreatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8f74588025ea8c77db29e4fba6c43160">getUserRelatedByCreatedBy</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8f74588025ea8c77db29e4fba6c43160">getUserRelatedByCreatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0f115e44c3af9cbf29ae728d697dc306">setUserRelatedByUpdatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ab72ff6438e022ab68f9a509be0fcb4c7">getUserRelatedByUpdatedBy</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ab72ff6438e022ab68f9a509be0fcb4c7">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5f86da6b9c112c8887bc5695fab463d8">clearPageStrings</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9eacf46a9e4685f1b90bf707946e03c5">initPageStrings</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac54e8be030d9cfc0e4492b350757993b">getPageStrings</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1fbbeb52b37a7a1e939def8af6f71932">countPageStrings</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac54e8be030d9cfc0e4492b350757993b">getPageStrings</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1fbbeb52b37a7a1e939def8af6f71932">countPageStrings</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a86d822d5165d8f3d2a742ca326cabdac">addPageString</a> (<a class="el" href="classPageString.html">PageString</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a54ee77691b7598735e8f6caddb8675af">getPageStringsJoinPage</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a54601ca5a702e65b4bed620254fb1f4f">getPageStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa90fa60604c44177db069fa49ad980e8">getPageStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a54ee77691b7598735e8f6caddb8675af">getPageStringsJoinPage</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a54601ca5a702e65b4bed620254fb1f4f">getPageStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa90fa60604c44177db069fa49ad980e8">getPageStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a638762a7a77d6cf49400a9ee0930d06c">clearLanguageObjects</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0a181cfb7220600e05d1293c20631d8e">initLanguageObjects</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a83f2a00deafb654ccecdde032c614177">getLanguageObjects</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7852fd29b160fdf51434ae3c6a2dc192">countLanguageObjects</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a83f2a00deafb654ccecdde032c614177">getLanguageObjects</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7852fd29b160fdf51434ae3c6a2dc192">countLanguageObjects</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6f0ab097c45ebaf7cdd417b0f9726012">addLanguageObject</a> (<a class="el" href="classLanguageObject.html">LanguageObject</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a4aaf794d2bf97f8d567e554188b18023">getLanguageObjectsJoinContentObject</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a64847557ee3962c426081d76c2791043">getLanguageObjectsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a579b5ce01c52ea181cd12e8e2b9a2522">getLanguageObjectsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a4aaf794d2bf97f8d567e554188b18023">getLanguageObjectsJoinContentObject</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a64847557ee3962c426081d76c2791043">getLanguageObjectsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a579b5ce01c52ea181cd12e8e2b9a2522">getLanguageObjectsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6551ced272b6874fb5c85ec4cb3ab4ea">clearLanguageObjectHistorys</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a03347feacd375d824853e5a51d1ab88b">initLanguageObjectHistorys</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1810da08b0679446e5d2c5aa31e14b5f">getLanguageObjectHistorys</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a299974f1b9d575765256cd1d8a14091b">countLanguageObjectHistorys</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1810da08b0679446e5d2c5aa31e14b5f">getLanguageObjectHistorys</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a299974f1b9d575765256cd1d8a14091b">countLanguageObjectHistorys</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a24c69bcb404cbae94ad2b54fe159284a">addLanguageObjectHistory</a> (<a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa47779a135948f314219181826b3fe0b">getLanguageObjectHistorysJoinContentObject</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7d98327ec229641d9c1bc4d517fee35e">getLanguageObjectHistorysJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad89b5a0c339f9091b1e0a5c82905de2a">getLanguageObjectHistorysJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa47779a135948f314219181826b3fe0b">getLanguageObjectHistorysJoinContentObject</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7d98327ec229641d9c1bc4d517fee35e">getLanguageObjectHistorysJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad89b5a0c339f9091b1e0a5c82905de2a">getLanguageObjectHistorysJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0ef35456b7c696a91de525c3f934aa31">clearStrings</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3364d8915203b957eb2fa72381df0588">initStrings</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac3bd994d76c0d7078bae04a32e7f644d">getStrings</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0ec434bc34874c5c2bc09778d9a33d41">countStrings</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac3bd994d76c0d7078bae04a32e7f644d">getStrings</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0ec434bc34874c5c2bc09778d9a33d41">countStrings</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a551a9a537718ab36ace86ed6a24767d3">addString</a> (<a class="el" href="classString.html">String</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad8618e9daabeeaf770b9dcb1ee9c01e3">getStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42798d3c25ca8bb056063217a1ac35d7">getStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad8618e9daabeeaf770b9dcb1ee9c01e3">getStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42798d3c25ca8bb056063217a1ac35d7">getStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9425bb054e2081f594d63832f371346f">clearUsersRelatedByLanguageId</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1774bbe6f731d3524f95f3c0a805e0a2">initUsersRelatedByLanguageId</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#adddc9c640933ed853f3f569fc3865b84">getUsersRelatedByLanguageId</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a902c00e586916e3374dcb97077332ea2">countUsersRelatedByLanguageId</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#adddc9c640933ed853f3f569fc3865b84">getUsersRelatedByLanguageId</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a902c00e586916e3374dcb97077332ea2">countUsersRelatedByLanguageId</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a96720f1a82da88a8d9dc229e988c8de2">addUserRelatedByLanguageId</a> (<a class="el" href="classUser.html">User</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#af2cf45990dafec0432e68125789dead4">clearDocuments</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42378133d3569fe68cee2d97fcd01a7d">initDocuments</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7a39d70025ed6abcd0333fd564238422">getDocuments</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9f9344a53eb04ec7a51b43df32b034cb">countDocuments</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7a39d70025ed6abcd0333fd564238422">getDocuments</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9f9344a53eb04ec7a51b43df32b034cb">countDocuments</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a07fe2310224116eb26a608cd4aaf550b">addDocument</a> (<a class="el" href="classDocument.html">Document</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a321ad21d561167a612273aa4017ca6d8">getDocumentsJoinUserRelatedByOwnerId</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a112b66d60240ecf170d36bc59aab1d69">getDocumentsJoinDocumentType</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3fee4a52876e6dc52723f848868ec683">getDocumentsJoinDocumentCategory</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac042833c02c3149b9a7e9b65dcd95305">getDocumentsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1063038f07b352c45522be32464c303d">getDocumentsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a321ad21d561167a612273aa4017ca6d8">getDocumentsJoinUserRelatedByOwnerId</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a112b66d60240ecf170d36bc59aab1d69">getDocumentsJoinDocumentType</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3fee4a52876e6dc52723f848868ec683">getDocumentsJoinDocumentCategory</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac042833c02c3149b9a7e9b65dcd95305">getDocumentsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1063038f07b352c45522be32464c303d">getDocumentsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aff5670c8dbe2755dd5c902fe9ad2c70d">clearLinks</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aae7827a78a337518fc3da92a7c4a31be">initLinks</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa71b964deeb77667238110d5fd736ddf">getLinks</a> ($criteria=null, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a856e17969c2c7ae8dcd4382c2c5ae5aa">countLinks</a> (<a class="el" href="classCriteria.html">Criteria</a> $criteria=null, $distinct=false, <a class="el" href="classPropelPDO.html">PropelPDO</a> $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa71b964deeb77667238110d5fd736ddf">getLinks</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a856e17969c2c7ae8dcd4382c2c5ae5aa">countLinks</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a986a42faa5e30fb3342635032d0c355e">addLink</a> (<a class="el" href="classLink.html">Link</a> $l)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5001016732d9b9992b00cfe7aff92bf3">getLinksJoinUserRelatedByOwnerId</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aaef1fa09aab490d52e73ae528cfa285b">getLinksJoinLinkCategory</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acc35aff3332e5e82e1292deea77a1d40">getLinksJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a301ecea059df1df29ffc6d4c1b6f497a">getLinksJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=<a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5001016732d9b9992b00cfe7aff92bf3">getLinksJoinUserRelatedByOwnerId</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aaef1fa09aab490d52e73ae528cfa285b">getLinksJoinLinkCategory</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acc35aff3332e5e82e1292deea77a1d40">getLinksJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a301ecea059df1df29ffc6d4c1b6f497a">getLinksJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8fc326538b6c904f9f21d7ff771ac969">clear</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5037c170c1651c99dd389477f07025ba">clearAllReferences</a> ($deep=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a16d81dc923d637ce4c5f1da940c42490">keepUpdateDateUnchanged</a> ()</td></tr>
@@ -215,7 +212,7 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a2a226bc357fb46f884d07fe5a175785a">PEER</a> = '<a class="el" href="classLanguagePeer.html">LanguagePeer</a>'</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acfc63109b8f96e74913dc5ffb161808c">doSave</a> (<a class="el" href="classPropelPDO.html">PropelPDO</a> $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acfc63109b8f96e74913dc5ffb161808c">doSave</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ab916f0e7514cba57114ffb7eb3af0b7c">doValidate</a> ($columns=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -289,8 +286,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <div class="memdoc">
 <p>Catches calls to virtual methods </p>
 
-<p>Reimplemented from <a class="el" href="classBaseObject.html#a54141aaa12d02a0b689f98c3006dab64">BaseObject</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a07fe2310224116eb26a608cd4aaf550b"></a><!-- doxytag: member="BaseLanguage::addDocument" ref="a07fe2310224116eb26a608cd4aaf550b" args="(Document $l)" -->
@@ -317,7 +312,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -348,7 +343,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -379,7 +374,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -410,7 +405,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -441,7 +436,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -472,7 +467,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -503,7 +498,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -523,8 +518,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Build a <a class="el" href="classCriteria.html">Criteria</a> object containing the values of all modified columns in this object.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classCriteria.html">Criteria</a> The <a class="el" href="classCriteria.html">Criteria</a> object containing all modified values. </dd></dl>
+<p>Build a Criteria object containing the values of all modified columns in this object.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Criteria The Criteria object containing all modified values. </dd></dl>
 
 </div>
 </div>
@@ -541,9 +536,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Builds a <a class="el" href="classCriteria.html">Criteria</a> object containing the primary key for this object.</p>
+<p>Builds a Criteria object containing the primary key for this object.</p>
 <p>Unlike <a class="el" href="classBaseLanguage.html#a2fb72e637bc614275f3e0900730962d5">buildCriteria()</a> this method includes the primary key values regardless of whether or not they have been modified.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classCriteria.html">Criteria</a> The <a class="el" href="classCriteria.html">Criteria</a> object containing value(s) for primary key(s). </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Criteria The Criteria object containing value(s) for primary key(s). </dd></dl>
 
 </div>
 </div>
@@ -579,7 +574,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>Resets all collections of referencing foreign keys.</p>
-<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using <a class="el" href="classPropel.html">Propel</a> in certain daemon or large-volumne/high-memory operations.</p>
+<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all associated objects. </td></tr>
@@ -754,7 +749,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> Clone of current object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -796,7 +791,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -810,7 +805,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countDocuments </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -822,7 +817,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -836,16 +831,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classDocument.html">Document</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classDocument.html">Document</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -859,7 +854,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countLanguageObjectHistorys </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -871,7 +866,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -885,16 +880,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -908,7 +903,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countLanguageObjects </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -920,7 +915,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -934,16 +929,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classLanguageObject.html">LanguageObject</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classLanguageObject.html">LanguageObject</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -957,7 +952,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countLinks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -969,7 +964,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -983,16 +978,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classLink.html">Link</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classLink.html">Link</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1006,7 +1001,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countPageStrings </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -1018,7 +1013,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1032,16 +1027,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classPageString.html">PageString</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classPageString.html">PageString</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1055,7 +1050,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countStrings </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -1067,7 +1062,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1081,16 +1076,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classString.html">String</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classString.html">String</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1104,7 +1099,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::countUsersRelatedByLanguageId </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a> $&#160;</td>
+          <td class="paramtype">Criteria $&#160;</td>
           <td class="paramname"><em>criteria</em> = <code>null</code>, </td>
         </tr>
         <tr>
@@ -1116,7 +1111,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1130,16 +1125,16 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the number of related <a class="el" href="classUser.html">User</a> objects.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$distinct</td><td></td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Count of related <a class="el" href="classUser.html">User</a> objects. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1153,7 +1148,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::delete </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -1163,22 +1158,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Removes this object from datastore and sets delete attribute.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseObject.html#ac4a9877a8baf3aefa9dea0a5b2c4ab18">BaseObject::setDeleted()</a> </dd>
+<dl class="see"><dt><b>See also:</b></dt><dd>BaseObject::setDeleted() </dd>
 <dd>
-<a class="el" href="classBaseObject.html#ae05cce25634965c69e6f1377a8512604">BaseObject::isDeleted()</a> </dd></dl>
-
-<p>Implements <a class="el" href="interfacePersistent.html#a6b2d42c3e61b82627d36b3383e5f5bae">Persistent</a>.</p>
+BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
@@ -1189,7 +1182,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::doSave </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em></td><td>)</td>
           <td><code> [protected]</code></td>
         </tr>
@@ -1200,14 +1193,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the object is new, it inserts it; otherwise an update is performed. All related objects are also updated in this method.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of rows affected by this insert/update and any referring fk objects' <a class="el" href="classBaseLanguage.html#a256e80f23c2d0be66a444893b547ebd6">save()</a> operations. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1230,14 +1223,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>This function performs the validation work for complex object models.</p>
-<p>In addition to checking the current object, all related objects will also be validated. If all pass then <code>true</code> is returned; otherwise an aggreagated array of <a class="el" href="classValidationFailed.html">ValidationFailed</a> objects will be returned.</p>
+<p>In addition to checking the current object, all related objects will also be validated. If all pass then <code>true</code> is returned; otherwise an aggreagated array of ValidationFailed objects will be returned.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">array</td><td class="paramname">$columns</td><td>Array of column names to validate. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>mixed <code>true</code> if all validations pass; array of <code><a class="el" href="classValidationFailed.html">ValidationFailed</a></code> objets otherwise. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>mixed <code>true</code> if all validations pass; array of <code>ValidationFailed</code> objets otherwise. </dd></dl>
 
 </div>
 </div>
@@ -1259,7 +1252,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>You can override this method in the stub class, but you should always invoke the base method from the overridden method (i.e. parent::ensureConsistency()), in case your model changes.</p>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1280,7 +1273,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>keyType</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>keyType</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1292,7 +1285,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <div class="memdoc">
 <p>Populates the object using an array.</p>
 <p>This is particularly useful when populating an object from one of the request arrays (e.g. $_POST). This method goes through the column names, checking to see whether a matching key exists in populated array. If so the <a class="el" href="classBaseLanguage.html#abcdcaa0ee735f2c44967350958a7bd2d">setByName()</a> method is called for that column.</p>
-<p>You can specify the key type of the array by additionally passing one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a>, <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a>. The default key type is the column's phpname (e.g. 'AuthorId')</p>
+<p>You can specify the key type of the array by additionally passing one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. The default key type is the column's phpname (e.g. 'AuthorId')</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">array</td><td class="paramname">$arr</td><td>An array to populate the object from. </td></tr>
@@ -1318,7 +1311,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>type</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>type</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1332,7 +1325,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>name </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a> <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a> </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM </td></tr>
   </table>
   </dd>
 </dl>
@@ -1389,7 +1382,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>mixed Formatted date/time value as string or DateTime object (if format is NULL), NULL if column is NULL, and 0 if column value is 0000-00-00 00:00:00 </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if unable to parse/validate the date/time value. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if unable to parse/validate the date/time value. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1472,7 +1465,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1487,15 +1480,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classDocument.html">Document</a>[] List of <a class="el" href="classDocument.html">Document</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1522,7 +1515,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1536,9 +1529,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1566,7 +1559,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1580,9 +1573,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1610,7 +1603,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1624,9 +1617,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1654,7 +1647,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1668,9 +1661,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1698,7 +1691,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1712,9 +1705,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1771,7 +1764,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1786,15 +1779,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a>[] List of <a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1821,7 +1814,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1835,9 +1828,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1865,7 +1858,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1879,9 +1872,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1909,7 +1902,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1923,9 +1916,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1946,7 +1939,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -1961,15 +1954,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classLanguageObject.html">LanguageObject</a>[] List of <a class="el" href="classLanguageObject.html">LanguageObject</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1996,7 +1989,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2010,9 +2003,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2040,7 +2033,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2054,9 +2047,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2084,7 +2077,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2098,9 +2091,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2121,7 +2114,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -2136,15 +2129,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classLink.html">Link</a>[] List of <a class="el" href="classLink.html">Link</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2171,7 +2164,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2185,9 +2178,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2215,7 +2208,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2229,9 +2222,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2259,7 +2252,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2273,9 +2266,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2303,7 +2296,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2317,9 +2310,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2340,7 +2333,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -2355,15 +2348,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classPageString.html">PageString</a>[] List of <a class="el" href="classPageString.html">PageString</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2390,7 +2383,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2404,9 +2397,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2434,7 +2427,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2448,9 +2441,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2478,7 +2471,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2492,9 +2485,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2537,8 +2530,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Returns the primary key for this object (row). </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
 
-<p>Implements <a class="el" href="interfacePersistent.html#a5ea4c6212f9a99b95973460061ecaa6c">Persistent</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a904ea0d108c91e612aa2917c3183c2ff"></a><!-- doxytag: member="BaseLanguage::getSort" ref="a904ea0d108c91e612aa2917c3183c2ff" args="()" -->
@@ -2572,7 +2563,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -2587,15 +2578,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classString.html">String</a>[] List of <a class="el" href="classString.html">String</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2622,7 +2613,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2636,9 +2627,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2666,7 +2657,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>join_behavior</em> = <code><a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a></code>&#160;</td>
+          <td class="paramname"><em>join_behavior</em> = <code>Criteria::LEFT_JOIN</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2680,9 +2671,9 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>This method is protected by default in order to keep the public api reasonable. You can provide public methods for those you actually need in <a class="el" href="classLanguage.html">Language</a>.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to <a class="el" href="classCriteria.html#aeca285a27439918e42a28de23eeabed9">Criteria::LEFT_JOIN</a>) </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$join_behavior</td><td>optional join type to use (defaults to Criteria::LEFT_JOIN) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2714,7 +2705,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>mixed Formatted date/time value as string or DateTime object (if format is NULL), NULL if column is NULL, and 0 if column value is 0000-00-00 00:00:00 </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if unable to parse/validate the date/time value. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if unable to parse/validate the date/time value. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2791,7 +2782,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::getUserRelatedByCreatedBy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -2801,14 +2792,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The associated <a class="el" href="classUser.html">User</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2822,7 +2813,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::getUserRelatedByUpdatedBy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -2832,14 +2823,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>Get the associated <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td>Optional Connection object. </td></tr>
+    <tr><td class="paramname">PropelPDO</td><td>Optional Connection object. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The associated <a class="el" href="classUser.html">User</a> object. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2859,7 +2850,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -2874,15 +2865,15 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the $criteria is not null, it is used to always fetch the results from the database. Otherwise the results are fetched from the database the first time, then cached. Next time the same method is called without $criteria, the cached collection is returned. If this <a class="el" href="classLanguage.html">Language</a> is new, it will return an empty collection or the current collection; the criteria is ignored on a new object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classCriteria.html">Criteria</a></td><td class="paramname">$criteria</td><td>optional <a class="el" href="classCriteria.html">Criteria</a> object to narrow the query </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>optional connection object </td></tr>
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>optional Criteria object to narrow the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>optional connection object </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelCollection|array <a class="el" href="classUser.html">User</a>[] List of <a class="el" href="classUser.html">User</a> objects </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -2902,8 +2893,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Gets any <a class="el" href="classValidationFailed.html">ValidationFailed</a> objects that resulted from last call to <a class="el" href="classBaseLanguage.html#acfdedff128747d9b2898dcc3def7c15d">validate()</a>.</p>
-<dl class="return"><dt><b>Returns:</b></dt><dd>array <a class="el" href="classValidationFailed.html">ValidationFailed</a>[] </dd></dl>
+<p>Gets any ValidationFailed objects that resulted from last call to <a class="el" href="classBaseLanguage.html#acfdedff128747d9b2898dcc3def7c15d">validate()</a>.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>array ValidationFailed[] </dd></dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLanguage.html#acfdedff128747d9b2898dcc3def7c15d">validate()</a> </dd></dl>
 
 </div>
@@ -2922,7 +2913,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 <div class="memdoc">
 <p>Indicates whether the columns in this object are only set to default values.</p>
-<p>This method can be used in conjunction with <a class="el" href="classBaseObject.html#a0824bceb0bbc05809c4d1dbfe3e96a5b">isModified()</a> to indicate whether an object is both modified _and_ has some values set which are non-default.</p>
+<p>This method can be used in conjunction with isModified() to indicate whether an object is both modified _and_ has some values set which are non-default.</p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>boolean Whether the columns in this object are only been set with default values. </dd></dl>
 
 </div>
@@ -2970,7 +2961,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int next starting column </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- Any caught Exception will be rewrapped as a <a class="el" href="classPropelException.html">PropelException</a>. </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- Any caught Exception will be rewrapped as a PropelException. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3177,7 +3168,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -3193,14 +3184,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>(optional) Whether to also de-associated any related objects. </td></tr>
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td>(optional) The <a class="el" href="classPropelPDO.html">PropelPDO</a> connection to use. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>(optional) The PropelPDO connection to use. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td>- if this object is deleted, unsaved or doesn't have pk match in db </td></tr>
+    <tr><td class="paramname">PropelException</td><td>- if this object is deleted, unsaved or doesn't have pk match in db </td></tr>
   </table>
   </dd>
 </dl>
@@ -3214,7 +3205,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
         <tr>
           <td class="memname">BaseLanguage::save </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a> $&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
@@ -3225,20 +3216,18 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If the object is new, it inserts it; otherwise an update is performed. All modified related objects will also be persisted in the <a class="el" href="classBaseLanguage.html#acfc63109b8f96e74913dc5ffb161808c">doSave()</a> method. This method wraps all precipitate database operations in a single transaction.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPropelPDO.html">PropelPDO</a></td><td class="paramname">$con</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of rows affected by this insert/update and any referring fk objects' <a class="el" href="classBaseLanguage.html#a256e80f23c2d0be66a444893b547ebd6">save()</a> operations. </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLanguage.html#acfc63109b8f96e74913dc5ffb161808c">doSave()</a> </dd></dl>
-
-<p>Implements <a class="el" href="interfacePersistent.html#a30c969a9132da6db02780a6c604c4510">Persistent</a>.</p>
 
 </div>
 </div>
@@ -3262,7 +3251,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>type</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>&#160;</td>
+          <td class="paramname"><em>type</em> = <code>BasePeer::TYPE_PHPNAME</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3277,7 +3266,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>peer name </td></tr>
     <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>field value </td></tr>
-    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a> <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a> </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$type</td><td>The type of fieldname the $name is of: one of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM </td></tr>
   </table>
   </dd>
 </dl>
@@ -3444,8 +3433,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
-<p>Implements <a class="el" href="interfacePersistent.html#a320da6dae34e0ac1e8633eb95a805f58">Persistent</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ade979fd03068c1affa7b4382842bb9c5"></a><!-- doxytag: member="BaseLanguage::setSort" ref="ade979fd03068c1affa7b4382842bb9c5" args="($v)" -->
@@ -3547,7 +3534,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -3578,7 +3565,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 <dl><dt><b>Exceptions:</b></dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classPropelException.html">PropelException</a></td><td></td></tr>
+    <tr><td class="paramname">PropelException</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -3593,7 +3580,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="memname">BaseLanguage::toArray </td>
           <td>(</td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>keyType</em> = <code><a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a></code>, </td>
+          <td class="paramname"><em>keyType</em> = <code>BasePeer::TYPE_PHPNAME</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3619,7 +3606,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>You can specify the key type of the array by passing one of the class type constants.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>, <a class="el" href="classBasePeer.html#adba0c3c3aebd535fbbf54b99e500fc6f">BasePeer::TYPE_STUDLYPHPNAME</a>, <a class="el" href="classBasePeer.html#a3eaf6ce024fbc5b53c888ef21a9d7907">BasePeer::TYPE_COLNAME</a>, <a class="el" href="classBasePeer.html#aee576443cb3890794716fc37bfc7a715">BasePeer::TYPE_FIELDNAME</a>, <a class="el" href="classBasePeer.html#a431af4194c1d0a9c52901bbecaceba64">BasePeer::TYPE_NUM</a>. Defaults to <a class="el" href="classBasePeer.html#a212cab2dac429cb64b236da762d94a51">BasePeer::TYPE_PHPNAME</a>. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. Defaults to BasePeer::TYPE_PHPNAME. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeLazyLoadColumns</td><td>(optional) Whether to include lazy loaded columns. Defaults to TRUE. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeForeignObjects</td><td>(optional) Whether to include hydrated related objects. Default to FALSE.</td></tr>
   </table>
@@ -3647,7 +3634,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 <p>If $columns is either a column name or an array of column names only those columns are validated.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$columns</td><td><a class="el" href="classColumn.html">Column</a> name or an array of column names. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$columns</td><td>Column name or an array of column names. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3694,7 +3681,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 21 2011 10:00:52 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Aug 21 2011 10:13:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
