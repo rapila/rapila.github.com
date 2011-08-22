@@ -159,8 +159,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>needsLogin</b> ()</
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getCustomMethods</b> ($sClassName)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cd085b6ca6251dffd722520cb0f5881"></a><!-- doxytag: member="WidgetModule::removeStoredWidgets" ref="a1cd085b6ca6251dffd722520cb0f5881" args="()" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>removeStoredWidgets</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c27387d822dc3db1a0cff2be82b1221"></a><!-- doxytag: member="WidgetModule::getWidget" ref="a2c27387d822dc3db1a0cff2be82b1221" args="($sWidgetType, $sSessionKey=null)" -->
-static&#160;</td><td class="memItemRight" valign="bottom"><b>getWidget</b> ($sWidgetType, $sSessionKey=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWidgetModule.html#a2c27387d822dc3db1a0cff2be82b1221">getWidget</a> ($sWidgetType, $sSessionKey=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a716ca97e3c9bfcbd66b1abf7ab2da7a9"></a><!-- doxytag: member="WidgetModule::WIDGET_SESSION_KEY" ref="a716ca97e3c9bfcbd66b1abf7ab2da7a9" args="" -->
@@ -182,6 +181,42 @@ Static Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36062be954713046cb5dab93c53deee9"></a><!-- doxytag: member="WidgetModule::$MODULE_TYPE" ref="a36062be954713046cb5dab93c53deee9" args="" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$MODULE_TYPE</b> = 'widget'</td></tr>
 </table>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a2c27387d822dc3db1a0cff2be82b1221"></a><!-- doxytag: member="WidgetModule::getWidget" ref="a2c27387d822dc3db1a0cff2be82b1221" args="($sWidgetType, $sSessionKey=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static WidgetModule::getWidget </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sWidgetType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sSessionKey</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Instanciates a widget or extracts it from the session. This method is preferred over using “new MyWidgetModule()” because it takes into account the session key as well as the disabled flag. Pass additional arguments to the module’s constructor after the session key. If your module is not persistent, do not pass a session key. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$sWidgetType</td><td>The widget_type (in underscore notation) </td></tr>
+    <tr><td class="paramtype">string&#160;|&#160;null</td><td class="paramname">$sSessionKey</td><td>The session key (most often null, but still required for persistent modules if you wish to pass additional parameters) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/WidgetModule.php</li>
 </ul>
@@ -203,7 +238,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$MODULE_TYPE</b> = 
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 22 2011 13:38:52 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 22 2011 16:33:07 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
