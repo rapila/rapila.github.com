@@ -86,7 +86,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">CriteriaListWidgetDelegate Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="CriteriaListWidgetDelegate" --><div class="dynheader">
+<!-- doxytag: class="CriteriaListWidgetDelegate" -->
+<p>Generic delegate for list widgets (<a class="el" href="classListWidgetModule.html">ListWidgetModule</a>) whose contents are determined by database entries of a specific model.  
+ <a href="classCriteriaListWidgetDelegate.html#details">More...</a></p>
+<div class="dynheader">
 Inheritance diagram for CriteriaListWidgetDelegate:</div>
 <div class="dyncontent">
  <div class="center">
@@ -112,6 +115,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getDelegate</b> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88efccf905b93ee4351a23e5497651a9"></a><!-- doxytag: member="CriteriaListWidgetDelegate::__call" ref="a88efccf905b93ee4351a23e5497651a9" args="($sMethodName, $aArguments)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>__call</b> ($sMethodName, $aArguments)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dd7762a881462fcf4d6914a484beada"></a><!-- doxytag: member="CriteriaListWidgetDelegate::getMetadataForColumn" ref="a0dd7762a881462fcf4d6914a484beada" args="($sColumnIdentifier)" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>getMetadataForColumn</b> ($sColumnIdentifier)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe6a6114fd87e5a14b4c900e8bcf23a7"></a><!-- doxytag: member="CriteriaListWidgetDelegate::getCriteria" ref="abe6a6114fd87e5a14b4c900e8bcf23a7" args="($bSortIsIrrelevant=false)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>getCriteria</b> ($bSortIsIrrelevant=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1d0e2e4d28772e4fcf420b89f8ccee5"></a><!-- doxytag: member="CriteriaListWidgetDelegate::getListContents" ref="af1d0e2e4d28772e4fcf420b89f8ccee5" args="($iRowStart=0, $iRowCount=null)" -->
@@ -155,7 +160,21 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_IS_NULL<
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c2ebc8bfe19fa0e2a87e11c6ab0974e"></a><!-- doxytag: member="CriteriaListWidgetDelegate::FILTER_TYPE_MANUAL" ref="a4c2ebc8bfe19fa0e2a87e11c6ab0974e" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</b> = 'manual'</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Generic delegate for list widgets (<a class="el" href="classListWidgetModule.html">ListWidgetModule</a>) whose contents are determined by database entries of a specific model. </p>
+<p>Usage: </p>
+<div class="fragment"><pre class="fragment"> $this-&gt;oCriteriaListWidgetDelegate = <span class="keyword">new</span> <a class="code" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a>($this, <span class="stringliteral">&#39;ModelName&#39;</span>);
+ $this-&gt;oListWidget = <a class="code" href="classWidgetModule.html#a2c27387d822dc3db1a0cff2be82b1221">WidgetModule::getWidget</a>(<span class="stringliteral">&#39;list&#39;</span>, null, $this-&gt;oCriteriaListWidgetDelegate);
+</pre></div><p> <a class="el" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a> still needs its own delegate. The required method for this is #getColumnIdentifiers. Optional methods are as follows: </p>
+<ul>
+<li>
+#getCriteria to customize the database query </li>
+<li>
+#getDatabaseColumnForColumn for columns whose identifier or field_name does not correspond to a database field directly (you only need this if you wish to sort or filter by a column) </li>
+<li>
+#getFilterTypeForColumn return one of the given FILTER_TYPE_* constants to allow filtering by a specific column (the column does not need to be displayed). Set the filters using <a class="el" href="classListWidgetModule.html">ListWidgetModule</a>-&gt;setOption (also from JavaScript). </li>
+</ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/CriteriaListWidgetDelegate.php</li>
 </ul>
 </div>
@@ -176,7 +195,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 22 2011 16:33:03 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 23 2011 10:12:47 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
