@@ -165,14 +165,11 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</
 <p>Usage: </p>
 <div class="fragment"><pre class="fragment"> $this-&gt;oCriteriaListWidgetDelegate = <span class="keyword">new</span> <a class="code" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a>($this, <span class="stringliteral">&#39;ModelName&#39;</span>);
  $this-&gt;oListWidget = <a class="code" href="classWidgetModule.html#a2c27387d822dc3db1a0cff2be82b1221">WidgetModule::getWidget</a>(<span class="stringliteral">&#39;list&#39;</span>, null, $this-&gt;oCriteriaListWidgetDelegate);
-</pre></div><p> <a class="el" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a> still needs its own delegate. The required method for this is #getColumnIdentifiers. Optional methods are as follows: </p>
+</pre></div><p> <a class="el" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a> still needs its own delegate. The required method for this is #getColumnIdentifiers. Optional methods are as follows:</p>
 <ul>
-<li>
-#getCriteria to customize the database query </li>
-<li>
-#getDatabaseColumnForColumn for columns whose identifier or field_name does not correspond to a database field directly (you only need this if you wish to sort or filter by a column) </li>
-<li>
-#getFilterTypeForColumn return one of the given FILTER_TYPE_* constants to allow filtering by a specific column (the column does not need to be displayed). Set the filters using <a class="el" href="classListWidgetModule.html">ListWidgetModule</a>-&gt;setOption (also from JavaScript). </li>
+<li><code>getCriteria</code> to customize the database query</li>
+<li><code>getDatabaseColumnForColumn</code> for columns whose identifier or field_name does not correspond to a database field directly (you only need this if you wish to sort or filter by a column)</li>
+<li><code>getFilterTypeForColumn</code> return one of the given FILTER_TYPE_* constants to allow filtering by a specific column (the column does not need to be displayed). Set the filters using ListWidgetModule::setOption (also from JavaScript). </li>
 </ul>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/CriteriaListWidgetDelegate.php</li>
@@ -195,7 +192,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 23 2011 10:12:47 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 23 2011 10:25:40 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
