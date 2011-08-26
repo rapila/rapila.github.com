@@ -133,8 +133,7 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>doSort</b> ($sColumnIdentifier, $aRowData, $aRelatedRowData, $sPosition)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2475dbb7b12adde1ca95b526bf8cc6a7"></a><!-- doxytag: member="CriteriaListWidgetDelegate::setSearch" ref="a2475dbb7b12adde1ca95b526bf8cc6a7" args="($sSearch)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>setSearch</b> ($sSearch)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7c78fd63975025b94e8f6fb20a0c2de"></a><!-- doxytag: member="CriteriaListWidgetDelegate::getSearch" ref="af7c78fd63975025b94e8f6fb20a0c2de" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSearch</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCriteriaListWidgetDelegate.html#af7c78fd63975025b94e8f6fb20a0c2de">getSearch</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39ccce1aa9aaaaa934fcc8c6f2f82867"></a><!-- doxytag: member="CriteriaListWidgetDelegate::deleteRow" ref="a39ccce1aa9aaaaa934fcc8c6f2f82867" args="($aRowData)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>deleteRow</b> ($aRowData)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae939032f3106af1126742929aaeb0fbf"></a><!-- doxytag: member="CriteriaListWidgetDelegate::rowFromData" ref="ae939032f3106af1126742929aaeb0fbf" args="($aRowData)" -->
@@ -149,6 +148,8 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>SELECT_ALL</b> = '__
 const&#160;</td><td class="memItemRight" valign="bottom"><b>SELECT_WITHOUT</b> = '__without'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0ccab88080228d824d278067503b00f"></a><!-- doxytag: member="CriteriaListWidgetDelegate::FILTER_TYPE_IS" ref="af0ccab88080228d824d278067503b00f" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_IS</b> = 'is'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e2509a645706dc9919f89303d911957"></a><!-- doxytag: member="CriteriaListWidgetDelegate::FILTER_TYPE_IN" ref="a7e2509a645706dc9919f89303d911957" args="" -->
+const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_IN</b> = 'in'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a564b6e18e45dc7bd81a60656e2ab0beb"></a><!-- doxytag: member="CriteriaListWidgetDelegate::FILTER_TYPE_BEGINS" ref="a564b6e18e45dc7bd81a60656e2ab0beb" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_BEGINS</b> = 'begins'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cc2e1cce39f613b7afc8454889dd531"></a><!-- doxytag: member="CriteriaListWidgetDelegate::FILTER_TYPE_CONTAINS" ref="a2cc2e1cce39f613b7afc8454889dd531" args="" -->
@@ -165,13 +166,31 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</
 <p>Usage: </p>
 <div class="fragment"><pre class="fragment"> $this-&gt;oCriteriaListWidgetDelegate = <span class="keyword">new</span> <a class="code" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a>($this, <span class="stringliteral">&#39;ModelName&#39;</span>);
  $this-&gt;oListWidget = <a class="code" href="classWidgetModule.html#a2c27387d822dc3db1a0cff2be82b1221">WidgetModule::getWidget</a>(<span class="stringliteral">&#39;list&#39;</span>, null, $this-&gt;oCriteriaListWidgetDelegate);
-</pre></div><p> <a class="el" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a> still needs its own delegate. The required method for this is #getColumnIdentifiers. Optional methods are as follows:</p>
+</pre></div><p> <a class="el" href="classCriteriaListWidgetDelegate.html" title="Generic delegate for list widgets (ListWidgetModule) whose contents are determined by database entrie...">CriteriaListWidgetDelegate</a> still needs its own delegate. The required method for this is <code>getColumnIdentifiers</code>. Optional methods are as follows:</p>
 <ul>
 <li><code>getCriteria</code> to customize the database query</li>
 <li><code>getDatabaseColumnForColumn</code> for columns whose identifier or field_name does not correspond to a database field directly (you only need this if you wish to sort or filter by a column)</li>
-<li><code>getFilterTypeForColumn</code> return one of the given FILTER_TYPE_* constants to allow filtering by a specific column (the column does not need to be displayed). Set the filters using ListWidgetModule::setOption (also from JavaScript). </li>
+<li><code>getFilterTypeForColumn</code> return one of the given FILTER_TYPE_* constants to allow filtering by a specific column (the column does not need to be displayed). Set the filters using ListWidgetModule::setOption() (also from JavaScript). </li>
 </ul>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="af7c78fd63975025b94e8f6fb20a0c2de"></a><!-- doxytag: member="CriteriaListWidgetDelegate::getSearch" ref="af7c78fd63975025b94e8f6fb20a0c2de" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CriteriaListWidgetDelegate::getSearch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Searching only works if the ModelNamePeer class has a Method named <code>addSearchToCriteria($sSearchString, $oCriteria)</code> which should set all the necessary search query params on the criteria. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/CriteriaListWidgetDelegate.php</li>
 </ul>
 </div>
@@ -192,7 +211,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FILTER_TYPE_MANUAL</
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 23 2011 10:25:40 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 26 2011 10:07:25 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
