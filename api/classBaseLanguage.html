@@ -104,6 +104,7 @@ Inheritance diagram for BaseLanguage:</div>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#adc246ceae23ec9be3c223808b84ffca6">getId</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a495059ada81e81cf94a380088201b6b6">getPathPrefix</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aca20784d4baf2b687753a8b851d0ff3f">getIsActive</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a904ea0d108c91e612aa2917c3183c2ff">getSort</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6f4a72178d321678fd7c076e7c019913">getCreatedAt</a> ($format= 'Y-m-d H:i:s')</td></tr>
@@ -111,6 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7523db4932cee752d5edb080c9edc667">getCreatedBy</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#af40afeecf5b2476fd732296771247f03">getUpdatedBy</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aff1ac5954860388a4ddc643b2669d9e0">setId</a> ($v)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac1f83f770bb5be0cea74449464002ce7">setPathPrefix</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3cec9ea1f2e03ca2edefe6e92c8d339c">setIsActive</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ade979fd03068c1affa7b4382842bb9c5">setSort</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8ec50f9feda96c90116301f2ad78beb7">setCreatedAt</a> ($v)</td></tr>
@@ -218,6 +220,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fbda3a8da36a886adf582b1103bbea9"></a><!-- doxytag: member="BaseLanguage::$id" ref="a8fbda3a8da36a886adf582b1103bbea9" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$id</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b89f2df16d637bda53a9c3b549243fe"></a><!-- doxytag: member="BaseLanguage::$path_prefix" ref="a8b89f2df16d637bda53a9c3b549243fe" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$path_prefix</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a06497e861976c5dbf06ab8f28a83a07c"></a><!-- doxytag: member="BaseLanguage::$is_active" ref="a06497e861976c5dbf06ab8f28a83a07c" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_active</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25a2dca0fa60b0ead6d84318263d997b"></a><!-- doxytag: member="BaseLanguage::$sort" ref="a25a2dca0fa60b0ead6d84318263d997b" args="" -->
@@ -2495,6 +2499,24 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a495059ada81e81cf94a380088201b6b6"></a><!-- doxytag: member="BaseLanguage::getPathPrefix" ref="a495059ada81e81cf94a380088201b6b6" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguage::getPathPrefix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get the [path_prefix] column value.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aed22efcea53973ed97fc8150dbb48aa5"></a><!-- doxytag: member="BaseLanguage::getPeer" ref="aed22efcea53973ed97fc8150dbb48aa5" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -3410,6 +3432,31 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="ac1f83f770bb5be0cea74449464002ce7"></a><!-- doxytag: member="BaseLanguage::setPathPrefix" ref="ac1f83f770bb5be0cea74449464002ce7" args="($v)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguage::setPathPrefix </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Set the value of [path_prefix] column.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$v</td><td>new value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="accecc4ef3a7901bd44c887f26fc2c9e1"></a><!-- doxytag: member="BaseLanguage::setPrimaryKey" ref="accecc4ef3a7901bd44c887f26fc2c9e1" args="($key)" -->
 <div class="memitem">
 <div class="memproto">
@@ -3681,7 +3728,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:07 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:20 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -99,6 +99,7 @@ This is the complete list of members for <a class="el" href="classLanguage.html"
   <tr bgcolor="#f0f0f0"><td><b>$created_by</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$id</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$is_active</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$path_prefix</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$peer</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected, static]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$sort</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseLanguage.html">BaseLanguage</a>)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td><code> [protected]</code></td></tr>
@@ -171,6 +172,7 @@ This is the complete list of members for <a class="el" href="classLanguage.html"
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a54ee77691b7598735e8f6caddb8675af">getPageStringsJoinPage</a>($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a54601ca5a702e65b4bed620254fb1f4f">getPageStringsJoinUserRelatedByCreatedBy</a>($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#aa90fa60604c44177db069fa49ad980e8">getPageStringsJoinUserRelatedByUpdatedBy</a>($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a495059ada81e81cf94a380088201b6b6">getPathPrefix</a>()</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#aed22efcea53973ed97fc8150dbb48aa5">getPeer</a>()</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#abcc2b7b39ceaba062e2f3524eb0e8e5e">getPrimaryKey</a>()</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a904ea0d108c91e612aa2917c3183c2ff">getSort</a>()</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
@@ -207,6 +209,7 @@ This is the complete list of members for <a class="el" href="classLanguage.html"
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a4e80e840e535a18040908ef1b3652769">setCreatedBy</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#aff1ac5954860388a4ddc643b2669d9e0">setId</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#a3cec9ea1f2e03ca2edefe6e92c8d339c">setIsActive</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#ac1f83f770bb5be0cea74449464002ce7">setPathPrefix</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#accecc4ef3a7901bd44c887f26fc2c9e1">setPrimaryKey</a>($key)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#ade979fd03068c1affa7b4382842bb9c5">setSort</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseLanguage.html#aea9b82c89045e2b3653a1b75a61699cc">setUpdatedAt</a>($v)</td><td><a class="el" href="classBaseLanguage.html">BaseLanguage</a></td><td></td></tr>
@@ -233,7 +236,7 @@ This is the complete list of members for <a class="el" href="classLanguage.html"
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

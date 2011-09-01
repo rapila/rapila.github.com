@@ -115,6 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a42024b650f814f4a396f167a5d6135b8">filterByLanguageId</a> ($languageId=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a12b71cd559b88bd2e046ebf3574d924f">filterByIsAdmin</a> ($isAdmin=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a864c7030a71ff3ce02eed1efa1ec2255">filterByIsBackendLoginEnabled</a> ($isBackendLoginEnabled=null, $comparison=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a2d53bc61bda1053d5f02804d09a2d299">filterByIsAdminLoginEnabled</a> ($isAdminLoginEnabled=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a7afc04c6dd8add0161276bf6edcf32ed">filterByIsInactive</a> ($isInactive=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#a8cdd96e0e270949c2c3c3f1acc25cbc1">filterByPasswordRecoverHint</a> ($passwordRecoverHint=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserQuery.html#ad190acb3d56f2a6d323e3fc096e4f1f5">filterByBackendSettings</a> ($backendSettings=null, $comparison=null)</td></tr>
@@ -1108,6 +1109,42 @@ Static Public Member Functions</h2></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isAdmin</td><td>The value to use as filter. Accepts strings ('false', 'off', '-', 'no', 'n', and '0' are false, the rest is true) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUserQuery.html">UserQuery</a> The current query, for fluid interface </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2d53bc61bda1053d5f02804d09a2d299"></a><!-- doxytag: member="BaseUserQuery::filterByIsAdminLoginEnabled" ref="a2d53bc61bda1053d5f02804d09a2d299" args="($isAdminLoginEnabled=null, $comparison=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseUserQuery::filterByIsAdminLoginEnabled </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>isAdminLoginEnabled</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>comparison</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Filter the query on the is_admin_login_enabled column</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isAdminLoginEnabled</td><td>The value to use as filter. Accepts strings ('false', 'off', '-', 'no', 'n', and '0' are false, the rest is true) </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -6603,7 +6640,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

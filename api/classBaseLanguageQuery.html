@@ -106,6 +106,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a0303148ff0007cea6e0b137c7649d6ee">filterByPrimaryKey</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a76a6e9c8580d58a515e7245412cf814e">filterByPrimaryKeys</a> ($keys)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a54946cd0e9fda11b9dab32b14b5de81f">filterById</a> ($id=null, $comparison=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a4676508f164089d342d09704724f87c1">filterByPathPrefix</a> ($pathPrefix=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#aa3edc5c1cd5ae8b73cec6fc180c02dec">filterByIsActive</a> ($isActive=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a89578d17c9c7b2e963bcecf93dfa8ea4">filterBySort</a> ($sort=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a658aa7122a58fca715b8177e7245fa7d">filterByCreatedAt</a> ($createdAt=null, $comparison=null)</td></tr>
@@ -546,6 +547,42 @@ Static Public Member Functions</h2></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype"><a class="el" href="classPageString.html">PageString</a></td><td class="paramname">$pageString</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguageQuery.html">LanguageQuery</a> The current query, for fluid interface </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4676508f164089d342d09704724f87c1"></a><!-- doxytag: member="BaseLanguageQuery::filterByPathPrefix" ref="a4676508f164089d342d09704724f87c1" args="($pathPrefix=null, $comparison=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguageQuery::filterByPathPrefix </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>pathPrefix</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>comparison</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Filter the query on the path_prefix column</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$pathPrefix</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1753,7 +1790,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:07 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:20 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -115,6 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a7aaaa5ea0fecd37c3d89c50980765526">getLanguageId</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a56f00271d78428c98fcfee03910c3532">getIsAdmin</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a07dc24cba1ad594e14517458c42f76a0">getIsBackendLoginEnabled</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a89dde0f3ce1801861c24835d8da5fac8">getIsAdminLoginEnabled</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#aab3c5c6811a5f97626abed4f6abade3b">getIsInactive</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#ae54237df957ec540f9d9055853b1a5c0">getPasswordRecoverHint</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#afe88885b6fd48711fd6e3654918c8a3e">getBackendSettings</a> ()</td></tr>
@@ -132,6 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#aa9a68d62a1db8c68512c6d364bc02172">setLanguageId</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#ab6e4422972683a998f3dc446d6701399">setIsAdmin</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a8107d3f51f6645316094579e3325d8b5">setIsBackendLoginEnabled</a> ($v)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a3bbefc8dc1569f9fbb58649511d5d9e4">setIsAdminLoginEnabled</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a98af76037458e713c34eab329cef3e7b">setIsInactive</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#a4993d344b281e909114c0e2a14e8ecbd">setPasswordRecoverHint</a> ($v)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUser.html#abc8b24a1fcfdcdf9b3cd4c8177a48e34">setBackendSettings</a> ($v)</td></tr>
@@ -493,6 +495,8 @@ Protected Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_admin</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0e13deb4ea838a3ada7a6dcc289153d"></a><!-- doxytag: member="BaseUser::$is_backend_login_enabled" ref="ad0e13deb4ea838a3ada7a6dcc289153d" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_backend_login_enabled</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81b536f1085f16adf699b442c6f213ff"></a><!-- doxytag: member="BaseUser::$is_admin_login_enabled" ref="a81b536f1085f16adf699b442c6f213ff" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$is_admin_login_enabled</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fa2b89017eef4e51342d141603e49cc"></a><!-- doxytag: member="BaseUser::$is_inactive" ref="a6fa2b89017eef4e51342d141603e49cc" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_inactive</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ae5f670f89004b3335af2e3bd76e2b6"></a><!-- doxytag: member="BaseUser::$password_recover_hint" ref="a5ae5f670f89004b3335af2e3bd76e2b6" args="" -->
@@ -7275,6 +7279,24 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a89dde0f3ce1801861c24835d8da5fac8"></a><!-- doxytag: member="BaseUser::getIsAdminLoginEnabled" ref="a89dde0f3ce1801861c24835d8da5fac8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseUser::getIsAdminLoginEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get the [is_admin_login_enabled] column value.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>boolean </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a07dc24cba1ad594e14517458c42f76a0"></a><!-- doxytag: member="BaseUser::getIsBackendLoginEnabled" ref="a07dc24cba1ad594e14517458c42f76a0" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -12054,6 +12076,31 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a3bbefc8dc1569f9fbb58649511d5d9e4"></a><!-- doxytag: member="BaseUser::setIsAdminLoginEnabled" ref="a3bbefc8dc1569f9fbb58649511d5d9e4" args="($v)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseUser::setIsAdminLoginEnabled </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Set the value of [is_admin_login_enabled] column.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$v</td><td>new value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classUser.html">User</a> The current object (for fluent API support) </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8107d3f51f6645316094579e3325d8b5"></a><!-- doxytag: member="BaseUser::setIsBackendLoginEnabled" ref="a8107d3f51f6645316094579e3325d8b5" args="($v)" -->
 <div class="memitem">
 <div class="memproto">
@@ -12444,7 +12491,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

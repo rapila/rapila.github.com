@@ -109,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a800ebf31e88908358ea7663f5e057c2f">filterByName</a> ($name=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a18c4a931f04b3c42db33c8860ef7a2d0">filterByOriginalName</a> ($originalName=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#ad632e4885dca054ac9d2ead735a22866">filterByDescription</a> ($description=null, $comparison=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a34649b1c315bab0d30ccbc8ca142f4d5">filterByContentCreatedAt</a> ($contentCreatedAt=null, $comparison=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#aa06516bb655a20c5a2a9170f9563611e">filterByLicense</a> ($license=null, $comparison=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a054306215a17f2266900cc36768f14b3">filterByAuthor</a> ($author=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a38a62fd9a9eeef9abcc5d2ea1cb943de">filterByLanguageId</a> ($languageId=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a8641d2bb791bc935444469f09be6da05">filterByOwnerId</a> ($ownerId=null, $comparison=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentQuery.html#a4ae7246f9a1e0f19c088de0a250fddbc">filterByDocumentTypeId</a> ($documentTypeId=null, $comparison=null)</td></tr>
@@ -228,6 +231,78 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentQuery.html">DocumentQuery</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a054306215a17f2266900cc36768f14b3"></a><!-- doxytag: member="BaseDocumentQuery::filterByAuthor" ref="a054306215a17f2266900cc36768f14b3" args="($author=null, $comparison=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentQuery::filterByAuthor </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>author</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>comparison</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Filter the query on the author column</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$author</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentQuery.html">DocumentQuery</a> The current query, for fluid interface </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a34649b1c315bab0d30ccbc8ca142f4d5"></a><!-- doxytag: member="BaseDocumentQuery::filterByContentCreatedAt" ref="a34649b1c315bab0d30ccbc8ca142f4d5" args="($contentCreatedAt=null, $comparison=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentQuery::filterByContentCreatedAt </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>contentCreatedAt</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>comparison</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Filter the query on the content_created_at column</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$contentCreatedAt</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentQuery.html">DocumentQuery</a> The current query, for fluid interface </dd></dl>
 
 </div>
 </div>
@@ -727,6 +802,42 @@ Static Public Member Functions</h2></td></tr>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$languageId</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentQuery.html">DocumentQuery</a> The current query, for fluid interface </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa06516bb655a20c5a2a9170f9563611e"></a><!-- doxytag: member="BaseDocumentQuery::filterByLicense" ref="aa06516bb655a20c5a2a9170f9563611e" args="($license=null, $comparison=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentQuery::filterByLicense </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>license</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>comparison</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Filter the query on the license column</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$license</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1787,7 +1898,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:07 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:19 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

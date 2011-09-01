@@ -92,6 +92,8 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr bgcolor="#f0f0f0"><td><b>$aUserRelatedByCreatedBy</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$aUserRelatedByOwnerId</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$aUserRelatedByUpdatedBy</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$author</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$content_created_at</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_at</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_by</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$data</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
@@ -104,6 +106,7 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr bgcolor="#f0f0f0"><td><b>$is_private</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$is_protected</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$language_id</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$license</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$name</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$original_name</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$owner_id</b> (defined in <a class="el" href="classBaseDocument.html">BaseDocument</a>)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
@@ -126,9 +129,11 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a5c77c35fafd1335e19bb27c21587b820">doValidate</a>($columns=null)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a8a91fea8cba186356c006f164d13876a">ensureConsistency</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ad3e820059001a1cdadcd9b648488ae6d">fromArray</a>($arr, $keyType=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a15bdddbe4176731d70e0fb1968d7cb5c">getAuthor</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ad6d305a19d54434214881f01b293a04b">getByName</a>($name, $type=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a7f55a85d837e7951d310a3083cde80e7">getByPosition</a>($pos)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>getCategoryName</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a091ac931452a75f32accf5e540492580">getContentCreatedAt</a>($format= '%x')</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a12d2fbd92d949056385ffe4b52fc95c0">getCreatedAt</a>($format= 'Y-m-d H:i:s')</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#af7f999358f3d7fe55170f07262180ccc">getCreatedAtFormatted</a>($sLanguageId=null, $sFormatString= 'x')</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a3ea0cfd3a5572a98ee85dcd04b395696">getCreatedAtTimestamp</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
@@ -151,6 +156,11 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ad4125b7cc21316602ac57fe67f5063bb">getIsProtected</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a043615aa491c0ab1aec55eac90b9ed33">getLanguage</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a52e9d65c0fcf36d2fce9c99a959f7bb2">getLanguageId</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a8a35f70c47e0fe8a59ca23857970d763">getLicense</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>getLicenseDisclaimer</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>getLicenseImageUrl</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>getLicenseInfo</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>getLicenseUrl</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classDocument.html#a6f9596a36c20d3163c479c91383badc5">getLink</a>()</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>getMimetype</b>() (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ac0ffe719bcdaeee19621ec2ff13bd1ab">getName</a>()</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
@@ -184,8 +194,10 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#aef4553e96f23538f1205c83250a11218">reload</a>($deep=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>renderListItem</b>($oTemplate, $aUrlParams=array()) (defined in <a class="el" href="classDocument.html">Document</a>)</td><td><a class="el" href="classDocument.html">Document</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a6be4c73f0d5c2ca1432feb4356d828d0">save</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a00f5b2a9b03258ea61c7176a7092472f">setAuthor</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ac4d54f4f05fbea207917d474a51ff496">setByName</a>($name, $value, $type=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#adac3f73e496a75961e8626cadcf1cc6a">setByPosition</a>($pos, $value)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#aa59083e6037338054b7f36868a598d4c">setContentCreatedAt</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a7eaf5e22f47a5138394823cb7cf1d2ad">setCreatedAt</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a0ba2a4a7a9887fa77c0c8bc74e435f80">setCreatedBy</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a6d82d038a4f3fcee95798bcf61ddf8fc">setData</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
@@ -200,6 +212,7 @@ This is the complete list of members for <a class="el" href="classDocument.html"
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a92173fc2bf2a52749a7da2e93f497c5b">setIsProtected</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a4140d4adb1102e1a9b9c32a90c426cfd">setLanguage</a>(Language $v=null)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a5788a5fb117d1e1bb35dc62554dc0668">setLanguageId</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a6584a822f37b09401449ee5cb0d01627">setLicense</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#abbd4ecc1a9b01c41d7470b0a5c6c203c">setName</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#ad7213d3974e0ba3e606761dd044d74d1">setOriginalName</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocument.html#a7a433e244a3f6a7a86e7391d41a744c9">setOwnerId</a>($v)</td><td><a class="el" href="classBaseDocument.html">BaseDocument</a></td><td></td></tr>
@@ -231,7 +244,7 @@ This is the complete list of members for <a class="el" href="classDocument.html"
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2011 04:02:09 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 1 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
