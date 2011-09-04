@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 <!-- doxytag: class="ResourceFinder" -->
-<p>Allows to easily find files residing inside rapila’s site structure, following the precedence rules (site &lt; plugins &lt; base).  
+<p>Allows to easily find files residing inside rapila’s site structure, following the precedence rules (site &gt; plugins &gt; base).  
  <a href="classResourceFinder.html#details">More...</a></p>
 
 <p><a href="classResourceFinder-members.html">List of all members.</a></p>
@@ -134,7 +134,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>SEARCH_PLUGINS_FIRST
 const&#160;</td><td class="memItemRight" valign="bottom"><b>ANY_NAME_OR_TYPE_PATTERN</b> = '/^[\\w_]+$/'</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Allows to easily find files residing inside rapila’s site structure, following the precedence rules (site &lt; plugins &lt; base). </p>
+<div class="textblock"><p>Allows to easily find files residing inside rapila’s site structure, following the precedence rules (site &gt; plugins &gt; base). </p>
 </div><hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a535c8f431ef9ad615a1eb0d1be93aa8e"></a><!-- doxytag: member="ResourceFinder::findAllResourceObjects" ref="a535c8f431ef9ad615a1eb0d1be93aa8e" args="($mRelativePath, $iFlag=null)" -->
 <div class="memitem">
@@ -295,7 +295,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>ANY_NAME_OR_TYPE_PAT
   <table class="params">
     <tr><td class="paramtype">array&#160;|&#160;string</td><td class="paramname">$mRelativePath</td><td>relative path to search for in base, plugins or site folders. This can be an array or a string of /-separated directory/file names (or expressions if $bByExpressions is true). </td></tr>
     <tr><td class="paramtype">int</td><td class="paramname">$iFlag</td><td>can be one of either ResourceFinder::SEARCH_MAIN_ONLY, ResourceFinder::SEARCH_BASE_ONLY, ResourceFinder::SEARCH_SITE_ONLY, ResourceFinder::SEARCH_PLUGINS_ONLY, ResourceFinder::SEARCH_BASE_FIRST, ResourceFinder::SEARCH_SITE_FIRST, ResourceFinder::SEARCH_PLUGINS_FIRST. The *_ONLY constants are just for convenience: since they only find files in specific directories, you might just as well do file_exists(MAIN_DIR.'my/dir'). </td></tr>
-    <tr><td class="paramtype">boolean</td><td class="paramname">$bByExpressions</td><td>If set, $mRelativePath becomes not a fixed set of names but an array of regular expressions to evaluate against possible matches. This is slow when used on large directories. There are the following special values which can be used in the expression: ${parent_name} and ${parent_name_camelized} which do exactly what you would expect. For convenience, any array item not starting with a slash is considered to be a regular file name. This means that a slash is the only accepted delimiter. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$bByExpressions</td><td>If set, $mRelativePath becomes not a fixed set of names but an array of regular expressions to evaluate against possible matches. This is slow when used on large directories. There are the following values which can be used as part of the expression: ${parent_name} and ${parent_name_camelized} which do exactly what you would expect. For convenience, any array item not starting with a slash is considered to be a regular file name. This means that a slash is the only accepted delimiter. In addition to regular strings and expressions, you can also pass null for a complete wildcard, true to match all files and false for a wildcard matching only directories. Any expression item packed into an array will be optional. An empty array (as an item of $mRelativePath) will match all items recursively (should not be used in frontend-production environments). </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$bFindAll</td><td>If set, all matching files will be returned even if they have the same relative path inside different instance prefixes. Note: when used in conjunction with $bByExpressions, the return value becomes an index-based array since there could be duplicate relative urls. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$bReturnObjects</td><td>If set, all returned paths become <a class="el" href="classFileResource.html">FileResource</a> objects. This is much cheaper than calling new FileResource() on the returned value(s) because a) <a class="el" href="classFileResource.html">FileResource</a> objects are used internally by findResource and b) the additional information maintained by <a class="el" href="classFileResource.html">FileResource</a> was added when it was already known and does not have to be deducted. </td></tr>
   </table>
@@ -466,7 +466,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>ANY_NAME_OR_TYPE_PAT
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 3 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 4 2011 04:02:18 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
