@@ -107,7 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aaaea755a4fee40589895521bd1dccfd4">fileSize</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a487a021a021c429ed2be998b89f62bba">passContents</a> ($bOutputContentLength=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a5f36357302ba6b7cd0275273cb128ad4">getContentsAsVariable</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a07fad7e4bf80bed975fcf341c86258b5">setContents</a> ($mContents)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#ac1c407d59a4c36c6680aa830b9ba850a">setContents</a> ($mContents, $bForceSerialize=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a432777089014b30cac00e25e97584c0c">sendCacheControlHeaders</a> ($iTimestamp=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aa0bbf2b30ce981767719975aa4dd8014">cacheIsOffForWriting</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aca9d388492857e626deb801c202ccce0">cacheIsOff</a> ()</td></tr>
@@ -361,10 +361,10 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Looks if the cached contents are older than the modified dates of any of the given files </p>
+<p>Looks if the cached contents are older than the modified dates of any of the given files Pass a <a class="el" href="classResourceFinder.html" title="Allows to easily find files residing inside rapila’s site structure, following the precedence rules (...">ResourceFinder</a> instance rather than an array to prevent the (potentially expensive) call to ResourceFinder-&gt;find() in production. </p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">string</td><td>array $mOriginalFilePath </td></tr>
+    <tr><td class="paramtype">string&#160;|&#160;array&#160;|&#160;<a class="el" href="classResourceFinder.html" title="Allows to easily find files residing inside rapila’s site structure, following the precedence rules (...">ResourceFinder</a></td><td class="paramname">$mOriginalFilePath</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -407,7 +407,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a07fad7e4bf80bed975fcf341c86258b5"></a><!-- doxytag: member="Cache::setContents" ref="a07fad7e4bf80bed975fcf341c86258b5" args="($mContents)" -->
+<a class="anchor" id="ac1c407d59a4c36c6680aa830b9ba850a"></a><!-- doxytag: member="Cache::setContents" ref="ac1c407d59a4c36c6680aa830b9ba850a" args="($mContents, $bForceSerialize=false)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -415,8 +415,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">Cache::setContents </td>
           <td>(</td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>mContents</em></td><td>)</td>
+          <td class="paramname"><em>mContents</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>bForceSerialize</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div>
@@ -446,7 +456,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 7 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 8 2011 04:02:19 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

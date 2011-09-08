@@ -84,8 +84,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="contents">
 This is the complete list of members for <a class="el" href="classResourceFinder.html">ResourceFinder</a>, including all inherited members.<table>
+  <tr bgcolor="#f0f0f0"><td><b>__construct</b>($aPath=array(), $iFlag=null) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>addAnyPath</b>($bOptional=false) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>addDirPath</b>($bOptional=false) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>addFilePath</b>($bOptional=false) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>addOptionalPath</b>($mPathItem) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>addPath</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>all</b>($bFindAll=true) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>ANY_NAME_OR_TYPE_PATTERN</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>buildSearchPathList</b>($iFlag) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>byExpressions</b>($bByExpressions=true) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>create</b>($aPath=array(), $iFlag=null) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>find</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classResourceFinder.html#a535c8f431ef9ad615a1eb0d1be93aa8e">findAllResourceObjects</a>($mRelativePath, $iFlag=null)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classResourceFinder.html#a0f4d94f1d43fc04a495dd2920f8fc45b">findAllResourceObjectsByExpressions</a>($aExpressions, $iFlag=null)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classResourceFinder.html#a1fdf0fd304ece174efddc2fcacc44e72">findAllResources</a>($mRelativePath, $iFlag=null)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
@@ -98,8 +107,12 @@ This is the complete list of members for <a class="el" href="classResourceFinder
   <tr class="memlist"><td><a class="el" href="classResourceFinder.html#ad72599ec4b2a166c09f752363fdf1fe6">findResourcesByExpressions</a>($aExpressions, $iFlag=null)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>getFolderContents</b>($sPath, $bIncludeInvisibles=false) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>mimeTypeOfFile</b>($sFile) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>parsePathArguments</b>($sBaseDirname=null, $mPath=null, $sFileName=null) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classResourceFinder.html#ab9af965d920a5a07d5f4068e1ea256f8">parsePathArguments</a>($sBaseDirname=null, $mPath=null, $sFileName=null)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>recursiveUnlink</b>($sFileName) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td><code> [static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>resultIsArray</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>resultIsAssoc</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>returnObjects</b>($bReturnObjects=true) (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>returnsObjects</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_BASE_FIRST</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_BASE_ONLY</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_MAIN_ONLY</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
@@ -107,6 +120,13 @@ This is the complete list of members for <a class="el" href="classResourceFinder
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_PLUGINS_ONLY</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_SITE_FIRST</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>SEARCH_SITE_ONLY</b> (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchBaseFirst</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchBaseOnly</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchMainOnly</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchPluginsFirst</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchPluginsOnly</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchSiteFirst</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>searchSiteOnly</b>() (defined in <a class="el" href="classResourceFinder.html">ResourceFinder</a>)</td><td><a class="el" href="classResourceFinder.html">ResourceFinder</a></td><td></td></tr>
 </table></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -125,7 +145,7 @@ This is the complete list of members for <a class="el" href="classResourceFinder
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 7 2011 04:02:20 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 8 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
