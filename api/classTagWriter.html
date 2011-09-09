@@ -164,12 +164,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>tableFromArray</b> 
       </table>
 </div>
 <div class="memdoc">
-<p>optionsFromArray</p>
+<p>Helper method to generate the HTML for a &lt;select&gt; element using the values from an array. </p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">array</td><td>assoc (optionvalue =&gt; optiondisplayname) or hash (optionvalue =&gt; array('value'=&gt; displayname, 'level'=&gt;integer for indenting of nested items) </td></tr>
-    <tr><td class="paramname">mixed</td><td>string/array selected item </td></tr>
-    <tr><td class="paramname">string</td><td>optional indent char for nested items, requires value as array including param 'level' </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$aKeyValues</td><td>Assoc array (optionvalue =&gt; optiondisplayname) or hash (optionvalue =&gt; array('value'=&gt; displayname, 'level'=&gt;integer for indenting of nested items) </td></tr>
+    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$mSelected</td><td>The selected item </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$sIndentType</td><td>optional indent char for nested items, requires value as array including param 'level' </td></tr>
+    <tr><td class="paramtype">array&#160;|&#160;null</td><td class="paramname">$aCustomOptions</td><td>custom options to prepend to the array (for convenience) </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$bStrict</td><td>Whether to do strict comparisons when trying to find the selected item </td></tr>
   </table>
   </dd>
 </dl>
@@ -198,7 +200,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>tableFromArray</b> 
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 8 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 9 2011 04:02:18 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

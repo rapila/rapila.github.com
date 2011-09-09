@@ -130,14 +130,19 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>__constructor() </p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">string</td><td>navigation name each navigation part needs configuration in section called 'navigation' in the site/config/config.yml </td></tr>
+    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$mConfig</td><td>navigation name/navigation config each navigation part needs configuration in section called 'navigation' in the site/config/config.yml </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void / exception on missing configuration </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td>on missing configuration </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -155,11 +160,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classNavigation.html#a72d9dec48509b8404dc2d2166ab278fd">getLanguageChooser()</a> description:</p>
+<p>description:</p>
 <ul>
 <li><dl class="see"><dt><b>See also:</b></dt><dd>config.yml section language_chooser</dd></dl>
 </li>
-<li>use parameter replaced in method <dl class="return"><dt><b>Returns:</b></dt><dd>template object </dd></dl>
+<li>use parameter replaced in method <dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> The rendered language chooser </dd></dl>
 </li>
 </ul>
 
@@ -204,7 +209,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 8 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 9 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
