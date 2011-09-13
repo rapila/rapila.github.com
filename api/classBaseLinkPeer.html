@@ -146,10 +146,11 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a187c9c750518192a240fda2b3018fc19">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a3d4a03f86d1ea134d75952e26c5fc3e0">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aece4266b333fe0ee7e534f1df6055253">doDeleteAll</a> ($con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ad856bcd1cb31a0bd9bb17a95c4b41444">doDelete</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a495f13ccc23aae05e826b30f7b456064">doValidate</a> (<a class="el" href="classLink.html">Link</a> $obj, $cols=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ae832115f8f80a423e2d50d8982a6695d">retrieveByPK</a> ($pk, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ac4765930f7008086fbd0875a654d13cc">retrieveByPKs</a> ($pks, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad856bcd1cb31a0bd9bb17a95c4b41444"></a><!-- doxytag: member="BaseLinkPeer::doDelete" ref="ad856bcd1cb31a0bd9bb17a95c4b41444" args="($values, PropelPDO $con=null)" -->
+static&#160;</td><td class="memItemRight" valign="bottom"><b>doDelete</b> ($values, PropelPDO $con=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#adef4322e8e0fd837eba854fa9c85e327">DATABASE_NAME</a> = 'rapila'</td></tr>
@@ -936,48 +937,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Number of matching rows. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad856bcd1cb31a0bd9bb17a95c4b41444"></a><!-- doxytag: member="BaseLinkPeer::doDelete" ref="ad856bcd1cb31a0bd9bb17a95c4b41444" args="($values, PropelPDO $con=null)" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static BaseLinkPeer::doDelete </td>
-          <td>(</td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PropelPDO $&#160;</td>
-          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Method perform a DELETE on the database, given a <a class="el" href="classLink.html">Link</a> or Criteria object OR a primary key value.</p>
-<dl><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classLink.html">Link</a> object or primary key or array of primary keys which is used to create the DELETE statement </td></tr>
-    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>the connection to use </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). This includes CASCADE-related rows if supported by native driver or if emulated using Propel. </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td>Any exceptions caught during processing will be rethrown wrapped into a PropelException. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -2497,7 +2456,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 12 2011 04:02:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 13 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

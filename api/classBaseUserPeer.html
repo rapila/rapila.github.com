@@ -129,10 +129,11 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a94f15edc14d51fee40bcc5a4898dfe08">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ad1a6cc32b4dddf84b5aa8c80457394f0">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#af1362fe875ee940ca079e18f249d583b">doDeleteAll</a> ($con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#aa2ea4cc9a6d1eeb92ab543d4e26525a9">doDelete</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#aa6b25bfbcf08c957c72f6c4593712c90">doValidate</a> (<a class="el" href="classUser.html">User</a> $obj, $cols=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#af84123a5a31499ab37df25217f204580">retrieveByPK</a> ($pk, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a83e1c8ce1d2e38ca50f7cdba8a4864e4">retrieveByPKs</a> ($pks, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2ea4cc9a6d1eeb92ab543d4e26525a9"></a><!-- doxytag: member="BaseUserPeer::doDelete" ref="aa2ea4cc9a6d1eeb92ab543d4e26525a9" args="($values, PropelPDO $con=null)" -->
+static&#160;</td><td class="memItemRight" valign="bottom"><b>doDelete</b> ($values, PropelPDO $con=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a084fc1154bc7d0b715708f0c56444f9f">DATABASE_NAME</a> = 'rapila'</td></tr>
@@ -477,48 +478,6 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int Number of matching rows. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aa2ea4cc9a6d1eeb92ab543d4e26525a9"></a><!-- doxytag: member="BaseUserPeer::doDelete" ref="aa2ea4cc9a6d1eeb92ab543d4e26525a9" args="($values, PropelPDO $con=null)" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">static BaseUserPeer::doDelete </td>
-          <td>(</td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PropelPDO $&#160;</td>
-          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Method perform a DELETE on the database, given a <a class="el" href="classUser.html">User</a> or Criteria object OR a primary key value.</p>
-<dl><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classUser.html">User</a> object or primary key or array of primary keys which is used to create the DELETE statement </td></tr>
-    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>the connection to use </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). This includes CASCADE-related rows if supported by native driver or if emulated using Propel. </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td>Any exceptions caught during processing will be rethrown wrapped into a PropelException. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1729,7 +1688,7 @@ Static Protected Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 12 2011 04:02:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 13 2011 04:02:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
