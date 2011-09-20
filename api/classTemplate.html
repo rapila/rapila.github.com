@@ -152,9 +152,11 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a4d64b3e96604db0891aad2f0899d4563">CONVERT_NEWLINES_TO_BR</a> = 1024</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a893e49deacac6f963cb28e83d1d31076">URL_ENCODE</a> = 2048</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d252547184b2ca0e3b9d88f39282c12"></a><!-- doxytag: member="Template::$bKillIdentifiersBeforeRender" ref="a6d252547184b2ca0e3b9d88f39282c12" args="" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>$bKillIdentifiersBeforeRender</b> = true</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a6d252547184b2ca0e3b9d88f39282c12">$bKillIdentifiersBeforeRender</a> = true</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If set to false, identifiers will be inserted into the final output. <br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83396250004aeae846000bc04bc04cbd"></a><!-- doxytag: member="Template::$iDefaultFlags" ref="a83396250004aeae846000bc04bc04cbd" args="" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>$iDefaultFlags</b> = 0</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a83396250004aeae846000bc04bc04cbd">$iDefaultFlags</a> = 0</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Default flags are ORed against given flags in all operations. Default flags are also inherited to included templates. <br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e6f956acc127192ab8ddeac9df4324c"></a><!-- doxytag: member="Template::$SUFFIX" ref="a4e6f956acc127192ab8ddeac9df4324c" args="" -->
@@ -165,7 +167,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Manages a rapila <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> (*.tmpl) </p>
-<p>class <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> is used to manage building a tree with static template texts and dynamic identifiers that have the form of <code>{{identifier=value;param=value}}</code>. Those can have special meaning (<a class="el" href="classSpecialTemplateIdentifierActions.html">SpecialTemplateIdentifierActions</a>) and be replaced by the <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> class or can be replaced by the user of the template using <a class="el" href="classTemplate.html#af011a70d2c075526b6301f0e8d7d3069">replaceIdentifier()</a> or <a class="el" href="classTemplate.html#a65d794b76197255f928a23adad6e675f">replaceIdentifierMultiple()</a>. All replaceIdentifier… methods take a flag parameter. The possible flags can be bitwise ORed together. The flags are described in the constants section. You can also provide a new template with some default flags. All Templates whose file name start with “e_mail_” will automatically get the NO_HTML_ESCAPE flag while those ending in .css.tmpl or .js.tmpl will automatically get NO_HTML_ESCAPE|ESCAPE. </p>
+<p>The <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> class is used to manage building a tree with static template texts and dynamic identifiers that have the form of <code>{{identifier=value;param=value}}</code>. Those can have special meaning (<a class="el" href="classSpecialTemplateIdentifierActions.html">SpecialTemplateIdentifierActions</a>) and be replaced by the <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> class or can be replaced by the user of the template using <a class="el" href="classTemplate.html#af011a70d2c075526b6301f0e8d7d3069">replaceIdentifier()</a> or <a class="el" href="classTemplate.html#a65d794b76197255f928a23adad6e675f">replaceIdentifierMultiple()</a>. All replaceIdentifier… methods take a flag parameter. The possible flags can be bitwise ORed together. The flags are described in the constants section. You can also provide a new template with some default flags. All Templates whose file name start with “e_mail_” will automatically get the NO_HTML_ESCAPE flag while those ending in .css.tmpl or .js.tmpl will automatically get NO_HTML_ESCAPE|ESCAPE. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa142bcfbc1637f5664b3765cd216475b"></a><!-- doxytag: member="Template::__construct" ref="aa142bcfbc1637f5664b3765cd216475b" args="($sTemplateName, $mPath=null, $bTemplateIsTextOnly=false, $bDirectOutput=false, $sTargetEncoding=null, $sRootTemplateName=null, $iDefaultFlags=0)" -->
 <div class="memitem">
@@ -221,7 +223,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#aa142bcfbc1637f5664b3765cd216475b">__construct()</a> </p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$sTemplateName</td><td>template name </td></tr>
@@ -269,7 +270,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#ae97685ba0c78e79db411a7006eb2c716">listValuesByIdentifier()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>array[string] </dd></dl>
 
 </div>
@@ -288,7 +288,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#ab466ba7ebeb6c7e245a00bd07eb0f4f4">render()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
 
 </div>
@@ -335,7 +334,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#af011a70d2c075526b6301f0e8d7d3069">replaceIdentifier()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -376,7 +374,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#a5b8ccc42fade231b655485eebdfef7a4">replaceIdentifierCallback()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -423,7 +420,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#a65d794b76197255f928a23adad6e675f">replaceIdentifierMultiple()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -464,7 +460,6 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
       </table>
 </div>
 <div class="memdoc">
-<p><a class="el" href="classTemplate.html#a5fb618fde8ae8160bd4369e8cc2fc915">replaceIdentifierMultipleCallback()</a> </p>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -673,7 +668,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 19 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 20 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
