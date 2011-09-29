@@ -113,8 +113,8 @@ This is the complete list of members for <a class="el" href="classPage.html">Pag
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBasePage.html">BasePage</a>)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBasePage.html">BasePage</a>)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBasePage.html">BasePage</a>)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td><code> [protected]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a4bdc7a81899f394fa653576768d542ac">__call</a>($name, $params)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a7db0dde28570760a9775f28fca2e63a8">__construct</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#ae532017c604d8248c156bac99c6ff69b">__toString</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#ab06cccd6cde8e7985da9d26d3f1b7e65">addChild</a>(Page $child)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a88d875fb2096e13d0962e66f146d3e54">addContentObject</a>(ContentObject $l)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a2559a8422e1ad4c947213645b7e94f30">addNestedSetChild</a>($page)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
@@ -133,7 +133,7 @@ This is the complete list of members for <a class="el" href="classPage.html">Pag
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a7df6314116795affa4866c1a842ffa08">clearPageStrings</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a87a88768d94fa88a8f33cd371e3ee783">clearRights</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a2d0f84167fbbb6d483a35d1c3e84a745">copy</a>($deepCopy=false)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a8ef322b524d166fe8db61a1a70dab6c4">copyInto</a>($copyObj, $deepCopy=false)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a3ada05ffea75bcf3ec48b64e64e05272">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#af3251f8d18858d61f1b8321a92be4bbb">countChildren</a>($criteria=null, PropelPDO $con=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>countChildrenWith</b>($sLanguageId=null, $bIncludeDisabled=false, $bIncludeInvisible=false) (defined in <a class="el" href="classPage.html">Page</a>)</td><td><a class="el" href="classPage.html">Page</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a5c45fc7d309987a2a9fefa13c4e2a52a">countContentObjects</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
@@ -238,11 +238,12 @@ This is the complete list of members for <a class="el" href="classPage.html">Pag
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a479a45ce2047982099db8faf439661e8">hasParent</a>(PropelPDO $con=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a3b258085f5f38c466510141615dd61b7">hasPrevSibling</a>(PropelPDO $con=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#ad49f6dbd9a89ee19f3db2d0491ce0020">hydrate</a>($row, $startcol=0, $rehydrate=false)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a8bcfe016d72560624a7d232925615578">initContentObjects</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a911add79ab2d90ce743d455727ffb44c">initContentObjects</a>($overrideExisting=true)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a69f20e441800a6c7fe3bde7e0ef744b3">initNestedSetChildren</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a509d9f7d5bc4a1ef55c1c4381e28919d">initPagePropertys</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a53f28f451db854db73c6fb8b1425d90a">initPageStrings</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#aaecdfccde782581616c4b82e0935bd4f">initRights</a>()</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a4c301c80f31a4b939ad331b8bd6a85da">initPagePropertys</a>($overrideExisting=true)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a4b9ff7f1bb1f8f10741eda29c33edb28">initPageStrings</a>($overrideExisting=true)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#aedeb545e4bdbf74b5457d8b04af68772">initRelation</a>($relationName)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a99b918e6eaacd5334889d4fc1008c704">initRights</a>($overrideExisting=true)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a21b42ec32caa0a1771044103489aac04">insertAsFirstChildOf</a>($parent)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#adebc2e4e8a044b3a640d2c67335c72bb">insertAsLastChildOf</a>($parent)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#ac340cca222eed7e5cb2c1b6296de061d">insertAsNextSiblingOf</a>($sibling)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
@@ -296,7 +297,7 @@ This is the complete list of members for <a class="el" href="classPage.html">Pag
   <tr class="memlist"><td><a class="el" href="classBasePage.html#a9e00732135e64e2519a81227f7c6b03b">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#ae75c7df507e25048f25386b0169b16cb">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>shouldBeIncludedInList</b>($sLanguageId, $oPage) (defined in <a class="el" href="classPage.html">Page</a>)</td><td><a class="el" href="classPage.html">Page</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBasePage.html#a571598db1775a6c93ac838792f32c872">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBasePage.html#a7cb1f916ab3eaa75667cb773b0114c41">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classPage.html#aec1b56f7e3969484a65ecafb2f7b939a">updatePageProperty</a>($sPropertyName, $sPropertyValue)</td><td><a class="el" href="classPage.html">Page</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBasePage.html#aab3d998441692754594162d18981346a">validate</a>($columns=null)</td><td><a class="el" href="classBasePage.html">BasePage</a></td><td></td></tr>
 </table></div>
@@ -317,7 +318,7 @@ This is the complete list of members for <a class="el" href="classPage.html">Pag
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:21 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:27 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

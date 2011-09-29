@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a6fc22909dee0aa4d0e43fd16ef6171b2">validate</a> ($columns=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#afa508fd6915908490cfe493cb5f660e5">getByName</a> ($name, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a57058816be9fe7fba4dfe2a57c49dd64">getByPosition</a> ($pos)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ae76f9f65d3faa84f869badb41274da5c">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a3255546587e68f193e10985c9d4ce6d7">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a26dea35ace216e406aab2481c4f90f8a">setByName</a> ($name, $value, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a70b3bb1bbb055a6fd562dc34ee44caab">setByPosition</a> ($pos, $value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ab6adc46463629ca954159651392ef7cc">fromArray</a> ($arr, $keyType=BasePeer::TYPE_PHPNAME)</td></tr>
@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ae11715931b645cd3c68bf5b8cb96019c">getPrimaryKey</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a0942ebd7aeeda72daacccbbbfdf3b591">setPrimaryKey</a> ($keys)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a1b28d23dc3ed1e3d1df019b67f6fd662">isPrimaryKeyNull</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#aa7916d41fb759679132b0d7f15cd020f">copyInto</a> ($copyObj, $deepCopy=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ade30f1196aefa036136e1e00e5c924d3">copyInto</a> ($copyObj, $deepCopy=false, $makeNew=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a089dd6fcd084b344db039e21780dd562">copy</a> ($deepCopy=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#abf5346d1998163c4d6e69b53ce02dba7">getPeer</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ac50222c25e1021aaebdf0c736d965bb7">setContentObject</a> (<a class="el" href="classContentObject.html">ContentObject</a> $v=null)</td></tr>
@@ -149,6 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#aba021a59b577582d50db5f38f5898065">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a11af9ce3e87ed32034a9719379a3b9f1">clear</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a851df4a108c5db51b201fd2dbc04f36b">clearAllReferences</a> ($deep=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a5f9a9c8ec8c05257fcb1272f7973372a">__toString</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a6f3960de977a0d7c2cc3aa79156b4696">getReferenced</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a17b1f5e2d9568781f85b4a156204545d">keepUpdateDateUnchanged</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a54b0fdc5ca27ca0a64fcc267b2a14878">getCreatedAtTimestamp</a> ()</td></tr>
@@ -156,7 +157,6 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#aa3d598ebe9f2a3466514d965cc91019c">getUpdatedAtTimestamp</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a3dd53b82c532f9f4c9938b4189abe2a6">getUpdatedAtFormatted</a> ($sLanguageId=null, $sFormatString= 'x')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a1bb17b815ec67b5a8456e757762b258d">keepUpdateUserUnchanged</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a9dac5c0027435fb47140909401a40aae">__call</a> ($name, $params)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a84fa5952a878562b842edd67f17cfed3">PEER</a> = '<a class="el" href="classLanguageObjectPeer.html">LanguageObjectPeer</a>'</td></tr>
@@ -200,31 +200,21 @@ Static Protected Attributes</h2></td></tr>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a9dac5c0027435fb47140909401a40aae"></a><!-- doxytag: member="BaseLanguageObject::__call" ref="a9dac5c0027435fb47140909401a40aae" args="($name, $params)" -->
+<a class="anchor" id="a5f9a9c8ec8c05257fcb1272f7973372a"></a><!-- doxytag: member="BaseLanguageObject::__toString" ref="a5f9a9c8ec8c05257fcb1272f7973372a" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseLanguageObject::__call </td>
+          <td class="memname">BaseLanguageObject::__toString </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Catches calls to virtual methods </p>
+<p>Return the string representation of this object</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
 
 </div>
 </div>
@@ -296,11 +286,11 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Resets all collections of referencing foreign keys.</p>
-<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
+<p>Resets all references to other model objects or collections of model objects.</p>
+<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references (even in PHP 5.3). This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all associated objects. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all referrer objects. </td></tr>
   </table>
   </dd>
 </dl>
@@ -339,7 +329,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa7916d41fb759679132b0d7f15cd020f"></a><!-- doxytag: member="BaseLanguageObject::copyInto" ref="aa7916d41fb759679132b0d7f15cd020f" args="($copyObj, $deepCopy=false)" -->
+<a class="anchor" id="ade30f1196aefa036136e1e00e5c924d3"></a><!-- doxytag: member="BaseLanguageObject::copyInto" ref="ade30f1196aefa036136e1e00e5c924d3" args="($copyObj, $deepCopy=false, $makeNew=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -353,7 +343,13 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>deepCopy</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>deepCopy</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>makeNew</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -369,6 +365,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   <table class="params">
     <tr><td class="paramtype">object</td><td class="paramname">$copyObj</td><td>An object of <a class="el" href="classLanguageObject.html">LanguageObject</a> (or compatible) type. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$deepCopy</td><td>Whether to also copy all rows that refer (by fkey) to the current row. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$makeNew</td><td>Whether to reset autoincrement PKs and make the object new. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1365,7 +1362,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [created_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1546,7 +1543,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [updated_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1641,7 +1638,7 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae76f9f65d3faa84f869badb41274da5c"></a><!-- doxytag: member="BaseLanguageObject::toArray" ref="ae76f9f65d3faa84f869badb41274da5c" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)" -->
+<a class="anchor" id="a3255546587e68f193e10985c9d4ce6d7"></a><!-- doxytag: member="BaseLanguageObject::toArray" ref="a3255546587e68f193e10985c9d4ce6d7" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1656,6 +1653,12 @@ BaseObject::isDeleted() </dd></dl>
           <td></td>
           <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>includeLazyLoadColumns</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>alreadyDumpedObjects</em> = <code>array()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1677,6 +1680,7 @@ BaseObject::isDeleted() </dd></dl>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. Defaults to BasePeer::TYPE_PHPNAME. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeLazyLoadColumns</td><td>(optional) Whether to include lazy loaded columns. Defaults to TRUE. </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$alreadyDumpedObjects</td><td>List of objects to skip to avoid recursion </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeForeignObjects</td><td>(optional) Whether to include hydrated related objects. Default to FALSE.</td></tr>
   </table>
   </dd>
@@ -1750,7 +1754,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:23 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -82,7 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">BaseUserRolePeer Class Reference</div>  </div>
 </div>
@@ -109,7 +110,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a44db04d9fb4f597d599add34a5cd59b2">doSelectOne</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a8cb82aef4210404194b6f1e3e60ee6c8">doSelect</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a9412bf80219b7db8cc49c022aa807223">doSelectStmt</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a2a82ca8c38c5faf4602719052031684c">addInstanceToPool</a> (<a class="el" href="classUserRole.html">UserRole</a> $obj, $key=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a0791683f0747ebb18f2b42ee7aabcf56">addInstanceToPool</a> ($obj, $key=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#aeaeba61b8f3e0c1d7737db6f97aa3572">removeInstanceFromPool</a> ($value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ad684b46502142f2394cd90c9bdc3bf99">getInstanceFromPool</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a038c25ae6bd58ade5cb3ac6db464b4cd">clearInstancePool</a> ()</td></tr>
@@ -141,9 +142,9 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a5382dc2a07377327afbbbf98cf8c4fcd">getOMClass</a> ($withPrefix=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ad01631884ca537013b3580f4b57e1b18">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a679dff101da6c7dc433e3d611753124d">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a236eb9288bb4f2bc78e35c1e5525fff5">doDeleteAll</a> ($con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ad4e3c3754c1d6074c531c6f488710eea">doDeleteAll</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ac51d2a99b9ffe42b13292b7caac7f2e2">doDelete</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a61a062f335371e50ea8ad0cb2b30f899">doValidate</a> (<a class="el" href="classUserRole.html">UserRole</a> $obj, $cols=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a46ac9b8e58e2adba5c87a16cb574f42f">doValidate</a> ($obj, $cols=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a6ef01d148d3191c36d1c3264953652cc">retrieveByPK</a> ($user_id, $role_key, PropelPDO $con=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -154,26 +155,32 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ab22e0a580bdc4f5c6d357a4342ba1dd9">TM_CLASS</a> = '<a class="el" href="classUserRoleTableMap.html">UserRoleTableMap</a>'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#ae35ab4df5f9e499c063c6260610c5345">NUM_COLUMNS</a> = 6</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a6fc2fc2fe10687af04a42af495156185">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a3c7a47f32155f85dba4c317bdc447173">NUM_HYDRATE_COLUMNS</a> = 6</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a87233a67eb437a21a00a03b44ca8868b">USER_ID</a> = 'user_roles.USER_ID'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a20320a57d7f2df99a5f5f0cb50e2f27d">ROLE_KEY</a> = 'user_roles.ROLE_KEY'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a2bd7b07c955f90828f7ed8a4c98f14cb">CREATED_AT</a> = 'user_roles.CREATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a6652afa05ab2e15933841f94658e6ae1">UPDATED_AT</a> = 'user_roles.UPDATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#aa96331cd4cdb3c8d77137a0db39389e6">CREATED_BY</a> = 'user_roles.CREATED_BY'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a40bed5eb3e4268acdb8bd7614f2757f3">UPDATED_BY</a> = 'user_roles.UPDATED_BY'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#adf184e14b7d73456d0f2da0ab86771a5">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12e1264e879a000339998ba9fb411377"></a><!-- doxytag: member="BaseUserRolePeer::$instances" ref="a12e1264e879a000339998ba9fb411377" args="" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = array()</td></tr>
+<tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#a28ae5cee6db08900f393f18cb34cef00">$fieldNames</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserRolePeer.html#aa0867f7978569b5a5a9aaf95c3647359">$fieldKeys</a></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a2a82ca8c38c5faf4602719052031684c"></a><!-- doxytag: member="BaseUserRolePeer::addInstanceToPool" ref="a2a82ca8c38c5faf4602719052031684c" args="(UserRole $obj, $key=null)" -->
+<a class="anchor" id="a0791683f0747ebb18f2b42ee7aabcf56"></a><!-- doxytag: member="BaseUserRolePeer::addInstanceToPool" ref="a0791683f0747ebb18f2b42ee7aabcf56" args="($obj, $key=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseUserRolePeer::addInstanceToPool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classUserRole.html">UserRole</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -850,7 +857,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform a DELETE on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object OR a primary key value.</p>
+<p>Performs a DELETE on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object OR a primary key value.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classUserRole.html">UserRole</a> object or primary key or array of primary keys which is used to create the DELETE statement </td></tr>
@@ -868,21 +875,27 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
-<a class="anchor" id="a236eb9288bb4f2bc78e35c1e5525fff5"></a><!-- doxytag: member="BaseUserRolePeer::doDeleteAll" ref="a236eb9288bb4f2bc78e35c1e5525fff5" args="($con=null)" -->
+<a class="anchor" id="ad4e3c3754c1d6074c531c6f488710eea"></a><!-- doxytag: member="BaseUserRolePeer::doDeleteAll" ref="ad4e3c3754c1d6074c531c6f488710eea" args="(PropelPDO $con=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseUserRolePeer::doDeleteAll </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td><code> [static]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method to DELETE all rows from the user_roles table.</p>
+<p>Deletes all rows from the user_roles table.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>the connection to use </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
 
 </div>
@@ -911,7 +924,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an INSERT on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object.</p>
+<p>Performs an INSERT on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classUserRole.html">UserRole</a> object containing data that is used to create the INSERT statement. </td></tr>
@@ -953,7 +966,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method to do selects.</p>
+<p>Selects several row from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1436,7 +1449,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method to select one object from the DB.</p>
+<p>Selects one object from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>object used to create the SELECT statement. </td></tr>
@@ -1522,7 +1535,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an UPDATE on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object.</p>
+<p>Performs an UPDATE on the database, given a <a class="el" href="classUserRole.html">UserRole</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classUserRole.html">UserRole</a> object containing data that is used to create the UPDATE statement. </td></tr>
@@ -1540,14 +1553,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
-<a class="anchor" id="a61a062f335371e50ea8ad0cb2b30f899"></a><!-- doxytag: member="BaseUserRolePeer::doValidate" ref="a61a062f335371e50ea8ad0cb2b30f899" args="(UserRole $obj, $cols=null)" -->
+<a class="anchor" id="a46ac9b8e58e2adba5c87a16cb574f42f"></a><!-- doxytag: member="BaseUserRolePeer::doValidate" ref="a46ac9b8e58e2adba5c87a16cb574f42f" args="($obj, $cols=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseUserRolePeer::doValidate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classUserRole.html">UserRole</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -1937,6 +1950,52 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="aa0867f7978569b5a5a9aaf95c3647359"></a><!-- doxytag: member="BaseUserRolePeer::$fieldKeys" ref="aa0867f7978569b5a5a9aaf95c3647359" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseUserRolePeer::$fieldKeys<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;UserId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;RoleKey&#39;</span> =&gt; 1, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 2, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 4, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 5, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;userId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;roleKey&#39;</span> =&gt; 1, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 2, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 4, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 5, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::USER_ID =&gt; 0, self::ROLE_KEY =&gt; 1, self::CREATED_AT =&gt; 2, self::UPDATED_AT =&gt; 3, self::CREATED_BY =&gt; 4, self::UPDATED_BY =&gt; 5, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;USER_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;ROLE_KEY&#39;</span> =&gt; 1, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 2, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 4, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 5, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;user_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;role_key&#39;</span> =&gt; 1, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 2, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 4, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 5, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, )
+  )
+</pre></div><p>holds an array of keys for quick access to the fieldnames array</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+
+</div>
+</div>
+<a class="anchor" id="a28ae5cee6db08900f393f18cb34cef00"></a><!-- doxytag: member="BaseUserRolePeer::$fieldNames" ref="a28ae5cee6db08900f393f18cb34cef00" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseUserRolePeer::$fieldNames<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;UserId&#39;</span>, <span class="stringliteral">&#39;RoleKey&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;userId&#39;</span>, <span class="stringliteral">&#39;roleKey&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::USER_ID, self::ROLE_KEY, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;USER_ID&#39;</span>, <span class="stringliteral">&#39;ROLE_KEY&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;user_id&#39;</span>, <span class="stringliteral">&#39;role_key&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, )
+  )
+</pre></div><p>holds an array of fieldnames</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
+
+</div>
+</div>
 <a class="anchor" id="a04cb67bd701c41fa56f9736d086f7c06"></a><!-- doxytag: member="BaseUserRolePeer::CLASS_DEFAULT" ref="a04cb67bd701c41fa56f9736d086f7c06" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -1993,6 +2052,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
+<a class="anchor" id="adf184e14b7d73456d0f2da0ab86771a5"></a><!-- doxytag: member="BaseUserRolePeer::DEFAULT_STRING_FORMAT" ref="adf184e14b7d73456d0f2da0ab86771a5" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseUserRolePeer.html#adf184e14b7d73456d0f2da0ab86771a5">BaseUserRolePeer::DEFAULT_STRING_FORMAT</a> = 'YAML'</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The default string format for model objects of the related table </p>
+
+</div>
+</div>
 <a class="anchor" id="ae35ab4df5f9e499c063c6260610c5345"></a><!-- doxytag: member="BaseUserRolePeer::NUM_COLUMNS" ref="ae35ab4df5f9e499c063c6260610c5345" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -2004,6 +2077,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 </div>
 <div class="memdoc">
 <p>The total number of columns. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3c7a47f32155f85dba4c317bdc447173"></a><!-- doxytag: member="BaseUserRolePeer::NUM_HYDRATE_COLUMNS" ref="a3c7a47f32155f85dba4c317bdc447173" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseUserRolePeer.html#a3c7a47f32155f85dba4c317bdc447173">BaseUserRolePeer::NUM_HYDRATE_COLUMNS</a> = 6</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The number of columns to hydrate (NUM_COLUMNS - NUM_LAZY_LOAD_COLUMNS) </p>
 
 </div>
 </div>
@@ -2140,7 +2227,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:18 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:24 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -135,7 +135,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#abbed5db36d4a96e1b608c2027e93b89c">validate</a> ($columns=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a0ec3e0970b9241b2f2cc3e2f9514d314">getByName</a> ($name, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a09c3e73d57b647a627a2a128a537453e">getByPosition</a> ($pos)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a446e84b2f6928bd32da978a2842f6d23">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#aa492f9fde69301584451beba560bd45e">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a63405d0b0648dc90537acec71c4bb24a">setByName</a> ($name, $value, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a06d7acd8c345d7a56966fb9d3e3b9f44">setByPosition</a> ($pos, $value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a37ada512612478bec3904818bb7f9236">fromArray</a> ($arr, $keyType=BasePeer::TYPE_PHPNAME)</td></tr>
@@ -144,15 +144,16 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#adebb6513b37f7778ca4df0150afc59af">getPrimaryKey</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a0e4c0899c644efcdacd35928a4303e7b">setPrimaryKey</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#af262a39de1ea4e4253a99c5d859605f0">isPrimaryKeyNull</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a455d69cb21b80d3aec7e100fa4a0688b">copyInto</a> ($copyObj, $deepCopy=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a16a2511f999cc3582a1d0de34f8013c5">copyInto</a> ($copyObj, $deepCopy=false, $makeNew=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#ae8a52b14a600b3e5b0ecfc520cb43348">copy</a> ($deepCopy=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a05d8f56ed0f3b8438c3843429c1d1979">getPeer</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#afe0d7b78b4b10076144427ec38957036">setUserRelatedByCreatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a7eebbf282878e615b7cd30e1e41b9fbd">getUserRelatedByCreatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a2d75fc510aea72867ff5f8e1c88d373a">setUserRelatedByUpdatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#ad446a25edbde1686228f4588f0bed1b3">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#abbe07bd5189fd81e9725a2073c816d21">initRelation</a> ($relationName)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#abad8a809868f512c9047bf043d4ba855">clearDocuments</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a18f41956c0a5205b65a101a937b28e9d">initDocuments</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a38be64e9f81ce861402fc5e6120d5e30">initDocuments</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a55d0114b44a6a9408ef4ac2fc4c52426">getDocuments</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a554a140869080ac2b40e5673c9f87cec">countDocuments</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a1810309b441cd4ffe811c818c3efc3d6">addDocument</a> (<a class="el" href="classDocument.html">Document</a> $l)</td></tr>
@@ -163,6 +164,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#adde221241f9e79c964512f47542b297b">getDocumentsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a793b408530ce0673b5f0d52a1189664c">clear</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a789179cb580af7e11d4098ea8cfb5ff6">clearAllReferences</a> ($deep=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a93364b740d73d52361c232528d2560ab">__toString</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a7f658d2fa5a66c8c7b8c7bdb48834bf2">getReferees</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#ad9971b755c2d32241b86eb22d24d5b15">keepUpdateDateUnchanged</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a05d26fc2922a3ffae7172932e313e333">getCreatedAtTimestamp</a> ()</td></tr>
@@ -170,7 +172,6 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#aeed444aac306c16ec264f5fc63e7f103">getUpdatedAtTimestamp</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a61818a9b899ae2fa4a10fa3c33485cef">getUpdatedAtFormatted</a> ($sLanguageId=null, $sFormatString= 'x')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a8ce6429a0bef8f533dc5937da9aeea5e">keepUpdateUserUnchanged</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a8006cfed594bbe6cfec820e31317942b">__call</a> ($name, $params)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentCategory.html#a033d34c2111a9c5fc2637572df69a87c">PEER</a> = '<a class="el" href="classDocumentCategoryPeer.html">DocumentCategoryPeer</a>'</td></tr>
@@ -237,31 +238,21 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a8006cfed594bbe6cfec820e31317942b"></a><!-- doxytag: member="BaseDocumentCategory::__call" ref="a8006cfed594bbe6cfec820e31317942b" args="($name, $params)" -->
+<a class="anchor" id="a93364b740d73d52361c232528d2560ab"></a><!-- doxytag: member="BaseDocumentCategory::__toString" ref="a93364b740d73d52361c232528d2560ab" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseDocumentCategory::__call </td>
+          <td class="memname">BaseDocumentCategory::__toString </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Catches calls to virtual methods </p>
+<p>Return the string representation of this object</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
 
 </div>
 </div>
@@ -286,13 +277,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classDocumentCategory.html">DocumentCategory</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -382,11 +367,11 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Resets all collections of referencing foreign keys.</p>
-<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
+<p>Resets all references to other model objects or collections of model objects.</p>
+<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references (even in PHP 5.3). This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all associated objects. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all referrer objects. </td></tr>
   </table>
   </dd>
 </dl>
@@ -445,7 +430,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a455d69cb21b80d3aec7e100fa4a0688b"></a><!-- doxytag: member="BaseDocumentCategory::copyInto" ref="a455d69cb21b80d3aec7e100fa4a0688b" args="($copyObj, $deepCopy=false)" -->
+<a class="anchor" id="a16a2511f999cc3582a1d0de34f8013c5"></a><!-- doxytag: member="BaseDocumentCategory::copyInto" ref="a16a2511f999cc3582a1d0de34f8013c5" args="($copyObj, $deepCopy=false, $makeNew=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -459,7 +444,13 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>deepCopy</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>deepCopy</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>makeNew</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -475,6 +466,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   <table class="params">
     <tr><td class="paramtype">object</td><td class="paramname">$copyObj</td><td>An object of <a class="el" href="classDocumentCategory.html">DocumentCategory</a> (or compatible) type. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$deepCopy</td><td>Whether to also copy all rows that refer (by fkey) to the current row. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$makeNew</td><td>Whether to reset autoincrement PKs and make the object new. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1516,14 +1508,15 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a18f41956c0a5205b65a101a937b28e9d"></a><!-- doxytag: member="BaseDocumentCategory::initDocuments" ref="a18f41956c0a5205b65a101a937b28e9d" args="()" -->
+<a class="anchor" id="a38be64e9f81ce861402fc5e6120d5e30"></a><!-- doxytag: member="BaseDocumentCategory::initDocuments" ref="a38be64e9f81ce861402fc5e6120d5e30" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseDocumentCategory::initDocuments </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1531,6 +1524,37 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collDocuments collection.</p>
 <p>By default this just sets the collDocuments collection to an empty array (like clearcollDocuments()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abbe07bd5189fd81e9725a2073c816d21"></a><!-- doxytag: member="BaseDocumentCategory::initRelation" ref="abbe07bd5189fd81e9725a2073c816d21" args="($relationName)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentCategory::initRelation </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>relationName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Initializes a collection based on the name of a relation. Avoids crafting an 'init[$relationName]s' method name that wouldn't work when StandardEnglishPluralizer is used.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$relationName</td><td>The name of the relation to initialize </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -1761,7 +1785,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [created_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1833,10 +1857,10 @@ BaseObject::isDeleted() </dd></dl>
       </table>
 </div>
 <div class="memdoc">
-<p>Set the value of [is_externally_managed] column.</p>
+<p>Sets the value of the [is_externally_managed] column. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false').</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$v</td><td>new value </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;integer&#160;|&#160;string</td><td class="paramname">$v</td><td>The new value </td></tr>
   </table>
   </dd>
 </dl>
@@ -1858,10 +1882,10 @@ BaseObject::isDeleted() </dd></dl>
       </table>
 </div>
 <div class="memdoc">
-<p>Set the value of [is_inactive] column.</p>
+<p>Sets the value of the [is_inactive] column. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false').</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$v</td><td>new value </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;integer&#160;|&#160;string</td><td class="paramname">$v</td><td>The new value </td></tr>
   </table>
   </dd>
 </dl>
@@ -1986,7 +2010,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [updated_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2081,7 +2105,7 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a446e84b2f6928bd32da978a2842f6d23"></a><!-- doxytag: member="BaseDocumentCategory::toArray" ref="a446e84b2f6928bd32da978a2842f6d23" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)" -->
+<a class="anchor" id="aa492f9fde69301584451beba560bd45e"></a><!-- doxytag: member="BaseDocumentCategory::toArray" ref="aa492f9fde69301584451beba560bd45e" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2096,6 +2120,12 @@ BaseObject::isDeleted() </dd></dl>
           <td></td>
           <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>includeLazyLoadColumns</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>alreadyDumpedObjects</em> = <code>array()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2117,6 +2147,7 @@ BaseObject::isDeleted() </dd></dl>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. Defaults to BasePeer::TYPE_PHPNAME. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeLazyLoadColumns</td><td>(optional) Whether to include lazy loaded columns. Defaults to TRUE. </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$alreadyDumpedObjects</td><td>List of objects to skip to avoid recursion </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeForeignObjects</td><td>(optional) Whether to include hydrated related objects. Default to FALSE.</td></tr>
   </table>
   </dd>
@@ -2190,7 +2221,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

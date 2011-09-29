@@ -82,7 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">BaseStringPeer Class Reference</div>  </div>
 </div>
@@ -109,7 +110,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aa06d5838417135e143a28932409d05cb">doSelectOne</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#ae119d609662b59539a967d4bb41215a6">doSelect</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a8720187fa57e06b189079ed1c100cada">doSelectStmt</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a07478be667fc40f0eca949f752405bf3">addInstanceToPool</a> (<a class="el" href="classString.html">String</a> $obj, $key=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#ab3a7457faca50952441e979b9473e729">addInstanceToPool</a> ($obj, $key=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a7d70bbdc9821ade3dde43eaec93383f3">removeInstanceFromPool</a> ($value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a2b7470126932ef900fc0a5f5ce08600c">getInstanceFromPool</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aaf3c7622d854959afdb589984000eeec">clearInstancePool</a> ()</td></tr>
@@ -137,9 +138,9 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a349d7aad1d6493b7a551eb2b783e27fc">getOMClass</a> ($withPrefix=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a2642a4993b5b94dbd0821da1caf6dd2c">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a819c253fad7c9f14f395566ef7cd1c1f">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a5be6165f68330c6c8a2da6d8ef19a697">doDeleteAll</a> ($con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a5876969145b1a875c874fde077bb8e88">doDeleteAll</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a1e83034e3986ee80c5aee469485f31c8">doDelete</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#ab852ec948eec87b4d15e1487d2ad1a92">doValidate</a> (<a class="el" href="classString.html">String</a> $obj, $cols=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a2fb8a48a1846a79a271b71b6dc3345fd">doValidate</a> ($obj, $cols=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a68eeb5c1b2ddd497d69c7a18cb1d0902">retrieveByPK</a> ($language_id, $string_key, PropelPDO $con=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -150,6 +151,7 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a4957a10b8c30ccabf2f2c75eb621f03e">TM_CLASS</a> = '<a class="el" href="classStringTableMap.html">StringTableMap</a>'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a78676cfead0ac1a8fdb3ca2303234215">NUM_COLUMNS</a> = 7</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aa8053b185d6465ae5768225ff81f180c">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a13c6f1b005309bafbd07d98486fba346">NUM_HYDRATE_COLUMNS</a> = 7</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aaab587fa2fb4cec90acdb34d34914762">LANGUAGE_ID</a> = 'strings.LANGUAGE_ID'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a9a1da7dcd01641a019b09a9a29705880">STRING_KEY</a> = 'strings.STRING_KEY'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a3a937abfad40c18bf7dce7460fa473c8">TEXT</a> = 'strings.TEXT'</td></tr>
@@ -157,20 +159,25 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aec5f52a0b41dce0bf10e0c331ca7e52a">UPDATED_AT</a> = 'strings.UPDATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#aad7fc1e628a7c3604d370472226654c8">CREATED_BY</a> = 'strings.CREATED_BY'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a920c0d279a2e27ef33c2fc24324da9cb">UPDATED_BY</a> = 'strings.UPDATED_BY'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a38b97cfb2f766bc4c8b6f712385efac1">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11937beb108d67d1e9201f7eda227443"></a><!-- doxytag: member="BaseStringPeer::$instances" ref="a11937beb108d67d1e9201f7eda227443" args="" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = array()</td></tr>
+<tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a7cd076b6162fac158811c7b00f36393f">$fieldNames</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseStringPeer.html#a60a2179f23494f4d17ae614b5fb48ba7">$fieldKeys</a></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a07478be667fc40f0eca949f752405bf3"></a><!-- doxytag: member="BaseStringPeer::addInstanceToPool" ref="a07478be667fc40f0eca949f752405bf3" args="(String $obj, $key=null)" -->
+<a class="anchor" id="ab3a7457faca50952441e979b9473e729"></a><!-- doxytag: member="BaseStringPeer::addInstanceToPool" ref="ab3a7457faca50952441e979b9473e729" args="($obj, $key=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseStringPeer::addInstanceToPool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classString.html">String</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -747,7 +754,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform a DELETE on the database, given a <a class="el" href="classString.html">String</a> or Criteria object OR a primary key value.</p>
+<p>Performs a DELETE on the database, given a <a class="el" href="classString.html">String</a> or Criteria object OR a primary key value.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classString.html">String</a> object or primary key or array of primary keys which is used to create the DELETE statement </td></tr>
@@ -765,21 +772,27 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
-<a class="anchor" id="a5be6165f68330c6c8a2da6d8ef19a697"></a><!-- doxytag: member="BaseStringPeer::doDeleteAll" ref="a5be6165f68330c6c8a2da6d8ef19a697" args="($con=null)" -->
+<a class="anchor" id="a5876969145b1a875c874fde077bb8e88"></a><!-- doxytag: member="BaseStringPeer::doDeleteAll" ref="a5876969145b1a875c874fde077bb8e88" args="(PropelPDO $con=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseStringPeer::doDeleteAll </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td><code> [static]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method to DELETE all rows from the strings table.</p>
+<p>Deletes all rows from the strings table.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>the connection to use </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
 
 </div>
@@ -808,7 +821,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an INSERT on the database, given a <a class="el" href="classString.html">String</a> or Criteria object.</p>
+<p>Performs an INSERT on the database, given a <a class="el" href="classString.html">String</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classString.html">String</a> object containing data that is used to create the INSERT statement. </td></tr>
@@ -850,7 +863,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method to do selects.</p>
+<p>Selects several row from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1235,7 +1248,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method to select one object from the DB.</p>
+<p>Selects one object from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>object used to create the SELECT statement. </td></tr>
@@ -1321,7 +1334,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an UPDATE on the database, given a <a class="el" href="classString.html">String</a> or Criteria object.</p>
+<p>Performs an UPDATE on the database, given a <a class="el" href="classString.html">String</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classString.html">String</a> object containing data that is used to create the UPDATE statement. </td></tr>
@@ -1339,14 +1352,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
-<a class="anchor" id="ab852ec948eec87b4d15e1487d2ad1a92"></a><!-- doxytag: member="BaseStringPeer::doValidate" ref="ab852ec948eec87b4d15e1487d2ad1a92" args="(String $obj, $cols=null)" -->
+<a class="anchor" id="a2fb8a48a1846a79a271b71b6dc3345fd"></a><!-- doxytag: member="BaseStringPeer::doValidate" ref="a2fb8a48a1846a79a271b71b6dc3345fd" args="($obj, $cols=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseStringPeer::doValidate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classString.html">String</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -1736,6 +1749,52 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="a60a2179f23494f4d17ae614b5fb48ba7"></a><!-- doxytag: member="BaseStringPeer::$fieldKeys" ref="a60a2179f23494f4d17ae614b5fb48ba7" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseStringPeer::$fieldKeys<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;StringKey&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Text&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;languageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;stringKey&#39;</span> =&gt; 1, <span class="stringliteral">&#39;text&#39;</span> =&gt; 2, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::LANGUAGE_ID =&gt; 0, self::STRING_KEY =&gt; 1, self::TEXT =&gt; 2, self::CREATED_AT =&gt; 3, self::UPDATED_AT =&gt; 4, self::CREATED_BY =&gt; 5, self::UPDATED_BY =&gt; 6, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;STRING_KEY&#39;</span> =&gt; 1, <span class="stringliteral">&#39;TEXT&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;language_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;string_key&#39;</span> =&gt; 1, <span class="stringliteral">&#39;text&#39;</span> =&gt; 2, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+  )
+</pre></div><p>holds an array of keys for quick access to the fieldnames array</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7cd076b6162fac158811c7b00f36393f"></a><!-- doxytag: member="BaseStringPeer::$fieldNames" ref="a7cd076b6162fac158811c7b00f36393f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseStringPeer::$fieldNames<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;StringKey&#39;</span>, <span class="stringliteral">&#39;Text&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;stringKey&#39;</span>, <span class="stringliteral">&#39;text&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::LANGUAGE_ID, self::STRING_KEY, self::TEXT, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;STRING_KEY&#39;</span>, <span class="stringliteral">&#39;TEXT&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;string_key&#39;</span>, <span class="stringliteral">&#39;text&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+  )
+</pre></div><p>holds an array of fieldnames</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
+
+</div>
+</div>
 <a class="anchor" id="aae3ec3b898ff06b077f128e52043ed82"></a><!-- doxytag: member="BaseStringPeer::CLASS_DEFAULT" ref="aae3ec3b898ff06b077f128e52043ed82" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -1792,6 +1851,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 </div>
 </div>
+<a class="anchor" id="a38b97cfb2f766bc4c8b6f712385efac1"></a><!-- doxytag: member="BaseStringPeer::DEFAULT_STRING_FORMAT" ref="a38b97cfb2f766bc4c8b6f712385efac1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseStringPeer.html#a38b97cfb2f766bc4c8b6f712385efac1">BaseStringPeer::DEFAULT_STRING_FORMAT</a> = 'YAML'</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The default string format for model objects of the related table </p>
+
+</div>
+</div>
 <a class="anchor" id="aaab587fa2fb4cec90acdb34d34914762"></a><!-- doxytag: member="BaseStringPeer::LANGUAGE_ID" ref="aaab587fa2fb4cec90acdb34d34914762" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -1817,6 +1890,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 </div>
 <div class="memdoc">
 <p>The total number of columns. </p>
+
+</div>
+</div>
+<a class="anchor" id="a13c6f1b005309bafbd07d98486fba346"></a><!-- doxytag: member="BaseStringPeer::NUM_HYDRATE_COLUMNS" ref="a13c6f1b005309bafbd07d98486fba346" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseStringPeer.html#a13c6f1b005309bafbd07d98486fba346">BaseStringPeer::NUM_HYDRATE_COLUMNS</a> = 7</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The number of columns to hydrate (NUM_COLUMNS - NUM_LAZY_LOAD_COLUMNS) </p>
 
 </div>
 </div>
@@ -1953,7 +2040,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:24 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

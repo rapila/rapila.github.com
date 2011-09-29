@@ -103,7 +103,7 @@ This is the complete list of members for <a class="el" href="classContentObject.
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseContentObject.html">BaseContentObject</a>)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseContentObject.html">BaseContentObject</a>)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseContentObject.html">BaseContentObject</a>)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td><code> [protected]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a0d1efbaf3d40169551fca4819437b22c">__call</a>($name, $params)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#aeb771705147ac12a0dee2a73fba37695">__toString</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a37024abb2489e5a1022ead9a4b8144c4">addLanguageObject</a>(LanguageObject $l)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ae26a2fbad52403276208634d0b44415e">addLanguageObjectHistory</a>(LanguageObjectHistory $l)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#aa3943b69a1ac4cd673884ae551ae96c0">buildCriteria</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
@@ -113,7 +113,7 @@ This is the complete list of members for <a class="el" href="classContentObject.
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a36e835335e358bf749be485dd41ca353">clearLanguageObjectHistorys</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a9ca5494a26e5cfbc24bcb7d5557505d0">clearLanguageObjects</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#af841621ea726fdd088ddccbc405595ec">copy</a>($deepCopy=false)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a75623e9943a42049cba5775804107005">copyInto</a>($copyObj, $deepCopy=false)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a8ba3723766902dadf7ff9122d9e1c65b">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a18c0b2e6b094a5ced8045d8a61dd9696">countLanguageObjectHistorys</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a503aa285cf5eef851ff69e51769b5289">countLanguageObjects</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a75cee93f720cc0fed57a70bae8e21f87">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
@@ -158,8 +158,9 @@ This is the complete list of members for <a class="el" href="classContentObject.
   <tr bgcolor="#f0f0f0"><td><b>hasLanguageFilled</b>($sLanguageId) (defined in <a class="el" href="classContentObject.html">ContentObject</a>)</td><td><a class="el" href="classContentObject.html">ContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a0a99d2f7c72853960abb129d7a941e67">hasOnlyDefaultValues</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ab402d91eb370d5b3d9dcb9d5191bd46d">hydrate</a>($row, $startcol=0, $rehydrate=false)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a887bfb354f8ef2a3a1b013051a86b489">initLanguageObjectHistorys</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a4b409e11361ba2df079c090e0c4b0c68">initLanguageObjects</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ad5acc0f1c699592e77b3094a0722befb">initLanguageObjectHistorys</a>($overrideExisting=true)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#adb9775b72d85cb653596fa7359894629">initLanguageObjects</a>($overrideExisting=true)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ab7335737915453b0cb9b7a322a746015">initRelation</a>($relationName)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a7f46f0d40af27fbc6866f91f28c47bdb">isPrimaryKeyNull</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ace9dee3420c4bb5b03027306228970c1">keepUpdateDateUnchanged</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a0116795e439540405483eb013b505a68">keepUpdateUserUnchanged</a>()</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
@@ -182,7 +183,7 @@ This is the complete list of members for <a class="el" href="classContentObject.
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a08e22b92303518ff0840cce01241abeb">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a3f0531eca70bfcfc60088c5cc6091102">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a123909bc3bcc92c03c06fefd76bb3642">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a0435eb9464e39a54792ba9dd10a3fd17">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#ab4505e06e4e64f3ecefa57e2d6d5aaf4">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseContentObject.html#a17e72adeb6538b1af696b959ff96760c">validate</a>($columns=null)</td><td><a class="el" href="classBaseContentObject.html">BaseContentObject</a></td><td></td></tr>
 </table></div>
 <!-- window showing the filter options -->
@@ -202,7 +203,7 @@ This is the complete list of members for <a class="el" href="classContentObject.
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:18 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:25 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

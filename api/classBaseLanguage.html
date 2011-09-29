@@ -129,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acfdedff128747d9b2898dcc3def7c15d">validate</a> ($columns=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5917b39920cac713238a272c6a87cf94">getByName</a> ($name, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ae189403b86db8373ef68e08721e4cc4c">getByPosition</a> ($pos)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1e988c59aa665828bb6f39c8ca3cc8fd">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a92aeaf61b665cf1f80f553764ba0bb61">toArray</a> ($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abcdcaa0ee735f2c44967350958a7bd2d">setByName</a> ($name, $value, $type=BasePeer::TYPE_PHPNAME)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3f43c3377372605af04333dea9b9ac18">setByPosition</a> ($pos, $value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a89a99ef0f3e1d116b05fb53cd9f4e142">fromArray</a> ($arr, $keyType=BasePeer::TYPE_PHPNAME)</td></tr>
@@ -138,15 +138,16 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abcc2b7b39ceaba062e2f3524eb0e8e5e">getPrimaryKey</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#accecc4ef3a7901bd44c887f26fc2c9e1">setPrimaryKey</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#adc6c1b85dbb0b28bd5945c99cbb54d4f">isPrimaryKeyNull</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6d6044a0512fd894f811138f701019aa">copyInto</a> ($copyObj, $deepCopy=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a2870accbb509799603e22c144fe9eef1">copyInto</a> ($copyObj, $deepCopy=false, $makeNew=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5c3a8b95376cc3b6896243cca7b4f182">copy</a> ($deepCopy=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aed22efcea53973ed97fc8150dbb48aa5">getPeer</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6b2b52b8aaca6f321effdc0fdc36c971">setUserRelatedByCreatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8f74588025ea8c77db29e4fba6c43160">getUserRelatedByCreatedBy</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0f115e44c3af9cbf29ae728d697dc306">setUserRelatedByUpdatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ab72ff6438e022ab68f9a509be0fcb4c7">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a08982420dcf2128ad0d92c01dcf2b7aa">initRelation</a> ($relationName)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5f86da6b9c112c8887bc5695fab463d8">clearPageStrings</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9eacf46a9e4685f1b90bf707946e03c5">initPageStrings</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a4164bf20a9cf26b9514b04fb9a497a08">initPageStrings</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac54e8be030d9cfc0e4492b350757993b">getPageStrings</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1fbbeb52b37a7a1e939def8af6f71932">countPageStrings</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a86d822d5165d8f3d2a742ca326cabdac">addPageString</a> (<a class="el" href="classPageString.html">PageString</a> $l)</td></tr>
@@ -154,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a54601ca5a702e65b4bed620254fb1f4f">getPageStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa90fa60604c44177db069fa49ad980e8">getPageStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a638762a7a77d6cf49400a9ee0930d06c">clearLanguageObjects</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0a181cfb7220600e05d1293c20631d8e">initLanguageObjects</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5f7c08a488f38b13f1eaee48b7b5e933">initLanguageObjects</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a83f2a00deafb654ccecdde032c614177">getLanguageObjects</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7852fd29b160fdf51434ae3c6a2dc192">countLanguageObjects</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6f0ab097c45ebaf7cdd417b0f9726012">addLanguageObject</a> (<a class="el" href="classLanguageObject.html">LanguageObject</a> $l)</td></tr>
@@ -162,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a64847557ee3962c426081d76c2791043">getLanguageObjectsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a579b5ce01c52ea181cd12e8e2b9a2522">getLanguageObjectsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6551ced272b6874fb5c85ec4cb3ab4ea">clearLanguageObjectHistorys</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a03347feacd375d824853e5a51d1ab88b">initLanguageObjectHistorys</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a285d460a97c66b25beb3a20d1d443c11">initLanguageObjectHistorys</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1810da08b0679446e5d2c5aa31e14b5f">getLanguageObjectHistorys</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a299974f1b9d575765256cd1d8a14091b">countLanguageObjectHistorys</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a24c69bcb404cbae94ad2b54fe159284a">addLanguageObjectHistory</a> (<a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> $l)</td></tr>
@@ -170,19 +171,19 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7d98327ec229641d9c1bc4d517fee35e">getLanguageObjectHistorysJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad89b5a0c339f9091b1e0a5c82905de2a">getLanguageObjectHistorysJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0ef35456b7c696a91de525c3f934aa31">clearStrings</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3364d8915203b957eb2fa72381df0588">initStrings</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#abed519d06fd2652fef7bffc4b48b8f9a">initStrings</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac3bd994d76c0d7078bae04a32e7f644d">getStrings</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0ec434bc34874c5c2bc09778d9a33d41">countStrings</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a551a9a537718ab36ace86ed6a24767d3">addString</a> (<a class="el" href="classString.html">String</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ad8618e9daabeeaf770b9dcb1ee9c01e3">getStringsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42798d3c25ca8bb056063217a1ac35d7">getStringsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9425bb054e2081f594d63832f371346f">clearUsersRelatedByLanguageId</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1774bbe6f731d3524f95f3c0a805e0a2">initUsersRelatedByLanguageId</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aafc0457c8fe03fca1e2f8b5e901d078e">initUsersRelatedByLanguageId</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#adddc9c640933ed853f3f569fc3865b84">getUsersRelatedByLanguageId</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a902c00e586916e3374dcb97077332ea2">countUsersRelatedByLanguageId</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a96720f1a82da88a8d9dc229e988c8de2">addUserRelatedByLanguageId</a> (<a class="el" href="classUser.html">User</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#af2cf45990dafec0432e68125789dead4">clearDocuments</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42378133d3569fe68cee2d97fcd01a7d">initDocuments</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#acac9897478f9ba5e799e4bb926a1a90e">initDocuments</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a7a39d70025ed6abcd0333fd564238422">getDocuments</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a9f9344a53eb04ec7a51b43df32b034cb">countDocuments</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a07fe2310224116eb26a608cd4aaf550b">addDocument</a> (<a class="el" href="classDocument.html">Document</a> $l)</td></tr>
@@ -192,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#ac042833c02c3149b9a7e9b65dcd95305">getDocumentsJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a1063038f07b352c45522be32464c303d">getDocumentsJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aff5670c8dbe2755dd5c902fe9ad2c70d">clearLinks</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aae7827a78a337518fc3da92a7c4a31be">initLinks</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a3e3d2d1a87d64c7807c269f1b25a78de">initLinks</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa71b964deeb77667238110d5fd736ddf">getLinks</a> ($criteria=null, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a856e17969c2c7ae8dcd4382c2c5ae5aa">countLinks</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a986a42faa5e30fb3342635032d0c355e">addLink</a> (<a class="el" href="classLink.html">Link</a> $l)</td></tr>
@@ -202,13 +203,13 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a301ecea059df1df29ffc6d4c1b6f497a">getLinksJoinUserRelatedByUpdatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a8fc326538b6c904f9f21d7ff771ac969">clear</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5037c170c1651c99dd389477f07025ba">clearAllReferences</a> ($deep=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5056451439a06edc2ae19336c765dac4">__toString</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a16d81dc923d637ce4c5f1da940c42490">keepUpdateDateUnchanged</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a42cfd28d83a5ee24de709b2539f3c1c0">getCreatedAtTimestamp</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5dab8b3ba0023415f2ddb789f9ce05da">getCreatedAtFormatted</a> ($sLanguageId=null, $sFormatString= 'x')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a0f48c9387227a5690bd0b85c469ad74e">getUpdatedAtTimestamp</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#aa2e1d5d7c50f9ab6ce93123a364155d4">getUpdatedAtFormatted</a> ($sLanguageId=null, $sFormatString= 'x')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a6fe36506919ac0645e62d86aa466057d">keepUpdateUserUnchanged</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a5861f5d0e53a9bdc18566b99b4433409">__call</a> ($name, $params)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguage.html#a2a226bc357fb46f884d07fe5a175785a">PEER</a> = '<a class="el" href="classLanguagePeer.html">LanguagePeer</a>'</td></tr>
@@ -264,31 +265,21 @@ Static Protected Attributes</h2></td></tr>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a5861f5d0e53a9bdc18566b99b4433409"></a><!-- doxytag: member="BaseLanguage::__call" ref="a5861f5d0e53a9bdc18566b99b4433409" args="($name, $params)" -->
+<a class="anchor" id="a5056451439a06edc2ae19336c765dac4"></a><!-- doxytag: member="BaseLanguage::__toString" ref="a5056451439a06edc2ae19336c765dac4" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseLanguage::__call </td>
+          <td class="memname">BaseLanguage::__toString </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Catches calls to virtual methods </p>
+<p>Return the string representation of this object</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>string </dd></dl>
 
 </div>
 </div>
@@ -313,13 +304,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -344,13 +329,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -375,13 +354,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -406,13 +379,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -437,13 +404,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -468,13 +429,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -499,13 +454,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
-<dl><dt><b>Exceptions:</b></dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">PropelException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguage.html">Language</a> The current object (for fluent API support) </dd></dl>
 
 </div>
 </div>
@@ -577,11 +526,11 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Resets all collections of referencing foreign keys.</p>
-<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references. This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
+<p>Resets all references to other model objects or collections of model objects.</p>
+<p>This method is a user-space workaround for PHP's inability to garbage collect objects with circular references (even in PHP 5.3). This is currently necessary when using Propel in certain daemon or large-volumne/high-memory operations.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all associated objects. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$deep</td><td>Whether to also clear the references on all referrer objects. </td></tr>
   </table>
   </dd>
 </dl>
@@ -760,7 +709,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d6044a0512fd894f811138f701019aa"></a><!-- doxytag: member="BaseLanguage::copyInto" ref="a6d6044a0512fd894f811138f701019aa" args="($copyObj, $deepCopy=false)" -->
+<a class="anchor" id="a2870accbb509799603e22c144fe9eef1"></a><!-- doxytag: member="BaseLanguage::copyInto" ref="a2870accbb509799603e22c144fe9eef1" args="($copyObj, $deepCopy=false, $makeNew=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -774,7 +723,13 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">$&#160;</td>
-          <td class="paramname"><em>deepCopy</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>deepCopy</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>makeNew</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -790,6 +745,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
   <table class="params">
     <tr><td class="paramtype">object</td><td class="paramname">$copyObj</td><td>An object of <a class="el" href="classLanguage.html">Language</a> (or compatible) type. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$deepCopy</td><td>Whether to also copy all rows that refer (by fkey) to the current row. </td></tr>
+    <tr><td class="paramtype">boolean</td><td class="paramname">$makeNew</td><td>Whether to reset autoincrement PKs and make the object new. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2990,14 +2946,15 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a42378133d3569fe68cee2d97fcd01a7d"></a><!-- doxytag: member="BaseLanguage::initDocuments" ref="a42378133d3569fe68cee2d97fcd01a7d" args="()" -->
+<a class="anchor" id="acac9897478f9ba5e799e4bb926a1a90e"></a><!-- doxytag: member="BaseLanguage::initDocuments" ref="acac9897478f9ba5e799e4bb926a1a90e" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initDocuments </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3005,18 +2962,25 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collDocuments collection.</p>
 <p>By default this just sets the collDocuments collection to an empty array (like clearcollDocuments()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a03347feacd375d824853e5a51d1ab88b"></a><!-- doxytag: member="BaseLanguage::initLanguageObjectHistorys" ref="a03347feacd375d824853e5a51d1ab88b" args="()" -->
+<a class="anchor" id="a285d460a97c66b25beb3a20d1d443c11"></a><!-- doxytag: member="BaseLanguage::initLanguageObjectHistorys" ref="a285d460a97c66b25beb3a20d1d443c11" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initLanguageObjectHistorys </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3024,18 +2988,25 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collLanguageObjectHistorys collection.</p>
 <p>By default this just sets the collLanguageObjectHistorys collection to an empty array (like clearcollLanguageObjectHistorys()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a0a181cfb7220600e05d1293c20631d8e"></a><!-- doxytag: member="BaseLanguage::initLanguageObjects" ref="a0a181cfb7220600e05d1293c20631d8e" args="()" -->
+<a class="anchor" id="a5f7c08a488f38b13f1eaee48b7b5e933"></a><!-- doxytag: member="BaseLanguage::initLanguageObjects" ref="a5f7c08a488f38b13f1eaee48b7b5e933" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initLanguageObjects </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3043,18 +3014,25 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collLanguageObjects collection.</p>
 <p>By default this just sets the collLanguageObjects collection to an empty array (like clearcollLanguageObjects()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aae7827a78a337518fc3da92a7c4a31be"></a><!-- doxytag: member="BaseLanguage::initLinks" ref="aae7827a78a337518fc3da92a7c4a31be" args="()" -->
+<a class="anchor" id="a3e3d2d1a87d64c7807c269f1b25a78de"></a><!-- doxytag: member="BaseLanguage::initLinks" ref="a3e3d2d1a87d64c7807c269f1b25a78de" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initLinks </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3062,18 +3040,25 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collLinks collection.</p>
 <p>By default this just sets the collLinks collection to an empty array (like clearcollLinks()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a9eacf46a9e4685f1b90bf707946e03c5"></a><!-- doxytag: member="BaseLanguage::initPageStrings" ref="a9eacf46a9e4685f1b90bf707946e03c5" args="()" -->
+<a class="anchor" id="a4164bf20a9cf26b9514b04fb9a497a08"></a><!-- doxytag: member="BaseLanguage::initPageStrings" ref="a4164bf20a9cf26b9514b04fb9a497a08" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initPageStrings </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3081,18 +3066,50 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collPageStrings collection.</p>
 <p>By default this just sets the collPageStrings collection to an empty array (like clearcollPageStrings()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a3364d8915203b957eb2fa72381df0588"></a><!-- doxytag: member="BaseLanguage::initStrings" ref="a3364d8915203b957eb2fa72381df0588" args="()" -->
+<a class="anchor" id="a08982420dcf2128ad0d92c01dcf2b7aa"></a><!-- doxytag: member="BaseLanguage::initRelation" ref="a08982420dcf2128ad0d92c01dcf2b7aa" args="($relationName)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguage::initRelation </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>relationName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Initializes a collection based on the name of a relation. Avoids crafting an 'init[$relationName]s' method name that wouldn't work when StandardEnglishPluralizer is used.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$relationName</td><td>The name of the relation to initialize </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abed519d06fd2652fef7bffc4b48b8f9a"></a><!-- doxytag: member="BaseLanguage::initStrings" ref="abed519d06fd2652fef7bffc4b48b8f9a" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initStrings </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3100,18 +3117,25 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collStrings collection.</p>
 <p>By default this just sets the collStrings collection to an empty array (like clearcollStrings()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1774bbe6f731d3524f95f3c0a805e0a2"></a><!-- doxytag: member="BaseLanguage::initUsersRelatedByLanguageId" ref="a1774bbe6f731d3524f95f3c0a805e0a2" args="()" -->
+<a class="anchor" id="aafc0457c8fe03fca1e2f8b5e901d078e"></a><!-- doxytag: member="BaseLanguage::initUsersRelatedByLanguageId" ref="aafc0457c8fe03fca1e2f8b5e901d078e" args="($overrideExisting=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BaseLanguage::initUsersRelatedByLanguageId </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>overrideExisting</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3119,6 +3143,12 @@ BaseObject::isDeleted() </dd></dl>
 <div class="memdoc">
 <p>Initializes the collUsersRelatedByLanguageId collection.</p>
 <p>By default this just sets the collUsersRelatedByLanguageId collection to an empty array (like clearcollUsersRelatedByLanguageId()); however, you may wish to override this method in your stub class to provide setting appropriate to your application -- for example, setting the initial array to the values stored in database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean</td><td class="paramname">$overrideExisting</td><td>If set to true, the method call initializes the collection even if it is not empty</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
@@ -3349,7 +3379,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [created_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3421,10 +3451,10 @@ BaseObject::isDeleted() </dd></dl>
       </table>
 </div>
 <div class="memdoc">
-<p>Set the value of [is_active] column.</p>
+<p>Sets the value of the [is_active] column. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false').</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$v</td><td>new value </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;integer&#160;|&#160;string</td><td class="paramname">$v</td><td>The new value </td></tr>
   </table>
   </dd>
 </dl>
@@ -3524,7 +3554,7 @@ BaseObject::isDeleted() </dd></dl>
 <p>Sets the value of [updated_at] column to a normalized version of the date/time value specified.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty string will be treated as NULL for temporal objects. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$v</td><td>string, integer (timestamp), or DateTime value. Empty strings are treated as NULL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3619,7 +3649,7 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1e988c59aa665828bb6f39c8ca3cc8fd"></a><!-- doxytag: member="BaseLanguage::toArray" ref="a1e988c59aa665828bb6f39c8ca3cc8fd" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)" -->
+<a class="anchor" id="a92aeaf61b665cf1f80f553764ba0bb61"></a><!-- doxytag: member="BaseLanguage::toArray" ref="a92aeaf61b665cf1f80f553764ba0bb61" args="($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3634,6 +3664,12 @@ BaseObject::isDeleted() </dd></dl>
           <td></td>
           <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>includeLazyLoadColumns</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>alreadyDumpedObjects</em> = <code>array()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3655,6 +3691,7 @@ BaseObject::isDeleted() </dd></dl>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$keyType</td><td>(optional) One of the class type constants BasePeer::TYPE_PHPNAME, BasePeer::TYPE_STUDLYPHPNAME, BasePeer::TYPE_COLNAME, BasePeer::TYPE_FIELDNAME, BasePeer::TYPE_NUM. Defaults to BasePeer::TYPE_PHPNAME. </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeLazyLoadColumns</td><td>(optional) Whether to include lazy loaded columns. Defaults to TRUE. </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$alreadyDumpedObjects</td><td>List of objects to skip to avoid recursion </td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$includeForeignObjects</td><td>(optional) Whether to include hydrated related objects. Default to FALSE.</td></tr>
   </table>
   </dd>
@@ -3728,7 +3765,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:23 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

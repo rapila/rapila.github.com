@@ -99,7 +99,7 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a9609137938f22dd4d302276c4d0b33b8">__call</a>($name, $params)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#ac205beedc9d7bca007136112bafdc96a">__toString</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a88cdc1284285a89b18ffc53ada9347c9">addGroupRole</a>(GroupRole $l)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#aae818ee97d45cdd5e011c340259ff3f3">addRight</a>(Right $l)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a25ecf2ed93722aaafa50c8c516c4c39f">addUserRole</a>(UserRole $l)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
@@ -111,7 +111,7 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a46796054818c1cd6980ceed2b1d93645">clearRights</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a1010f5655f4b61e98bc25e0f8cce0bd0">clearUserRoles</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a367bcab6fdcbc53bfa939d75df0e8822">copy</a>($deepCopy=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a837c04ed5a3cd96c1a1c3515695e2650">copyInto</a>($copyObj, $deepCopy=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a3b54f3f62eccdb9d1425e1b9fa2fe2ad">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a72934e2765c5cfc730fe5be51fdb6362">countGroupRoles</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a2f3f509bec77b39491f894f2bc3033f6">countRights</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a4a88ff242eb70a26d2aad160e53f315e">countUserRoles</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
@@ -151,9 +151,10 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a75edad094df59aa63a9f412323b0c976">getValidationFailures</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#aebc4a8d69fc77e582b1f5c5d3a53926c">hasOnlyDefaultValues</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a496d3d34f331aa0ad637c040205ba10a">hydrate</a>($row, $startcol=0, $rehydrate=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a92495d63b584827e7b05cda0a62eebe6">initGroupRoles</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#acfb166b9532b6853132067dbc3489f14">initRights</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a9b970164cf57447a97d5d2203ca8f611">initUserRoles</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a902fad58f9a68dbe23881bb294e688b5">initGroupRoles</a>($overrideExisting=true)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#ac6d773530a93554cf319c10c4d621507">initRelation</a>($relationName)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5b964551730370abded1dbb49994d415">initRights</a>($overrideExisting=true)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a3c26ead096e445a5d705cd11bcf56fca">initUserRoles</a>($overrideExisting=true)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5116b40b7678679f66795570968a0e0d">isPrimaryKeyNull</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a0a421a76d4df7886065666d9cb937e0b">keepUpdateDateUnchanged</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#ab4eb36b819dc0c44c6789dea57585962">keepUpdateUserUnchanged</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
@@ -171,7 +172,7 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#acfb4efaaee4085a77a068992e708f9ee">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a7d924f9c7aa3c7c1f5c65316bf2f20c6">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5a84f1480c87db211483a0a38b32c4ee">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseRole.html#ad7c7dc36afd2112a0ad5b5e5bf31f041">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a6aa7793c5460b7c08c11bc038d0201fe">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a981510bf44270a483e4f637e2fb4f1c3">validate</a>($columns=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
 </table></div>
 <!-- window showing the filter options -->
@@ -191,7 +192,7 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:24 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

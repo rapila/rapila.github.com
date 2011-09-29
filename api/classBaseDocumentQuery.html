@@ -259,6 +259,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the author column</p>
+<p>Example usage: <code> $query-&gt;filterByAuthor('fooValue'); // WHERE author = 'fooValue' $query-&gt;filterByAuthor('fooValue%'); // WHERE author LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$author</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -295,9 +296,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the content_created_at column</p>
+<p>Example usage: <code> $query-&gt;filterByContentCreatedAt('2011-03-14'); // WHERE content_created_at = '2011-03-14' $query-&gt;filterByContentCreatedAt('now'); // WHERE content_created_at = '2011-03-14' $query-&gt;filterByContentCreatedAt(array('max' =&gt; 'yesterday')); // WHERE content_created_at &gt; '2011-03-13' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$contentCreatedAt</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$contentCreatedAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -331,9 +333,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the created_at column</p>
+<p>Example usage: <code> $query-&gt;filterByCreatedAt('2011-03-14'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt('now'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt(array('max' =&gt; 'yesterday')); // WHERE created_at &gt; '2011-03-13' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$createdAt</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$createdAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -367,9 +370,11 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the created_by column</p>
+<p>Example usage: <code> $query-&gt;filterByCreatedBy(1234); // WHERE created_by = 1234 $query-&gt;filterByCreatedBy(array(12, 34)); // WHERE created_by IN (12, 34) $query-&gt;filterByCreatedBy(array('min' =&gt; 12)); // WHERE created_by &gt; 12 </code></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentQuery.html#a68451bbc1c7d7ca01d0a3fb9f057d14b">filterByUserRelatedByCreatedBy()</a></dd></dl>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$createdBy</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$createdBy</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -439,6 +444,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the description column</p>
+<p>Example usage: <code> $query-&gt;filterByDescription('fooValue'); // WHERE description = 'fooValue' $query-&gt;filterByDescription('fooValue%'); // WHERE description LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$description</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -477,7 +483,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classDocumentCategory.html">DocumentCategory</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classDocumentCategory.html">DocumentCategory</a></td><td class="paramname">$documentCategory</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classDocumentCategory.html">DocumentCategory</a>&#160;|&#160;PropelCollection</td><td class="paramname">$documentCategory</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -511,9 +517,11 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the document_category_id column</p>
+<p>Example usage: <code> $query-&gt;filterByDocumentCategoryId(1234); // WHERE document_category_id = 1234 $query-&gt;filterByDocumentCategoryId(array(12, 34)); // WHERE document_category_id IN (12, 34) $query-&gt;filterByDocumentCategoryId(array('min' =&gt; 12)); // WHERE document_category_id &gt; 12 </code></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentQuery.html#a2c735e5750dff7dc92eca6ec56351691">filterByDocumentCategory()</a></dd></dl>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$documentCategoryId</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$documentCategoryId</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -549,7 +557,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classDocumentType.html">DocumentType</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classDocumentType.html">DocumentType</a></td><td class="paramname">$documentType</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classDocumentType.html">DocumentType</a>&#160;|&#160;PropelCollection</td><td class="paramname">$documentType</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -583,9 +591,11 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the document_type_id column</p>
+<p>Example usage: <code> $query-&gt;filterByDocumentTypeId(1234); // WHERE document_type_id = 1234 $query-&gt;filterByDocumentTypeId(array(12, 34)); // WHERE document_type_id IN (12, 34) $query-&gt;filterByDocumentTypeId(array('min' =&gt; 12)); // WHERE document_type_id &gt; 12 </code></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentQuery.html#a0ca2173df42a1fc0c37d5ba41a7eaae1">filterByDocumentType()</a></dd></dl>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$documentTypeId</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$documentTypeId</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -619,9 +629,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the id column</p>
+<p>Example usage: <code> $query-&gt;filterById(1234); // WHERE id = 1234 $query-&gt;filterById(array(12, 34)); // WHERE id IN (12, 34) $query-&gt;filterById(array('min' =&gt; 12)); // WHERE id &gt; 12 </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$id</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$id</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -655,9 +666,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the is_inactive column</p>
+<p>Example usage: <code> $query-&gt;filterByIsInactive(true); // WHERE is_inactive = true $query-&gt;filterByIsInactive('yes'); // WHERE is_inactive = true </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isInactive</td><td>The value to use as filter. Accepts strings ('false', 'off', '-', 'no', 'n', and '0' are false, the rest is true) </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isInactive</td><td>The value to use as filter. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false'). </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -691,9 +703,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the is_private column</p>
+<p>Example usage: <code> $query-&gt;filterByIsPrivate(true); // WHERE is_private = true $query-&gt;filterByIsPrivate('yes'); // WHERE is_private = true </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isPrivate</td><td>The value to use as filter. Accepts strings ('false', 'off', '-', 'no', 'n', and '0' are false, the rest is true) </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isPrivate</td><td>The value to use as filter. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false'). </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -727,9 +740,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the is_protected column</p>
+<p>Example usage: <code> $query-&gt;filterByIsProtected(true); // WHERE is_protected = true $query-&gt;filterByIsProtected('yes'); // WHERE is_protected = true </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isProtected</td><td>The value to use as filter. Accepts strings ('false', 'off', '-', 'no', 'n', and '0' are false, the rest is true) </td></tr>
+    <tr><td class="paramtype">boolean&#160;|&#160;string</td><td class="paramname">$isProtected</td><td>The value to use as filter. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false'). </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -765,7 +779,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classLanguage.html">Language</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classLanguage.html">Language</a></td><td class="paramname">$language</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classLanguage.html">Language</a>&#160;|&#160;PropelCollection</td><td class="paramname">$language</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -799,6 +813,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the language_id column</p>
+<p>Example usage: <code> $query-&gt;filterByLanguageId('fooValue'); // WHERE language_id = 'fooValue' $query-&gt;filterByLanguageId('fooValue%'); // WHERE language_id LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$languageId</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -835,6 +850,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the license column</p>
+<p>Example usage: <code> $query-&gt;filterByLicense('fooValue'); // WHERE license = 'fooValue' $query-&gt;filterByLicense('fooValue%'); // WHERE license LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$license</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -871,6 +887,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the name column</p>
+<p>Example usage: <code> $query-&gt;filterByName('fooValue'); // WHERE name = 'fooValue' $query-&gt;filterByName('fooValue%'); // WHERE name LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$name</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -907,6 +924,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the original_name column</p>
+<p>Example usage: <code> $query-&gt;filterByOriginalName('fooValue'); // WHERE original_name = 'fooValue' $query-&gt;filterByOriginalName('fooValue%'); // WHERE original_name LIKE 'fooValue%' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$originalName</td><td>The value to use as filter. Accepts wildcards (* and % trigger a LIKE) </td></tr>
@@ -943,9 +961,11 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the owner_id column</p>
+<p>Example usage: <code> $query-&gt;filterByOwnerId(1234); // WHERE owner_id = 1234 $query-&gt;filterByOwnerId(array(12, 34)); // WHERE owner_id IN (12, 34) $query-&gt;filterByOwnerId(array('min' =&gt; 12)); // WHERE owner_id &gt; 12 </code></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentQuery.html#a9c5b21dc72acc58dab030d22a1324f63">filterByUserRelatedByOwnerId()</a></dd></dl>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$ownerId</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$ownerId</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1029,9 +1049,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the sort column</p>
+<p>Example usage: <code> $query-&gt;filterBySort(1234); // WHERE sort = 1234 $query-&gt;filterBySort(array(12, 34)); // WHERE sort IN (12, 34) $query-&gt;filterBySort(array('min' =&gt; 12)); // WHERE sort &gt; 12 </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$sort</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$sort</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1065,9 +1086,10 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the updated_at column</p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedAt('2011-03-14'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt('now'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt(array('max' =&gt; 'yesterday')); // WHERE updated_at &gt; '2011-03-13' </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string&#160;|&#160;array</td><td class="paramname">$updatedAt</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$updatedAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1101,9 +1123,11 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Filter the query on the updated_by column</p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedBy(1234); // WHERE updated_by = 1234 $query-&gt;filterByUpdatedBy(array(12, 34)); // WHERE updated_by IN (12, 34) $query-&gt;filterByUpdatedBy(array('min' =&gt; 12)); // WHERE updated_by &gt; 12 </code></p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentQuery.html#ae975a2a620c6768818d6946cb20eae57">filterByUserRelatedByUpdatedBy()</a></dd></dl>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype">int&#160;|&#160;array</td><td class="paramname">$updatedBy</td><td>The value to use as filter. Accepts an associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$updatedBy</td><td>The value to use as filter. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1139,7 +1163,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a></td><td class="paramname">$user</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1175,7 +1199,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a></td><td class="paramname">$user</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1211,7 +1235,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a></td><td class="paramname">$user</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1898,7 +1922,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

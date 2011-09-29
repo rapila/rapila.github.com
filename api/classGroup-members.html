@@ -98,7 +98,7 @@ This is the complete list of members for <a class="el" href="classGroup.html">Gr
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ac7a16f3e78d4d3f3eccc202e784a251c">__call</a>($name, $params)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#abcde1f514dd62b6acb305cd185c32e97">__toString</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a3f8594ede9b5aaefdb97ed925a851088">addGroupRole</a>(GroupRole $l)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>addUser</b>($oUser) (defined in <a class="el" href="classGroup.html">Group</a>)</td><td><a class="el" href="classGroup.html">Group</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a71c36e404812f2f7d62660b90847fe1a">addUserGroup</a>(UserGroup $l)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -110,7 +110,7 @@ This is the complete list of members for <a class="el" href="classGroup.html">Gr
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a9da8240f136dc1a79cb3901efd6bd75f">clearUserGroups</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>containsUser</b>($oUser) (defined in <a class="el" href="classGroup.html">Group</a>)</td><td><a class="el" href="classGroup.html">Group</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#aa414ae1a5e7cc55ecb242d21ac738994">copy</a>($deepCopy=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a1b7e63444f23e7659da5d18e804ae7e4">copyInto</a>($copyObj, $deepCopy=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a6416f91f5de857f92578d3f744610832">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a9244a3280d410af7599c72623c60dacf">countGroupRoles</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a479ae04edbee7fc9b9ba19e647a4e49e">countUserGroups</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a16897d9870662c45725c60fd17de2297">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -150,8 +150,9 @@ This is the complete list of members for <a class="el" href="classGroup.html">Gr
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#aef778c2841e7dd8aeef6292d753fc5ae">getValidationFailures</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a731c1237f777a6f203ffe56ec84ad59a">hasOnlyDefaultValues</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a76162eff00d625e9d3e8fb4f7a1204e4">hydrate</a>($row, $startcol=0, $rehydrate=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#af5f9c1e51c62990eb6a914c182d7e9fe">initGroupRoles</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a4c27eb3b6737d61ae6a5cdeaa6b39f91">initUserGroups</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a56938abb7442b665678940a1c3361331">initGroupRoles</a>($overrideExisting=true)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#aba8258113f75832a2d47e90367ca69ad">initRelation</a>($relationName)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a0c125a83211206f0ad809fdd3b025627">initUserGroups</a>($overrideExisting=true)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ab28facc2915a1a498185478028b4ba8f">isPrimaryKeyNull</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a423fd490197ee35edacae4fbede2064b">keepUpdateDateUnchanged</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a84473731ab08041a734ea2dccb8d8358">keepUpdateUserUnchanged</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -175,7 +176,7 @@ This is the complete list of members for <a class="el" href="classGroup.html">Gr
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#af2fff3005388bf873e4cc1ebd6e7a574">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ac9240638eab78569c013d70fa5396f94">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a833f48a274f12734d992a052c9f9fbd4">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a8c1c56a8d7f28f03989d5e7b43bbe408">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a27f0093bc0e44b58ca1149e64bbf84bc">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a77778be80e795ea8c46f972e3dc52add">validate</a>($columns=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
 </table></div>
 <!-- window showing the filter options -->
@@ -195,7 +196,7 @@ This is the complete list of members for <a class="el" href="classGroup.html">Gr
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:19 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:25 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a>  </div>
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">BaseLinkCategoryPeer Class Reference</div>  </div>
 </div>
@@ -110,7 +111,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a5e8253cf69308478902b59fa951ab45d">doSelectOne</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#abc222f3f8b05f7c280f925a40676b26a">doSelect</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a2e8a1128b2db7730e9890a2855873558">doSelectStmt</a> (Criteria $criteria, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a12572435ef473db11c1a8753b6319139">addInstanceToPool</a> (<a class="el" href="classLinkCategory.html">LinkCategory</a> $obj, $key=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a863198b9afa642f1624d2f5c7cc8ace6">addInstanceToPool</a> ($obj, $key=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a94753bd5f99ede0d8ed57cd4a66e1293">removeInstanceFromPool</a> ($value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a5dceb24a6efb6a483309377b62d67acc">getInstanceFromPool</a> ($key)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a74de0aa7269569c6573a4dd26d6313eb">clearInstancePool</a> ()</td></tr>
@@ -134,9 +135,9 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a34db8758343e30178a833d8d338de0e0">getOMClass</a> ($withPrefix=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a9c327118c248297cc9494be59b0a7c13">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a1f37c42bdd94e5db9fd9ea3157301183">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a05ca1732fa6cd9a3fbc2f2b300aa8b77">doDeleteAll</a> ($con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#af6d2dcf82997cae6897cebb8ceff6ef8">doDeleteAll</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#adfcaced44643ca1ba8e2a585c71aa686">doDelete</a> ($values, PropelPDO $con=null)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a0128b3db56bdb20fe95fc19c25d6eec9">doValidate</a> (<a class="el" href="classLinkCategory.html">LinkCategory</a> $obj, $cols=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#aad042d83978cf2e90ae4fcae56d385bd">doValidate</a> ($obj, $cols=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#aec186d7b4994d5c269cbcac5724eaa91">retrieveByPK</a> ($pk, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a45c9a3459033fee1895feec8efaf29d5">retrieveByPKs</a> ($pks, PropelPDO $con=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
@@ -148,6 +149,7 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#aa139f9cf97e2b01c5f59338475f1fc93">TM_CLASS</a> = '<a class="el" href="classLinkCategoryTableMap.html">LinkCategoryTableMap</a>'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a0c9f297e45d29e4ca8807b479bbed533">NUM_COLUMNS</a> = 7</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#ae7a674a5961833a0e538ea48654d4f9b">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#abb8874723b272570fba89f2b99d07b86">NUM_HYDRATE_COLUMNS</a> = 7</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#ae05af8aed868a4e625cd36e6ed2f53f2">ID</a> = 'link_categories.ID'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a1d6a8d9f26b2eef86514e5fec50f6003">NAME</a> = 'link_categories.NAME'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a6ea57c6547d22be0a3cbd469bc39f1ae">IS_EXTERNALLY_MANAGED</a> = 'link_categories.IS_EXTERNALLY_MANAGED'</td></tr>
@@ -155,6 +157,7 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#ab86697474e7edabb51451aca286a84d5">UPDATED_AT</a> = 'link_categories.UPDATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a565e7c9e94170c43188291b738aa9158">CREATED_BY</a> = 'link_categories.CREATED_BY'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a9600c452d31023155a780c34b5bf33c1">UPDATED_BY</a> = 'link_categories.UPDATED_BY'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a0666d14eff1703258f7f66a3d7af1a57">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add75e91f294ce834ba74e2f227caaafe"></a><!-- doxytag: member="BaseLinkCategoryPeer::$instances" ref="add75e91f294ce834ba74e2f227caaafe" args="" -->
@@ -162,16 +165,20 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = ar
 <tr><td colspan="2"><h2><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#abf1ab696669cb75dce08e910f9c18131">doOnDeleteSetNull</a> (Criteria $criteria, PropelPDO $con)</td></tr>
+<tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a63b1c803c0f6b102f3d6607be68e2014">$fieldNames</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategoryPeer.html#a7d03223b27737153c09ec7089869599b">$fieldKeys</a></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a12572435ef473db11c1a8753b6319139"></a><!-- doxytag: member="BaseLinkCategoryPeer::addInstanceToPool" ref="a12572435ef473db11c1a8753b6319139" args="(LinkCategory $obj, $key=null)" -->
+<a class="anchor" id="a863198b9afa642f1624d2f5c7cc8ace6"></a><!-- doxytag: member="BaseLinkCategoryPeer::addInstanceToPool" ref="a863198b9afa642f1624d2f5c7cc8ace6" args="($obj, $key=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseLinkCategoryPeer::addInstanceToPool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classLinkCategory.html">LinkCategory</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -648,7 +655,7 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform a DELETE on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object OR a primary key value.</p>
+<p>Performs a DELETE on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object OR a primary key value.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classLinkCategory.html">LinkCategory</a> object or primary key or array of primary keys which is used to create the DELETE statement </td></tr>
@@ -666,21 +673,27 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a05ca1732fa6cd9a3fbc2f2b300aa8b77"></a><!-- doxytag: member="BaseLinkCategoryPeer::doDeleteAll" ref="a05ca1732fa6cd9a3fbc2f2b300aa8b77" args="($con=null)" -->
+<a class="anchor" id="af6d2dcf82997cae6897cebb8ceff6ef8"></a><!-- doxytag: member="BaseLinkCategoryPeer::doDeleteAll" ref="af6d2dcf82997cae6897cebb8ceff6ef8" args="(PropelPDO $con=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseLinkCategoryPeer::doDeleteAll </td>
           <td>(</td>
-          <td class="paramtype">$&#160;</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
           <td class="paramname"><em>con</em> = <code>null</code></td><td>)</td>
           <td><code> [static]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method to DELETE all rows from the link_categories table.</p>
+<p>Deletes all rows from the link_categories table.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>the connection to use </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
 
 </div>
@@ -709,7 +722,7 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an INSERT on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object.</p>
+<p>Performs an INSERT on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classLinkCategory.html">LinkCategory</a> object containing data that is used to create the INSERT statement. </td></tr>
@@ -789,7 +802,7 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method to do selects.</p>
+<p>Selects several row from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1076,7 +1089,7 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method to select one object from the DB.</p>
+<p>Selects one object from the DB.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>object used to create the SELECT statement. </td></tr>
@@ -1162,7 +1175,7 @@ Static Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Method perform an UPDATE on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object.</p>
+<p>Performs an UPDATE on the database, given a <a class="el" href="classLinkCategory.html">LinkCategory</a> or Criteria object.</p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$values</td><td>Criteria or <a class="el" href="classLinkCategory.html">LinkCategory</a> object containing data that is used to create the UPDATE statement. </td></tr>
@@ -1180,14 +1193,14 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0128b3db56bdb20fe95fc19c25d6eec9"></a><!-- doxytag: member="BaseLinkCategoryPeer::doValidate" ref="a0128b3db56bdb20fe95fc19c25d6eec9" args="(LinkCategory $obj, $cols=null)" -->
+<a class="anchor" id="aad042d83978cf2e90ae4fcae56d385bd"></a><!-- doxytag: member="BaseLinkCategoryPeer::doValidate" ref="aad042d83978cf2e90ae4fcae56d385bd" args="($obj, $cols=null)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">static BaseLinkCategoryPeer::doValidate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classLinkCategory.html">LinkCategory</a> $&#160;</td>
+          <td class="paramtype">$&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -1611,6 +1624,52 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
+<a class="anchor" id="a7d03223b27737153c09ec7089869599b"></a><!-- doxytag: member="BaseLinkCategoryPeer::$fieldKeys" ref="a7d03223b27737153c09ec7089869599b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategoryPeer::$fieldKeys<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IsExternallyManaged&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;isExternallyManaged&#39;</span> =&gt; 2, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::ID =&gt; 0, self::NAME =&gt; 1, self::IS_EXTERNALLY_MANAGED =&gt; 2, self::CREATED_AT =&gt; 3, self::UPDATED_AT =&gt; 4, self::CREATED_BY =&gt; 5, self::UPDATED_BY =&gt; 6, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;NAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IS_EXTERNALLY_MANAGED&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;is_externally_managed&#39;</span> =&gt; 2, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 6, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+  )
+</pre></div><p>holds an array of keys for quick access to the fieldnames array</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+
+</div>
+</div>
+<a class="anchor" id="a63b1c803c0f6b102f3d6607be68e2014"></a><!-- doxytag: member="BaseLinkCategoryPeer::$fieldNames" ref="a63b1c803c0f6b102f3d6607be68e2014" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategoryPeer::$fieldNames<code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Name&#39;</span>, <span class="stringliteral">&#39;IsExternallyManaged&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;isExternallyManaged&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::ID, self::NAME, self::IS_EXTERNALLY_MANAGED, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;NAME&#39;</span>, <span class="stringliteral">&#39;IS_EXTERNALLY_MANAGED&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;is_externally_managed&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+  )
+</pre></div><p>holds an array of fieldnames</p>
+<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
+
+</div>
+</div>
 <a class="anchor" id="a757d6336ddd6f16bcabc54044ce6e2b9"></a><!-- doxytag: member="BaseLinkCategoryPeer::CLASS_DEFAULT" ref="a757d6336ddd6f16bcabc54044ce6e2b9" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -1667,6 +1726,20 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0666d14eff1703258f7f66a3d7af1a57"></a><!-- doxytag: member="BaseLinkCategoryPeer::DEFAULT_STRING_FORMAT" ref="a0666d14eff1703258f7f66a3d7af1a57" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseLinkCategoryPeer.html#a0666d14eff1703258f7f66a3d7af1a57">BaseLinkCategoryPeer::DEFAULT_STRING_FORMAT</a> = 'YAML'</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The default string format for model objects of the related table </p>
+
+</div>
+</div>
 <a class="anchor" id="ae05af8aed868a4e625cd36e6ed2f53f2"></a><!-- doxytag: member="BaseLinkCategoryPeer::ID" ref="ae05af8aed868a4e625cd36e6ed2f53f2" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -1720,6 +1793,20 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>The total number of columns. </p>
+
+</div>
+</div>
+<a class="anchor" id="abb8874723b272570fba89f2b99d07b86"></a><!-- doxytag: member="BaseLinkCategoryPeer::NUM_HYDRATE_COLUMNS" ref="abb8874723b272570fba89f2b99d07b86" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseLinkCategoryPeer.html#abb8874723b272570fba89f2b99d07b86">BaseLinkCategoryPeer::NUM_HYDRATE_COLUMNS</a> = 7</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The number of columns to hydrate (NUM_COLUMNS - NUM_LAZY_LOAD_COLUMNS) </p>
 
 </div>
 </div>
@@ -1828,7 +1915,7 @@ Static Protected Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:23 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

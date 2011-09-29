@@ -99,8 +99,8 @@ This is the complete list of members for <a class="el" href="classBaseDocumentTy
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a7adf7ff08e497ee5818c0f6a368939f6">__call</a>($name, $params)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a21cd14a6b78c2eb09281be0d934fc0a1">__construct</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a9a70b70337cf5cfb646e979f3e07169d">__toString</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a73a831d716711b0e5ebd34278c61f2eb">addDocument</a>(Document $l)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a39dcef4459b690ba516723b187f47b8d">applyDefaultValues</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a2da78f0427c00ee9e2bf475c96080a8e">buildCriteria</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
@@ -109,7 +109,7 @@ This is the complete list of members for <a class="el" href="classBaseDocumentTy
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a168a1f39ee4b4aadfea242e17b55e36a">clearAllReferences</a>($deep=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a6b57523aa5aecce8e3f7f2cd6fa5b064">clearDocuments</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a984862ae23b3c8688b6864ca558875a1">copy</a>($deepCopy=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a45b36199a98d38ac53c9110d9bbe318f">copyInto</a>($copyObj, $deepCopy=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a46f5fc97303d29f7e6754bc6e417f6b7">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a6a867589657fd238f5eab0b4907216d7">countDocuments</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a5a555ef5a01cbeb95bdf965891c9bd00">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#aa64f0821e06608e3609f742937694133">doSave</a>(PropelPDO $con)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
@@ -143,7 +143,8 @@ This is the complete list of members for <a class="el" href="classBaseDocumentTy
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a14d87c4b20203108e090b2c321cec36b">getValidationFailures</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ab8c5df07ae8b90dc74f2d5419113f100">hasOnlyDefaultValues</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a17fb0e2cf08c1ff1906ed7cd8ad35156">hydrate</a>($row, $startcol=0, $rehydrate=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a512c65fd4f8a6082727f5fe442b712dd">initDocuments</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a6837111c6a287fcc92a6e7f3ae18f4bb">initDocuments</a>($overrideExisting=true)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a37785af861d961bc7c17c41517582406">initRelation</a>($relationName)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ac96b42836e467c8dd83730464f000ed5">isPrimaryKeyNull</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#aca026edf55b55e25b8886fcea74294a9">keepUpdateDateUnchanged</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ad11b8c2e9c745db664d2ba3c88113077">keepUpdateUserUnchanged</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
@@ -163,7 +164,7 @@ This is the complete list of members for <a class="el" href="classBaseDocumentTy
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a0ab93605ff847fd8abf211040b017221">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a30406af2d49fcd8bfae3af00c41e576d">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ad640c076c70db1d3232ca4fc886d4191">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a64c0f27d8c162667d96db14af231be87">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $includeForeignObjects=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a2570d393f954a4d7bb92a846dda41c8b">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ae801aff6135319813741463a0c03119a">validate</a>($columns=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
 </table></div>
 <!-- window showing the filter options -->
@@ -183,7 +184,7 @@ This is the complete list of members for <a class="el" href="classBaseDocumentTy
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 28 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 29 2011 04:02:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
