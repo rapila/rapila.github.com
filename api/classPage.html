@@ -81,7 +81,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Page Class Reference</div>  </div>
 </div>
@@ -167,12 +168,19 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a802d30dfd2c5354a05132ef84aaf6870">delete</a> (PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf89e5b6cebc5f295be30a0d07dffba6"></a><!-- doxytag: member="Page::deletePageAndDescendants" ref="acf89e5b6cebc5f295be30a0d07dffba6" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>deletePageAndDescendants</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa14ee6f53f869714575604393160ae7a"></a><!-- doxytag: member="Page::getOldParent" ref="aa14ee6f53f869714575604393160ae7a" args="()" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOldParent</b> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28ce4bbc34cde0b54aa9a9430fc8151f"></a><!-- doxytag: member="Page::DELETE_NOT_ALLOWED_CODE" ref="a28ce4bbc34cde0b54aa9a9430fc8151f" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>DELETE_NOT_ALLOWED_CODE</b> = 11</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade8f223b08a5052557ed00ac0a5368d0"></a><!-- doxytag: member="Page::REFERENCE_EXISTS_CODE" ref="ade8f223b08a5052557ed00ac0a5368d0" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>REFERENCE_EXISTS_CODE</b> = 44</td></tr>
+<tr><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6557f3c01ae22bc0dc59cee2320f4efd"></a><!-- doxytag: member="Page::moveSubtreeTo" ref="a6557f3c01ae22bc0dc59cee2320f4efd" args="($destLeft, $levelDelta, PropelPDO $con=null)" -->
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a6557f3c01ae22bc0dc59cee2320f4efd">moveSubtreeTo</a> ($destLeft, $levelDelta, PropelPDO $con=null)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Override moveSubtreeTo to store the old parent. <br/></td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="a287aa1ac838244365573e4b72ff83456"></a><!-- doxytag: member="Page::addTempPageProperty" ref="a287aa1ac838244365573e4b72ff83456" args="($sName, $sValue)" -->
@@ -397,7 +405,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 12 2011 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 13 2011 04:02:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -138,6 +138,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>userExists</b> ($mU
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getUserByEmail</b> ($sEmail)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af55cf91578dca1635db107c0d61d23c6"></a><!-- doxytag: member="UserPeer::getUserByUsername" ref="af55cf91578dca1635db107c0d61d23c6" args="($sUserName, $bActiveOnly=false)" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getUserByUsername</b> ($sUserName, $bActiveOnly=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUserPeer.html#a0553d27a049f71a38cd007d0173e810f">mayOperateOn</a> ($oMe, $oUser, $sOperation)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcb943801a85bfbe8c915a33880f10d1"></a><!-- doxytag: member="UserPeer::BACKEND_USER" ref="afcb943801a85bfbe8c915a33880f10d1" args="" -->
@@ -151,6 +152,43 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>BACKEND_USER_OTHER</
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55bed1fdff54b3501f26ba1419cb71dc"></a><!-- doxytag: member="UserPeer::FRONTEND_USER" ref="a55bed1fdff54b3501f26ba1419cb71dc" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>FRONTEND_USER</b> = '5'</td></tr>
 </table>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a0553d27a049f71a38cd007d0173e810f"></a><!-- doxytag: member="UserPeer::mayOperateOn" ref="a0553d27a049f71a38cd007d0173e810f" args="($oMe, $oUser, $sOperation)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UserPeer::mayOperateOn </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>oMe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>oUser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sOperation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>TODO: Test for modified columns: is_admin_login_enabled, is_admin and such should not be changed </p>
+
+<p>Reimplemented from <a class="el" href="classBaseUserPeer.html">BaseUserPeer</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/model/UserPeer.php</li>
 </ul>
@@ -172,7 +210,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FRONTEND_USER</b> = 
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 12 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 13 2011 04:02:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

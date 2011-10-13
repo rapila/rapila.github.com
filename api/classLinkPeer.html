@@ -116,6 +116,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getProtocolsWithLin
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getLinksByLinkCategory</b> ($iLinkCategoryId=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb297b8c2ae552c1748b5e99b75ce5a5"></a><!-- doxytag: member="LinkPeer::getHightestSortByCategory" ref="adb297b8c2ae552c1748b5e99b75ce5a5" args="($iLinkCategoryId)" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getHightestSortByCategory</b> ($iLinkCategoryId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkPeer.html#afa0e6e4d2a02daaecf2b519c56728690">mayOperateOnOwn</a> ($oUser, $mObject, $sOperation)</td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="ade175867e32c68d976b03c6831930354"></a><!-- doxytag: member="LinkPeer::getLinksByTagName" ref="ade175867e32c68d976b03c6831930354" args="($mTagName, $bOrderByLinkName=true)" -->
@@ -154,6 +155,42 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getHightestSortByCa
 
 </div>
 </div>
+<a class="anchor" id="afa0e6e4d2a02daaecf2b519c56728690"></a><!-- doxytag: member="LinkPeer::mayOperateOnOwn" ref="afa0e6e4d2a02daaecf2b519c56728690" args="($oUser, $mObject, $sOperation)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkPeer::mayOperateOnOwn </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>oUser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>mObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sOperation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>When changing the sort or the category, I have to have the rights to said category as well </p>
+
+<p>Reimplemented from <a class="el" href="classBaseLinkPeer.html">BaseLinkPeer</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/model/LinkPeer.php</li>
 </ul>
@@ -175,7 +212,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getHightestSortByCa
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 12 2011 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 13 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

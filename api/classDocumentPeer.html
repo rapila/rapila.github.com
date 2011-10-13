@@ -130,11 +130,49 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getMostRecent</b> (
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getDisplayUrl</b> ($iDocumentId, $aUrlParameters=array(), $sFileModule= 'display_document')</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdebe4627b34d8b592f303e2516f3f24"></a><!-- doxytag: member="DocumentPeer::getHightestSortByCategory" ref="acdebe4627b34d8b592f303e2516f3f24" args="($iDocumentCategoryId)" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getHightestSortByCategory</b> ($iDocumentCategoryId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocumentPeer.html#a1d5f6f956ec87e86cbb0c5764e554161">mayOperateOnOwn</a> ($oUser, $mObject, $sOperation)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abddd80c79494105b4481b93485aa6a36"></a><!-- doxytag: member="DocumentPeer::$LICENSES" ref="abddd80c79494105b4481b93485aa6a36" args="" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$LICENSES</b></td></tr>
 </table>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a1d5f6f956ec87e86cbb0c5764e554161"></a><!-- doxytag: member="DocumentPeer::mayOperateOnOwn" ref="a1d5f6f956ec87e86cbb0c5764e554161" args="($oUser, $mObject, $sOperation)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DocumentPeer::mayOperateOnOwn </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>oUser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>mObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sOperation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>When changing the sort or the category, I have to have the rights to said category as well </p>
+
+<p>Reimplemented from <a class="el" href="classBaseDocumentPeer.html">BaseDocumentPeer</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/model/DocumentPeer.php</li>
 </ul>
@@ -156,7 +194,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$LICENSES</b></td><
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 12 2011 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 13 2011 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
