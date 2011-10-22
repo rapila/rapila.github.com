@@ -104,10 +104,36 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>postSave</b> (PropelPDO $oConnection=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad03f744ac0ae7d4306e57c054d412f1e"></a><!-- doxytag: member="LanguageObject::revertToHistory" ref="ad03f744ac0ae7d4306e57c054d412f1e" args="($sHistoryId)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>revertToHistory</b> ($sHistoryId)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc62ce87120682736e50de0a936681b8"></a><!-- doxytag: member="LanguageObject::newHistory" ref="afc62ce87120682736e50de0a936681b8" args="($bDraft=false)" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>newHistory</b> ($bDraft=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguageObject.html#a9a0bbdd6d0e75c506021c58f38214a6d">getHasDraft</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguageObject.html#a08164a3acc97d1eb4f364ff3de098e2d">setHasDraft</a> ($bHasDraft)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f47b32c97eff4bdcb4d83e534e0abdd"></a><!-- doxytag: member="LanguageObject::getDraft" ref="a9f47b32c97eff4bdcb4d83e534e0abdd" args="()" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDraft</b> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67db542bd9f8f382cc9103e811887d74"></a><!-- doxytag: member="LanguageObject::setData" ref="a67db542bd9f8f382cc9103e811887d74" args="($mData, $bIgnorePermissions=false)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>setData</b> ($mData, $bIgnorePermissions=false)</td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a9a0bbdd6d0e75c506021c58f38214a6d"></a><!-- doxytag: member="LanguageObject::getHasDraft" ref="a9a0bbdd6d0e75c506021c58f38214a6d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LanguageObject::getHasDraft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get the [has_draft] column value.</p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>boolean </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classBaseLanguageObject.html#a82d4cd71a7457267b2fc0a98f72732a6">BaseLanguageObject</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a8493b16b3bd4d7884d690bbac0655091"></a><!-- doxytag: member="LanguageObject::getId" ref="a8493b16b3bd4d7884d690bbac0655091" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -122,6 +148,33 @@ Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Corresponds to the overriding of <a class="el" href="classLanguageObjectPeer.html#a57c0f6e04763593c374d1336041ba171">LanguageObjectPeer::retrieveByPK()</a> Provides a unified way of working with stored references (in the references or tags tables) </p>
+
+</div>
+</div>
+<a class="anchor" id="a08164a3acc97d1eb4f364ff3de098e2d"></a><!-- doxytag: member="LanguageObject::setHasDraft" ref="a08164a3acc97d1eb4f364ff3de098e2d" args="($bHasDraft)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LanguageObject::setHasDraft </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets the value of the [has_draft] column. Non-boolean arguments are converted using the following rules: * 1, '1', 'true', 'on', and 'yes' are converted to boolean true * 0, '0', 'false', 'off', and 'no' are converted to boolean false Check on string values is case insensitive (so 'FaLsE' is seen as 'false').</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">boolean&#160;|&#160;integer&#160;|&#160;string</td><td class="paramname">$v</td><td>The new value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classLanguageObject.html">LanguageObject</a> The current object (for fluent API support) </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classBaseLanguageObject.html#a08f9c8a41d03564827825c36d4240b0e">BaseLanguageObject</a>.</p>
 
 </div>
 </div>
@@ -146,7 +199,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 21 2011 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 22 2011 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

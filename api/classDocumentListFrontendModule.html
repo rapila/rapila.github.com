@@ -87,14 +87,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">DocumentListFrontendModule Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="DocumentListFrontendModule" --><!-- doxytag: inherits="DynamicFrontendModule,WidgetBasedFrontendModule" --><div class="dynheader">
+<!-- doxytag: class="DocumentListFrontendModule" --><!-- doxytag: inherits="DynamicFrontendModule" --><div class="dynheader">
 Inheritance diagram for DocumentListFrontendModule:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classDocumentListFrontendModule.png" usemap="#DocumentListFrontendModule_map" alt=""/>
   <map id="DocumentListFrontendModule_map" name="DocumentListFrontendModule_map">
 <area href="classDynamicFrontendModule.html" alt="DynamicFrontendModule" shape="rect" coords="0,112,180,136"/>
-<area href="interfaceWidgetBasedFrontendModule.html" alt="WidgetBasedFrontendModule" shape="rect" coords="190,112,370,136"/>
 <area href="classFrontendModule.html" alt="FrontendModule" shape="rect" coords="0,56,180,80"/>
 <area href="classModule.html" alt="Module" shape="rect" coords="0,0,180,24"/>
 </map>
@@ -106,12 +105,7 @@ Inheritance diagram for DocumentListFrontendModule:</div>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92a83b1957c22d52047f446aca6abcb4"></a><!-- doxytag: member="DocumentListFrontendModule::renderFrontend" ref="a92a83b1957c22d52047f446aca6abcb4" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>renderFrontend</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d68dbabf3afe2c97d5c360ed6a82a04"></a><!-- doxytag: member="DocumentListFrontendModule::widgetData" ref="a0d68dbabf3afe2c97d5c360ed6a82a04" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>widgetData</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbe11b1175da1ea69c6a9f74a5da2c63"></a><!-- doxytag: member="DocumentListFrontendModule::widgetSave" ref="adbe11b1175da1ea69c6a9f74a5da2c63" args="($mData)" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>widgetSave</b> ($mData)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad95deb245b9d5920d34c3cabb12779ba"></a><!-- doxytag: member="DocumentListFrontendModule::getWidget" ref="ad95deb245b9d5920d34c3cabb12779ba" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getWidget</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDocumentListFrontendModule.html#a34c916d0b3d12dd37b5cc2f409ca6f31">getSaveData</a> ($mData)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1b14401e2b03411c097643ccc135644"></a><!-- doxytag: member="DocumentListFrontendModule::getTemplateOptions" ref="ad1b14401e2b03411c097643ccc135644" args="()" -->
@@ -157,6 +151,26 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>SORT_BY_SORT</b> = '
 
 </div>
 </div>
+<a class="anchor" id="a34c916d0b3d12dd37b5cc2f409ca6f31"></a><!-- doxytag: member="DocumentListFrontendModule::getSaveData" ref="a34c916d0b3d12dd37b5cc2f409ca6f31" args="($mData)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DocumentListFrontendModule::getSaveData </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>aData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Override this method to transform the data sent from your config widget into a string/blob that can be stored in the database. </p>
+
+<p>Reimplemented from <a class="el" href="classFrontendModule.html#aaded112e2a69a335b056d1c0e62b60eb">FrontendModule</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/modules/frontend/document_list/DocumentListFrontendModule.php</li>
 </ul>
@@ -178,7 +192,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>SORT_BY_SORT</b> = '
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 21 2011 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 22 2011 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

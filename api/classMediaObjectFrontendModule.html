@@ -86,15 +86,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">MediaObjectFrontendModule Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="MediaObjectFrontendModule" --><!-- doxytag: inherits="FrontendModule,WidgetBasedFrontendModule" --><div class="dynheader">
+<!-- doxytag: class="MediaObjectFrontendModule" --><!-- doxytag: inherits="FrontendModule" --><div class="dynheader">
 Inheritance diagram for MediaObjectFrontendModule:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classMediaObjectFrontendModule.png" usemap="#MediaObjectFrontendModule_map" alt=""/>
   <map id="MediaObjectFrontendModule_map" name="MediaObjectFrontendModule_map">
-<area href="classFrontendModule.html" alt="FrontendModule" shape="rect" coords="0,56,178,80"/>
-<area href="interfaceWidgetBasedFrontendModule.html" alt="WidgetBasedFrontendModule" shape="rect" coords="188,56,366,80"/>
-<area href="classModule.html" alt="Module" shape="rect" coords="0,0,178,24"/>
+<area href="classFrontendModule.html" alt="FrontendModule" shape="rect" coords="0,56,177,80"/>
+<area href="classModule.html" alt="Module" shape="rect" coords="0,0,177,24"/>
 </map>
  </div></div>
 
@@ -106,12 +105,7 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($oLanguageObject=null, $aRequestPath=null, $iId=1)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63adf98dcbf76427f2d6ea274151404f"></a><!-- doxytag: member="MediaObjectFrontendModule::renderFrontend" ref="a63adf98dcbf76427f2d6ea274151404f" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>renderFrontend</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f50efb3b21d3e5e55b678d1818840cf"></a><!-- doxytag: member="MediaObjectFrontendModule::widgetData" ref="a1f50efb3b21d3e5e55b678d1818840cf" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>widgetData</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42597b717fc390a4c3dc22475213fe8a"></a><!-- doxytag: member="MediaObjectFrontendModule::widgetSave" ref="a42597b717fc390a4c3dc22475213fe8a" args="($mData)" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>widgetSave</b> ($mData)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0c7ce1afe21cb86646ca929e5e76b40"></a><!-- doxytag: member="MediaObjectFrontendModule::getWidget" ref="af0c7ce1afe21cb86646ca929e5e76b40" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getWidget</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMediaObjectFrontendModule.html#ada7f51cc55364f4d5be8e21fb7f6ebe7">getSaveData</a> ($mData)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedcf4797d6758d2fe051711c87c97a55"></a><!-- doxytag: member="MediaObjectFrontendModule::dataFromPost" ref="aedcf4797d6758d2fe051711c87c97a55" args="(&amp;$aPostData)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>dataFromPost</b> (&amp;$aPostData)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1134f004676d33db2229a7f606a52d93"></a><!-- doxytag: member="MediaObjectFrontendModule::mimetypeFor" ref="a1134f004676d33db2229a7f606a52d93" args="($sId, $sSrc)" -->
@@ -147,6 +141,26 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ada7f51cc55364f4d5be8e21fb7f6ebe7"></a><!-- doxytag: member="MediaObjectFrontendModule::getSaveData" ref="ada7f51cc55364f4d5be8e21fb7f6ebe7" args="($mData)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MediaObjectFrontendModule::getSaveData </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>aData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Override this method to transform the data sent from your config widget into a string/blob that can be stored in the database. </p>
+
+<p>Reimplemented from <a class="el" href="classFrontendModule.html#aaded112e2a69a335b056d1c0e62b60eb">FrontendModule</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/modules/frontend/media_object/MediaObjectFrontendModule.php</li>
 </ul>
@@ -168,7 +182,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 21 2011 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 22 2011 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

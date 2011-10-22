@@ -162,12 +162,13 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#abc241fc9619e58b80e6f3a860c09aa29">OM_CLASS</a> = '<a class="el" href="classLanguageObject.html">LanguageObject</a>'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#af7a9fc4588a1ad78f033f60ecf49d93b">CLASS_DEFAULT</a> = 'model.LanguageObject'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a40ea5596ee97a8769d05c309731cd5a3">TM_CLASS</a> = '<a class="el" href="classLanguageObjectTableMap.html">LanguageObjectTableMap</a>'</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a9d4e3f2981d01691d9cc6de9624ad906">NUM_COLUMNS</a> = 7</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a9d4e3f2981d01691d9cc6de9624ad906">NUM_COLUMNS</a> = 8</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#adbebebd89d1ff8f40b097210def84df4">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a0a04be0e4facd232419854d390feaefb">NUM_HYDRATE_COLUMNS</a> = 7</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a0a04be0e4facd232419854d390feaefb">NUM_HYDRATE_COLUMNS</a> = 8</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#aa5e9cb6bf051f65e98784d4cd811eeb8">OBJECT_ID</a> = 'language_objects.OBJECT_ID'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#ad6451b138807eaa54f959423a6d4670e">LANGUAGE_ID</a> = 'language_objects.LANGUAGE_ID'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#abedeea1ec46acf8ceef01deca6b37ea2">DATA</a> = 'language_objects.DATA'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#abcb93a64a47c9ba9f6af169047984d0f">HAS_DRAFT</a> = 'language_objects.HAS_DRAFT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a325cca3443bbc667be2651590cfe7a2e">CREATED_AT</a> = 'language_objects.CREATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a0fee53bb34dca67b3318f5a0131ae3b9">UPDATED_AT</a> = 'language_objects.UPDATED_AT'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectPeer.html#a29884519ffb4a4454cc5440b8b8e1bd8">CREATED_BY</a> = 'language_objects.CREATED_BY'</td></tr>
@@ -1931,12 +1932,12 @@ Static Protected Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 <b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
-    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;ObjectId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 6, ),
-    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;objectId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 6, ),
-    BasePeer::TYPE_COLNAME =&gt; array (self::OBJECT_ID =&gt; 0, self::LANGUAGE_ID =&gt; 1, self::DATA =&gt; 2, self::CREATED_AT =&gt; 3, self::UPDATED_AT =&gt; 4, self::CREATED_BY =&gt; 5, self::UPDATED_BY =&gt; 6, ),
-    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;OBJECT_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;DATA&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 6, ),
-    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;object_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 6, ),
-    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;ObjectId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;HasDraft&#39;</span> =&gt; 3, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 5, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 6, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 7, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;objectId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;hasDraft&#39;</span> =&gt; 3, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 5, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 6, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 7, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::OBJECT_ID =&gt; 0, self::LANGUAGE_ID =&gt; 1, self::DATA =&gt; 2, self::HAS_DRAFT =&gt; 3, self::CREATED_AT =&gt; 4, self::UPDATED_AT =&gt; 5, self::CREATED_BY =&gt; 6, self::UPDATED_BY =&gt; 7, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;OBJECT_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;DATA&#39;</span> =&gt; 2, <span class="stringliteral">&#39;HAS_DRAFT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 5, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 6, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 7, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;object_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;data&#39;</span> =&gt; 2, <span class="stringliteral">&#39;has_draft&#39;</span> =&gt; 3, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 5, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 6, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 7, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, )
   )
 </pre></div><p>holds an array of keys for quick access to the fieldnames array</p>
 <p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
@@ -1954,12 +1955,12 @@ Static Protected Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 <b>Initial value:</b><div class="fragment"><pre class="fragment"> array (
-    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;ObjectId&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;Data&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),
-    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;objectId&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;data&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),
-    BasePeer::TYPE_COLNAME =&gt; array (self::OBJECT_ID, self::LANGUAGE_ID, self::DATA, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),
-    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;OBJECT_ID&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;DATA&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),
-    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;object_id&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;data&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),
-    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )
+    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;ObjectId&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;Data&#39;</span>, <span class="stringliteral">&#39;HasDraft&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),
+    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;objectId&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;data&#39;</span>, <span class="stringliteral">&#39;hasDraft&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),
+    BasePeer::TYPE_COLNAME =&gt; array (self::OBJECT_ID, self::LANGUAGE_ID, self::DATA, self::HAS_DRAFT, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),
+    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;OBJECT_ID&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;DATA&#39;</span>, <span class="stringliteral">&#39;HAS_DRAFT&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),
+    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;object_id&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;data&#39;</span>, <span class="stringliteral">&#39;has_draft&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),
+    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, )
   )
 </pre></div><p>holds an array of fieldnames</p>
 <p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
@@ -2050,6 +2051,20 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abcb93a64a47c9ba9f6af169047984d0f"></a><!-- doxytag: member="BaseLanguageObjectPeer::HAS_DRAFT" ref="abcb93a64a47c9ba9f6af169047984d0f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBaseLanguageObjectPeer.html#abcb93a64a47c9ba9f6af169047984d0f">BaseLanguageObjectPeer::HAS_DRAFT</a> = 'language_objects.HAS_DRAFT'</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>the column name for the HAS_DRAFT field </p>
+
+</div>
+</div>
 <a class="anchor" id="ad6451b138807eaa54f959423a6d4670e"></a><!-- doxytag: member="BaseLanguageObjectPeer::LANGUAGE_ID" ref="ad6451b138807eaa54f959423a6d4670e" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -2069,7 +2084,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classBaseLanguageObjectPeer.html#a9d4e3f2981d01691d9cc6de9624ad906">BaseLanguageObjectPeer::NUM_COLUMNS</a> = 7</td>
+          <td class="memname">const <a class="el" href="classBaseLanguageObjectPeer.html#a9d4e3f2981d01691d9cc6de9624ad906">BaseLanguageObjectPeer::NUM_COLUMNS</a> = 8</td>
         </tr>
       </table>
 </div>
@@ -2083,7 +2098,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classBaseLanguageObjectPeer.html#a0a04be0e4facd232419854d390feaefb">BaseLanguageObjectPeer::NUM_HYDRATE_COLUMNS</a> = 7</td>
+          <td class="memname">const <a class="el" href="classBaseLanguageObjectPeer.html#a0a04be0e4facd232419854d390feaefb">BaseLanguageObjectPeer::NUM_HYDRATE_COLUMNS</a> = 8</td>
         </tr>
       </table>
 </div>
@@ -2211,7 +2226,7 @@ Static Protected Attributes</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 21 2011 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 22 2011 04:02:09 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

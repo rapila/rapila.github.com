@@ -104,11 +104,49 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($oLanguageObject, $aRequestPath=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05700be1d9343ac9c01f024c16faf211"></a><!-- doxytag: member="NotFoundFrontendModule::renderFrontend" ref="a05700be1d9343ac9c01f024c16faf211" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>renderFrontend</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44e6dd3c3b7d5cfaf8cac5b34e3faa48"></a><!-- doxytag: member="NotFoundFrontendModule::renderBackend" ref="a44e6dd3c3b7d5cfaf8cac5b34e3faa48" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>renderBackend</b> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0608d81fe68120aabba46da6ba212f8"></a><!-- doxytag: member="NotFoundFrontendModule::getSaveData" ref="aa0608d81fe68120aabba46da6ba212f8" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSaveData</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNotFoundFrontendModule.html#a44e6dd3c3b7d5cfaf8cac5b34e3faa48">renderBackend</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNotFoundFrontendModule.html#a95875979adef0b297f89c58a1cc102fe">getSaveData</a> ($aData)</td></tr>
 </table>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a95875979adef0b297f89c58a1cc102fe"></a><!-- doxytag: member="NotFoundFrontendModule::getSaveData" ref="a95875979adef0b297f89c58a1cc102fe" args="($aData)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NotFoundFrontendModule::getSaveData </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>aData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Override this method to transform the data sent from your config widget into a string/blob that can be stored in the database. </p>
+
+<p>Reimplemented from <a class="el" href="classFrontendModule.html#aaded112e2a69a335b056d1c0e62b60eb">FrontendModule</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44e6dd3c3b7d5cfaf8cac5b34e3faa48"></a><!-- doxytag: member="NotFoundFrontendModule::renderBackend" ref="a44e6dd3c3b7d5cfaf8cac5b34e3faa48" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NotFoundFrontendModule::renderBackend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Return a form (as string or <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a>) to be serialized on saving in either admin or preview contexts. Use getWidget instead if you wish to provide more interactive configuration options. </p>
+
+<p>Reimplemented from <a class="el" href="classFrontendModule.html#aa9fc62067bb7f43883436b0405eba9c2">FrontendModule</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/modules/frontend/not_found/NotFoundFrontendModule.php</li>
 </ul>
@@ -130,7 +168,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 21 2011 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 22 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
