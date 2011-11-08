@@ -160,8 +160,7 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>shouldBeIncludedInList</b> ($sLanguageId, $oPage)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0dfeacb07be959705f0718a66c8b07a"></a><!-- doxytag: member="Page::renderListItem" ref="aa0dfeacb07be959705f0718a66c8b07a" args="($oTemplate)" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>renderListItem</b> ($oTemplate)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf416a34cdd5a6047f9de0e13c2b2392"></a><!-- doxytag: member="Page::getFullPathArray" ref="acf416a34cdd5a6047f9de0e13c2b2392" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getFullPathArray</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a6d4dba3ac87b4e8e735d5c8f86e00749">getFullPathArray</a> (array $aSubpages=array())</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2f1e671b3368d531c39b66aeb4ea87f0">getLink</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a4647ee02ab6d6da85596bd6c4cfc312d">getLinkArray</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a58430090653246ea7a2a10e52151224b">getTree</a> ($bNameOnly=false, $iLevel=0)</td></tr>
@@ -248,6 +247,30 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6d4dba3ac87b4e8e735d5c8f86e00749"></a><!-- doxytag: member="Page::getFullPathArray" ref="a6d4dba3ac87b4e8e735d5c8f86e00749" args="(array $aSubpages=array())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Page::getFullPathArray </td>
+          <td>(</td>
+          <td class="paramtype">array $&#160;</td>
+          <td class="paramname"><em>aSubpages</em> = <code>array()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns the path leading to this page. </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">array</td><td class="paramname">$aSubpages</td><td>An array to append to the output </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a2f1e671b3368d531c39b66aeb4ea87f0"></a><!-- doxytag: member="Page::getLink" ref="a2f1e671b3368d531c39b66aeb4ea87f0" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -261,8 +284,8 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Alias of getFullPathArray() </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use getFullPathArray() for clarity </dd></dl>
+<p>Alias of <a class="el" href="classPage.html#a6d4dba3ac87b4e8e735d5c8f86e00749">getFullPathArray()</a> </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use <a class="el" href="classPage.html#a6d4dba3ac87b4e8e735d5c8f86e00749">getFullPathArray()</a> for clarity </dd></dl>
 
 </div>
 </div>
@@ -279,7 +302,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Alias of getFullPathArray() </p>
+<p>Exploded alias of <a class="el" href="classPage.html#a6d4dba3ac87b4e8e735d5c8f86e00749">getFullPathArray()</a>. All params given to this method will be passed as the first parameter of getFullPathArray. </p>
 
 </div>
 </div>
@@ -307,7 +330,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>use PagePeer::getRootPage()-&gt;<a class="el" href="classBasePage.html#a7dba73e470fca57cf14a814a78b70931">getIterator()</a> </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>use <a class="el" href="classPagePeer.html#a428973482d67ede320a54fc717e3dcc2">PagePeer::getRootPage()</a>-&gt;<a class="el" href="classBasePage.html#a7dba73e470fca57cf14a814a78b70931">getIterator()</a> </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>replace usages with Propel 1.5’s RecursiveIterator </dd></dl>
 
 </div>
@@ -368,7 +391,7 @@ Protected Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 7 2011 04:02:25 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 8 2011 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -123,10 +123,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>clearIncludedResources</b> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac39ee74f8ef35984e0c897271b3a65a1"></a><!-- doxytag: member="ResourceIncluder::namedIncluder" ref="ac39ee74f8ef35984e0c897271b3a65a1" args="($sName)" -->
-static&#160;</td><td class="memItemRight" valign="bottom"><b>namedIncluder</b> ($sName)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36630858daa1c288100f62eb45637001"></a><!-- doxytag: member="ResourceIncluder::defaultIncluder" ref="a36630858daa1c288100f62eb45637001" args="()" -->
-static&#160;</td><td class="memItemRight" valign="bottom"><b>defaultIncluder</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#ac39ee74f8ef35984e0c897271b3a65a1">namedIncluder</a> ($sName)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a36630858daa1c288100f62eb45637001">defaultIncluder</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85d341cfe146300fdd19659c0d1776e4"></a><!-- doxytag: member="ResourceIncluder::DEFAULT_INSTANCE_NAME" ref="a85d341cfe146300fdd19659c0d1776e4" args="" -->
@@ -159,6 +157,48 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>RESOURCE_PREFIX_EXTE
 const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> = '&lt;!--[if {{condition}}]&gt;{{content}}&lt;![endif]--&gt;'</td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a36630858daa1c288100f62eb45637001"></a><!-- doxytag: member="ResourceIncluder::defaultIncluder" ref="a36630858daa1c288100f62eb45637001" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ResourceIncluder::defaultIncluder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get the default includer. Same as calling ResourceIncluder::namedIncluder(ResourceIncluder::DEFAULT_INSTANCE_NAME). </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classResourceIncluder.html">ResourceIncluder</a> the default includer </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac39ee74f8ef35984e0c897271b3a65a1"></a><!-- doxytag: member="ResourceIncluder::namedIncluder" ref="ac39ee74f8ef35984e0c897271b3a65a1" args="($sName)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ResourceIncluder::namedIncluder </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sName</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$sName</td><td>name of the static includer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classResourceIncluder.html">ResourceIncluder</a> the named static includer or a new instance if name did not yet reference an includer. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a4adf4562e9de31c49962972732237249"></a><!-- doxytag: member="ResourceIncluder::startDependencies" ref="a4adf4562e9de31c49962972732237249" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +237,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 7 2011 04:02:26 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 8 2011 04:02:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
