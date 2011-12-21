@@ -110,12 +110,36 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>newHistory</b> ($bDraft=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguageObject.html#a9a0bbdd6d0e75c506021c58f38214a6d">getHasDraft</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguageObject.html#a08164a3acc97d1eb4f364ff3de098e2d">setHasDraft</a> ($bHasDraft)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f47b32c97eff4bdcb4d83e534e0abdd"></a><!-- doxytag: member="LanguageObject::getDraft" ref="a9f47b32c97eff4bdcb4d83e534e0abdd" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDraft</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguageObject.html#a1a85339d58a6e68e585653338b539604">getDraft</a> ($bDraftOnly=false)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0a4873263e42f212405e96ac06aefd6"></a><!-- doxytag: member="LanguageObject::getAdminWidget" ref="ae0a4873263e42f212405e96ac06aefd6" args="()" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>getAdminWidget</b> ()</td></tr>
 </table>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a1a85339d58a6e68e585653338b539604"></a><!-- doxytag: member="LanguageObject::getDraft" ref="a1a85339d58a6e68e585653338b539604" args="($bDraftOnly=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LanguageObject::getDraft </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>bDraftOnly</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Gets the draft version of this language object (if any). </p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$bDraftOnly</td><td>If true, the function will return null instead of $this if no draft exists. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>LanguageObject|LanguageObjectHistory The draft version of this object. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a9a0bbdd6d0e75c506021c58f38214a6d"></a><!-- doxytag: member="LanguageObject::getHasDraft" ref="a9a0bbdd6d0e75c506021c58f38214a6d" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +225,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 20 2011 04:02:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 21 2011 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
