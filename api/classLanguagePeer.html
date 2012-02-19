@@ -118,11 +118,37 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>hasNoLanguage</b> (
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isMonolingual</b> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a276d0e96a66d156cf46fd9ad33750c09"></a><!-- doxytag: member="LanguagePeer::getAdminLanguages" ref="a276d0e96a66d156cf46fd9ad33750c09" args="()" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getAdminLanguages</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLanguagePeer.html#a74c267837a1ee5453df1c3c06b47bdfa">createLanguageIfNoneExist</a> ($sLanguage)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a62394bae8c64d6ee603b918c0fdd92"></a><!-- doxytag: member="LanguagePeer::STATIC_STRING_NAMESPACE" ref="a4a62394bae8c64d6ee603b918c0fdd92" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>STATIC_STRING_NAMESPACE</b> = 'language'</td></tr>
 </table>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a74c267837a1ee5453df1c3c06b47bdfa"></a><!-- doxytag: member="LanguagePeer::createLanguageIfNoneExist" ref="a74c267837a1ee5453df1c3c06b47bdfa" args="($sLanguage)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LanguagePeer::createLanguageIfNoneExist </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>sLanguage</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$sLanguageId</td><td>use cases: 1. at first users' creation 2. fallback method, creates language if it does not exist, but not at first users' login time, i.e. when languages have been truncated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>void </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/model/LanguagePeer.php</li>
 </ul>
@@ -144,7 +170,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>STATIC_STRING_NAMESP
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 30 2012 04:02:28 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Feb 19 2012 18:53:56 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
