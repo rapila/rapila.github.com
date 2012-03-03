@@ -92,11 +92,14 @@ This is the complete list of members for <a class="el" href="classBaseGroup.html
   <tr bgcolor="#f0f0f0"><td><b>$collUserGroups</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_at</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_by</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$groupRolesScheduledForDeletion</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$id</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$name</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$peer</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected, static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$startCopy</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$userGroupsScheduledForDeletion</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseGroup.html">BaseGroup</a>)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#abcde1f514dd62b6acb305cd185c32e97">__toString</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a3f8594ede9b5aaefdb97ed925a851088">addGroupRole</a>(GroupRole $l)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -112,7 +115,11 @@ This is the complete list of members for <a class="el" href="classBaseGroup.html
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a9244a3280d410af7599c72623c60dacf">countGroupRoles</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a479ae04edbee7fc9b9ba19e647a4e49e">countUserGroups</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a16897d9870662c45725c60fd17de2297">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#adf2946041618c9ee75d3f443ed536b05">doAddGroupRole</a>($groupRole)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a51c52881309ce7dc99da3699ca1b2caa">doAddUserGroup</a>($userGroup)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a7bbd4424db70ae446e879e9303d58eb7">doInsert</a>(PropelPDO $con)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ad938d42e237351947afc3e386d6b1ff1">doSave</a>(PropelPDO $con)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a4e3523879426d80a601fa812719f9992">doUpdate</a>(PropelPDO $con)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#af5444e7919f9febd4bb0fc820f60a39f">doValidate</a>($columns=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a71e40002636678934b31f84679ddf0dd">ensureConsistency</a>()</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a71ebb10ba36362d7b8392d24f5e76d9f">fromArray</a>($arr, $keyType=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -160,11 +167,13 @@ This is the complete list of members for <a class="el" href="classBaseGroup.html
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ae1435b6726ec251d7fd0a9b2330264d6">setByPosition</a>($pos, $value)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a2a6d613b7157e04fd64e0ba6a472eaf7">setCreatedAt</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ab5aca24c7342201e5bda579eabd4fd9d">setCreatedBy</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a108a4b1526864d72908cd8bd4cc64bd6">setGroupRoles</a>(PropelCollection $groupRoles, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a91b8dc582b335e36a30789554e8b5476">setId</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ac1a5bd584cad02a0fe81da80715011ed">setName</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#afe5fd4a2e9e7467fb0500d3ecd594553">setPrimaryKey</a>($key)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a717c109329e2bd0ef3b84345f5548db4">setUpdatedAt</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#af2fff3005388bf873e4cc1ebd6e7a574">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseGroup.html#adc9bb25f69b34b4b225f686c0260d81f">setUserGroups</a>(PropelCollection $userGroups, PropelPDO $con=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#ac9240638eab78569c013d70fa5396f94">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a833f48a274f12734d992a052c9f9fbd4">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseGroup.html#a27f0093bc0e44b58ca1149e64bbf84bc">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseGroup.html">BaseGroup</a></td><td></td></tr>
@@ -187,7 +196,7 @@ This is the complete list of members for <a class="el" href="classBaseGroup.html
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

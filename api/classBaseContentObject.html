@@ -155,6 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a9ca5494a26e5cfbc24bcb7d5557505d0">clearLanguageObjects</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#adb9775b72d85cb653596fa7359894629">initLanguageObjects</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#afd266fa1fc5ac39aa9e238b709b7da51">getLanguageObjects</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#adad509a9ac6dde39c2240bcc9f600874">setLanguageObjects</a> (PropelCollection $languageObjects, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a503aa285cf5eef851ff69e51769b5289">countLanguageObjects</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a37024abb2489e5a1022ead9a4b8144c4">addLanguageObject</a> (<a class="el" href="classLanguageObject.html">LanguageObject</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a9d34a94d1bb1f94ae1613fdb6f5c2d51">getLanguageObjectsJoinLanguage</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
@@ -163,6 +164,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a36e835335e358bf749be485dd41ca353">clearLanguageObjectHistorys</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#ad5acc0f1c699592e77b3094a0722befb">initLanguageObjectHistorys</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a580770a7fcce46a0598f708ae1b47962">getLanguageObjectHistorys</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#af2f927a0206fdd7ba5bf73518f979ee8">setLanguageObjectHistorys</a> (PropelCollection $languageObjectHistorys, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a18c0b2e6b094a5ced8045d8a61dd9696">countLanguageObjectHistorys</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#ae26a2fbad52403276208634d0b44415e">addLanguageObjectHistory</a> (<a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a565a754a4f1b684bb8e0a9c19348425e">getLanguageObjectHistorysJoinLanguage</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
@@ -191,9 +193,15 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a1d546b953823a65fbc92b0f8242e79fe">doSave</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#ace418bea033f6b1efc06de7916bafbac">doInsert</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a4f88c4f7dc930d1b6086350b99b3b95e">doUpdate</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#a6ad04b873443f5573f61be7d998107ac">doValidate</a> ($columns=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#acd0d773de24f482d857f89d9c15f6b02">doAddLanguageObject</a> ($languageObject)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseContentObject.html#aa217aab853c7e1d95bbf399999e7cce3">doAddLanguageObjectHistory</a> ($languageObjectHistory)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1dab2f4fa618c2c1320274e1044b509"></a><!-- doxytag: member="BaseContentObject::$startCopy" ref="ac1dab2f4fa618c2c1320274e1044b509" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$startCopy</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40812a1d3f5f7819a3bb5a0db8f5388d"></a><!-- doxytag: member="BaseContentObject::$id" ref="a40812a1d3f5f7819a3bb5a0db8f5388d" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$id</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a7868d5e9b338c2cd9bae805e4bdbcc"></a><!-- doxytag: member="BaseContentObject::$page_id" ref="a7a7868d5e9b338c2cd9bae805e4bdbcc" args="" -->
@@ -228,6 +236,10 @@ Protected Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInSave</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a2935e079c9cc4a405e23fdb29c064b"></a><!-- doxytag: member="BaseContentObject::$alreadyInValidation" ref="a0a2935e079c9cc4a405e23fdb29c064b" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInValidation</b> = false</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f0549a22617da0a2af0c866ea563cb4"></a><!-- doxytag: member="BaseContentObject::$languageObjectsScheduledForDeletion" ref="a3f0549a22617da0a2af0c866ea563cb4" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$languageObjectsScheduledForDeletion</b> = null</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fd77430c2af91b29ff5244e82d69cf2"></a><!-- doxytag: member="BaseContentObject::$languageObjectHistorysScheduledForDeletion" ref="a4fd77430c2af91b29ff5244e82d69cf2" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$languageObjectHistorysScheduledForDeletion</b> = null</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad51d5527b916d274e3141b504bd5e797"></a><!-- doxytag: member="BaseContentObject::$validationFailures" ref="ad51d5527b916d274e3141b504bd5e797" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$validationFailures</b> = array()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
@@ -636,6 +648,83 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="acd0d773de24f482d857f89d9c15f6b02"></a><!-- doxytag: member="BaseContentObject::doAddLanguageObject" ref="acd0d773de24f482d857f89d9c15f6b02" args="($languageObject)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::doAddLanguageObject </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>languageObject</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classLanguageObject.html">LanguageObject</a></td><td class="paramname">$languageObject</td><td>The languageObject object to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa217aab853c7e1d95bbf399999e7cce3"></a><!-- doxytag: member="BaseContentObject::doAddLanguageObjectHistory" ref="aa217aab853c7e1d95bbf399999e7cce3" args="($languageObjectHistory)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::doAddLanguageObjectHistory </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>languageObjectHistory</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a></td><td class="paramname">$languageObjectHistory</td><td>The languageObjectHistory object to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ace418bea033f6b1efc06de7916bafbac"></a><!-- doxytag: member="BaseContentObject::doInsert" ref="ace418bea033f6b1efc06de7916bafbac" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::doInsert </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Insert the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseContentObject.html#a1d546b953823a65fbc92b0f8242e79fe">doSave()</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1d546b953823a65fbc92b0f8242e79fe"></a><!-- doxytag: member="BaseContentObject::doSave" ref="a1d546b953823a65fbc92b0f8242e79fe" args="(PropelPDO $con)" -->
 <div class="memitem">
 <div class="memproto">
@@ -666,6 +755,31 @@ BaseObject::isDeleted() </dd></dl>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseContentObject.html#ad4993d81d36dc4b3ce90283d2cc74478">save()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f88c4f7dc930d1b6086350b99b3b95e"></a><!-- doxytag: member="BaseContentObject::doUpdate" ref="a4f88c4f7dc930d1b6086350b99b3b95e" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::doUpdate </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Update the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseContentObject.html#a1d546b953823a65fbc92b0f8242e79fe">doSave()</a> </dd></dl>
 
 </div>
 </div>
@@ -2094,6 +2208,76 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="af2f927a0206fdd7ba5bf73518f979ee8"></a><!-- doxytag: member="BaseContentObject::setLanguageObjectHistorys" ref="af2f927a0206fdd7ba5bf73518f979ee8" args="(PropelCollection $languageObjectHistorys, PropelPDO $con=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::setLanguageObjectHistorys </td>
+          <td>(</td>
+          <td class="paramtype">PropelCollection $&#160;</td>
+          <td class="paramname"><em>languageObjectHistorys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets a collection of <a class="el" href="classLanguageObjectHistory.html">LanguageObjectHistory</a> objects related by a one-to-many relationship to the current object. It will also schedule objects for deletion based on a diff between old objects (aka persisted) and new objects from the given Propel collection.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelCollection</td><td class="paramname">$languageObjectHistorys</td><td>A Propel collection. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Optional connection object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adad509a9ac6dde39c2240bcc9f600874"></a><!-- doxytag: member="BaseContentObject::setLanguageObjects" ref="adad509a9ac6dde39c2240bcc9f600874" args="(PropelCollection $languageObjects, PropelPDO $con=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseContentObject::setLanguageObjects </td>
+          <td>(</td>
+          <td class="paramtype">PropelCollection $&#160;</td>
+          <td class="paramname"><em>languageObjects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets a collection of <a class="el" href="classLanguageObject.html">LanguageObject</a> objects related by a one-to-many relationship to the current object. It will also schedule objects for deletion based on a diff between old objects (aka persisted) and new objects from the given Propel collection.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelCollection</td><td class="paramname">$languageObjects</td><td>A Propel collection. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Optional connection object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a8cd73d32e5f409ca0fda101c91836a61"></a><!-- doxytag: member="BaseContentObject::setObjectType" ref="a8cd73d32e5f409ca0fda101c91836a61" args="($v)" -->
 <div class="memitem">
 <div class="memproto">
@@ -2453,7 +2637,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:07 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

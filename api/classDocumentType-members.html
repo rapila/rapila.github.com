@@ -91,11 +91,13 @@ This is the complete list of members for <a class="el" href="classDocumentType.h
   <tr bgcolor="#f0f0f0"><td><b>$collDocuments</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_at</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_by</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$documentsScheduledForDeletion</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$extension</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$id</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$is_office_doc</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$mimetype</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$peer</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected, static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$startCopy</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseDocumentType.html">BaseDocumentType</a>)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
@@ -112,7 +114,10 @@ This is the complete list of members for <a class="el" href="classDocumentType.h
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a46f5fc97303d29f7e6754bc6e417f6b7">copyInto</a>($copyObj, $deepCopy=false, $makeNew=true)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a6a867589657fd238f5eab0b4907216d7">countDocuments</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a5a555ef5a01cbeb95bdf965891c9bd00">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a0e62150e85c0c4b698696b57075526c4">doAddDocument</a>($document)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a5c7641ef068cbcf707182468b683be16">doInsert</a>(PropelPDO $con)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#aa64f0821e06608e3609f742937694133">doSave</a>(PropelPDO $con)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#aa6f177b5ea8b24715390f0eb5546a032">doUpdate</a>(PropelPDO $con)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a8ae37608fb1c0c9f0e3a3909439321b5">doValidate</a>($columns=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#ac76619885be41f54893c4bb5ac7e22be">ensureConsistency</a>()</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a27b849d7ea0d98378f8d56f62c7cf888">fromArray</a>($arr, $keyType=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
@@ -163,6 +168,7 @@ This is the complete list of members for <a class="el" href="classDocumentType.h
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#aad7b70fd5b5cc25ad6b040d052f5ae80">setByPosition</a>($pos, $value)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#afa0ecdc5def2c925e5b9522a944e00e4">setCreatedAt</a>($v)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a168eb21d49f30b9d550cdf726c6250f0">setCreatedBy</a>($v)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a668808730348d27426f49ef515d6cdea">setDocuments</a>(PropelCollection $documents, PropelPDO $con=null)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classDocumentType.html#acf20cc697f145036058ab95048fe66c5">setExtension</a>($sExtension)</td><td><a class="el" href="classDocumentType.html">DocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a4178da866a4adf0b61a7a9ab57e274c9">setId</a>($v)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseDocumentType.html#a156ca7a7be466de184ead7b8e5ddac5d">setIsOfficeDoc</a>($v)</td><td><a class="el" href="classBaseDocumentType.html">BaseDocumentType</a></td><td></td></tr>
@@ -192,7 +198,7 @@ This is the complete list of members for <a class="el" href="classDocumentType.h
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

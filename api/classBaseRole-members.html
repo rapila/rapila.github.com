@@ -94,10 +94,14 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr bgcolor="#f0f0f0"><td><b>$created_at</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$created_by</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$description</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$groupRolesScheduledForDeletion</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$peer</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected, static]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$rightsScheduledForDeletion</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$role_key</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$startCopy</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_at</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$updated_by</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr bgcolor="#f0f0f0"><td><b>$userRolesScheduledForDeletion</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr bgcolor="#f0f0f0"><td><b>$validationFailures</b> (defined in <a class="el" href="classBaseRole.html">BaseRole</a>)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#ac205beedc9d7bca007136112bafdc96a">__toString</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a88cdc1284285a89b18ffc53ada9347c9">addGroupRole</a>(GroupRole $l)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
@@ -116,7 +120,12 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a2f3f509bec77b39491f894f2bc3033f6">countRights</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a4a88ff242eb70a26d2aad160e53f315e">countUserRoles</a>(Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5125d400cb33504046970434e0f87768">delete</a>(PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a15571902f240e9008b81fe3672871bf9">doAddGroupRole</a>($groupRole)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a86ff6583e03a6f865c679fe0ba627648">doAddRight</a>($right)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#aa1116461fc83b2d87a6164840e1b3aeb">doAddUserRole</a>($userRole)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#ad8f518a8b02b84d3eacc6275e634122f">doInsert</a>(PropelPDO $con)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a62841617f674b9a987626b5017010911">doSave</a>(PropelPDO $con)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#ad164010d4fe5f40235f701bb3310f4d5">doUpdate</a>(PropelPDO $con)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a311da95d1a0b73f26a2200c23370817a">doValidate</a>($columns=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td><code> [protected]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#ab4cd7dbc41e5f74b7cf1b43e8fd00786">ensureConsistency</a>()</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5fe1848952dbcc2727893f6b8d3f1dad">fromArray</a>($arr, $keyType=BasePeer::TYPE_PHPNAME)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
@@ -170,12 +179,15 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a2ef01b70776b21a652f3b41e302ff684">setCreatedAt</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a4bde4a221a5be51ae2fa5cbe27650c90">setCreatedBy</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a9cc62d64c2de544f90760af75cbb37c9">setDescription</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a96fedfd4da53405eebdbe106675efd24">setGroupRoles</a>(PropelCollection $groupRoles, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a45ab9f5c41a74849e8cb1bc184b3dedb">setPrimaryKey</a>($key)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#aa889961cd77abbee5e9168d9e87cc44e">setRights</a>(PropelCollection $rights, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a695a0b966ed565800130523b19b2540d">setRoleKey</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a72dcd6e7b2caaf8fbaa9e3ba1996dac3">setUpdatedAt</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#acfb4efaaee4085a77a068992e708f9ee">setUpdatedBy</a>($v)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a7d924f9c7aa3c7c1f5c65316bf2f20c6">setUserRelatedByCreatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a5a84f1480c87db211483a0a38b32c4ee">setUserRelatedByUpdatedBy</a>(User $v=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classBaseRole.html#a21ece68c9dc08da6f488b8d565437149">setUserRoles</a>(PropelCollection $userRoles, PropelPDO $con=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a6aa7793c5460b7c08c11bc038d0201fe">toArray</a>($keyType=BasePeer::TYPE_PHPNAME, $includeLazyLoadColumns=true, $alreadyDumpedObjects=array(), $includeForeignObjects=false)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classBaseRole.html#a981510bf44270a483e4f637e2fb4f1c3">validate</a>($columns=null)</td><td><a class="el" href="classBaseRole.html">BaseRole</a></td><td></td></tr>
 </table></div>
@@ -196,7 +208,7 @@ This is the complete list of members for <a class="el" href="classBaseRole.html"
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:09 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

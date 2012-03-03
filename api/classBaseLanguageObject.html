@@ -175,9 +175,13 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a8d8c5dd2aeb15563d14826bfd2b36b33">doSave</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ab83cdc4bc81fd2a7168e13d6fa630de8">doInsert</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#ad3a48115e53dc224b097415f47998942">doUpdate</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObject.html#a23be8b14788edcf93e1b9db2b2ac8302">doValidate</a> ($columns=null)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01736cfb2a00955a361ec0c2572c470a"></a><!-- doxytag: member="BaseLanguageObject::$startCopy" ref="a01736cfb2a00955a361ec0c2572c470a" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$startCopy</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8c7569c521bbe55fbac6b9313d2f10c"></a><!-- doxytag: member="BaseLanguageObject::$object_id" ref="ab8c7569c521bbe55fbac6b9313d2f10c" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$object_id</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53c565e2946ebe4eba1be225311bb9b7"></a><!-- doxytag: member="BaseLanguageObject::$language_id" ref="a53c565e2946ebe4eba1be225311bb9b7" args="" -->
@@ -463,6 +467,37 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="ab83cdc4bc81fd2a7168e13d6fa630de8"></a><!-- doxytag: member="BaseLanguageObject::doInsert" ref="ab83cdc4bc81fd2a7168e13d6fa630de8" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguageObject::doInsert </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Insert the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLanguageObject.html#a8d8c5dd2aeb15563d14826bfd2b36b33">doSave()</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8d8c5dd2aeb15563d14826bfd2b36b33"></a><!-- doxytag: member="BaseLanguageObject::doSave" ref="a8d8c5dd2aeb15563d14826bfd2b36b33" args="(PropelPDO $con)" -->
 <div class="memitem">
 <div class="memproto">
@@ -493,6 +528,31 @@ BaseObject::isDeleted() </dd></dl>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLanguageObject.html#a0c6d13abaf394bc95b9eddceeca9007d">save()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad3a48115e53dc224b097415f47998942"></a><!-- doxytag: member="BaseLanguageObject::doUpdate" ref="ad3a48115e53dc224b097415f47998942" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLanguageObject::doUpdate </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Update the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLanguageObject.html#a8d8c5dd2aeb15563d14826bfd2b36b33">doSave()</a> </dd></dl>
 
 </div>
 </div>
@@ -1850,7 +1910,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

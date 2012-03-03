@@ -149,6 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a25f51d222cce146c08ac5a498d7d0faf">clearLinks</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a2be2caf18eef7f1f66e9e08503526794">initLinks</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#abb7074a366ca5ca1a278d6a9218312e2">getLinks</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#ab59aa1b9febc349c97eefccb20f872f2">setLinks</a> (PropelCollection $links, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#aec541798a4188f7de69d2e7ec42a51d1">countLinks</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a3bc6cf29fd171cdab6cec9d3e708c3c7">addLink</a> (<a class="el" href="classLink.html">Link</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a4af06e8998bf15c511e08bcaa13674ec">getLinksJoinLanguage</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
@@ -179,9 +180,14 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a391dd876d2e79c37aff9aecf930708ea">doSave</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a63765d195b1284f2961fc4312cae368c">doInsert</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a705eaf48adffd69ed52880a9da9ee29b">doUpdate</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#aba690b45b13b75692bf8fcdda8139dd3">doValidate</a> ($columns=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkCategory.html#a4a06ee75f2ebd697e53ffb849e19d3b3">doAddLink</a> ($link)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad039e78dc1a50d5a1db5736912e1ebc8"></a><!-- doxytag: member="BaseLinkCategory::$startCopy" ref="ad039e78dc1a50d5a1db5736912e1ebc8" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$startCopy</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37842cedc4ac29f47a99f96da764cd3c"></a><!-- doxytag: member="BaseLinkCategory::$id" ref="a37842cedc4ac29f47a99f96da764cd3c" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$id</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a665eb520e14787adf69ec8022e6d1853"></a><!-- doxytag: member="BaseLinkCategory::$name" ref="a665eb520e14787adf69ec8022e6d1853" args="" -->
@@ -206,6 +212,8 @@ Protected Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInSave</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f36eb27bd521a761ea0d2623828444e"></a><!-- doxytag: member="BaseLinkCategory::$alreadyInValidation" ref="a7f36eb27bd521a761ea0d2623828444e" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInValidation</b> = false</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2666ff87409eaaea29508ef93c339d02"></a><!-- doxytag: member="BaseLinkCategory::$linksScheduledForDeletion" ref="a2666ff87409eaaea29508ef93c339d02" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$linksScheduledForDeletion</b> = null</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a43b5c507cb6aecbf7656e476c1a9dc"></a><!-- doxytag: member="BaseLinkCategory::$validationFailures" ref="a0a43b5c507cb6aecbf7656e476c1a9dc" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$validationFailures</b> = array()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
@@ -557,6 +565,60 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a4a06ee75f2ebd697e53ffb849e19d3b3"></a><!-- doxytag: member="BaseLinkCategory::doAddLink" ref="a4a06ee75f2ebd697e53ffb849e19d3b3" args="($link)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategory::doAddLink </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>link</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classLink.html">Link</a></td><td class="paramname">$link</td><td>The link object to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a63765d195b1284f2961fc4312cae368c"></a><!-- doxytag: member="BaseLinkCategory::doInsert" ref="a63765d195b1284f2961fc4312cae368c" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategory::doInsert </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Insert the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLinkCategory.html#a391dd876d2e79c37aff9aecf930708ea">doSave()</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a391dd876d2e79c37aff9aecf930708ea"></a><!-- doxytag: member="BaseLinkCategory::doSave" ref="a391dd876d2e79c37aff9aecf930708ea" args="(PropelPDO $con)" -->
 <div class="memitem">
 <div class="memproto">
@@ -587,6 +649,31 @@ BaseObject::isDeleted() </dd></dl>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLinkCategory.html#ad2189093e737c6f1102cfbcffce67634">save()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a705eaf48adffd69ed52880a9da9ee29b"></a><!-- doxytag: member="BaseLinkCategory::doUpdate" ref="a705eaf48adffd69ed52880a9da9ee29b" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategory::doUpdate </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Update the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseLinkCategory.html#a391dd876d2e79c37aff9aecf930708ea">doSave()</a> </dd></dl>
 
 </div>
 </div>
@@ -1765,6 +1852,41 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="ab59aa1b9febc349c97eefccb20f872f2"></a><!-- doxytag: member="BaseLinkCategory::setLinks" ref="ab59aa1b9febc349c97eefccb20f872f2" args="(PropelCollection $links, PropelPDO $con=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseLinkCategory::setLinks </td>
+          <td>(</td>
+          <td class="paramtype">PropelCollection $&#160;</td>
+          <td class="paramname"><em>links</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets a collection of <a class="el" href="classLink.html">Link</a> objects related by a one-to-many relationship to the current object. It will also schedule objects for deletion based on a diff between old objects (aka persisted) and new objects from the given Propel collection.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelCollection</td><td class="paramname">$links</td><td>A Propel collection. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Optional connection object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ae36ca007ddba495ef68d82eec1eaee09"></a><!-- doxytag: member="BaseLinkCategory::setName" ref="ae36ca007ddba495ef68d82eec1eaee09" args="($v)" -->
 <div class="memitem">
 <div class="memproto">
@@ -2043,7 +2165,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

@@ -81,7 +81,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">BasePagePropertyQuery Class Reference</div>  </div>
 </div>
@@ -132,6 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePropertyQuery.html#a2d9364aa7eb5b7d1922af7cdf8da5155">create</a> ($modelAlias=null, $criteria=null)</td></tr>
+<tr><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePropertyQuery.html#ad30514aa8a32ac7278c0666e72197e02">findPkSimple</a> ($key, $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePropertyQuery.html#a9bf66170bb1e6840005ef6a0e43717c0">findPkComplex</a> ($key, $con)</td></tr>
 </table>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad0bd3de9c1ead7369776d3b2f86cd561"></a><!-- doxytag: member="BasePagePropertyQuery::__construct" ref="ad0bd3de9c1ead7369776d3b2f86cd561" args="($dbName= 'rapila', $modelName= 'PageProperty', $modelAlias=null)" -->
@@ -694,11 +699,48 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Find object by primary key Use instance pooling to avoid a database query if the object exists <code> $obj = $c-&gt;findPk(12, $con); </code> </p>
+<p>Find object by primary key. Propel uses the instance pool to skip the database if the object exists. Go fast if the query is untouched.</p>
+<p><code> $obj = $c-&gt;findPk(12, $con); </code></p>
 <dl><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$key</td><td>Primary key to use for the query </td></tr>
     <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>an optional connection object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>PageProperty|array|mixed the result, formatted by the current formatter </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9bf66170bb1e6840005ef6a0e43717c0"></a><!-- doxytag: member="BasePagePropertyQuery::findPkComplex" ref="a9bf66170bb1e6840005ef6a0e43717c0" args="($key, $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BasePagePropertyQuery::findPkComplex </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>con</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Find object by primary key.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">mixed</td><td class="paramname">$key</td><td>Primary key to use for the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>A connection object</td></tr>
   </table>
   </dd>
 </dl>
@@ -739,6 +781,42 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>PropelObjectCollection|array|mixed the list of results, formatted by the current formatter </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad30514aa8a32ac7278c0666e72197e02"></a><!-- doxytag: member="BasePagePropertyQuery::findPkSimple" ref="ad30514aa8a32ac7278c0666e72197e02" args="($key, $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BasePagePropertyQuery::findPkSimple </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>con</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Find object by primary key using raw SQL to go fast. Bypass doSelect() and the object formatter by using generated code.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">mixed</td><td class="paramname">$key</td><td>Primary key to use for the query </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>A connection object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd><a class="el" href="classPageProperty.html">PageProperty</a> A model object, or null if the key is not found </dd></dl>
 
 </div>
 </div>
@@ -1129,7 +1207,7 @@ Static Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:11 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

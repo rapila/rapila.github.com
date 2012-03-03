@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a6b57523aa5aecce8e3f7f2cd6fa5b064">clearDocuments</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a6837111c6a287fcc92a6e7f3ae18f4bb">initDocuments</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#afe5ce50ff7c815fb9385a757fa6edf0b">getDocuments</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a668808730348d27426f49ef515d6cdea">setDocuments</a> (PropelCollection $documents, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a6a867589657fd238f5eab0b4907216d7">countDocuments</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a73a831d716711b0e5ebd34278c61f2eb">addDocument</a> (<a class="el" href="classDocument.html">Document</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a26164d033567483b41823095a2f66fbb">getDocumentsJoinLanguage</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
@@ -181,9 +182,14 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#aa64f0821e06608e3609f742937694133">doSave</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a5c7641ef068cbcf707182468b683be16">doInsert</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#aa6f177b5ea8b24715390f0eb5546a032">doUpdate</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a8ae37608fb1c0c9f0e3a3909439321b5">doValidate</a> ($columns=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentType.html#a0e62150e85c0c4b698696b57075526c4">doAddDocument</a> ($document)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a672d9082f990abbf886a28b4c7d4cdc1"></a><!-- doxytag: member="BaseDocumentType::$startCopy" ref="a672d9082f990abbf886a28b4c7d4cdc1" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$startCopy</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b18bae4022c6d171b53f02dd9dd8fbd"></a><!-- doxytag: member="BaseDocumentType::$id" ref="a1b18bae4022c6d171b53f02dd9dd8fbd" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$id</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd266c0be7cddc334a8af7fbcffa8e4b"></a><!-- doxytag: member="BaseDocumentType::$extension" ref="afd266c0be7cddc334a8af7fbcffa8e4b" args="" -->
@@ -210,6 +216,8 @@ Protected Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInSave</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3371866746620ff8231a4e14a223f06d"></a><!-- doxytag: member="BaseDocumentType::$alreadyInValidation" ref="a3371866746620ff8231a4e14a223f06d" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInValidation</b> = false</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34c64c0e6f878684c99a14ce31cb3676"></a><!-- doxytag: member="BaseDocumentType::$documentsScheduledForDeletion" ref="a34c64c0e6f878684c99a14ce31cb3676" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$documentsScheduledForDeletion</b> = null</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ed2dd8732488afbf3a2fd8edcdf44d8"></a><!-- doxytag: member="BaseDocumentType::$validationFailures" ref="a6ed2dd8732488afbf3a2fd8edcdf44d8" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$validationFailures</b> = array()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
@@ -561,6 +569,60 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a0e62150e85c0c4b698696b57075526c4"></a><!-- doxytag: member="BaseDocumentType::doAddDocument" ref="a0e62150e85c0c4b698696b57075526c4" args="($document)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentType::doAddDocument </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>document</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classDocument.html">Document</a></td><td class="paramname">$document</td><td>The document object to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5c7641ef068cbcf707182468b683be16"></a><!-- doxytag: member="BaseDocumentType::doInsert" ref="a5c7641ef068cbcf707182468b683be16" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentType::doInsert </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Insert the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentType.html#aa64f0821e06608e3609f742937694133">doSave()</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa64f0821e06608e3609f742937694133"></a><!-- doxytag: member="BaseDocumentType::doSave" ref="aa64f0821e06608e3609f742937694133" args="(PropelPDO $con)" -->
 <div class="memitem">
 <div class="memproto">
@@ -591,6 +653,31 @@ BaseObject::isDeleted() </dd></dl>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentType.html#a3b1aab42e799274b83199fd9a6dc60de">save()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6f177b5ea8b24715390f0eb5546a032"></a><!-- doxytag: member="BaseDocumentType::doUpdate" ref="aa6f177b5ea8b24715390f0eb5546a032" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentType::doUpdate </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Update the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseDocumentType.html#aa64f0821e06608e3609f742937694133">doSave()</a> </dd></dl>
 
 </div>
 </div>
@@ -1764,6 +1851,41 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a668808730348d27426f49ef515d6cdea"></a><!-- doxytag: member="BaseDocumentType::setDocuments" ref="a668808730348d27426f49ef515d6cdea" args="(PropelCollection $documents, PropelPDO $con=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDocumentType::setDocuments </td>
+          <td>(</td>
+          <td class="paramtype">PropelCollection $&#160;</td>
+          <td class="paramname"><em>documents</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets a collection of <a class="el" href="classDocument.html">Document</a> objects related by a one-to-many relationship to the current object. It will also schedule objects for deletion based on a diff between old objects (aka persisted) and new objects from the given Propel collection.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelCollection</td><td class="paramname">$documents</td><td>A Propel collection. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Optional connection object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a2ebeee167b88964bf9eea17d526f432a"></a><!-- doxytag: member="BaseDocumentType::setExtension" ref="a2ebeee167b88964bf9eea17d526f432a" args="($v)" -->
 <div class="memitem">
 <div class="memproto">
@@ -2119,7 +2241,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:08 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:10 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

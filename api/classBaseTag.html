@@ -145,6 +145,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a286d2746ae467d054536bc2e1eb1a778">clearTagInstances</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#acc832175217099f173da1d1f88510606">initTagInstances</a> ($overrideExisting=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#ad80e1a6bb67dbadc79aef20f03eaeefd">getTagInstances</a> ($criteria=null, PropelPDO $con=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a9edbcef12ccbca0e71b378089e6157c9">setTagInstances</a> (PropelCollection $tagInstances, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#af8a364605f8993a8f26e64a3c92a5264">countTagInstances</a> (Criteria $criteria=null, $distinct=false, PropelPDO $con=null)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a55ba1712791cf87e35f67d2981fb4835">addTagInstance</a> (<a class="el" href="classTagInstance.html">TagInstance</a> $l)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a4a067e6c3fb00f8d4b69fe2e95503cf3">getTagInstancesJoinUserRelatedByCreatedBy</a> ($criteria=null, $con=null, $join_behavior=Criteria::LEFT_JOIN)</td></tr>
@@ -172,9 +173,14 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a075718f26f738ff87c05300fb86fe018">doSave</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a3ac5d057627cbcdc4d17a6a2f1169663">doInsert</a> (PropelPDO $con)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a69221771ee125735d85bce3a209059ae">doUpdate</a> (PropelPDO $con)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#a06edaddd92811656544371da34d7dbfb">doValidate</a> ($columns=null)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTag.html#ae583aa1dbdd21f820d59e6de83406140">doAddTagInstance</a> ($tagInstance)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9865e7c77c674d31d147b809678143a"></a><!-- doxytag: member="BaseTag::$startCopy" ref="ab9865e7c77c674d31d147b809678143a" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$startCopy</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88c2f3e67653340d8ad298290fc2b94e"></a><!-- doxytag: member="BaseTag::$id" ref="a88c2f3e67653340d8ad298290fc2b94e" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$id</b></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa39194c63d0ffdeabbcd43ed595bfa7"></a><!-- doxytag: member="BaseTag::$name" ref="afa39194c63d0ffdeabbcd43ed595bfa7" args="" -->
@@ -197,6 +203,8 @@ Protected Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInSave</b> = false</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc5c2be08cb2de505d6b77837e9c51bb"></a><!-- doxytag: member="BaseTag::$alreadyInValidation" ref="acc5c2be08cb2de505d6b77837e9c51bb" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInValidation</b> = false</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4dcbb3be5af04f6bb9b2bb11bcf46cc4"></a><!-- doxytag: member="BaseTag::$tagInstancesScheduledForDeletion" ref="a4dcbb3be5af04f6bb9b2bb11bcf46cc4" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$tagInstancesScheduledForDeletion</b> = null</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8530b6f696b8dcbff09b102a0214a04"></a><!-- doxytag: member="BaseTag::$validationFailures" ref="ae8530b6f696b8dcbff09b102a0214a04" args="" -->
 &#160;</td><td class="memItemRight" valign="bottom"><b>$validationFailures</b> = array()</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
@@ -511,6 +519,60 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="ae583aa1dbdd21f820d59e6de83406140"></a><!-- doxytag: member="BaseTag::doAddTagInstance" ref="ae583aa1dbdd21f820d59e6de83406140" args="($tagInstance)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseTag::doAddTagInstance </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>tagInstance</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype"><a class="el" href="classTagInstance.html">TagInstance</a></td><td class="paramname">$tagInstance</td><td>The tagInstance object to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3ac5d057627cbcdc4d17a6a2f1169663"></a><!-- doxytag: member="BaseTag::doInsert" ref="a3ac5d057627cbcdc4d17a6a2f1169663" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseTag::doInsert </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Insert the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Exceptions:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseTag.html#a075718f26f738ff87c05300fb86fe018">doSave()</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a075718f26f738ff87c05300fb86fe018"></a><!-- doxytag: member="BaseTag::doSave" ref="a075718f26f738ff87c05300fb86fe018" args="(PropelPDO $con)" -->
 <div class="memitem">
 <div class="memproto">
@@ -541,6 +603,31 @@ BaseObject::isDeleted() </dd></dl>
   </dd>
 </dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseTag.html#ad7318cdd07ddc0d21b0ed9a5fc751e65">save()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a69221771ee125735d85bce3a209059ae"></a><!-- doxytag: member="BaseTag::doUpdate" ref="a69221771ee125735d85bce3a209059ae" args="(PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseTag::doUpdate </td>
+          <td>(</td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Update the row in the database.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classBaseTag.html#a075718f26f738ff87c05300fb86fe018">doSave()</a> </dd></dl>
 
 </div>
 </div>
@@ -1623,6 +1710,41 @@ BaseObject::isDeleted() </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="a9edbcef12ccbca0e71b378089e6157c9"></a><!-- doxytag: member="BaseTag::setTagInstances" ref="a9edbcef12ccbca0e71b378089e6157c9" args="(PropelCollection $tagInstances, PropelPDO $con=null)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseTag::setTagInstances </td>
+          <td>(</td>
+          <td class="paramtype">PropelCollection $&#160;</td>
+          <td class="paramname"><em>tagInstances</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets a collection of <a class="el" href="classTagInstance.html">TagInstance</a> objects related by a one-to-many relationship to the current object. It will also schedule objects for deletion based on a diff between old objects (aka persisted) and new objects from the given Propel collection.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">PropelCollection</td><td class="paramname">$tagInstances</td><td>A Propel collection. </td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Optional connection object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ac561582b5ad46bba3da8ca0d0c45b1c3"></a><!-- doxytag: member="BaseTag::setUpdatedAt" ref="ac561582b5ad46bba3da8ca0d0c45b1c3" args="($v)" -->
 <div class="memitem">
 <div class="memproto">
@@ -1851,7 +1973,7 @@ BaseObject::isDeleted() </dd></dl>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2012 04:02:09 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2012 04:02:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
