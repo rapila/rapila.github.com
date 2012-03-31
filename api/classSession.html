@@ -132,8 +132,8 @@ Static Public Member Functions</h2></td></tr>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>startDigest</b> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd64c4caf9653d4cdd88d318e7702063"></a><!-- doxytag: member="Session::sessionDefaultFor" ref="afd64c4caf9653d4cdd88d318e7702063" args="($sAttribute)" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>sessionDefaultFor</b> ($sAttribute)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6af6a3058fb5c016d778d4e42cec7854"></a><!-- doxytag: member="Session::language" ref="a6af6a3058fb5c016d778d4e42cec7854" args="($bObject=false)" -->
-static&#160;</td><td class="memItemRight" valign="bottom"><b>language</b> ($bObject=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a6af6a3058fb5c016d778d4e42cec7854">language</a> ($bObject=false)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSession.html#a98e86d6b1506af4b4f9a989ed7bf675e">user</a> ($bObject=true)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af17d16bbb73d2e60d9eb5b1805b398f1"></a><!-- doxytag: member="Session::getSession" ref="af17d16bbb73d2e60d9eb5b1805b398f1" args="()" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getSession</b> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6c475b5940ac63d0c14ca9591e47b99"></a><!-- doxytag: member="Session::getRealm" ref="ae6c475b5940ac63d0c14ca9591e47b99" args="()" -->
@@ -159,7 +159,44 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>USER_IS_FRONTEND_ONL
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>class <a class="el" href="classSession.html">Session</a> </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a6af6a3058fb5c016d778d4e42cec7854"></a><!-- doxytag: member="Session::language" ref="a6af6a3058fb5c016d778d4e42cec7854" args="($bObject=false)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Session::language </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>bObject</em> = <code>false</code></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Shortcut for Session::getSession()-&gt;getLanguage(); </p>
+
+</div>
+</div>
+<a class="anchor" id="a98e86d6b1506af4b4f9a989ed7bf675e"></a><!-- doxytag: member="Session::user" ref="a98e86d6b1506af4b4f9a989ed7bf675e" args="($bObject=true)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Session::user </td>
+          <td>(</td>
+          <td class="paramtype">$&#160;</td>
+          <td class="paramname"><em>bObject</em> = <code>true</code></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Shortcut for Session::getSession()-&gt;getUser(); </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/Session.php</li>
 </ul>
 </div>
@@ -180,7 +217,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>USER_IS_FRONTEND_ONL
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 30 2012 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 31 2012 04:02:20 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
