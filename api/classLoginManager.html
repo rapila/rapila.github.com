@@ -87,13 +87,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">LoginManager Class Reference</div>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="LoginManager" --><!-- doxytag: inherits="Manager" --><div class="dynheader">
+<!-- doxytag: class="LoginManager" --><!-- doxytag: inherits="PreviewManager" --><div class="dynheader">
 Inheritance diagram for LoginManager:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="classLoginManager.png" usemap="#LoginManager_map" alt=""/>
   <map id="LoginManager_map" name="LoginManager_map">
-<area href="classManager.html" alt="Manager" shape="rect" coords="0,0,94,24"/>
+<area href="classPreviewManager.html" alt="PreviewManager" shape="rect" coords="0,112,114,136"/>
+<area href="classFrontendManager.html" alt="FrontendManager" shape="rect" coords="0,56,114,80"/>
+<area href="classManager.html" alt="Manager" shape="rect" coords="0,0,114,24"/>
 </map>
  </div></div>
 
@@ -101,8 +103,8 @@ Inheritance diagram for LoginManager:</div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a950da29098d07b4ebef7c53ed7a5c7bc"></a><!-- doxytag: member="LoginManager::render" ref="a950da29098d07b4ebef7c53ed7a5c7bc" args="()" -->
-&#160;</td><td class="memItemRight" valign="bottom"><b>render</b> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoginManager.html#a1310da15041e7f39b33a763f7228ebab">__construct</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLoginManager.html#a950da29098d07b4ebef7c53ed7a5c7bc">render</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a941d65f36180241000684349f8753734"></a><!-- doxytag: member="LoginManager::login" ref="a941d65f36180241000684349f8753734" args="($sUserName=null, $sPassword=null, $sReferrer= '')" -->
@@ -121,7 +123,50 @@ Public Attributes</h2></td></tr>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>USER_NAME</b> = 'user_name'</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a818b83f9fb9de1b63198162efee50e43"></a><!-- doxytag: member="LoginManager::LOGIN_PASSWORD" ref="a818b83f9fb9de1b63198162efee50e43" args="" -->
 const&#160;</td><td class="memItemRight" valign="bottom"><b>LOGIN_PASSWORD</b> = 'password'</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d196f4bc14f8df818c2a7efbc31fa3c"></a><!-- doxytag: member="LoginManager::$oTemplate" ref="a3d196f4bc14f8df818c2a7efbc31fa3c" args="" -->
+&#160;</td><td class="memItemRight" valign="bottom"><b>$oTemplate</b></td></tr>
 </table>
+<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a1310da15041e7f39b33a763f7228ebab"></a><!-- doxytag: member="LoginManager::__construct" ref="a1310da15041e7f39b33a763f7228ebab" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LoginManager::__construct </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p><a class="el" href="classLoginManager.html#a1310da15041e7f39b33a763f7228ebab">__construct()</a> </p>
+
+<p>Reimplemented from <a class="el" href="classFrontendManager.html#a37df2244a4c6b70f47d6091cbb25ae02">FrontendManager</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a950da29098d07b4ebef7c53ed7a5c7bc"></a><!-- doxytag: member="LoginManager::render" ref="a950da29098d07b4ebef7c53ed7a5c7bc" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LoginManager::render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p><a class="el" href="classLoginManager.html#a950da29098d07b4ebef7c53ed7a5c7bc">render()</a> </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>remove legacy support when the need fades </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classPreviewManager.html#a4908ac2a9267650bf095caf7f22f1302">PreviewManager</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/LoginManager.php</li>
 </ul>
@@ -143,7 +188,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>LOGIN_PASSWORD</b> =
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 16 2012 04:02:18 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 17 2012 04:02:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>

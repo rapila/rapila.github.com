@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">BaseLanguagePeer Class Reference</div>  </div>
@@ -170,6 +171,9 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fed05380642557b3f4493c0989e221d"></a><!-- doxytag: member="BaseLanguagePeer::$instances" ref="a6fed05380642557b3f4493c0989e221d" args="" -->
 static&#160;</td><td class="memItemRight" valign="bottom"><b>$instances</b> = array()</td></tr>
+<tr><td colspan="2"><h2><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguagePeer.html#a320f1d02f288d47d88f6d99715f49639">doOnDeleteCascade</a> (Criteria $criteria, PropelPDO $con)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguagePeer.html#ae0ba5859d6f254139bd0c5fe02f9d547">$fieldNames</a></td></tr>
@@ -742,6 +746,44 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a320f1d02f288d47d88f6d99715f49639"></a><!-- doxytag: member="BaseLanguagePeer::doOnDeleteCascade" ref="a320f1d02f288d47d88f6d99715f49639" args="(Criteria $criteria, PropelPDO $con)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static BaseLanguagePeer::doOnDeleteCascade </td>
+          <td>(</td>
+          <td class="paramtype">Criteria $&#160;</td>
+          <td class="paramname"><em>criteria</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO $&#160;</td>
+          <td class="paramname"><em>con</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static, protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>This is a method for emulating ON DELETE CASCADE for DBs that don't support this feature (like MySQL or SQLite).</p>
+<p>This method is not very speedy because it must perform a query first to get the implicated records and then perform the deletes by calling those Peer classes.</p>
+<p>This method should be used within a transaction if possible.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
 
 </div>
 </div>
@@ -1896,7 +1938,7 @@ Static Protected Attributes</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 16 2012 04:02:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 17 2012 04:02:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.5
 </small></address>
