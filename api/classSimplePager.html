@@ -37,7 +37,7 @@
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#8dafc18f0721f04d8466f12779506484">setPageLinkBase</a> ($sPageLinkBaseBase)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#1b02078d0d67601b86c0640cf329f014">getCollection</a> ()</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#9af19f3b49298af8ad3e12d2260d8c4b">getResult</a> ()</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#9df59368a7ce4fd566497c8240da40fd">getQuery</a> ()</td></tr>
 
@@ -48,8 +48,6 @@
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#7904380e69179bf03b37ca9ba0eba416">getLastPage</a> ()</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#428afe24906be43abcd9e5330373e9c4">atLastPage</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#1bfbcbdfc857d9e596c716b7e7a63747">getTotalPageCount</a> ()</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#db7b84b3a2a857fb53e7f3dc035c0855">getPreviousLinks</a> ($iRange=5)</td></tr>
 
@@ -79,19 +77,11 @@
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#e8ef0f49637964644f92221ef420ba9d">setStart</a> ($iValue)</td></tr>
 
+<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#1bfbcbdfc857d9e596c716b7e7a63747">getTotalPageCount</a> ()</td></tr>
+
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#78540cce104421c87ee2199161b2b80e">setMaxRowPerPage</a> ($iValue)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#2f64ebe035d04b77ce55963299955281">count</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#7e0709d84567a5fa844946ac9725f673">current</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#a758036bf7c5649f8df15d020f876682">key</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#e034e0f0e12d354db91c3008eed0c795">next</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#f97373ca8176771f43e7772a6a1a00a2">rewind</a> ()</td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSimplePager.html#9ce066475ab3721cf38eb5cd140cc34b">valid</a> ()</td></tr>
 
 <tr><td colspan="2"><br><h2>Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="956278958be7de10b13a383b380a40b7"></a><!-- doxytag: member="SimplePager::$iStart" ref="956278958be7de10b13a383b380a40b7" args="" -->
@@ -108,8 +98,9 @@ $oQuery = ExampleQuery::create()-&gt;whateverQuery();<p>
 $oPager = new <a class="el" href="classSimplePager.html">SimplePager</a>($oQuery, 1, 50); [query, page, max_rows per_page]<p>
 $oPager-&gt;<a class="el" href="classSimplePager.html#10256cf5300bf35c6566570e7c4fd79d">requiresPagination()</a> $oPager-&gt;setPageLinkBase(url_without_page)<p>
 $oPager-&gt;<a class="el" href="classSimplePager.html#ddcd7ef0680f9d46a405a1ef2afd6587">getPreviousLink()</a> $oPager-&gt;<a class="el" href="classSimplePager.html#8a93699490a9efa177dbcacbc3a916cd">getNextLink()</a><p>
-foreach($oPager-&gt;<a class="el" href="classSimplePager.html#db7b84b3a2a857fb53e7f3dc035c0855">getPreviousLinks()</a> as $iPage) { echo $oPager-&gt;getPageLink($iPage); }<p>
-$oPager-&gt;<a class="el" href="classSimplePager.html#1b02078d0d67601b86c0640cf329f014">getCollection()</a>[-&gt;getData()]<p>
+foreach($oPager-&gt;<a class="el" href="classSimplePager.html#db7b84b3a2a857fb53e7f3dc035c0855">getPreviousLinks()</a> as $iPage) { echo $oPager-&gt;getPageLink($iPage); } // returns PropelCollection $oPager-&gt;<a class="el" href="classSimplePager.html#9af19f3b49298af8ad3e12d2260d8c4b">getResult()</a>[-&gt;getData()]<p>
+Iterate since PropelObjects extends ArrayObject $oIterator = $oPager-&gt;<a class="el" href="classSimplePager.html#9af19f3b49298af8ad3e12d2260d8c4b">getResult()</a>-&gt;getIterator(); while ($oIterator-&gt;valid()) { echo $oIterator-&gt;current(); $oIterator-&gt;next(); }<p>
+// Queries executed with defined select $oPager-&gt;<a class="el" href="classSimplePager.html#9df59368a7ce4fd566497c8240da40fd">getQuery()</a>-&gt;select('fieldName1', 'fieldName2')-&gt;find() // etc<p>
 <dl compact><dt><b>Author:</b></dt><dd>Jürg Messmer &lt;<a href="mailto:jm@mosaics.ch">jm@mosaics.ch</a>&gt; </dd></dl>
 <dl compact><dt><b>Version:</b></dt><dd>0.8 20120908.1121 </dd></dl>
 
@@ -217,47 +208,6 @@ Convenience method to indicate whether current iPage is the last iPage.<p>
 
 <p>
 Returns the count of the current page's records <dl compact><dt><b>Returns:</b></dt><dd>int </dd></dl>
-
-</div>
-</div><p>
-<a class="anchor" name="7e0709d84567a5fa844946ac9725f673"></a><!-- doxytag: member="SimplePager::current" ref="7e0709d84567a5fa844946ac9725f673" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::current           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Returns the current element of the iterator <dl compact><dt><b>Returns:</b></dt><dd>mixed </dd></dl>
-
-</div>
-</div><p>
-<a class="anchor" name="1b02078d0d67601b86c0640cf329f014"></a><!-- doxytag: member="SimplePager::getCollection" ref="1b02078d0d67601b86c0640cf329f014" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::getCollection           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Get the iPaged resultset<p>
-<dl compact><dt><b>Returns:</b></dt><dd>PropelCollection </dd></dl>
 
 </div>
 </div><p>
@@ -508,6 +458,27 @@ get an array of previous id's<p>
 
 </div>
 </div><p>
+<a class="anchor" name="9af19f3b49298af8ad3e12d2260d8c4b"></a><!-- doxytag: member="SimplePager::getResult" ref="9af19f3b49298af8ad3e12d2260d8c4b" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SimplePager::getResult           </td>
+          <td>(</td>
+          <td class="paramname">          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get the iPaged resultset<p>
+<dl compact><dt><b>Returns:</b></dt><dd>PropelCollection </dd></dl>
+
+</div>
+</div><p>
 <a class="anchor" name="0972c1231f7b5fffebbf88f4929f626c"></a><!-- doxytag: member="SimplePager::getRowsPerPage" ref="0972c1231f7b5fffebbf88f4929f626c" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -590,46 +561,6 @@ Returns whether last iPage is complete<p>
 
 </div>
 </div><p>
-<a class="anchor" name="a758036bf7c5649f8df15d020f876682"></a><!-- doxytag: member="SimplePager::key" ref="a758036bf7c5649f8df15d020f876682" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::key           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Returns the current key of the iterator <dl compact><dt><b>Returns:</b></dt><dd>int </dd></dl>
-
-</div>
-</div><p>
-<a class="anchor" name="e034e0f0e12d354db91c3008eed0c795"></a><!-- doxytag: member="SimplePager::next" ref="e034e0f0e12d354db91c3008eed0c795" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::next           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Advances the iterator to the next element <dl compact><dt><b>Returns:</b></dt><dd>void </dd></dl>
-
-</div>
-</div><p>
 <a class="anchor" name="10256cf5300bf35c6566570e7c4fd79d"></a><!-- doxytag: member="SimplePager::requiresPagination" ref="10256cf5300bf35c6566570e7c4fd79d" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -647,26 +578,6 @@ Advances the iterator to the next element <dl compact><dt><b>Returns:</b></dt><d
 
 <p>
 <dl compact><dt><b>Returns:</b></dt><dd>boolean </dd></dl>
-
-</div>
-</div><p>
-<a class="anchor" name="f97373ca8176771f43e7772a6a1a00a2"></a><!-- doxytag: member="SimplePager::rewind" ref="f97373ca8176771f43e7772a6a1a00a2" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::rewind           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Resets the iterator to the first element <dl compact><dt><b>Returns:</b></dt><dd>void </dd></dl>
 
 </div>
 </div><p>
@@ -793,29 +704,9 @@ Sets the iStart row or offset. <dl compact><dt><b>Parameters:</b></dt><dd>
 
 </div>
 </div><p>
-<a class="anchor" name="9ce066475ab3721cf38eb5cd140cc34b"></a><!-- doxytag: member="SimplePager::valid" ref="9ce066475ab3721cf38eb5cd140cc34b" args="()" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SimplePager::valid           </td>
-          <td>(</td>
-          <td class="paramname">          </td>
-          <td>&nbsp;)&nbsp;</td>
-          <td width="100%"></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>
-Checks if the current key exists in the container <dl compact><dt><b>Returns:</b></dt><dd>boolean </dd></dl>
-
-</div>
-</div><p>
 <hr>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/SimplePager.php</ul>
-<hr size="1"><address style="align: right;"><small>Generated on Sun Sep 9 03:07:21 2012 for rapila by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Mon Sep 10 03:07:21 2012 for rapila by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.7 </small></address>
 </body>
