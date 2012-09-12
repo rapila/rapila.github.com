@@ -12,6 +12,8 @@ var searchData=
   ['adddocumentrelatedbyupdatedby',['addDocumentRelatedByUpdatedBy',['../classBaseUser.html#a52763139f6f811f30aa609cb19fcbd70',1,'BaseUser']]],
   ['adddocumenttyperelatedbycreatedby',['addDocumentTypeRelatedByCreatedBy',['../classBaseUser.html#adced00d5d2669afe7f9699ce15d7b1f4',1,'BaseUser']]],
   ['adddocumenttyperelatedbyupdatedby',['addDocumentTypeRelatedByUpdatedBy',['../classBaseUser.html#acde56716e9c0b5c827a2213ee37fc61a',1,'BaseUser']]],
+  ['addeventhandler',['addEventHandler',['../classCKEditor.html#aa9617d6c05e2ecca9f59b89e08dfc311',1,'CKEditor\addEventHandler($event, $javascriptCode)'],['../classCKEditor.html#aa9617d6c05e2ecca9f59b89e08dfc311',1,'CKEditor\addEventHandler($event, $javascriptCode)']]],
+  ['addglobaleventhandler',['addGlobalEventHandler',['../classCKEditor.html#a3bc88e349a30e84ddbdee5d55950ddb1',1,'CKEditor\addGlobalEventHandler($event, $javascriptCode)'],['../classCKEditor.html#a3bc88e349a30e84ddbdee5d55950ddb1',1,'CKEditor\addGlobalEventHandler($event, $javascriptCode)']]],
   ['addgrouprelatedbycreatedby',['addGroupRelatedByCreatedBy',['../classBaseUser.html#adbdf7803e3afce4b8b08cfb70d55ab70',1,'BaseUser']]],
   ['addgrouprelatedbyupdatedby',['addGroupRelatedByUpdatedBy',['../classBaseUser.html#a7095518b2fd307de29ea92d7914f16d1',1,'BaseUser']]],
   ['addgrouprole',['addGroupRole',['../classBaseGroup.html#a3f8594ede9b5aaefdb97ed925a851088',1,'BaseGroup\addGroupRole()'],['../classBaseRole.html#a88cdc1284285a89b18ffc53ada9347c9',1,'BaseRole\addGroupRole()']]],

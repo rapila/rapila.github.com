@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['editor',['editor',['../classCKEditor.html#abd6f81ca7539169b55b8f0556bc594c6',1,'CKEditor\editor($name, $value=&quot;&quot;, $config=array(), $events=array())'],['../classCKEditor.html#abd6f81ca7539169b55b8f0556bc594c6',1,'CKEditor\editor($name, $value=&quot;&quot;, $config=array(), $events=array())']]],
   ['email',['EMail',['../classEMail.html',1,'EMail'],['../classBaseUserPeer.html#a30f02e940ccb25cef9a4c25a409d74a4',1,'BaseUserPeer\EMAIL()']]],
   ['emailaddressinvalidexception',['EMailAddressInvalidException',['../classEMailAddressInvalidException.html',1,'']]],
   ['emptyfrontendmodule',['EmptyFrontendModule',['../classEmptyFrontendModule.html',1,'']]],

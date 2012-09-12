@@ -17,6 +17,8 @@ var searchData=
   ['render',['render',['../classFileManager.html#af565aaf94ed4a859ac664b3b72c96719',1,'FileManager\render()'],['../classFrontendManager.html#a002010249c8a3c5154a87ef46bead1e3',1,'FrontendManager\render()'],['../classGotoManager.html#af91290076df0473a811053a6d6919c10',1,'GotoManager\render()'],['../classTemplate.html#ab466ba7ebeb6c7e245a00bd07eb0f4f4',1,'Template\render()']]],
   ['renderbackend',['renderBackend',['../classFrontendModule.html#aa9fc62067bb7f43883436b0405eba9c2',1,'FrontendModule']]],
   ['renderfrontend',['renderFrontend',['../classLoginFrontendModule.html#ab0b36ea949aec4da3dd1808d89547603',1,'LoginFrontendModule']]],
+  ['replace',['replace',['../classCKEditor.html#a82ebacb89f96be38393ebd53a6a9ab52',1,'CKEditor\replace($id, $config=array(), $events=array())'],['../classCKEditor.html#a82ebacb89f96be38393ebd53a6a9ab52',1,'CKEditor\replace($id, $config=array(), $events=array())']]],
+  ['replaceall',['replaceAll',['../classCKEditor.html#a31836dd682c8d9d6bc5d59063b37c8b8',1,'CKEditor\replaceAll($className=null)'],['../classCKEditor.html#a31836dd682c8d9d6bc5d59063b37c8b8',1,'CKEditor\replaceAll($className=null)']]],
   ['replaceidentifier',['replaceIdentifier',['../classTemplate.html#af011a70d2c075526b6301f0e8d7d3069',1,'Template']]],
   ['replaceidentifiercallback',['replaceIdentifierCallback',['../classTemplate.html#abb50465b54b9c454e484c5fbd03fb084',1,'Template']]],
   ['replaceidentifiermultiple',['replaceIdentifierMultiple',['../classTemplate.html#a65d794b76197255f928a23adad6e675f',1,'Template']]],
