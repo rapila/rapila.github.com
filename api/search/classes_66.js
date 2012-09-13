@@ -16,5 +16,6 @@ var searchData=
   ['formstorage',['FormStorage',['../classFormStorage.html',1,'']]],
   ['frontendconfigwidgetmodule',['FrontendConfigWidgetModule',['../classFrontendConfigWidgetModule.html',1,'']]],
   ['frontendmanager',['FrontendManager',['../classFrontendManager.html',1,'']]],
+  ['frontendmanagerlanguagetests',['FrontendManagerLanguageTests',['../classFrontendManagerLanguageTests.html',1,'']]],
   ['frontendmodule',['FrontendModule',['../classFrontendModule.html',1,'']]]
 ];

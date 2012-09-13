@@ -300,7 +300,6 @@ var searchData=
   ['gettomodelname',['getToModelName',['../classBaseReference.html#af234d5e03c7603e441d7b11e30868359',1,'BaseReference']]],
   ['gettotalpagecount',['getTotalPageCount',['../classSimplePager.html#ac1b27f3a9d98fbe74076e39d510db594',1,'SimplePager']]],
   ['gettotalrecordcount',['getTotalRecordCount',['../classSimplePager.html#ac13f7f28b082c13758f0d04a10a4e1eb',1,'SimplePager']]],
-  ['gettree',['getTree',['../classPage.html#a58430090653246ea7a2a10e52151224b',1,'Page']]],
   ['gettreeleft',['getTreeLeft',['../classBasePage.html#a5bae1debe614f5b20e4e3f315a7c4be5',1,'BasePage']]],
   ['gettreelevel',['getTreeLevel',['../classBasePage.html#a7bc2c08caaea79b1403437f4dd743c5d',1,'BasePage']]],
   ['gettreeright',['getTreeRight',['../classBasePage.html#acd6e3366d7bc2676caa4375589f144a6',1,'BasePage']]],
