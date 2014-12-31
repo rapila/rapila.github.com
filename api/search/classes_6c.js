@@ -41,6 +41,7 @@ var searchData=
   ['linkutil',['LinkUtil',['../classLinkUtil.html',1,'']]],
   ['listexportfilemodule',['ListExportFileModule',['../classListExportFileModule.html',1,'']]],
   ['listsettings',['ListSettings',['../classListSettings.html',1,'']]],
+  ['listwidgetdelegate',['ListWidgetDelegate',['../interfaceListWidgetDelegate.html',1,'']]],
   ['listwidgetmodule',['ListWidgetModule',['../classListWidgetModule.html',1,'']]],
   ['localeutil',['LocaleUtil',['../classLocaleUtil.html',1,'']]],
   ['localizedexception',['LocalizedException',['../classLocalizedException.html',1,'']]],

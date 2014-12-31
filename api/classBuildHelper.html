@@ -100,27 +100,36 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>preMigrate</b> ()</
 <tr class="memitem:abd45d9de8b42ebc6fb9401d00b9af903"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd45d9de8b42ebc6fb9401d00b9af903"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>postMigrate</b> ()</td></tr>
 <tr class="separator:abd45d9de8b42ebc6fb9401d00b9af903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f555404bf862986a2e89f64c2334240"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f555404bf862986a2e89f64c2334240"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>consolidateMigrations</b> ()</td></tr>
-<tr class="separator:a3f555404bf862986a2e89f64c2334240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80fe76cabd1e75f67d42cc6aff8381f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80fe76cabd1e75f67d42cc6aff8381f5"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>consolidateMigrations</b> ($sPart= 'base')</td></tr>
+<tr class="separator:a80fe76cabd1e75f67d42cc6aff8381f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7b7f03934c67b8b21d3ca606a415429"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7b7f03934c67b8b21d3ca606a415429"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>preBuild</b> ($bIsDevVersion=false)</td></tr>
 <tr class="separator:af7b7f03934c67b8b21d3ca606a415429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75e096ba94d4e396d59e046d7079500d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75e096ba94d4e396d59e046d7079500d"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>postBuild</b> ($bIsDevVersion=false)</td></tr>
 <tr class="separator:a75e096ba94d4e396d59e046d7079500d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c07d28de7e9ac61afe0d0c6dd911e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58c07d28de7e9ac61afe0d0c6dd911e6"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>groupedSchemaXml</b> ()</td></tr>
+<tr class="separator:a58c07d28de7e9ac61afe0d0c6dd911e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a329b8119c52cbf02c1eabad81f6aeb37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a329b8119c52cbf02c1eabad81f6aeb37"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>generateBuildXml</b> ()</td></tr>
 <tr class="separator:a329b8119c52cbf02c1eabad81f6aeb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ee6831906b267a13281f66add440a46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ee6831906b267a13281f66add440a46"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>copyPropelAdditions</b> ()</td></tr>
 <tr class="separator:a3ee6831906b267a13281f66add440a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26cad31c63920cd90c55b2a2140030f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab26cad31c63920cd90c55b2a2140030f"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getDBAdapter</b> ()</td></tr>
+<tr class="separator:ab26cad31c63920cd90c55b2a2140030f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac70eaac9c4f69466b949839140e8826c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac70eaac9c4f69466b949839140e8826c"></a>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>CLASSNAME_PATTERN</b> = &quot;/&lt;table[^&gt;]*phpName=\&quot;(\w+)\&quot;/&quot;</td></tr>
 <tr class="separator:ac70eaac9c4f69466b949839140e8826c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cfdbf98bc084b2aa5a2702a23c2bf7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89cfdbf98bc084b2aa5a2702a23c2bf7"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>SCHEMA_FILE_PATTERN</b> = '/(.+\\.)?schema\\.xml/'</td></tr>
+<tr class="separator:a89cfdbf98bc084b2aa5a2702a23c2bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -143,7 +152,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$BASE_PREFIX</b> = 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -126,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a4c920efe97ab82d27f430c615de8e6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1b08f2bd7caecb2d56241d0bb96cc0c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ad1b08f2bd7caecb2d56241d0bb96cc0c">getInstanceFromPool</a> ($key)</td></tr>
 <tr class="separator:ad1b08f2bd7caecb2d56241d0bb96cc0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f12112b83ffc375a920326a2fb324e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ad6f12112b83ffc375a920326a2fb324e">clearInstancePool</a> ()</td></tr>
-<tr class="separator:ad6f12112b83ffc375a920326a2fb324e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3cae14c250e042b06b9e7a73b3a2d4"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a6d3cae14c250e042b06b9e7a73b3a2d4">clearInstancePool</a> ($and_clear_all_references=false)</td></tr>
+<tr class="separator:a6d3cae14c250e042b06b9e7a73b3a2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24124b64a2a56c32ad91cb6b6e61e11d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a24124b64a2a56c32ad91cb6b6e61e11d">clearRelatedInstancePool</a> ()</td></tr>
 <tr class="separator:a24124b64a2a56c32ad91cb6b6e61e11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af49c767af838f6e4ea2be198351b5a61"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#af49c767af838f6e4ea2be198351b5a61">getPrimaryKeyHashFromRow</a> ($row, $startcol=0)</td></tr>
@@ -186,8 +186,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad18e12215c12263bcdcb267409c2b43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a573299cefcbf931fa7eb6122f019fde2"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a573299cefcbf931fa7eb6122f019fde2">buildTableMap</a> ()</td></tr>
 <tr class="separator:a573299cefcbf931fa7eb6122f019fde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa308f4cd0ae8ff830c8637a2f69010f4"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aa308f4cd0ae8ff830c8637a2f69010f4">getOMClass</a> ($withPrefix=true)</td></tr>
-<tr class="separator:aa308f4cd0ae8ff830c8637a2f69010f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab011b329072858b07df8003714cc0bdd"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ab011b329072858b07df8003714cc0bdd">getOMClass</a> ($row=0, $colnum=0)</td></tr>
+<tr class="separator:ab011b329072858b07df8003714cc0bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a187c9c750518192a240fda2b3018fc19"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a187c9c750518192a240fda2b3018fc19">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr class="separator:a187c9c750518192a240fda2b3018fc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d4a03f86d1ea134d75952e26c5fc3e0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a3d4a03f86d1ea134d75952e26c5fc3e0">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
@@ -209,6 +209,12 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreRights</b> ($
 <tr class="memitem:a719928e6b9d8eccc41c786eca638882b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a719928e6b9d8eccc41c786eca638882b"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isIgnoringRights</b> ()</td></tr>
 <tr class="separator:a719928e6b9d8eccc41c786eca638882b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7775f4e0165114684d27d3342b20ce32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7775f4e0165114684d27d3342b20ce32"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a7775f4e0165114684d27d3342b20ce32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8b6796d076da74f63c987cbc846708"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a8b6796d076da74f63c987cbc846708"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a5a8b6796d076da74f63c987cbc846708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a5c4ee23611299e7d93a71fa3d02d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4a5c4ee23611299e7d93a71fa3d02d1"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOn</b> ($oUser, $mObject, $sOperation)</td></tr>
 <tr class="separator:aa4a5c4ee23611299e7d93a71fa3d02d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,43 +230,39 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aefba5061e4e878dbb1bd8e968ab32ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca41c98a754f69353cf4415bd7b0a368"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aca41c98a754f69353cf4415bd7b0a368">OM_CLASS</a> = '<a class="el" href="classLink.html">Link</a>'</td></tr>
 <tr class="separator:aca41c98a754f69353cf4415bd7b0a368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a391a3e831c974b507a952b005827db62"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a391a3e831c974b507a952b005827db62">CLASS_DEFAULT</a> = 'model.Link'</td></tr>
-<tr class="separator:a391a3e831c974b507a952b005827db62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ae6c5377bcb511b631d4bd31d550fa"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a98ae6c5377bcb511b631d4bd31d550fa">TM_CLASS</a> = '<a class="el" href="classLinkTableMap.html">LinkTableMap</a>'</td></tr>
 <tr class="separator:a98ae6c5377bcb511b631d4bd31d550fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fabc87c0cfda55d1bb7557ab4430b16"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a4fabc87c0cfda55d1bb7557ab4430b16">NUM_COLUMNS</a> = 14</td></tr>
+<tr class="memitem:a4fabc87c0cfda55d1bb7557ab4430b16"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a4fabc87c0cfda55d1bb7557ab4430b16">NUM_COLUMNS</a> = 13</td></tr>
 <tr class="separator:a4fabc87c0cfda55d1bb7557ab4430b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa048a152463a3f5847330c06b3fed626"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aa048a152463a3f5847330c06b3fed626">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
 <tr class="separator:aa048a152463a3f5847330c06b3fed626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17b20f214a9b0bc9fd949c7ac35bb525"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a17b20f214a9b0bc9fd949c7ac35bb525">NUM_HYDRATE_COLUMNS</a> = 14</td></tr>
+<tr class="memitem:a17b20f214a9b0bc9fd949c7ac35bb525"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a17b20f214a9b0bc9fd949c7ac35bb525">NUM_HYDRATE_COLUMNS</a> = 13</td></tr>
 <tr class="separator:a17b20f214a9b0bc9fd949c7ac35bb525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78d74d91e6298d0b867ed9ab61830fd4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a78d74d91e6298d0b867ed9ab61830fd4">ID</a> = 'links.ID'</td></tr>
+<tr class="memitem:a78d74d91e6298d0b867ed9ab61830fd4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a78d74d91e6298d0b867ed9ab61830fd4">ID</a> = 'links.id'</td></tr>
 <tr class="separator:a78d74d91e6298d0b867ed9ab61830fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f757c180de5a482b6f3a28b445f78f5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a0f757c180de5a482b6f3a28b445f78f5">NAME</a> = 'links.NAME'</td></tr>
+<tr class="memitem:a0f757c180de5a482b6f3a28b445f78f5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a0f757c180de5a482b6f3a28b445f78f5">NAME</a> = 'links.name'</td></tr>
 <tr class="separator:a0f757c180de5a482b6f3a28b445f78f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a7565192bf8ab805a4c1dc20ab89bc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aa4a7565192bf8ab805a4c1dc20ab89bc">URL</a> = 'links.URL'</td></tr>
+<tr class="memitem:aa4a7565192bf8ab805a4c1dc20ab89bc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#aa4a7565192bf8ab805a4c1dc20ab89bc">URL</a> = 'links.url'</td></tr>
 <tr class="separator:aa4a7565192bf8ab805a4c1dc20ab89bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf25aee23f8f1d50014b3b45011a1e6f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#adf25aee23f8f1d50014b3b45011a1e6f">DESCRIPTION</a> = 'links.DESCRIPTION'</td></tr>
+<tr class="memitem:adf25aee23f8f1d50014b3b45011a1e6f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#adf25aee23f8f1d50014b3b45011a1e6f">DESCRIPTION</a> = 'links.description'</td></tr>
 <tr class="separator:adf25aee23f8f1d50014b3b45011a1e6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7baa255fb8fdee928c12e245422d6cd"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ae7baa255fb8fdee928c12e245422d6cd">LANGUAGE_ID</a> = 'links.LANGUAGE_ID'</td></tr>
+<tr class="memitem:ae7baa255fb8fdee928c12e245422d6cd"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ae7baa255fb8fdee928c12e245422d6cd">LANGUAGE_ID</a> = 'links.language_id'</td></tr>
 <tr class="separator:ae7baa255fb8fdee928c12e245422d6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6fb4e616bfe8670f7a89f802f064d5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a7f6fb4e616bfe8670f7a89f802f064d5">OWNER_ID</a> = 'links.OWNER_ID'</td></tr>
+<tr class="memitem:a7f6fb4e616bfe8670f7a89f802f064d5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a7f6fb4e616bfe8670f7a89f802f064d5">OWNER_ID</a> = 'links.owner_id'</td></tr>
 <tr class="separator:a7f6fb4e616bfe8670f7a89f802f064d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a880dc29e75198059a78601246fd28903"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a880dc29e75198059a78601246fd28903">LINK_CATEGORY_ID</a> = 'links.LINK_CATEGORY_ID'</td></tr>
+<tr class="memitem:a880dc29e75198059a78601246fd28903"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a880dc29e75198059a78601246fd28903">LINK_CATEGORY_ID</a> = 'links.link_category_id'</td></tr>
 <tr class="separator:a880dc29e75198059a78601246fd28903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d99e604bd5d67d49875260f1c12eb2e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a9d99e604bd5d67d49875260f1c12eb2e">SORT</a> = 'links.SORT'</td></tr>
+<tr class="memitem:a9d99e604bd5d67d49875260f1c12eb2e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a9d99e604bd5d67d49875260f1c12eb2e">SORT</a> = 'links.sort'</td></tr>
 <tr class="separator:a9d99e604bd5d67d49875260f1c12eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ada6cdf8b1e46c9b067d4f455e28280"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a8ada6cdf8b1e46c9b067d4f455e28280">IS_PRIVATE</a> = 'links.IS_PRIVATE'</td></tr>
+<tr class="memitem:a8ada6cdf8b1e46c9b067d4f455e28280"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a8ada6cdf8b1e46c9b067d4f455e28280">IS_PRIVATE</a> = 'links.is_private'</td></tr>
 <tr class="separator:a8ada6cdf8b1e46c9b067d4f455e28280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84e00e7bb6eccda0cd715f1fca5bcb76"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a84e00e7bb6eccda0cd715f1fca5bcb76">IS_INACTIVE</a> = 'links.IS_INACTIVE'</td></tr>
-<tr class="separator:a84e00e7bb6eccda0cd715f1fca5bcb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dc4fe3baae88339f4e132e6c1578ce0"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a5dc4fe3baae88339f4e132e6c1578ce0">CREATED_AT</a> = 'links.CREATED_AT'</td></tr>
+<tr class="memitem:a5dc4fe3baae88339f4e132e6c1578ce0"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a5dc4fe3baae88339f4e132e6c1578ce0">CREATED_AT</a> = 'links.created_at'</td></tr>
 <tr class="separator:a5dc4fe3baae88339f4e132e6c1578ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2989b031650080431c7b386dfe4eb31"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ac2989b031650080431c7b386dfe4eb31">UPDATED_AT</a> = 'links.UPDATED_AT'</td></tr>
+<tr class="memitem:ac2989b031650080431c7b386dfe4eb31"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ac2989b031650080431c7b386dfe4eb31">UPDATED_AT</a> = 'links.updated_at'</td></tr>
 <tr class="separator:ac2989b031650080431c7b386dfe4eb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7deb54e954a1b7915569a401be7bc7b2"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a7deb54e954a1b7915569a401be7bc7b2">CREATED_BY</a> = 'links.CREATED_BY'</td></tr>
+<tr class="memitem:a7deb54e954a1b7915569a401be7bc7b2"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a7deb54e954a1b7915569a401be7bc7b2">CREATED_BY</a> = 'links.created_by'</td></tr>
 <tr class="separator:a7deb54e954a1b7915569a401be7bc7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac20bdbc2df4a0d771ce461e726de5626"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ac20bdbc2df4a0d771ce461e726de5626">UPDATED_BY</a> = 'links.UPDATED_BY'</td></tr>
+<tr class="memitem:ac20bdbc2df4a0d771ce461e726de5626"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#ac20bdbc2df4a0d771ce461e726de5626">UPDATED_BY</a> = 'links.updated_by'</td></tr>
 <tr class="separator:ac20bdbc2df4a0d771ce461e726de5626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9085cdd277d931e89348fd6ed4aa62"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLinkPeer.html#a5d9085cdd277d931e89348fd6ed4aa62">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr class="separator:a5d9085cdd277d931e89348fd6ed4aa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,7 +316,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doSelect*() methods in your stub classes &ndash; you may need to explicitly add objects to the cache in order to ensure that the same objects are always returned by doSelect*() and retrieveByPK*() calls.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classLink.html">Link</a></td><td class="paramname">$value</td><td>A <a class="el" href="classLink.html">Link</a> object. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classLink.html">Link</a></td><td class="paramname">$obj</td><td>A <a class="el" href="classLink.html">Link</a> object. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$key</td><td>(optional) key to use for instance map (for performance boost if key was already calculated externally). </td></tr>
   </table>
   </dd>
@@ -439,7 +441,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6f12112b83ffc375a920326a2fb324e"></a>
+<a class="anchor" id="a6d3cae14c250e042b06b9e7a73b3a2d4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -449,7 +451,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static BaseLinkPeer::clearInstancePool </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$and_clear_all_references</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1194,6 +1197,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1992,7 +2001,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Prepares the Criteria object and uses the parent <a class="el" href="classBaseLinkPeer.html#a13c1a24eda8bda170225adde82f9e4a7">doSelect()</a> method to execute a PDOStatement.</p>
-<p>Use this method directly if you want to work with an executed statement durirectly (for example to perform your own object hydration).</p>
+<p>Use this method directly if you want to work with an executed statement directly (for example to perform your own object hydration).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -2133,6 +2142,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array A list of field names </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the type is not valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2166,12 +2181,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash()) for this instance. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLink.html">Link</a> Found object or NULL if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLink.html">Link</a> Found object or null if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aa308f4cd0ae8ff830c8637a2f69010f4"></a>
+<a class="anchor" id="ab011b329072858b07df8003714cc0bdd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2182,8 +2197,18 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">static BaseLinkPeer::getOMClass </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$withPrefix</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>$row</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$colnum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -2193,14 +2218,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The class that the Peer will make instances of.</p>
-<p>If $withPrefix is true, the returned path uses a dot-path notation which is tranalted into a path relative to a location on the PHP include_path. (e.g. path.to.MyClass -&gt; 'path/to/MyClass.php')</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$withPrefix</td><td>Whether or not to return the path with the class name </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string path.to.ClassName </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string ClassName </dd></dl>
 
 </div>
 </div>
@@ -2287,7 +2305,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or NULL if the components of primary key in result array are all null. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or null if the components of primary key in result array are all null. </dd></dl>
 
 </div>
 </div>
@@ -2427,7 +2445,14 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doDelete methods in your stub classes &ndash; you may need to explicitly remove objects from the cache in order to prevent returning objects that no longer exist.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classLink.html">Link</a> object or a primary key value. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classLink.html">Link</a> object or a primary key value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the value is invalid. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2516,6 +2541,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLink.html">Link</a>[] </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">PropelException</td><td>Any exceptions caught during processing will be rethrown wrapped into a PropelException. </td></tr>
@@ -2600,15 +2626,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;Description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 4, <span class="stringliteral">&#39;OwnerId&#39;</span> =&gt; 5, <span class="stringliteral">&#39;LinkCategoryId&#39;</span> =&gt; 6, <span class="stringliteral">&#39;Sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IsPrivate&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 9, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 10, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 11, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 12, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 13, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 4, <span class="stringliteral">&#39;ownerId&#39;</span> =&gt; 5, <span class="stringliteral">&#39;linkCategoryId&#39;</span> =&gt; 6, <span class="stringliteral">&#39;sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;isPrivate&#39;</span> =&gt; 8, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 9, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 10, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 11, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 12, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 13, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID =&gt; 0, self::NAME =&gt; 1, self::URL =&gt; 2, self::DESCRIPTION =&gt; 3, self::LANGUAGE_ID =&gt; 4, self::OWNER_ID =&gt; 5, self::LINK_CATEGORY_ID =&gt; 6, self::SORT =&gt; 7, self::IS_PRIVATE =&gt; 8, self::IS_INACTIVE =&gt; 9, self::CREATED_AT =&gt; 10, self::UPDATED_AT =&gt; 11, self::CREATED_BY =&gt; 12, self::UPDATED_BY =&gt; 13, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;NAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;URL&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DESCRIPTION&#39;</span> =&gt; 3, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 4, <span class="stringliteral">&#39;OWNER_ID&#39;</span> =&gt; 5, <span class="stringliteral">&#39;LINK_CATEGORY_ID&#39;</span> =&gt; 6, <span class="stringliteral">&#39;SORT&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IS_PRIVATE&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 9, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 10, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 11, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 12, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 13, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 4, <span class="stringliteral">&#39;owner_id&#39;</span> =&gt; 5, <span class="stringliteral">&#39;link_category_id&#39;</span> =&gt; 6, <span class="stringliteral">&#39;sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;is_private&#39;</span> =&gt; 8, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 9, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 10, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 11, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 12, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 13, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;Description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 4, <span class="stringliteral">&#39;OwnerId&#39;</span> =&gt; 5, <span class="stringliteral">&#39;LinkCategoryId&#39;</span> =&gt; 6, <span class="stringliteral">&#39;Sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IsPrivate&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 10, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 11, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 12, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 4, <span class="stringliteral">&#39;ownerId&#39;</span> =&gt; 5, <span class="stringliteral">&#39;linkCategoryId&#39;</span> =&gt; 6, <span class="stringliteral">&#39;sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;isPrivate&#39;</span> =&gt; 8, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 10, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 11, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 12, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseLinkPeer.html#a78d74d91e6298d0b867ed9ab61830fd4">LinkPeer::ID</a> =&gt; 0, <a class="code" href="classBaseLinkPeer.html#a0f757c180de5a482b6f3a28b445f78f5">LinkPeer::NAME</a> =&gt; 1, <a class="code" href="classBaseLinkPeer.html#aa4a7565192bf8ab805a4c1dc20ab89bc">LinkPeer::URL</a> =&gt; 2, <a class="code" href="classBaseLinkPeer.html#adf25aee23f8f1d50014b3b45011a1e6f">LinkPeer::DESCRIPTION</a> =&gt; 3, <a class="code" href="classBaseLinkPeer.html#ae7baa255fb8fdee928c12e245422d6cd">LinkPeer::LANGUAGE_ID</a> =&gt; 4, <a class="code" href="classBaseLinkPeer.html#a7f6fb4e616bfe8670f7a89f802f064d5">LinkPeer::OWNER_ID</a> =&gt; 5, <a class="code" href="classBaseLinkPeer.html#a880dc29e75198059a78601246fd28903">LinkPeer::LINK_CATEGORY_ID</a> =&gt; 6, <a class="code" href="classBaseLinkPeer.html#a9d99e604bd5d67d49875260f1c12eb2e">LinkPeer::SORT</a> =&gt; 7, <a class="code" href="classBaseLinkPeer.html#a8ada6cdf8b1e46c9b067d4f455e28280">LinkPeer::IS_PRIVATE</a> =&gt; 8, <a class="code" href="classBaseLinkPeer.html#a5dc4fe3baae88339f4e132e6c1578ce0">LinkPeer::CREATED_AT</a> =&gt; 9, <a class="code" href="classBaseLinkPeer.html#ac2989b031650080431c7b386dfe4eb31">LinkPeer::UPDATED_AT</a> =&gt; 10, <a class="code" href="classBaseLinkPeer.html#a7deb54e954a1b7915569a401be7bc7b2">LinkPeer::CREATED_BY</a> =&gt; 11, <a class="code" href="classBaseLinkPeer.html#ac20bdbc2df4a0d771ce461e726de5626">LinkPeer::UPDATED_BY</a> =&gt; 12, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;NAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;URL&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DESCRIPTION&#39;</span> =&gt; 3, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 4, <span class="stringliteral">&#39;OWNER_ID&#39;</span> =&gt; 5, <span class="stringliteral">&#39;LINK_CATEGORY_ID&#39;</span> =&gt; 6, <span class="stringliteral">&#39;SORT&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IS_PRIVATE&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 10, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 11, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 12, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;url&#39;</span> =&gt; 2, <span class="stringliteral">&#39;description&#39;</span> =&gt; 3, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 4, <span class="stringliteral">&#39;owner_id&#39;</span> =&gt; 5, <span class="stringliteral">&#39;link_category_id&#39;</span> =&gt; 6, <span class="stringliteral">&#39;sort&#39;</span> =&gt; 7, <span class="stringliteral">&#39;is_private&#39;</span> =&gt; 8, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 10, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 11, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 12, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of keys for quick access to the fieldnames array</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseLinkPeer.html#ac04ebc5f7299532a490e7505f169510d">LinkPeer::$fieldNames</a>[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
 
 </div>
 </div>
@@ -2630,28 +2656,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Name&#39;</span>, <span class="stringliteral">&#39;Url&#39;</span>, <span class="stringliteral">&#39;Description&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;OwnerId&#39;</span>, <span class="stringliteral">&#39;LinkCategoryId&#39;</span>, <span class="stringliteral">&#39;Sort&#39;</span>, <span class="stringliteral">&#39;IsPrivate&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;url&#39;</span>, <span class="stringliteral">&#39;description&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;ownerId&#39;</span>, <span class="stringliteral">&#39;linkCategoryId&#39;</span>, <span class="stringliteral">&#39;sort&#39;</span>, <span class="stringliteral">&#39;isPrivate&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID, self::NAME, self::URL, self::DESCRIPTION, self::LANGUAGE_ID, self::OWNER_ID, self::LINK_CATEGORY_ID, self::SORT, self::IS_PRIVATE, self::IS_INACTIVE, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;NAME&#39;</span>, <span class="stringliteral">&#39;URL&#39;</span>, <span class="stringliteral">&#39;DESCRIPTION&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;OWNER_ID&#39;</span>, <span class="stringliteral">&#39;LINK_CATEGORY_ID&#39;</span>, <span class="stringliteral">&#39;SORT&#39;</span>, <span class="stringliteral">&#39;IS_PRIVATE&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;url&#39;</span>, <span class="stringliteral">&#39;description&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;owner_id&#39;</span>, <span class="stringliteral">&#39;link_category_id&#39;</span>, <span class="stringliteral">&#39;sort&#39;</span>, <span class="stringliteral">&#39;is_private&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Name&#39;</span>, <span class="stringliteral">&#39;Url&#39;</span>, <span class="stringliteral">&#39;Description&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;OwnerId&#39;</span>, <span class="stringliteral">&#39;LinkCategoryId&#39;</span>, <span class="stringliteral">&#39;Sort&#39;</span>, <span class="stringliteral">&#39;IsPrivate&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;url&#39;</span>, <span class="stringliteral">&#39;description&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;ownerId&#39;</span>, <span class="stringliteral">&#39;linkCategoryId&#39;</span>, <span class="stringliteral">&#39;sort&#39;</span>, <span class="stringliteral">&#39;isPrivate&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseLinkPeer.html#a78d74d91e6298d0b867ed9ab61830fd4">LinkPeer::ID</a>, <a class="code" href="classBaseLinkPeer.html#a0f757c180de5a482b6f3a28b445f78f5">LinkPeer::NAME</a>, <a class="code" href="classBaseLinkPeer.html#aa4a7565192bf8ab805a4c1dc20ab89bc">LinkPeer::URL</a>, <a class="code" href="classBaseLinkPeer.html#adf25aee23f8f1d50014b3b45011a1e6f">LinkPeer::DESCRIPTION</a>, <a class="code" href="classBaseLinkPeer.html#ae7baa255fb8fdee928c12e245422d6cd">LinkPeer::LANGUAGE_ID</a>, <a class="code" href="classBaseLinkPeer.html#a7f6fb4e616bfe8670f7a89f802f064d5">LinkPeer::OWNER_ID</a>, <a class="code" href="classBaseLinkPeer.html#a880dc29e75198059a78601246fd28903">LinkPeer::LINK_CATEGORY_ID</a>, <a class="code" href="classBaseLinkPeer.html#a9d99e604bd5d67d49875260f1c12eb2e">LinkPeer::SORT</a>, <a class="code" href="classBaseLinkPeer.html#a8ada6cdf8b1e46c9b067d4f455e28280">LinkPeer::IS_PRIVATE</a>, <a class="code" href="classBaseLinkPeer.html#a5dc4fe3baae88339f4e132e6c1578ce0">LinkPeer::CREATED_AT</a>, <a class="code" href="classBaseLinkPeer.html#ac2989b031650080431c7b386dfe4eb31">LinkPeer::UPDATED_AT</a>, <a class="code" href="classBaseLinkPeer.html#a7deb54e954a1b7915569a401be7bc7b2">LinkPeer::CREATED_BY</a>, <a class="code" href="classBaseLinkPeer.html#ac20bdbc2df4a0d771ce461e726de5626">LinkPeer::UPDATED_BY</a>, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;NAME&#39;</span>, <span class="stringliteral">&#39;URL&#39;</span>, <span class="stringliteral">&#39;DESCRIPTION&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;OWNER_ID&#39;</span>, <span class="stringliteral">&#39;LINK_CATEGORY_ID&#39;</span>, <span class="stringliteral">&#39;SORT&#39;</span>, <span class="stringliteral">&#39;IS_PRIVATE&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;url&#39;</span>, <span class="stringliteral">&#39;description&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;owner_id&#39;</span>, <span class="stringliteral">&#39;link_category_id&#39;</span>, <span class="stringliteral">&#39;sort&#39;</span>, <span class="stringliteral">&#39;is_private&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of fieldnames</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
-
-</div>
-</div>
-<a class="anchor" id="a391a3e831c974b507a952b005827db62"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BaseLinkPeer::CLASS_DEFAULT = 'model.Link'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A class that can be returned by this peer. </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseLinkPeer.html#ac04ebc5f7299532a490e7505f169510d">LinkPeer::$fieldNames</a>[LinkPeer::TYPE_PHPNAME][0] = 'Id' </p>
 
 </div>
 </div>
@@ -2660,11 +2673,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::CREATED_AT = 'links.CREATED_AT'</td>
+          <td class="memname">const BaseLinkPeer::CREATED_AT = 'links.created_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_AT field </p>
+<p>the column name for the created_at field </p>
 
 </div>
 </div>
@@ -2673,11 +2686,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::CREATED_BY = 'links.CREATED_BY'</td>
+          <td class="memname">const BaseLinkPeer::CREATED_BY = 'links.created_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_BY field </p>
+<p>the column name for the created_by field </p>
 
 </div>
 </div>
@@ -2712,11 +2725,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::DESCRIPTION = 'links.DESCRIPTION'</td>
+          <td class="memname">const BaseLinkPeer::DESCRIPTION = 'links.description'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the DESCRIPTION field </p>
+<p>the column name for the description field </p>
 
 </div>
 </div>
@@ -2725,24 +2738,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::ID = 'links.ID'</td>
+          <td class="memname">const BaseLinkPeer::ID = 'links.id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the ID field </p>
-
-</div>
-</div>
-<a class="anchor" id="a84e00e7bb6eccda0cd715f1fca5bcb76"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BaseLinkPeer::IS_INACTIVE = 'links.IS_INACTIVE'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>the column name for the IS_INACTIVE field </p>
+<p>the column name for the id field </p>
 
 </div>
 </div>
@@ -2751,11 +2751,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::IS_PRIVATE = 'links.IS_PRIVATE'</td>
+          <td class="memname">const BaseLinkPeer::IS_PRIVATE = 'links.is_private'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_PRIVATE field </p>
+<p>the column name for the is_private field </p>
 
 </div>
 </div>
@@ -2764,11 +2764,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::LANGUAGE_ID = 'links.LANGUAGE_ID'</td>
+          <td class="memname">const BaseLinkPeer::LANGUAGE_ID = 'links.language_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LANGUAGE_ID field </p>
+<p>the column name for the language_id field </p>
 
 </div>
 </div>
@@ -2777,11 +2777,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::LINK_CATEGORY_ID = 'links.LINK_CATEGORY_ID'</td>
+          <td class="memname">const BaseLinkPeer::LINK_CATEGORY_ID = 'links.link_category_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LINK_CATEGORY_ID field </p>
+<p>the column name for the link_category_id field </p>
 
 </div>
 </div>
@@ -2790,11 +2790,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::NAME = 'links.NAME'</td>
+          <td class="memname">const BaseLinkPeer::NAME = 'links.name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the NAME field </p>
+<p>the column name for the name field </p>
 
 </div>
 </div>
@@ -2803,7 +2803,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::NUM_COLUMNS = 14</td>
+          <td class="memname">const BaseLinkPeer::NUM_COLUMNS = 13</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2816,7 +2816,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::NUM_HYDRATE_COLUMNS = 14</td>
+          <td class="memname">const BaseLinkPeer::NUM_HYDRATE_COLUMNS = 13</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2855,11 +2855,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::OWNER_ID = 'links.OWNER_ID'</td>
+          <td class="memname">const BaseLinkPeer::OWNER_ID = 'links.owner_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the OWNER_ID field </p>
+<p>the column name for the owner_id field </p>
 
 </div>
 </div>
@@ -2868,11 +2868,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::SORT = 'links.SORT'</td>
+          <td class="memname">const BaseLinkPeer::SORT = 'links.sort'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the SORT field </p>
+<p>the column name for the sort field </p>
 
 </div>
 </div>
@@ -2907,11 +2907,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::UPDATED_AT = 'links.UPDATED_AT'</td>
+          <td class="memname">const BaseLinkPeer::UPDATED_AT = 'links.updated_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_AT field </p>
+<p>the column name for the updated_at field </p>
 
 </div>
 </div>
@@ -2920,11 +2920,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::UPDATED_BY = 'links.UPDATED_BY'</td>
+          <td class="memname">const BaseLinkPeer::UPDATED_BY = 'links.updated_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_BY field </p>
+<p>the column name for the updated_by field </p>
 
 </div>
 </div>
@@ -2933,11 +2933,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseLinkPeer::URL = 'links.URL'</td>
+          <td class="memname">const BaseLinkPeer::URL = 'links.url'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the URL field </p>
+<p>the column name for the url field </p>
 
 </div>
 </div>
@@ -2947,7 +2947,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classDocumentTypeQuery-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">DocumentTypeQuery Class Reference</div>  </div>
@@ -101,14 +102,16 @@ Inheritance diagram for DocumentTypeQuery:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aacbb433b68cdb97b3f7d3364c16b2a13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacbb433b68cdb97b3f7d3364c16b2a13"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>filterByDocumentKind</b> ($sDocumentKind= 'image', $bInclude=true)</td></tr>
-<tr class="separator:aacbb433b68cdb97b3f7d3364c16b2a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb7b3353067b0eb4976b4c425c329994"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb7b3353067b0eb4976b4c425c329994"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByDocumentKind</b> ($sDocumentKind= 'image', $bLike=true)</td></tr>
+<tr class="separator:acb7b3353067b0eb4976b4c425c329994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classBaseDocumentTypeQuery"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classBaseDocumentTypeQuery')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classBaseDocumentTypeQuery.html">BaseDocumentTypeQuery</a></td></tr>
-<tr class="memitem:ae9032701dbfe75752253418f8e66a8cc inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#ae9032701dbfe75752253418f8e66a8cc">__construct</a> ($dbName= 'rapila', $modelName= '<a class="el" href="classDocumentType.html">DocumentType</a>', $modelAlias=null)</td></tr>
-<tr class="separator:ae9032701dbfe75752253418f8e66a8cc inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20fc5d283f67c25c90170be6973d1750 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a20fc5d283f67c25c90170be6973d1750">__construct</a> ($dbName=null, $modelName=null, $modelAlias=null)</td></tr>
+<tr class="separator:a20fc5d283f67c25c90170be6973d1750 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994ff3e20d475b6922325a896eb42a20 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a994ff3e20d475b6922325a896eb42a20">findPk</a> ($key, $con=null)</td></tr>
 <tr class="separator:a994ff3e20d475b6922325a896eb42a20 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd049bb78eeb973fd960585973bd7b0 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#acfd049bb78eeb973fd960585973bd7b0">findOneById</a> ($key, $con=null)</td></tr>
+<tr class="separator:acfd049bb78eeb973fd960585973bd7b0 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9388d718f0bac102e0d3a0bfff7d4f49 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a9388d718f0bac102e0d3a0bfff7d4f49">findPks</a> ($keys, $con=null)</td></tr>
 <tr class="separator:a9388d718f0bac102e0d3a0bfff7d4f49 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad464ec15b99aa2eea119459ff16e2466 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#ad464ec15b99aa2eea119459ff16e2466">filterByPrimaryKey</a> ($key)</td></tr>
@@ -153,22 +156,46 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad430d42e4032a7694241e355b482b553 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad725d98515cb8366bc4a0c0593d75cfb inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#ad725d98515cb8366bc4a0c0593d75cfb">recentlyUpdated</a> ($nbDays=7)</td></tr>
 <tr class="separator:ad725d98515cb8366bc4a0c0593d75cfb inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2cdbc7c595f268fd4bed006cc434bf inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a8d2cdbc7c595f268fd4bed006cc434bf">recentlyCreated</a> ($nbDays=7)</td></tr>
-<tr class="separator:a8d2cdbc7c595f268fd4bed006cc434bf inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2757cdd911a2e19f838cb2bd0c1a1dea inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a2757cdd911a2e19f838cb2bd0c1a1dea">lastUpdatedFirst</a> ()</td></tr>
 <tr class="separator:a2757cdd911a2e19f838cb2bd0c1a1dea inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ca56660413d4bb90003e392bb05fd3e inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a2ca56660413d4bb90003e392bb05fd3e">firstUpdatedFirst</a> ()</td></tr>
 <tr class="separator:a2ca56660413d4bb90003e392bb05fd3e inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2cdbc7c595f268fd4bed006cc434bf inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a8d2cdbc7c595f268fd4bed006cc434bf">recentlyCreated</a> ($nbDays=7)</td></tr>
+<tr class="separator:a8d2cdbc7c595f268fd4bed006cc434bf inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34f8a25325cbd583c0622b875e82e868 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a34f8a25325cbd583c0622b875e82e868">lastCreatedFirst</a> ()</td></tr>
 <tr class="separator:a34f8a25325cbd583c0622b875e82e868 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215c3adbf2918a4d7be1af66cf5f30ae inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a215c3adbf2918a4d7be1af66cf5f30ae">firstCreatedFirst</a> ()</td></tr>
 <tr class="separator:a215c3adbf2918a4d7be1af66cf5f30ae inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001799b4fe39b295fca05a1838faa632 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a001799b4fe39b295fca05a1838faa632"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>findMostRecentUpdate</b> ($bAsTimestamp=false)</td></tr>
+<tr class="separator:a001799b4fe39b295fca05a1838faa632 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad431e5b4a8212b8671a735e1dd754b19 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad431e5b4a8212b8671a735e1dd754b19"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKArray</b> ($pkArray)</td></tr>
+<tr class="separator:ad431e5b4a8212b8671a735e1dd754b19 inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab38ccb5c23585cf8aab4d3d1e06a9c inherit pub_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ab38ccb5c23585cf8aab4d3d1e06a9c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKString</b> ($pkString)</td></tr>
+<tr class="separator:a1ab38ccb5c23585cf8aab4d3d1e06a9c inherit pub_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3f449c3f7259225b4188bb4cf0ec2683"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f449c3f7259225b4188bb4cf0ec2683"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>findDocumentTypeByMimetype</b> ($sMimetype=null)</td></tr>
+<tr class="separator:a3f449c3f7259225b4188bb4cf0ec2683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4b971e7f3f3d121e832038230a2c04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac4b971e7f3f3d121e832038230a2c04"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>findDocumentTypeByExtension</b> ($sMimetype=null)</td></tr>
+<tr class="separator:aac4b971e7f3f3d121e832038230a2c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac786d1bda265220900fde3d438db6d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac786d1bda265220900fde3d438db6d1"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>findDocumentTypeIDsByKind</b> ($sMimeTypeKind, $bLike=true)</td></tr>
+<tr class="separator:aac786d1bda265220900fde3d438db6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46396345268f83afc6938b3133c7aa6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad46396345268f83afc6938b3133c7aa6"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>findDocumentTypeAndMimetypeByDocumentKind</b> ($sMimeTypeKind='image', $bLike=true)</td></tr>
+<tr class="separator:ad46396345268f83afc6938b3133c7aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classBaseDocumentTypeQuery"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classBaseDocumentTypeQuery')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classBaseDocumentTypeQuery.html">BaseDocumentTypeQuery</a></td></tr>
 <tr class="memitem:aca1d005c3b1d5035dc0f413f6769375e inherit pub_static_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#aca1d005c3b1d5035dc0f413f6769375e">create</a> ($modelAlias=null, $criteria=null)</td></tr>
 <tr class="separator:aca1d005c3b1d5035dc0f413f6769375e inherit pub_static_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classBaseDocumentTypeQuery"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classBaseDocumentTypeQuery')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classBaseDocumentTypeQuery.html">BaseDocumentTypeQuery</a></td></tr>
 <tr class="memitem:a522c6f360ca270832081e21aa572e2a6 inherit pro_methods_classBaseDocumentTypeQuery"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocumentTypeQuery.html#a522c6f360ca270832081e21aa572e2a6">findPkSimple</a> ($key, $con)</td></tr>
 <tr class="separator:a522c6f360ca270832081e21aa572e2a6 inherit pro_methods_classBaseDocumentTypeQuery"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,7 +208,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

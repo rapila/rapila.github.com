@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Helper class for Ajax-Requests to FrontendManager.  
+<p>Helper class for Ajax-Requests to <a class="el" href="classFrontendManager.html">FrontendManager</a>.  
  <a href="classAjaxTemplate.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AjaxTemplate:</div>
@@ -127,11 +127,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae17fa8e07a1f44575745ee744ab68da5 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae17fa8e07a1f44575745ee744ab68da5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>derivativeTemplate</b> ($sTemplateName, $mPath=false, $bTemplateIsTextOnly=false)</td></tr>
 <tr class="separator:ae17fa8e07a1f44575745ee744ab68da5 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd330dee72d83a49f387410b96ee016c inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd330dee72d83a49f387410b96ee016c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>hasIdentifier</b> ($sName, $sValue=null)</td></tr>
-<tr class="separator:abd330dee72d83a49f387410b96ee016c inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0f03edfb4825f9832724a44181b89e inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e0f03edfb4825f9832724a44181b89e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>hasIdentifier</b> ($sName, $sValue=TemplateIdentifier::PARAMETER_EMPTY_VALUE)</td></tr>
+<tr class="separator:a4e0f03edfb4825f9832724a44181b89e inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97685ba0c78e79db411a7006eb2c716 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ae97685ba0c78e79db411a7006eb2c716">listValuesByIdentifier</a> ($sType)</td></tr>
 <tr class="separator:ae97685ba0c78e79db411a7006eb2c716 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca97918c5be3f2f98187b4e6240e3191 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca97918c5be3f2f98187b4e6240e3191"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>replaceAt</b> ($iIndex, $mReplacement=null, $iLength=1)</td></tr>
+<tr class="separator:aca97918c5be3f2f98187b4e6240e3191 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19b557b3ce5aad7dfc8313fa00e4cddf inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19b557b3ce5aad7dfc8313fa00e4cddf"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>identifiersMatching</b> ($sName=null, $sValue=null, $aParameters=null, $bFindFirst=false, $iStartPosition=0)</td></tr>
 <tr class="separator:a19b557b3ce5aad7dfc8313fa00e4cddf inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,10 +144,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66d8d57e4df9607ff080c3037fc07179 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66d8d57e4df9607ff080c3037fc07179"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>setDefaultFlags</b> ($iDefaultFlags)</td></tr>
 <tr class="separator:a66d8d57e4df9607ff080c3037fc07179 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af011a70d2c075526b6301f0e8d7d3069 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#af011a70d2c075526b6301f0e8d7d3069">replaceIdentifier</a> ($mIdentifier, $mOriginalText, $sValue=null, $iFlags=0, $mFunction=null)</td></tr>
-<tr class="separator:af011a70d2c075526b6301f0e8d7d3069 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65d794b76197255f928a23adad6e675f inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a65d794b76197255f928a23adad6e675f">replaceIdentifierMultiple</a> ($mIdentifier, $mOriginalText=null, $sValue=null, $iFlags=0, $mFunction=null)</td></tr>
-<tr class="separator:a65d794b76197255f928a23adad6e675f inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef2d540ca3f772ebee968ab9e0c85977 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#aef2d540ca3f772ebee968ab9e0c85977">replaceIdentifier</a> ($mIdentifier, $mText, $sValue=TemplateIdentifier::PARAMETER_EMPTY_VALUE, $iFlags=0, $mFunction=null)</td></tr>
+<tr class="separator:aef2d540ca3f772ebee968ab9e0c85977 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13976eecfc04ac02beb2d6c5483e1a4 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#ac13976eecfc04ac02beb2d6c5483e1a4">replaceIdentifierMultiple</a> ($mIdentifier, $mText=null, $sValue=TemplateIdentifier::PARAMETER_EMPTY_VALUE, $iFlags=0, $mFunction=null)</td></tr>
+<tr class="separator:ac13976eecfc04ac02beb2d6c5483e1a4 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb618fde8ae8160bd4369e8cc2fc915 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#a5fb618fde8ae8160bd4369e8cc2fc915">replaceIdentifierMultipleCallback</a> ($sIdentifier, $mCallbackObject, $sCallbackMethod=&quot;getTextForReplaceIdentifier&quot;, $iFlags)</td></tr>
 <tr class="separator:a5fb618fde8ae8160bd4369e8cc2fc915 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb50465b54b9c454e484c5fbd03fb084 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTemplate.html#abb50465b54b9c454e484c5fbd03fb084">replaceIdentifierCallback</a> ($sIdentifier, $mCallbackObject, $sCallbackMethod=null, $iFlags=0)</td></tr>
@@ -165,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a360f2c53a8ee6ed1d3153db802c65c82 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a360f2c53a8ee6ed1d3153db802c65c82"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>__clone</b> ()</td></tr>
 <tr class="separator:a360f2c53a8ee6ed1d3153db802c65c82 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5833c6de13beb04bfc335ebbabe67c5 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5833c6de13beb04bfc335ebbabe67c5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__wakeup</b> ()</td></tr>
+<tr class="separator:ab5833c6de13beb04bfc335ebbabe67c5 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df8134b32bba78dc79429efa1e92c74 inherit pub_methods_classTemplate"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3df8134b32bba78dc79429efa1e92c74"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>closeIdentifier</b> ($sName, $sValue=null)</td></tr>
 <tr class="separator:a3df8134b32bba78dc79429efa1e92c74 inherit pub_methods_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,8 +238,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
 <tr class="separator:abc371f5b6924fbf34a44651af2db62c9 inherit pub_static_attribs_classTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class for Ajax-Requests to FrontendManager. </p>
-<p><a class="el" href="classAjaxTemplate.html" title="Helper class for Ajax-Requests to FrontendManager.">AjaxTemplate</a> is used by FrontendManager to simulate a real template when, in fact, only a few template identifiers need to be filled and they need to be returned in a nice JSON object. </p>
+<div class="textblock"><p>Helper class for Ajax-Requests to <a class="el" href="classFrontendManager.html">FrontendManager</a>. </p>
+<p><a class="el" href="classAjaxTemplate.html" title="Helper class for Ajax-Requests to FrontendManager.">AjaxTemplate</a> is used by <a class="el" href="classFrontendManager.html">FrontendManager</a> to simulate a real template when, in fact, only a few template identifiers need to be filled and they need to be returned in a nice JSON object. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a4f015d3f9ef0ff1c7db4bfdf68cd9e6f"></a>
 <div class="memitem">
@@ -296,7 +302,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$ANY_VALUE</b> = -1
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:28 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -127,8 +127,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a65ac9ff9bd00230033f03da3104645e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6cb787a3fae9c47ddaf34b2149d8118"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ad6cb787a3fae9c47ddaf34b2149d8118">getInstanceFromPool</a> ($key)</td></tr>
 <tr class="separator:ad6cb787a3fae9c47ddaf34b2149d8118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac57d1ba0ff8cfb676ea944efacde599c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ac57d1ba0ff8cfb676ea944efacde599c">clearInstancePool</a> ()</td></tr>
-<tr class="separator:ac57d1ba0ff8cfb676ea944efacde599c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66158547847ee8787ca22e54b21b605"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ae66158547847ee8787ca22e54b21b605">clearInstancePool</a> ($and_clear_all_references=false)</td></tr>
+<tr class="separator:ae66158547847ee8787ca22e54b21b605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a012380c257eca6f7bbb20602c3077fca"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a012380c257eca6f7bbb20602c3077fca">clearRelatedInstancePool</a> ()</td></tr>
 <tr class="separator:a012380c257eca6f7bbb20602c3077fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757de2e3944b9d6d15257d36040c831c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a757de2e3944b9d6d15257d36040c831c">getPrimaryKeyHashFromRow</a> ($row, $startcol=0)</td></tr>
@@ -151,8 +151,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a405773c7afbf4f27ff594cfdce678b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c8bc45363a0c719cb672a6934afc09d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a4c8bc45363a0c719cb672a6934afc09d">buildTableMap</a> ()</td></tr>
 <tr class="separator:a4c8bc45363a0c719cb672a6934afc09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e691f6b53215cf462ac9c5c54dffa4"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ad1e691f6b53215cf462ac9c5c54dffa4">getOMClass</a> ($withPrefix=true)</td></tr>
-<tr class="separator:ad1e691f6b53215cf462ac9c5c54dffa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ae81e164736589061420ce190ae7a6"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a83ae81e164736589061420ce190ae7a6">getOMClass</a> ($row=0, $colnum=0)</td></tr>
+<tr class="separator:a83ae81e164736589061420ce190ae7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f15edc14d51fee40bcc5a4898dfe08"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a94f15edc14d51fee40bcc5a4898dfe08">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr class="separator:a94f15edc14d51fee40bcc5a4898dfe08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a6cc32b4dddf84b5aa8c80457394f0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ad1a6cc32b4dddf84b5aa8c80457394f0">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
@@ -174,6 +174,12 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreRights</b> ($
 <tr class="memitem:ab533d3ed6985d345417ce18fbc0c666e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab533d3ed6985d345417ce18fbc0c666e"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isIgnoringRights</b> ()</td></tr>
 <tr class="separator:ab533d3ed6985d345417ce18fbc0c666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fdd4b119187896543b5452ce903bf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31fdd4b119187896543b5452ce903bf5"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a31fdd4b119187896543b5452ce903bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2348487a0a72392668a17e03ac170a4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2348487a0a72392668a17e03ac170a4a"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a2348487a0a72392668a17e03ac170a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f87e797d45bfe93646fd87c3291550"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2f87e797d45bfe93646fd87c3291550"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOn</b> ($oUser, $mObject, $sOperation)</td></tr>
 <tr class="separator:aa2f87e797d45bfe93646fd87c3291550"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,51 +195,51 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad63f62beb2b2af5031509ba70644b119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62cf604856c66144c14494dbc4c5e876"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a62cf604856c66144c14494dbc4c5e876">OM_CLASS</a> = '<a class="el" href="classUser.html">User</a>'</td></tr>
 <tr class="separator:a62cf604856c66144c14494dbc4c5e876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b8002f34a4ab53cc8a2c814c7fee4e7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a0b8002f34a4ab53cc8a2c814c7fee4e7">CLASS_DEFAULT</a> = 'model.User'</td></tr>
-<tr class="separator:a0b8002f34a4ab53cc8a2c814c7fee4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45f64f0e60a23ee9b1e007da3843f8d1"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a45f64f0e60a23ee9b1e007da3843f8d1">TM_CLASS</a> = '<a class="el" href="classUserTableMap.html">UserTableMap</a>'</td></tr>
 <tr class="separator:a45f64f0e60a23ee9b1e007da3843f8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e97d9adaee7963effdab7bdd215c7e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a67e97d9adaee7963effdab7bdd215c7e">NUM_COLUMNS</a> = 18</td></tr>
+<tr class="memitem:a67e97d9adaee7963effdab7bdd215c7e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a67e97d9adaee7963effdab7bdd215c7e">NUM_COLUMNS</a> = 19</td></tr>
 <tr class="separator:a67e97d9adaee7963effdab7bdd215c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a180fb2993b91ac98a1c2538b0e4c0afa"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a180fb2993b91ac98a1c2538b0e4c0afa">NUM_LAZY_LOAD_COLUMNS</a> = 0</td></tr>
 <tr class="separator:a180fb2993b91ac98a1c2538b0e4c0afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7e3765c45f79991dc795ceca5e4b54"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a3f7e3765c45f79991dc795ceca5e4b54">NUM_HYDRATE_COLUMNS</a> = 18</td></tr>
+<tr class="memitem:a3f7e3765c45f79991dc795ceca5e4b54"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a3f7e3765c45f79991dc795ceca5e4b54">NUM_HYDRATE_COLUMNS</a> = 19</td></tr>
 <tr class="separator:a3f7e3765c45f79991dc795ceca5e4b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126f6a6f9acc05a60d51811551c968f7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a126f6a6f9acc05a60d51811551c968f7">ID</a> = 'users.ID'</td></tr>
+<tr class="memitem:a126f6a6f9acc05a60d51811551c968f7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a126f6a6f9acc05a60d51811551c968f7">ID</a> = 'users.id'</td></tr>
 <tr class="separator:a126f6a6f9acc05a60d51811551c968f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3d4d29ca43fc910bf9ea9b409334ff"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a1c3d4d29ca43fc910bf9ea9b409334ff">USERNAME</a> = 'users.USERNAME'</td></tr>
+<tr class="memitem:a1c3d4d29ca43fc910bf9ea9b409334ff"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a1c3d4d29ca43fc910bf9ea9b409334ff">USERNAME</a> = 'users.username'</td></tr>
 <tr class="separator:a1c3d4d29ca43fc910bf9ea9b409334ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e8b5df28cd12d70891d3dc53bd32c00"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a5e8b5df28cd12d70891d3dc53bd32c00">PASSWORD</a> = 'users.PASSWORD'</td></tr>
+<tr class="memitem:a5e8b5df28cd12d70891d3dc53bd32c00"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a5e8b5df28cd12d70891d3dc53bd32c00">PASSWORD</a> = 'users.password'</td></tr>
 <tr class="separator:a5e8b5df28cd12d70891d3dc53bd32c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a707dbb012dcc30410f4909d88f4cf715"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a707dbb012dcc30410f4909d88f4cf715">DIGEST_HA1</a> = 'users.DIGEST_HA1'</td></tr>
+<tr class="memitem:a707dbb012dcc30410f4909d88f4cf715"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a707dbb012dcc30410f4909d88f4cf715">DIGEST_HA1</a> = 'users.digest_ha1'</td></tr>
 <tr class="separator:a707dbb012dcc30410f4909d88f4cf715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f58abcaab6bad62475cf3be3278d6d7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a4f58abcaab6bad62475cf3be3278d6d7">FIRST_NAME</a> = 'users.FIRST_NAME'</td></tr>
+<tr class="memitem:a4f58abcaab6bad62475cf3be3278d6d7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a4f58abcaab6bad62475cf3be3278d6d7">FIRST_NAME</a> = 'users.first_name'</td></tr>
 <tr class="separator:a4f58abcaab6bad62475cf3be3278d6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb83d37da0fa4d20415eaa45d495f7a4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#acb83d37da0fa4d20415eaa45d495f7a4">LAST_NAME</a> = 'users.LAST_NAME'</td></tr>
+<tr class="memitem:acb83d37da0fa4d20415eaa45d495f7a4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#acb83d37da0fa4d20415eaa45d495f7a4">LAST_NAME</a> = 'users.last_name'</td></tr>
 <tr class="separator:acb83d37da0fa4d20415eaa45d495f7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30f02e940ccb25cef9a4c25a409d74a4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a30f02e940ccb25cef9a4c25a409d74a4">EMAIL</a> = 'users.EMAIL'</td></tr>
+<tr class="memitem:a30f02e940ccb25cef9a4c25a409d74a4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a30f02e940ccb25cef9a4c25a409d74a4">EMAIL</a> = 'users.email'</td></tr>
 <tr class="separator:a30f02e940ccb25cef9a4c25a409d74a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1366c6290ff8bfb7b745267ee9b62949"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a1366c6290ff8bfb7b745267ee9b62949">LANGUAGE_ID</a> = 'users.LANGUAGE_ID'</td></tr>
+<tr class="memitem:a1366c6290ff8bfb7b745267ee9b62949"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a1366c6290ff8bfb7b745267ee9b62949">LANGUAGE_ID</a> = 'users.language_id'</td></tr>
 <tr class="separator:a1366c6290ff8bfb7b745267ee9b62949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75f778e9b0739a95729e55adc57ec24"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#aa75f778e9b0739a95729e55adc57ec24">IS_ADMIN</a> = 'users.IS_ADMIN'</td></tr>
+<tr class="memitem:aae226b04ac20b9f86e7d604786d17c46"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#aae226b04ac20b9f86e7d604786d17c46">TIMEZONE</a> = 'users.timezone'</td></tr>
+<tr class="separator:aae226b04ac20b9f86e7d604786d17c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75f778e9b0739a95729e55adc57ec24"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#aa75f778e9b0739a95729e55adc57ec24">IS_ADMIN</a> = 'users.is_admin'</td></tr>
 <tr class="separator:aa75f778e9b0739a95729e55adc57ec24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2abd83b27350831b562f155e8d79f73"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ae2abd83b27350831b562f155e8d79f73">IS_BACKEND_LOGIN_ENABLED</a> = 'users.IS_BACKEND_LOGIN_ENABLED'</td></tr>
+<tr class="memitem:ae2abd83b27350831b562f155e8d79f73"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#ae2abd83b27350831b562f155e8d79f73">IS_BACKEND_LOGIN_ENABLED</a> = 'users.is_backend_login_enabled'</td></tr>
 <tr class="separator:ae2abd83b27350831b562f155e8d79f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9744fd3d093c3df46bd216cd0d78df7a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a9744fd3d093c3df46bd216cd0d78df7a">IS_ADMIN_LOGIN_ENABLED</a> = 'users.IS_ADMIN_LOGIN_ENABLED'</td></tr>
+<tr class="memitem:a9744fd3d093c3df46bd216cd0d78df7a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a9744fd3d093c3df46bd216cd0d78df7a">IS_ADMIN_LOGIN_ENABLED</a> = 'users.is_admin_login_enabled'</td></tr>
 <tr class="separator:a9744fd3d093c3df46bd216cd0d78df7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf24cf71cb89af41d58db7bb0332fc0"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">IS_INACTIVE</a> = 'users.IS_INACTIVE'</td></tr>
+<tr class="memitem:abcf24cf71cb89af41d58db7bb0332fc0"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">IS_INACTIVE</a> = 'users.is_inactive'</td></tr>
 <tr class="separator:abcf24cf71cb89af41d58db7bb0332fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02f217790a7688734370411a8021dcde"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a02f217790a7688734370411a8021dcde">PASSWORD_RECOVER_HINT</a> = 'users.PASSWORD_RECOVER_HINT'</td></tr>
+<tr class="memitem:a02f217790a7688734370411a8021dcde"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a02f217790a7688734370411a8021dcde">PASSWORD_RECOVER_HINT</a> = 'users.password_recover_hint'</td></tr>
 <tr class="separator:a02f217790a7688734370411a8021dcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb009ac87df00d3255200c90233fc8a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a8cb009ac87df00d3255200c90233fc8a">BACKEND_SETTINGS</a> = 'users.BACKEND_SETTINGS'</td></tr>
+<tr class="memitem:a8cb009ac87df00d3255200c90233fc8a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a8cb009ac87df00d3255200c90233fc8a">BACKEND_SETTINGS</a> = 'users.backend_settings'</td></tr>
 <tr class="separator:a8cb009ac87df00d3255200c90233fc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf71b468c2eb4fc7168d3262aac02ff8"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#abf71b468c2eb4fc7168d3262aac02ff8">CREATED_AT</a> = 'users.CREATED_AT'</td></tr>
+<tr class="memitem:abf71b468c2eb4fc7168d3262aac02ff8"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#abf71b468c2eb4fc7168d3262aac02ff8">CREATED_AT</a> = 'users.created_at'</td></tr>
 <tr class="separator:abf71b468c2eb4fc7168d3262aac02ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a015ec43a7c33d9c4e8d9ddcdc9e7aed8"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a015ec43a7c33d9c4e8d9ddcdc9e7aed8">UPDATED_AT</a> = 'users.UPDATED_AT'</td></tr>
+<tr class="memitem:a015ec43a7c33d9c4e8d9ddcdc9e7aed8"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a015ec43a7c33d9c4e8d9ddcdc9e7aed8">UPDATED_AT</a> = 'users.updated_at'</td></tr>
 <tr class="separator:a015ec43a7c33d9c4e8d9ddcdc9e7aed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a958ebdfe00a47b3977ecbdd55a082d55"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a958ebdfe00a47b3977ecbdd55a082d55">CREATED_BY</a> = 'users.CREATED_BY'</td></tr>
+<tr class="memitem:a958ebdfe00a47b3977ecbdd55a082d55"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a958ebdfe00a47b3977ecbdd55a082d55">CREATED_BY</a> = 'users.created_by'</td></tr>
 <tr class="separator:a958ebdfe00a47b3977ecbdd55a082d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaa0feb3125af19a53fd36a435f7b107"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#afaa0feb3125af19a53fd36a435f7b107">UPDATED_BY</a> = 'users.UPDATED_BY'</td></tr>
+<tr class="memitem:afaa0feb3125af19a53fd36a435f7b107"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#afaa0feb3125af19a53fd36a435f7b107">UPDATED_BY</a> = 'users.updated_by'</td></tr>
 <tr class="separator:afaa0feb3125af19a53fd36a435f7b107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf9b6b205056faf1256ed13d9e646f0"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseUserPeer.html#a9cf9b6b205056faf1256ed13d9e646f0">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr class="separator:a9cf9b6b205056faf1256ed13d9e646f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,7 +300,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doSelect*() methods in your stub classes &ndash; you may need to explicitly add objects to the cache in order to ensure that the same objects are always returned by doSelect*() and retrieveByPK*() calls.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a></td><td class="paramname">$value</td><td>A <a class="el" href="classUser.html">User</a> object. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a></td><td class="paramname">$obj</td><td>A <a class="el" href="classUser.html">User</a> object. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$key</td><td>(optional) key to use for instance map (for performance boost if key was already calculated externally). </td></tr>
   </table>
   </dd>
@@ -419,7 +425,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac57d1ba0ff8cfb676ea944efacde599c"></a>
+<a class="anchor" id="ae66158547847ee8787ca22e54b21b605"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -429,7 +435,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static BaseUserPeer::clearInstancePool </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$and_clear_all_references</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -661,6 +668,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1045,7 +1058,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Prepares the Criteria object and uses the parent <a class="el" href="classBaseUserPeer.html#ad172642d74e2266a3688f4f2e4784be9">doSelect()</a> method to execute a PDOStatement.</p>
-<p>Use this method directly if you want to work with an executed statement durirectly (for example to perform your own object hydration).</p>
+<p>Use this method directly if you want to work with an executed statement directly (for example to perform your own object hydration).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1186,6 +1199,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array A list of field names </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the type is not valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1219,12 +1238,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash()) for this instance. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classUser.html">User</a> Found object or NULL if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classUser.html">User</a> Found object or null if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad1e691f6b53215cf462ac9c5c54dffa4"></a>
+<a class="anchor" id="a83ae81e164736589061420ce190ae7a6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1235,8 +1254,18 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">static BaseUserPeer::getOMClass </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$withPrefix</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>$row</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$colnum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1246,14 +1275,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The class that the Peer will make instances of.</p>
-<p>If $withPrefix is true, the returned path uses a dot-path notation which is tranalted into a path relative to a location on the PHP include_path. (e.g. path.to.MyClass -&gt; 'path/to/MyClass.php')</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$withPrefix</td><td>Whether or not to return the path with the class name </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string path.to.ClassName </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string ClassName </dd></dl>
 
 </div>
 </div>
@@ -1340,7 +1362,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or NULL if the components of primary key in result array are all null. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or null if the components of primary key in result array are all null. </dd></dl>
 
 </div>
 </div>
@@ -1480,7 +1502,14 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doDelete methods in your stub classes &ndash; you may need to explicitly remove objects from the cache in order to prevent returning objects that no longer exist.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classUser.html">User</a> object or a primary key value. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classUser.html">User</a> object or a primary key value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the value is invalid. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1569,6 +1598,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classUser.html">User</a>[] </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">PropelException</td><td>Any exceptions caught during processing will be rethrown wrapped into a PropelException. </td></tr>
@@ -1653,15 +1683,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DigestHA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;FirstName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;LastName&#39;</span> =&gt; 5, <span class="stringliteral">&#39;Email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IsAdmin&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IsBackendLoginEnabled&#39;</span> =&gt; 9, <span class="stringliteral">&#39;IsAdminLoginEnabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 11, <span class="stringliteral">&#39;PasswordRecoverHint&#39;</span> =&gt; 12, <span class="stringliteral">&#39;BackendSettings&#39;</span> =&gt; 13, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 15, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 16, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 17, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;digestHA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;firstName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;lastName&#39;</span> =&gt; 5, <span class="stringliteral">&#39;email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 7, <span class="stringliteral">&#39;isAdmin&#39;</span> =&gt; 8, <span class="stringliteral">&#39;isBackendLoginEnabled&#39;</span> =&gt; 9, <span class="stringliteral">&#39;isAdminLoginEnabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 11, <span class="stringliteral">&#39;passwordRecoverHint&#39;</span> =&gt; 12, <span class="stringliteral">&#39;backendSettings&#39;</span> =&gt; 13, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 15, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 16, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 17, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID =&gt; 0, self::USERNAME =&gt; 1, self::PASSWORD =&gt; 2, self::DIGEST_HA1 =&gt; 3, self::FIRST_NAME =&gt; 4, self::LAST_NAME =&gt; 5, self::EMAIL =&gt; 6, self::LANGUAGE_ID =&gt; 7, self::IS_ADMIN =&gt; 8, self::IS_BACKEND_LOGIN_ENABLED =&gt; 9, self::IS_ADMIN_LOGIN_ENABLED =&gt; 10, self::IS_INACTIVE =&gt; 11, self::PASSWORD_RECOVER_HINT =&gt; 12, self::BACKEND_SETTINGS =&gt; 13, self::CREATED_AT =&gt; 14, self::UPDATED_AT =&gt; 15, self::CREATED_BY =&gt; 16, self::UPDATED_BY =&gt; 17, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;USERNAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;PASSWORD&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DIGEST_HA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;FIRST_NAME&#39;</span> =&gt; 4, <span class="stringliteral">&#39;LAST_NAME&#39;</span> =&gt; 5, <span class="stringliteral">&#39;EMAIL&#39;</span> =&gt; 6, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IS_ADMIN&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IS_BACKEND_LOGIN_ENABLED&#39;</span> =&gt; 9, <span class="stringliteral">&#39;IS_ADMIN_LOGIN_ENABLED&#39;</span> =&gt; 10, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 11, <span class="stringliteral">&#39;PASSWORD_RECOVER_HINT&#39;</span> =&gt; 12, <span class="stringliteral">&#39;BACKEND_SETTINGS&#39;</span> =&gt; 13, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 14, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 15, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 16, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 17, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;digest_ha1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;first_name&#39;</span> =&gt; 4, <span class="stringliteral">&#39;last_name&#39;</span> =&gt; 5, <span class="stringliteral">&#39;email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 7, <span class="stringliteral">&#39;is_admin&#39;</span> =&gt; 8, <span class="stringliteral">&#39;is_backend_login_enabled&#39;</span> =&gt; 9, <span class="stringliteral">&#39;is_admin_login_enabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 11, <span class="stringliteral">&#39;password_recover_hint&#39;</span> =&gt; 12, <span class="stringliteral">&#39;backend_settings&#39;</span> =&gt; 13, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 14, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 15, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 16, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 17, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DigestHA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;FirstName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;LastName&#39;</span> =&gt; 5, <span class="stringliteral">&#39;Email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 7, <span class="stringliteral">&#39;Timezone&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IsAdmin&#39;</span> =&gt; 9, <span class="stringliteral">&#39;IsBackendLoginEnabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;IsAdminLoginEnabled&#39;</span> =&gt; 11, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 12, <span class="stringliteral">&#39;PasswordRecoverHint&#39;</span> =&gt; 13, <span class="stringliteral">&#39;BackendSettings&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 16, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 17, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 18, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;digestHA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;firstName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;lastName&#39;</span> =&gt; 5, <span class="stringliteral">&#39;email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 7, <span class="stringliteral">&#39;timezone&#39;</span> =&gt; 8, <span class="stringliteral">&#39;isAdmin&#39;</span> =&gt; 9, <span class="stringliteral">&#39;isBackendLoginEnabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;isAdminLoginEnabled&#39;</span> =&gt; 11, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 12, <span class="stringliteral">&#39;passwordRecoverHint&#39;</span> =&gt; 13, <span class="stringliteral">&#39;backendSettings&#39;</span> =&gt; 14, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 16, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 17, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 18, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseUserPeer.html#a126f6a6f9acc05a60d51811551c968f7">UserPeer::ID</a> =&gt; 0, <a class="code" href="classBaseUserPeer.html#a1c3d4d29ca43fc910bf9ea9b409334ff">UserPeer::USERNAME</a> =&gt; 1, <a class="code" href="classBaseUserPeer.html#a5e8b5df28cd12d70891d3dc53bd32c00">UserPeer::PASSWORD</a> =&gt; 2, <a class="code" href="classBaseUserPeer.html#a707dbb012dcc30410f4909d88f4cf715">UserPeer::DIGEST_HA1</a> =&gt; 3, <a class="code" href="classBaseUserPeer.html#a4f58abcaab6bad62475cf3be3278d6d7">UserPeer::FIRST_NAME</a> =&gt; 4, <a class="code" href="classBaseUserPeer.html#acb83d37da0fa4d20415eaa45d495f7a4">UserPeer::LAST_NAME</a> =&gt; 5, <a class="code" href="classBaseUserPeer.html#a30f02e940ccb25cef9a4c25a409d74a4">UserPeer::EMAIL</a> =&gt; 6, <a class="code" href="classBaseUserPeer.html#a1366c6290ff8bfb7b745267ee9b62949">UserPeer::LANGUAGE_ID</a> =&gt; 7, <a class="code" href="classBaseUserPeer.html#aae226b04ac20b9f86e7d604786d17c46">UserPeer::TIMEZONE</a> =&gt; 8, <a class="code" href="classBaseUserPeer.html#aa75f778e9b0739a95729e55adc57ec24">UserPeer::IS_ADMIN</a> =&gt; 9, <a class="code" href="classBaseUserPeer.html#ae2abd83b27350831b562f155e8d79f73">UserPeer::IS_BACKEND_LOGIN_ENABLED</a> =&gt; 10, <a class="code" href="classBaseUserPeer.html#a9744fd3d093c3df46bd216cd0d78df7a">UserPeer::IS_ADMIN_LOGIN_ENABLED</a> =&gt; 11, <a class="code" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">UserPeer::IS_INACTIVE</a> =&gt; 12, <a class="code" href="classBaseUserPeer.html#a02f217790a7688734370411a8021dcde">UserPeer::PASSWORD_RECOVER_HINT</a> =&gt; 13, <a class="code" href="classBaseUserPeer.html#a8cb009ac87df00d3255200c90233fc8a">UserPeer::BACKEND_SETTINGS</a> =&gt; 14, <a class="code" href="classBaseUserPeer.html#abf71b468c2eb4fc7168d3262aac02ff8">UserPeer::CREATED_AT</a> =&gt; 15, <a class="code" href="classBaseUserPeer.html#a015ec43a7c33d9c4e8d9ddcdc9e7aed8">UserPeer::UPDATED_AT</a> =&gt; 16, <a class="code" href="classBaseUserPeer.html#a958ebdfe00a47b3977ecbdd55a082d55">UserPeer::CREATED_BY</a> =&gt; 17, <a class="code" href="classBaseUserPeer.html#afaa0feb3125af19a53fd36a435f7b107">UserPeer::UPDATED_BY</a> =&gt; 18, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;USERNAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;PASSWORD&#39;</span> =&gt; 2, <span class="stringliteral">&#39;DIGEST_HA1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;FIRST_NAME&#39;</span> =&gt; 4, <span class="stringliteral">&#39;LAST_NAME&#39;</span> =&gt; 5, <span class="stringliteral">&#39;EMAIL&#39;</span> =&gt; 6, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 7, <span class="stringliteral">&#39;TIMEZONE&#39;</span> =&gt; 8, <span class="stringliteral">&#39;IS_ADMIN&#39;</span> =&gt; 9, <span class="stringliteral">&#39;IS_BACKEND_LOGIN_ENABLED&#39;</span> =&gt; 10, <span class="stringliteral">&#39;IS_ADMIN_LOGIN_ENABLED&#39;</span> =&gt; 11, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 12, <span class="stringliteral">&#39;PASSWORD_RECOVER_HINT&#39;</span> =&gt; 13, <span class="stringliteral">&#39;BACKEND_SETTINGS&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 16, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 17, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 18, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;username&#39;</span> =&gt; 1, <span class="stringliteral">&#39;password&#39;</span> =&gt; 2, <span class="stringliteral">&#39;digest_ha1&#39;</span> =&gt; 3, <span class="stringliteral">&#39;first_name&#39;</span> =&gt; 4, <span class="stringliteral">&#39;last_name&#39;</span> =&gt; 5, <span class="stringliteral">&#39;email&#39;</span> =&gt; 6, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 7, <span class="stringliteral">&#39;timezone&#39;</span> =&gt; 8, <span class="stringliteral">&#39;is_admin&#39;</span> =&gt; 9, <span class="stringliteral">&#39;is_backend_login_enabled&#39;</span> =&gt; 10, <span class="stringliteral">&#39;is_admin_login_enabled&#39;</span> =&gt; 11, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 12, <span class="stringliteral">&#39;password_recover_hint&#39;</span> =&gt; 13, <span class="stringliteral">&#39;backend_settings&#39;</span> =&gt; 14, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 16, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 17, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 18, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of keys for quick access to the fieldnames array</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseUserPeer.html#aad2c84eeb620752b4fdec97064a239d3">UserPeer::$fieldNames</a>[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
 
 </div>
 </div>
@@ -1683,15 +1713,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Username&#39;</span>, <span class="stringliteral">&#39;Password&#39;</span>, <span class="stringliteral">&#39;DigestHA1&#39;</span>, <span class="stringliteral">&#39;FirstName&#39;</span>, <span class="stringliteral">&#39;LastName&#39;</span>, <span class="stringliteral">&#39;Email&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;IsAdmin&#39;</span>, <span class="stringliteral">&#39;IsBackendLoginEnabled&#39;</span>, <span class="stringliteral">&#39;IsAdminLoginEnabled&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;PasswordRecoverHint&#39;</span>, <span class="stringliteral">&#39;BackendSettings&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;username&#39;</span>, <span class="stringliteral">&#39;password&#39;</span>, <span class="stringliteral">&#39;digestHA1&#39;</span>, <span class="stringliteral">&#39;firstName&#39;</span>, <span class="stringliteral">&#39;lastName&#39;</span>, <span class="stringliteral">&#39;email&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;isAdmin&#39;</span>, <span class="stringliteral">&#39;isBackendLoginEnabled&#39;</span>, <span class="stringliteral">&#39;isAdminLoginEnabled&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;passwordRecoverHint&#39;</span>, <span class="stringliteral">&#39;backendSettings&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID, self::USERNAME, self::PASSWORD, self::DIGEST_HA1, self::FIRST_NAME, self::LAST_NAME, self::EMAIL, self::LANGUAGE_ID, self::IS_ADMIN, self::IS_BACKEND_LOGIN_ENABLED, self::IS_ADMIN_LOGIN_ENABLED, self::IS_INACTIVE, self::PASSWORD_RECOVER_HINT, self::BACKEND_SETTINGS, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;USERNAME&#39;</span>, <span class="stringliteral">&#39;PASSWORD&#39;</span>, <span class="stringliteral">&#39;DIGEST_HA1&#39;</span>, <span class="stringliteral">&#39;FIRST_NAME&#39;</span>, <span class="stringliteral">&#39;LAST_NAME&#39;</span>, <span class="stringliteral">&#39;EMAIL&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;IS_ADMIN&#39;</span>, <span class="stringliteral">&#39;IS_BACKEND_LOGIN_ENABLED&#39;</span>, <span class="stringliteral">&#39;IS_ADMIN_LOGIN_ENABLED&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;PASSWORD_RECOVER_HINT&#39;</span>, <span class="stringliteral">&#39;BACKEND_SETTINGS&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;username&#39;</span>, <span class="stringliteral">&#39;password&#39;</span>, <span class="stringliteral">&#39;digest_ha1&#39;</span>, <span class="stringliteral">&#39;first_name&#39;</span>, <span class="stringliteral">&#39;last_name&#39;</span>, <span class="stringliteral">&#39;email&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;is_admin&#39;</span>, <span class="stringliteral">&#39;is_backend_login_enabled&#39;</span>, <span class="stringliteral">&#39;is_admin_login_enabled&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;password_recover_hint&#39;</span>, <span class="stringliteral">&#39;backend_settings&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Username&#39;</span>, <span class="stringliteral">&#39;Password&#39;</span>, <span class="stringliteral">&#39;DigestHA1&#39;</span>, <span class="stringliteral">&#39;FirstName&#39;</span>, <span class="stringliteral">&#39;LastName&#39;</span>, <span class="stringliteral">&#39;Email&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;Timezone&#39;</span>, <span class="stringliteral">&#39;IsAdmin&#39;</span>, <span class="stringliteral">&#39;IsBackendLoginEnabled&#39;</span>, <span class="stringliteral">&#39;IsAdminLoginEnabled&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;PasswordRecoverHint&#39;</span>, <span class="stringliteral">&#39;BackendSettings&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;username&#39;</span>, <span class="stringliteral">&#39;password&#39;</span>, <span class="stringliteral">&#39;digestHA1&#39;</span>, <span class="stringliteral">&#39;firstName&#39;</span>, <span class="stringliteral">&#39;lastName&#39;</span>, <span class="stringliteral">&#39;email&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;timezone&#39;</span>, <span class="stringliteral">&#39;isAdmin&#39;</span>, <span class="stringliteral">&#39;isBackendLoginEnabled&#39;</span>, <span class="stringliteral">&#39;isAdminLoginEnabled&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;passwordRecoverHint&#39;</span>, <span class="stringliteral">&#39;backendSettings&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseUserPeer.html#a126f6a6f9acc05a60d51811551c968f7">UserPeer::ID</a>, <a class="code" href="classBaseUserPeer.html#a1c3d4d29ca43fc910bf9ea9b409334ff">UserPeer::USERNAME</a>, <a class="code" href="classBaseUserPeer.html#a5e8b5df28cd12d70891d3dc53bd32c00">UserPeer::PASSWORD</a>, <a class="code" href="classBaseUserPeer.html#a707dbb012dcc30410f4909d88f4cf715">UserPeer::DIGEST_HA1</a>, <a class="code" href="classBaseUserPeer.html#a4f58abcaab6bad62475cf3be3278d6d7">UserPeer::FIRST_NAME</a>, <a class="code" href="classBaseUserPeer.html#acb83d37da0fa4d20415eaa45d495f7a4">UserPeer::LAST_NAME</a>, <a class="code" href="classBaseUserPeer.html#a30f02e940ccb25cef9a4c25a409d74a4">UserPeer::EMAIL</a>, <a class="code" href="classBaseUserPeer.html#a1366c6290ff8bfb7b745267ee9b62949">UserPeer::LANGUAGE_ID</a>, <a class="code" href="classBaseUserPeer.html#aae226b04ac20b9f86e7d604786d17c46">UserPeer::TIMEZONE</a>, <a class="code" href="classBaseUserPeer.html#aa75f778e9b0739a95729e55adc57ec24">UserPeer::IS_ADMIN</a>, <a class="code" href="classBaseUserPeer.html#ae2abd83b27350831b562f155e8d79f73">UserPeer::IS_BACKEND_LOGIN_ENABLED</a>, <a class="code" href="classBaseUserPeer.html#a9744fd3d093c3df46bd216cd0d78df7a">UserPeer::IS_ADMIN_LOGIN_ENABLED</a>, <a class="code" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">UserPeer::IS_INACTIVE</a>, <a class="code" href="classBaseUserPeer.html#a02f217790a7688734370411a8021dcde">UserPeer::PASSWORD_RECOVER_HINT</a>, <a class="code" href="classBaseUserPeer.html#a8cb009ac87df00d3255200c90233fc8a">UserPeer::BACKEND_SETTINGS</a>, <a class="code" href="classBaseUserPeer.html#abf71b468c2eb4fc7168d3262aac02ff8">UserPeer::CREATED_AT</a>, <a class="code" href="classBaseUserPeer.html#a015ec43a7c33d9c4e8d9ddcdc9e7aed8">UserPeer::UPDATED_AT</a>, <a class="code" href="classBaseUserPeer.html#a958ebdfe00a47b3977ecbdd55a082d55">UserPeer::CREATED_BY</a>, <a class="code" href="classBaseUserPeer.html#afaa0feb3125af19a53fd36a435f7b107">UserPeer::UPDATED_BY</a>, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;USERNAME&#39;</span>, <span class="stringliteral">&#39;PASSWORD&#39;</span>, <span class="stringliteral">&#39;DIGEST_HA1&#39;</span>, <span class="stringliteral">&#39;FIRST_NAME&#39;</span>, <span class="stringliteral">&#39;LAST_NAME&#39;</span>, <span class="stringliteral">&#39;EMAIL&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;TIMEZONE&#39;</span>, <span class="stringliteral">&#39;IS_ADMIN&#39;</span>, <span class="stringliteral">&#39;IS_BACKEND_LOGIN_ENABLED&#39;</span>, <span class="stringliteral">&#39;IS_ADMIN_LOGIN_ENABLED&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;PASSWORD_RECOVER_HINT&#39;</span>, <span class="stringliteral">&#39;BACKEND_SETTINGS&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;username&#39;</span>, <span class="stringliteral">&#39;password&#39;</span>, <span class="stringliteral">&#39;digest_ha1&#39;</span>, <span class="stringliteral">&#39;first_name&#39;</span>, <span class="stringliteral">&#39;last_name&#39;</span>, <span class="stringliteral">&#39;email&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;timezone&#39;</span>, <span class="stringliteral">&#39;is_admin&#39;</span>, <span class="stringliteral">&#39;is_backend_login_enabled&#39;</span>, <span class="stringliteral">&#39;is_admin_login_enabled&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;password_recover_hint&#39;</span>, <span class="stringliteral">&#39;backend_settings&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of fieldnames</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseUserPeer.html#aad2c84eeb620752b4fdec97064a239d3">UserPeer::$fieldNames</a>[UserPeer::TYPE_PHPNAME][0] = 'Id' </p>
 
 </div>
 </div>
@@ -1700,24 +1730,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::BACKEND_SETTINGS = 'users.BACKEND_SETTINGS'</td>
+          <td class="memname">const BaseUserPeer::BACKEND_SETTINGS = 'users.backend_settings'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the BACKEND_SETTINGS field </p>
-
-</div>
-</div>
-<a class="anchor" id="a0b8002f34a4ab53cc8a2c814c7fee4e7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BaseUserPeer::CLASS_DEFAULT = 'model.User'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A class that can be returned by this peer. </p>
+<p>the column name for the backend_settings field </p>
 
 </div>
 </div>
@@ -1726,11 +1743,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::CREATED_AT = 'users.CREATED_AT'</td>
+          <td class="memname">const BaseUserPeer::CREATED_AT = 'users.created_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_AT field </p>
+<p>the column name for the created_at field </p>
 
 </div>
 </div>
@@ -1739,11 +1756,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::CREATED_BY = 'users.CREATED_BY'</td>
+          <td class="memname">const BaseUserPeer::CREATED_BY = 'users.created_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_BY field </p>
+<p>the column name for the created_by field </p>
 
 </div>
 </div>
@@ -1778,11 +1795,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::DIGEST_HA1 = 'users.DIGEST_HA1'</td>
+          <td class="memname">const BaseUserPeer::DIGEST_HA1 = 'users.digest_ha1'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the DIGEST_HA1 field </p>
+<p>the column name for the digest_ha1 field </p>
 
 </div>
 </div>
@@ -1791,11 +1808,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::EMAIL = 'users.EMAIL'</td>
+          <td class="memname">const BaseUserPeer::EMAIL = 'users.email'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the EMAIL field </p>
+<p>the column name for the email field </p>
 
 </div>
 </div>
@@ -1804,11 +1821,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::FIRST_NAME = 'users.FIRST_NAME'</td>
+          <td class="memname">const BaseUserPeer::FIRST_NAME = 'users.first_name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the FIRST_NAME field </p>
+<p>the column name for the first_name field </p>
 
 </div>
 </div>
@@ -1817,11 +1834,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::ID = 'users.ID'</td>
+          <td class="memname">const BaseUserPeer::ID = 'users.id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the ID field </p>
+<p>the column name for the id field </p>
 
 </div>
 </div>
@@ -1830,11 +1847,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::IS_ADMIN = 'users.IS_ADMIN'</td>
+          <td class="memname">const BaseUserPeer::IS_ADMIN = 'users.is_admin'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_ADMIN field </p>
+<p>the column name for the is_admin field </p>
 
 </div>
 </div>
@@ -1843,11 +1860,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::IS_ADMIN_LOGIN_ENABLED = 'users.IS_ADMIN_LOGIN_ENABLED'</td>
+          <td class="memname">const BaseUserPeer::IS_ADMIN_LOGIN_ENABLED = 'users.is_admin_login_enabled'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_ADMIN_LOGIN_ENABLED field </p>
+<p>the column name for the is_admin_login_enabled field </p>
 
 </div>
 </div>
@@ -1856,11 +1873,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::IS_BACKEND_LOGIN_ENABLED = 'users.IS_BACKEND_LOGIN_ENABLED'</td>
+          <td class="memname">const BaseUserPeer::IS_BACKEND_LOGIN_ENABLED = 'users.is_backend_login_enabled'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_BACKEND_LOGIN_ENABLED field </p>
+<p>the column name for the is_backend_login_enabled field </p>
 
 </div>
 </div>
@@ -1869,11 +1886,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::IS_INACTIVE = 'users.IS_INACTIVE'</td>
+          <td class="memname">const BaseUserPeer::IS_INACTIVE = 'users.is_inactive'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_INACTIVE field </p>
+<p>the column name for the is_inactive field </p>
 
 </div>
 </div>
@@ -1882,11 +1899,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::LANGUAGE_ID = 'users.LANGUAGE_ID'</td>
+          <td class="memname">const BaseUserPeer::LANGUAGE_ID = 'users.language_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LANGUAGE_ID field </p>
+<p>the column name for the language_id field </p>
 
 </div>
 </div>
@@ -1895,11 +1912,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::LAST_NAME = 'users.LAST_NAME'</td>
+          <td class="memname">const BaseUserPeer::LAST_NAME = 'users.last_name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LAST_NAME field </p>
+<p>the column name for the last_name field </p>
 
 </div>
 </div>
@@ -1908,7 +1925,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::NUM_COLUMNS = 18</td>
+          <td class="memname">const BaseUserPeer::NUM_COLUMNS = 19</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1921,7 +1938,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::NUM_HYDRATE_COLUMNS = 18</td>
+          <td class="memname">const BaseUserPeer::NUM_HYDRATE_COLUMNS = 19</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1960,11 +1977,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::PASSWORD = 'users.PASSWORD'</td>
+          <td class="memname">const BaseUserPeer::PASSWORD = 'users.password'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the PASSWORD field </p>
+<p>the column name for the password field </p>
 
 </div>
 </div>
@@ -1973,11 +1990,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::PASSWORD_RECOVER_HINT = 'users.PASSWORD_RECOVER_HINT'</td>
+          <td class="memname">const BaseUserPeer::PASSWORD_RECOVER_HINT = 'users.password_recover_hint'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the PASSWORD_RECOVER_HINT field </p>
+<p>the column name for the password_recover_hint field </p>
 
 </div>
 </div>
@@ -1991,6 +2008,19 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the table name for this class </p>
+
+</div>
+</div>
+<a class="anchor" id="aae226b04ac20b9f86e7d604786d17c46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const BaseUserPeer::TIMEZONE = 'users.timezone'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the column name for the timezone field </p>
 
 </div>
 </div>
@@ -2012,11 +2042,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::UPDATED_AT = 'users.UPDATED_AT'</td>
+          <td class="memname">const BaseUserPeer::UPDATED_AT = 'users.updated_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_AT field </p>
+<p>the column name for the updated_at field </p>
 
 </div>
 </div>
@@ -2025,11 +2055,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::UPDATED_BY = 'users.UPDATED_BY'</td>
+          <td class="memname">const BaseUserPeer::UPDATED_BY = 'users.updated_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_BY field </p>
+<p>the column name for the updated_by field </p>
 
 </div>
 </div>
@@ -2038,11 +2068,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseUserPeer::USERNAME = 'users.USERNAME'</td>
+          <td class="memname">const BaseUserPeer::USERNAME = 'users.username'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the USERNAME field </p>
+<p>the column name for the username field </p>
 
 </div>
 </div>
@@ -2052,7 +2082,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -103,8 +103,8 @@ Inheritance diagram for BaseLanguageObjectQuery:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af5f071358aea04e8abd405b2d99f3321"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#af5f071358aea04e8abd405b2d99f3321">__construct</a> ($dbName= 'rapila', $modelName= '<a class="el" href="classLanguageObject.html">LanguageObject</a>', $modelAlias=null)</td></tr>
-<tr class="separator:af5f071358aea04e8abd405b2d99f3321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae904c3923e27d50732536812db1e97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#a4ae904c3923e27d50732536812db1e97">__construct</a> ($dbName=null, $modelName=null, $modelAlias=null)</td></tr>
+<tr class="separator:a4ae904c3923e27d50732536812db1e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a939f1afdbf5d643f00203d171f6c6e52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#a939f1afdbf5d643f00203d171f6c6e52">findPk</a> ($key, $con=null)</td></tr>
 <tr class="separator:a939f1afdbf5d643f00203d171f6c6e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac06b60d6312747f0aa7d52bd53bdf77b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#ac06b60d6312747f0aa7d52bd53bdf77b">findPks</a> ($keys, $con=null)</td></tr>
@@ -157,16 +157,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16cdc32cd313c43b42f4b329adc7f203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a656532b766dfa0c7227a082b1ccf70fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#a656532b766dfa0c7227a082b1ccf70fa">recentlyUpdated</a> ($nbDays=7)</td></tr>
 <tr class="separator:a656532b766dfa0c7227a082b1ccf70fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5c318ac722d0ea0bffd6f61fcbae00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#aeb5c318ac722d0ea0bffd6f61fcbae00">recentlyCreated</a> ($nbDays=7)</td></tr>
-<tr class="separator:aeb5c318ac722d0ea0bffd6f61fcbae00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1540907de0b4fff0c1afe65183bedb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#ab1540907de0b4fff0c1afe65183bedb0">lastUpdatedFirst</a> ()</td></tr>
 <tr class="separator:ab1540907de0b4fff0c1afe65183bedb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf8e443ea1446b82759cc11d0e95385a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#abf8e443ea1446b82759cc11d0e95385a">firstUpdatedFirst</a> ()</td></tr>
 <tr class="separator:abf8e443ea1446b82759cc11d0e95385a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb5c318ac722d0ea0bffd6f61fcbae00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#aeb5c318ac722d0ea0bffd6f61fcbae00">recentlyCreated</a> ($nbDays=7)</td></tr>
+<tr class="separator:aeb5c318ac722d0ea0bffd6f61fcbae00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9843d283100f447642eb9c528766a51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#aa9843d283100f447642eb9c528766a51">lastCreatedFirst</a> ()</td></tr>
 <tr class="separator:aa9843d283100f447642eb9c528766a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab055cc1d7c8ee131983780b54ca797af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageObjectQuery.html#ab055cc1d7c8ee131983780b54ca797af">firstCreatedFirst</a> ()</td></tr>
 <tr class="separator:ab055cc1d7c8ee131983780b54ca797af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357be774941c3eac8fe473a870bf6e3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a357be774941c3eac8fe473a870bf6e3c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>findMostRecentUpdate</b> ($bAsTimestamp=false)</td></tr>
+<tr class="separator:a357be774941c3eac8fe473a870bf6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f199463e271f15ad17fd33ccff07e67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f199463e271f15ad17fd33ccff07e67"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKArray</b> ($pkArray)</td></tr>
+<tr class="separator:a4f199463e271f15ad17fd33ccff07e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d82782b4dda27b9d62b71d2d97cd8d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d82782b4dda27b9d62b71d2d97cd8d6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKString</b> ($pkString)</td></tr>
+<tr class="separator:a4d82782b4dda27b9d62b71d2d97cd8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -181,7 +190,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab58508a63cdcd51a93f9f164447d5353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af5f071358aea04e8abd405b2d99f3321"></a>
+<a class="anchor" id="a4ae904c3923e27d50732536812db1e97"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -189,13 +198,13 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">BaseLanguageObjectQuery::__construct </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$dbName</em> = <code>'rapila'</code>, </td>
+          <td class="paramname"><em>$dbName</em> = <code>null</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$modelName</em> = <code>'<a class="el" href="classLanguageObject.html">LanguageObject</a>'</code>, </td>
+          <td class="paramname"><em>$modelName</em> = <code>null</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -258,7 +267,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$modelAlias</td><td>The alias of a model in the query </td></tr>
-    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>Optional Criteria to build the query from</td></tr>
+    <tr><td class="paramtype"><a class="el" href="classLanguageObjectQuery.html">LanguageObjectQuery</a>&#160;|&#160;Criteria</td><td class="paramname">$criteria</td><td>Optional Criteria to build the query from</td></tr>
   </table>
   </dd>
 </dl>
@@ -292,12 +301,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classContentObject.html">ContentObject</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classContentObject.html">ContentObject</a>&#160;|&#160;PropelCollection</td><td class="paramname">$contentObject</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classContentObject.html">ContentObject</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$contentObject</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLanguageObjectQuery.html">LanguageObjectQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -325,7 +340,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the created_at column</p>
-<p>Example usage: <code> $query-&gt;filterByCreatedAt('2011-03-14'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt('now'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt(array('max' =&gt; 'yesterday')); // WHERE created_at &gt; '2011-03-13' </code></p>
+<p>Example usage: <code> $query-&gt;filterByCreatedAt('2011-03-14'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt('now'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt(array('max' =&gt; 'yesterday')); // WHERE created_at &lt; '2011-03-13' </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$createdAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
@@ -361,7 +376,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the created_by column</p>
-<p>Example usage: <code> $query-&gt;filterByCreatedBy(1234); // WHERE created_by = 1234 $query-&gt;filterByCreatedBy(array(12, 34)); // WHERE created_by IN (12, 34) $query-&gt;filterByCreatedBy(array('min' =&gt; 12)); // WHERE created_by &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByCreatedBy(1234); // WHERE created_by = 1234 $query-&gt;filterByCreatedBy(array(12, 34)); // WHERE created_by IN (12, 34) $query-&gt;filterByCreatedBy(array('min' =&gt; 12)); // WHERE created_by &gt;= 12 $query-&gt;filterByCreatedBy(array('max' =&gt; 12)); // WHERE created_by &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseLanguageObjectQuery.html#af924c618798d05cdddca09dc56c81d02">filterByUserRelatedByCreatedBy()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -475,12 +490,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classLanguage.html">Language</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classLanguage.html">Language</a>&#160;|&#160;PropelCollection</td><td class="paramname">$language</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classLanguage.html">Language</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$language</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLanguageObjectQuery.html">LanguageObjectQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -544,7 +565,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the object_id column</p>
-<p>Example usage: <code> $query-&gt;filterByObjectId(1234); // WHERE object_id = 1234 $query-&gt;filterByObjectId(array(12, 34)); // WHERE object_id IN (12, 34) $query-&gt;filterByObjectId(array('min' =&gt; 12)); // WHERE object_id &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByObjectId(1234); // WHERE object_id = 1234 $query-&gt;filterByObjectId(array(12, 34)); // WHERE object_id IN (12, 34) $query-&gt;filterByObjectId(array('min' =&gt; 12)); // WHERE object_id &gt;= 12 $query-&gt;filterByObjectId(array('max' =&gt; 12)); // WHERE object_id &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseLanguageObjectQuery.html#af233ff20a711d51e47c2941a1d1d658c">filterByContentObject()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -629,7 +650,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the updated_at column</p>
-<p>Example usage: <code> $query-&gt;filterByUpdatedAt('2011-03-14'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt('now'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt(array('max' =&gt; 'yesterday')); // WHERE updated_at &gt; '2011-03-13' </code></p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedAt('2011-03-14'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt('now'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt(array('max' =&gt; 'yesterday')); // WHERE updated_at &lt; '2011-03-13' </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$updatedAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
@@ -665,7 +686,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the updated_by column</p>
-<p>Example usage: <code> $query-&gt;filterByUpdatedBy(1234); // WHERE updated_by = 1234 $query-&gt;filterByUpdatedBy(array(12, 34)); // WHERE updated_by IN (12, 34) $query-&gt;filterByUpdatedBy(array('min' =&gt; 12)); // WHERE updated_by &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedBy(1234); // WHERE updated_by = 1234 $query-&gt;filterByUpdatedBy(array(12, 34)); // WHERE updated_by IN (12, 34) $query-&gt;filterByUpdatedBy(array('min' =&gt; 12)); // WHERE updated_by &gt;= 12 $query-&gt;filterByUpdatedBy(array('max' =&gt; 12)); // WHERE updated_by &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseLanguageObjectQuery.html#a4b7f0612867025b84b700ca300f7a39b">filterByUserRelatedByUpdatedBy()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -704,12 +725,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLanguageObjectQuery.html">LanguageObjectQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -739,12 +766,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLanguageObjectQuery.html">LanguageObjectQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -775,12 +808,12 @@ Protected Member Functions</h2></td></tr>
 <p><code> $obj = $c-&gt;findPk(array(12, 34), $con); </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"></td><td class="paramname">array[$object_id,$language_id]</td><td>$key Primary key to use for the query </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$key</td><td>Primary key to use for the query A Primary key composition: [$object_id, $language_id] </td></tr>
     <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>an optional connection object</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LanguageObject|array|mixed the result, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LanguageObject|LanguageObject[]|mixed the result, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -823,7 +856,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LanguageObject|array|mixed the result, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LanguageObject|LanguageObject[]|mixed the result, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -858,7 +891,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>PropelObjectCollection|array|mixed the list of results, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>PropelObjectCollection|LanguageObject[]|mixed the list of results, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -902,6 +935,12 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classLanguageObject.html">LanguageObject</a> A model object, or null if the key is not found </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1335,7 +1374,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

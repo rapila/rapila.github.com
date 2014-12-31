@@ -126,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a63e468b7c245518413adb648a8753814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a559c61ff72d565137b734d0e971dfeae"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a559c61ff72d565137b734d0e971dfeae">getInstanceFromPool</a> ($key)</td></tr>
 <tr class="separator:a559c61ff72d565137b734d0e971dfeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4ce107865c6847202c64f0df7ba3162"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#ab4ce107865c6847202c64f0df7ba3162">clearInstancePool</a> ()</td></tr>
-<tr class="separator:ab4ce107865c6847202c64f0df7ba3162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5006acb73e0557efcf00013f60b32e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a8b5006acb73e0557efcf00013f60b32e">clearInstancePool</a> ($and_clear_all_references=false)</td></tr>
+<tr class="separator:a8b5006acb73e0557efcf00013f60b32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a60fcefc1c2fd32fcc45eb59b91ba7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a53a60fcefc1c2fd32fcc45eb59b91ba7">clearRelatedInstancePool</a> ()</td></tr>
 <tr class="separator:a53a60fcefc1c2fd32fcc45eb59b91ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b3a26dd6a3ac534c758040478969a5f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a7b3a26dd6a3ac534c758040478969a5f">getPrimaryKeyHashFromRow</a> ($row, $startcol=0)</td></tr>
@@ -170,8 +170,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:acd9df388f328e0e5fbcea9388b6fdc7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fbf9167acbfa61df3d3d954f5fd5354"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a7fbf9167acbfa61df3d3d954f5fd5354">buildTableMap</a> ()</td></tr>
 <tr class="separator:a7fbf9167acbfa61df3d3d954f5fd5354"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f635ef39261574cc14cdfc90b1533f7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a4f635ef39261574cc14cdfc90b1533f7">getOMClass</a> ($withPrefix=true)</td></tr>
-<tr class="separator:a4f635ef39261574cc14cdfc90b1533f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0f3a43cc453f69279312760a7a7e3f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#aea0f3a43cc453f69279312760a7a7e3f">getOMClass</a> ($row=0, $colnum=0)</td></tr>
+<tr class="separator:aea0f3a43cc453f69279312760a7a7e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc31caf18e2edd610445331af2348de"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#aadc31caf18e2edd610445331af2348de">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr class="separator:aadc31caf18e2edd610445331af2348de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebf19beb01d35fd69be363253d6c0dd0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#aebf19beb01d35fd69be363253d6c0dd0">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
@@ -190,6 +190,12 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreRights</b> ($
 <tr class="memitem:a776f6b891bf201708b28f22264f4a904"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a776f6b891bf201708b28f22264f4a904"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isIgnoringRights</b> ()</td></tr>
 <tr class="separator:a776f6b891bf201708b28f22264f4a904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a2c0c2c7a609dde6cc50ff31cb60a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0a2c0c2c7a609dde6cc50ff31cb60a5"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:ae0a2c0c2c7a609dde6cc50ff31cb60a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e31572648e3a29437f317b623893732"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e31572648e3a29437f317b623893732"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a6e31572648e3a29437f317b623893732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af18afb7f654ff6df99a5ef27cdd231c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af18afb7f654ff6df99a5ef27cdd231c0"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOn</b> ($oUser, $mObject, $sOperation)</td></tr>
 <tr class="separator:af18afb7f654ff6df99a5ef27cdd231c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,8 +211,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a02e77b64f7a75e988294cf6b1fa1fe5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d3a445b4cbd1d87ee81add4b7108c3"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a92d3a445b4cbd1d87ee81add4b7108c3">OM_CLASS</a> = '<a class="el" href="classTagInstance.html">TagInstance</a>'</td></tr>
 <tr class="separator:a92d3a445b4cbd1d87ee81add4b7108c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a092ad45a9c211eee7520a9c2f109e9bc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a092ad45a9c211eee7520a9c2f109e9bc">CLASS_DEFAULT</a> = 'model.TagInstance'</td></tr>
-<tr class="separator:a092ad45a9c211eee7520a9c2f109e9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada7daec67ead07055450cb3cf5f21a79"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#ada7daec67ead07055450cb3cf5f21a79">TM_CLASS</a> = '<a class="el" href="classTagInstanceTableMap.html">TagInstanceTableMap</a>'</td></tr>
 <tr class="separator:ada7daec67ead07055450cb3cf5f21a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a256bd2acaa28eeea998fea42f20a894a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a256bd2acaa28eeea998fea42f20a894a">NUM_COLUMNS</a> = 7</td></tr>
@@ -215,19 +219,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aca2d30e3ccbeba67779c9aa45fcb7c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f053411beb6ae7563ef0c18caf1f612"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a6f053411beb6ae7563ef0c18caf1f612">NUM_HYDRATE_COLUMNS</a> = 7</td></tr>
 <tr class="separator:a6f053411beb6ae7563ef0c18caf1f612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2f96165ad50b724e8098c98ad82bfc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#abe2f96165ad50b724e8098c98ad82bfc">TAG_ID</a> = 'tag_instances.TAG_ID'</td></tr>
+<tr class="memitem:abe2f96165ad50b724e8098c98ad82bfc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#abe2f96165ad50b724e8098c98ad82bfc">TAG_ID</a> = 'tag_instances.tag_id'</td></tr>
 <tr class="separator:abe2f96165ad50b724e8098c98ad82bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa39075d5f12ba7105da6f13df3f4738d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#aa39075d5f12ba7105da6f13df3f4738d">TAGGED_ITEM_ID</a> = 'tag_instances.TAGGED_ITEM_ID'</td></tr>
+<tr class="memitem:aa39075d5f12ba7105da6f13df3f4738d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#aa39075d5f12ba7105da6f13df3f4738d">TAGGED_ITEM_ID</a> = 'tag_instances.tagged_item_id'</td></tr>
 <tr class="separator:aa39075d5f12ba7105da6f13df3f4738d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b44817a5659222be815cceca1eef420"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a6b44817a5659222be815cceca1eef420">MODEL_NAME</a> = 'tag_instances.MODEL_NAME'</td></tr>
+<tr class="memitem:a6b44817a5659222be815cceca1eef420"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a6b44817a5659222be815cceca1eef420">MODEL_NAME</a> = 'tag_instances.model_name'</td></tr>
 <tr class="separator:a6b44817a5659222be815cceca1eef420"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a395b86a3a0fb626ec368af6151b19ec5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a395b86a3a0fb626ec368af6151b19ec5">CREATED_AT</a> = 'tag_instances.CREATED_AT'</td></tr>
+<tr class="memitem:a395b86a3a0fb626ec368af6151b19ec5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a395b86a3a0fb626ec368af6151b19ec5">CREATED_AT</a> = 'tag_instances.created_at'</td></tr>
 <tr class="separator:a395b86a3a0fb626ec368af6151b19ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06bc44958a53f33b39b60e394a39597a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a06bc44958a53f33b39b60e394a39597a">UPDATED_AT</a> = 'tag_instances.UPDATED_AT'</td></tr>
+<tr class="memitem:a06bc44958a53f33b39b60e394a39597a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a06bc44958a53f33b39b60e394a39597a">UPDATED_AT</a> = 'tag_instances.updated_at'</td></tr>
 <tr class="separator:a06bc44958a53f33b39b60e394a39597a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5fec9b5926012b80f2d4d98c1a99a7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a9f5fec9b5926012b80f2d4d98c1a99a7">CREATED_BY</a> = 'tag_instances.CREATED_BY'</td></tr>
+<tr class="memitem:a9f5fec9b5926012b80f2d4d98c1a99a7"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a9f5fec9b5926012b80f2d4d98c1a99a7">CREATED_BY</a> = 'tag_instances.created_by'</td></tr>
 <tr class="separator:a9f5fec9b5926012b80f2d4d98c1a99a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a925fa4befd6607462ad3a418a6d449"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a2a925fa4befd6607462ad3a418a6d449">UPDATED_BY</a> = 'tag_instances.UPDATED_BY'</td></tr>
+<tr class="memitem:a2a925fa4befd6607462ad3a418a6d449"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a2a925fa4befd6607462ad3a418a6d449">UPDATED_BY</a> = 'tag_instances.updated_by'</td></tr>
 <tr class="separator:a2a925fa4befd6607462ad3a418a6d449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c0a1569d63118d880adfc94d55371a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseTagInstancePeer.html#a63c0a1569d63118d880adfc94d55371a">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr class="separator:a63c0a1569d63118d880adfc94d55371a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,7 +285,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doSelect*() methods in your stub classes &ndash; you may need to explicitly add objects to the cache in order to ensure that the same objects are always returned by doSelect*() and retrieveByPK*() calls.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classTagInstance.html">TagInstance</a></td><td class="paramname">$value</td><td>A <a class="el" href="classTagInstance.html">TagInstance</a> object. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classTagInstance.html">TagInstance</a></td><td class="paramname">$obj</td><td>A <a class="el" href="classTagInstance.html">TagInstance</a> object. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$key</td><td>(optional) key to use for instance map (for performance boost if key was already calculated externally). </td></tr>
   </table>
   </dd>
@@ -406,7 +410,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab4ce107865c6847202c64f0df7ba3162"></a>
+<a class="anchor" id="a8b5006acb73e0557efcf00013f60b32e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -416,7 +420,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static BaseTagInstancePeer::clearInstancePool </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$and_clear_all_references</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -982,6 +987,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1556,7 +1567,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Prepares the Criteria object and uses the parent <a class="el" href="classBaseTagInstancePeer.html#ac097734ecfe0a44cb560f04b9a7da926">doSelect()</a> method to execute a PDOStatement.</p>
-<p>Use this method directly if you want to work with an executed statement durirectly (for example to perform your own object hydration).</p>
+<p>Use this method directly if you want to work with an executed statement directly (for example to perform your own object hydration).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1697,6 +1708,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array A list of field names </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the type is not valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1730,12 +1747,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash()) for this instance. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classTagInstance.html">TagInstance</a> Found object or NULL if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classTagInstance.html">TagInstance</a> Found object or null if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a4f635ef39261574cc14cdfc90b1533f7"></a>
+<a class="anchor" id="aea0f3a43cc453f69279312760a7a7e3f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1746,8 +1763,18 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">static BaseTagInstancePeer::getOMClass </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$withPrefix</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>$row</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$colnum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1757,14 +1784,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The class that the Peer will make instances of.</p>
-<p>If $withPrefix is true, the returned path uses a dot-path notation which is tranalted into a path relative to a location on the PHP include_path. (e.g. path.to.MyClass -&gt; 'path/to/MyClass.php')</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$withPrefix</td><td>Whether or not to return the path with the class name </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string path.to.ClassName </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string ClassName </dd></dl>
 
 </div>
 </div>
@@ -1851,7 +1871,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or NULL if the components of primary key in result array are all null. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or null if the components of primary key in result array are all null. </dd></dl>
 
 </div>
 </div>
@@ -1991,7 +2011,14 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doDelete methods in your stub classes &ndash; you may need to explicitly remove objects from the cache in order to prevent returning objects that no longer exist.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classTagInstance.html">TagInstance</a> object or a primary key value. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classTagInstance.html">TagInstance</a> object or a primary key value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the value is invalid. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2130,15 +2157,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;TagId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;TaggedItemId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;ModelName&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 6, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;tagId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;taggedItemId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;modelName&#39;</span> =&gt; 2, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 6, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::TAG_ID =&gt; 0, self::TAGGED_ITEM_ID =&gt; 1, self::MODEL_NAME =&gt; 2, self::CREATED_AT =&gt; 3, self::UPDATED_AT =&gt; 4, self::CREATED_BY =&gt; 5, self::UPDATED_BY =&gt; 6, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;TAG_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;TAGGED_ITEM_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;MODEL_NAME&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 6, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;tag_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;tagged_item_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;model_name&#39;</span> =&gt; 2, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 6, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;TagId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;TaggedItemId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;ModelName&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 6, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;tagId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;taggedItemId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;modelName&#39;</span> =&gt; 2, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 4, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 6, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseTagInstancePeer.html#abe2f96165ad50b724e8098c98ad82bfc">TagInstancePeer::TAG_ID</a> =&gt; 0, <a class="code" href="classBaseTagInstancePeer.html#aa39075d5f12ba7105da6f13df3f4738d">TagInstancePeer::TAGGED_ITEM_ID</a> =&gt; 1, <a class="code" href="classBaseTagInstancePeer.html#a6b44817a5659222be815cceca1eef420">TagInstancePeer::MODEL_NAME</a> =&gt; 2, <a class="code" href="classBaseTagInstancePeer.html#a395b86a3a0fb626ec368af6151b19ec5">TagInstancePeer::CREATED_AT</a> =&gt; 3, <a class="code" href="classBaseTagInstancePeer.html#a06bc44958a53f33b39b60e394a39597a">TagInstancePeer::UPDATED_AT</a> =&gt; 4, <a class="code" href="classBaseTagInstancePeer.html#a9f5fec9b5926012b80f2d4d98c1a99a7">TagInstancePeer::CREATED_BY</a> =&gt; 5, <a class="code" href="classBaseTagInstancePeer.html#a2a925fa4befd6607462ad3a418a6d449">TagInstancePeer::UPDATED_BY</a> =&gt; 6, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;TAG_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;TAGGED_ITEM_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;MODEL_NAME&#39;</span> =&gt; 2, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 4, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 5, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 6, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;tag_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;tagged_item_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;model_name&#39;</span> =&gt; 2, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 3, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 4, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 5, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 6, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of keys for quick access to the fieldnames array</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseTagInstancePeer.html#ae55a98f3740b941b2b42606f4f4a237e">TagInstancePeer::$fieldNames</a>[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
 
 </div>
 </div>
@@ -2160,28 +2187,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;TagId&#39;</span>, <span class="stringliteral">&#39;TaggedItemId&#39;</span>, <span class="stringliteral">&#39;ModelName&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;tagId&#39;</span>, <span class="stringliteral">&#39;taggedItemId&#39;</span>, <span class="stringliteral">&#39;modelName&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::TAG_ID, self::TAGGED_ITEM_ID, self::MODEL_NAME, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;TAG_ID&#39;</span>, <span class="stringliteral">&#39;TAGGED_ITEM_ID&#39;</span>, <span class="stringliteral">&#39;MODEL_NAME&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;tag_id&#39;</span>, <span class="stringliteral">&#39;tagged_item_id&#39;</span>, <span class="stringliteral">&#39;model_name&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;TagId&#39;</span>, <span class="stringliteral">&#39;TaggedItemId&#39;</span>, <span class="stringliteral">&#39;ModelName&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;tagId&#39;</span>, <span class="stringliteral">&#39;taggedItemId&#39;</span>, <span class="stringliteral">&#39;modelName&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBaseTagInstancePeer.html#abe2f96165ad50b724e8098c98ad82bfc">TagInstancePeer::TAG_ID</a>, <a class="code" href="classBaseTagInstancePeer.html#aa39075d5f12ba7105da6f13df3f4738d">TagInstancePeer::TAGGED_ITEM_ID</a>, <a class="code" href="classBaseTagInstancePeer.html#a6b44817a5659222be815cceca1eef420">TagInstancePeer::MODEL_NAME</a>, <a class="code" href="classBaseTagInstancePeer.html#a395b86a3a0fb626ec368af6151b19ec5">TagInstancePeer::CREATED_AT</a>, <a class="code" href="classBaseTagInstancePeer.html#a06bc44958a53f33b39b60e394a39597a">TagInstancePeer::UPDATED_AT</a>, <a class="code" href="classBaseTagInstancePeer.html#a9f5fec9b5926012b80f2d4d98c1a99a7">TagInstancePeer::CREATED_BY</a>, <a class="code" href="classBaseTagInstancePeer.html#a2a925fa4befd6607462ad3a418a6d449">TagInstancePeer::UPDATED_BY</a>, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;TAG_ID&#39;</span>, <span class="stringliteral">&#39;TAGGED_ITEM_ID&#39;</span>, <span class="stringliteral">&#39;MODEL_NAME&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;tag_id&#39;</span>, <span class="stringliteral">&#39;tagged_item_id&#39;</span>, <span class="stringliteral">&#39;model_name&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of fieldnames</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
-
-</div>
-</div>
-<a class="anchor" id="a092ad45a9c211eee7520a9c2f109e9bc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BaseTagInstancePeer::CLASS_DEFAULT = 'model.TagInstance'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A class that can be returned by this peer. </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBaseTagInstancePeer.html#ae55a98f3740b941b2b42606f4f4a237e">TagInstancePeer::$fieldNames</a>[TagInstancePeer::TYPE_PHPNAME][0] = 'Id' </p>
 
 </div>
 </div>
@@ -2190,11 +2204,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::CREATED_AT = 'tag_instances.CREATED_AT'</td>
+          <td class="memname">const BaseTagInstancePeer::CREATED_AT = 'tag_instances.created_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_AT field </p>
+<p>the column name for the created_at field </p>
 
 </div>
 </div>
@@ -2203,11 +2217,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::CREATED_BY = 'tag_instances.CREATED_BY'</td>
+          <td class="memname">const BaseTagInstancePeer::CREATED_BY = 'tag_instances.created_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_BY field </p>
+<p>the column name for the created_by field </p>
 
 </div>
 </div>
@@ -2242,11 +2256,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::MODEL_NAME = 'tag_instances.MODEL_NAME'</td>
+          <td class="memname">const BaseTagInstancePeer::MODEL_NAME = 'tag_instances.model_name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the MODEL_NAME field </p>
+<p>the column name for the model_name field </p>
 
 </div>
 </div>
@@ -2320,11 +2334,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::TAG_ID = 'tag_instances.TAG_ID'</td>
+          <td class="memname">const BaseTagInstancePeer::TAG_ID = 'tag_instances.tag_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TAG_ID field </p>
+<p>the column name for the tag_id field </p>
 
 </div>
 </div>
@@ -2333,11 +2347,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::TAGGED_ITEM_ID = 'tag_instances.TAGGED_ITEM_ID'</td>
+          <td class="memname">const BaseTagInstancePeer::TAGGED_ITEM_ID = 'tag_instances.tagged_item_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TAGGED_ITEM_ID field </p>
+<p>the column name for the tagged_item_id field </p>
 
 </div>
 </div>
@@ -2359,11 +2373,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::UPDATED_AT = 'tag_instances.UPDATED_AT'</td>
+          <td class="memname">const BaseTagInstancePeer::UPDATED_AT = 'tag_instances.updated_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_AT field </p>
+<p>the column name for the updated_at field </p>
 
 </div>
 </div>
@@ -2372,11 +2386,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BaseTagInstancePeer::UPDATED_BY = 'tag_instances.UPDATED_BY'</td>
+          <td class="memname">const BaseTagInstancePeer::UPDATED_BY = 'tag_instances.updated_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_BY field </p>
+<p>the column name for the updated_by field </p>
 
 </div>
 </div>
@@ -2386,7 +2400,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

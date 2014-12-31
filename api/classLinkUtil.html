@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classLinkUtil-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">LinkUtil Class Reference</div>  </div>
@@ -95,17 +96,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0dcd2cc5031ca8691284d19be5906d9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dcd2cc5031ca8691284d19be5906d9e"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>redirectToManager</b> ($mPath=&quot;&quot;, $mManager=null, $aParameters=array(), $bIncludeLanguage=null)</td></tr>
 <tr class="separator:a0dcd2cc5031ca8691284d19be5906d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277448ed086b84ec998a7083a50e2e8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a277448ed086b84ec998a7083a50e2e8c"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>redirectToLanguage</b> ($bNoRedirectIfNonMultilingual=true, $sLanguageId=null)</td></tr>
-<tr class="separator:a277448ed086b84ec998a7083a50e2e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa77dd83076fe8e77a5c8f6ea54653b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a7aa77dd83076fe8e77a5c8f6ea54653b">redirect</a> ($sLocation, $sHost=null, $sProtocol=null, $bPermanent=true)</td></tr>
-<tr class="separator:a7aa77dd83076fe8e77a5c8f6ea54653b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a8d198d71d299668a1fcfef33a4321"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1a8d198d71d299668a1fcfef33a4321"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>redirectToLanguage</b> ($sLanguageId=null)</td></tr>
+<tr class="separator:af1a8d198d71d299668a1fcfef33a4321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a30e86e34a0d5f4753ec20fad3d147"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#ad0a30e86e34a0d5f4753ec20fad3d147">redirect</a> ($sLocation, $sHost=null, $sProtocol= 'default', $bPermanent=true)</td></tr>
+<tr class="separator:ad0a30e86e34a0d5f4753ec20fad3d147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059539b2e31fa420bebddb6bf0f97077"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a059539b2e31fa420bebddb6bf0f97077"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>sendHTTPStatusCode</b> ($iCode, $sName)</td></tr>
 <tr class="separator:a059539b2e31fa420bebddb6bf0f97077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a383299656cdc4647761223b4580187d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a383299656cdc4647761223b4580187d0"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>absoluteLink</b> ($sLocation, $sHost=null, $sProtocol=null)</td></tr>
-<tr class="separator:a383299656cdc4647761223b4580187d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f95f117f7594b4cd417efa040fa3c3"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#aa2f95f117f7594b4cd417efa040fa3c3">sendCacheControlHeaders</a> ($iTimestamp)</td></tr>
+<tr class="separator:aa2f95f117f7594b4cd417efa040fa3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce6657e394f48afbf8b9ebc37c0e44a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a5ce6657e394f48afbf8b9ebc37c0e44a">absoluteLink</a> ($sLocation, $sHost=null, $sProtocol= 'default', $bAbsoluteLinkMayBeOmitted=false)</td></tr>
+<tr class="separator:a5ce6657e394f48afbf8b9ebc37c0e44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c2c12a63ed3b97dcbdf087c1f54a673"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c2c12a63ed3b97dcbdf087c1f54a673"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isSSL</b> ()</td></tr>
 <tr class="separator:a0c2c12a63ed3b97dcbdf087c1f54a673"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,14 +117,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>linkToSelf</b> ($mP
 <tr class="memitem:a493cf957cd2066b16cb1688a27fd81e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a493cf957cd2066b16cb1688a27fd81e1"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getRequestedParameters</b> ($aOverrideParameters=array())</td></tr>
 <tr class="separator:a493cf957cd2066b16cb1688a27fd81e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb3582a4518aed58a16211d376e8c5bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb3582a4518aed58a16211d376e8c5bd"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>link</b> ($mPath=array(), $mManager=null, $aParameters=array(), $bIncludeLanguage=null)</td></tr>
-<tr class="separator:aeb3582a4518aed58a16211d376e8c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ba3d21f0f0b4dffe40050d19f22f20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88ba3d21f0f0b4dffe40050d19f22f20"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>link</b> ($mPath=array(), $mManager=null, $aParameters=array(), $mLanguage=null, $bIncludeLanguage=null)</td></tr>
+<tr class="separator:a88ba3d21f0f0b4dffe40050d19f22f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30ded24a0d038aafe2db0279859845d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#ad30ded24a0d038aafe2db0279859845d">prepareLinkParameters</a> ($aParameters)</td></tr>
 <tr class="separator:ad30ded24a0d038aafe2db0279859845d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fb1cee0f1c9e692695ed62c1eb618a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fb1cee0f1c9e692695ed62c1eb618a7"></a>
-static&#160;</td><td class="memItemRight" valign="bottom"><b>getHostName</b> ()</td></tr>
-<tr class="separator:a3fb1cee0f1c9e692695ed62c1eb618a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a4459df1c7bb091027b32d4e9812ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02a4459df1c7bb091027b32d4e9812ac"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getHostName</b> ($sDefaultHost=null)</td></tr>
+<tr class="separator:a02a4459df1c7bb091027b32d4e9812ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2ed4b936cae2275062d215bf1895630"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2ed4b936cae2275062d215bf1895630"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getDomainHolderEmail</b> ($sDefaultSender= 'info')</td></tr>
 <tr class="separator:ae2ed4b936cae2275062d215bf1895630"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,8 +133,69 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getUrlWithProtocolI
 <tr class="separator:a15285701e96c56d6312232f678801eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57f5ef76549cb6a0911889d6641ac68"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#af57f5ef76549cb6a0911889d6641ac68">getPrefixIfNotSet</a> ($sString, $sDefaultPrefix= 'http://')</td></tr>
 <tr class="separator:af57f5ef76549cb6a0911889d6641ac68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab0be217257c67e4fe9623b2cb82ebd3e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0be217257c67e4fe9623b2cb82ebd3e"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>DATE_RFC2616</b> = 'D, d M Y H:i:s \G\M\T'</td></tr>
+<tr class="separator:ab0be217257c67e4fe9623b2cb82ebd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5ce6657e394f48afbf8b9ebc37c0e44a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkUtil::absoluteLink </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sLocation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sHost</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sProtocol</em> = <code>'default'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bAbsoluteLinkMayBeOmitted</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs an absolute link given a host-absolute location (starts with a slash) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$sLocation</td><td>the host-absolute location </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$sHost</td><td>the host name to link to. will be inferred from the HTTP Host or the host name configured in domain_holder/domain. Precedence is given to the former unless the linking/prefer_configured_domain setting is true </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$sProtocol</td><td>whether or not to link to the HTTPS version. 'default' reads the linking/ssl_in_absolute_links setting. 'auto' will use whatever is currently being used to access the site. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="af57f5ef76549cb6a0911889d6641ac68"></a>
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +227,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getUrlWithProtocolI
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>find a better more appropriate solution </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>find a better more appropriate solution </dd></dl>
 
 </div>
 </div>
@@ -189,11 +252,11 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getUrlWithProtocolI
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>: check use of http_build_query() </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>: check use of http_build_query() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a7aa77dd83076fe8e77a5c8f6ea54653b"></a>
+<a class="anchor" id="ad0a30e86e34a0d5f4753ec20fad3d147"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -216,7 +279,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getUrlWithProtocolI
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$sProtocol</em> = <code>null</code>, </td>
+          <td class="paramname"><em>$sProtocol</em> = <code>'default'</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -240,13 +303,44 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>getUrlWithProtocolI
 
 </div>
 </div>
+<a class="anchor" id="aa2f95f117f7594b4cd417efa040fa3c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkUtil::sendCacheControlHeaders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$iTimestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends the cache control header Last-Modified and checks If-Modified-Since for a match (if so, terminates and sends a 304 Not Modified status code) Uses the given timestamp as base for calculation. If it is an object or a query, the updated-at field of the object (or the newest item that matches the query) is used. You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$iTimestamp</td><td>deprecated: to use this method without a cache file, call <a class="el" href="classLinkUtil.html#aa2f95f117f7594b4cd417efa040fa3c3">LinkUtil::sendCacheControlHeaders</a> directly </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/LinkUtil.php</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:31 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

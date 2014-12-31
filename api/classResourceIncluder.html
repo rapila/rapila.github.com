@@ -96,14 +96,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4adf4562e9de31c49962972732237249"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a4adf4562e9de31c49962972732237249">startDependencies</a> ()</td></tr>
 <tr class="separator:a4adf4562e9de31c49962972732237249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0eb2d6cf590bb6fea50062052eae5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0eb2d6cf590bb6fea50062052eae5e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>addResourceEndingDependency</b> ($mLocation, $sTemplateName=null, $sIdentifier=null, $aExtraInfo=array(), $iPriority=self::PRIORITY_NORMAL, $sIeCondition=null, $bIncludeAll=false)</td></tr>
-<tr class="separator:ada0eb2d6cf590bb6fea50062052eae5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af713896a028560a181b43ce5f488b0df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af713896a028560a181b43ce5f488b0df"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>addResource</b> ($mLocation, $sTemplateName=null, $sIdentifier=null, $aExtraInfo=null, $iPriority=self::PRIORITY_NORMAL, $sIeCondition=null, $bIncludeAll=false, $bEndsDependencyList=false)</td></tr>
-<tr class="separator:af713896a028560a181b43ce5f488b0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f71caa706324897d6943f36e87016e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a54f71caa706324897d6943f36e87016e">addJavaScriptLibrary</a> ($sLibraryName, $sLibraryVersion, $bUseCompression=null, $bInlcudeDependencies=true, $bUseSsl=null, $iPriority=self::PRIORITY_NORMAL, $bUseLocalProxy=null, $sIeCondition=null)</td></tr>
-<tr class="separator:a54f71caa706324897d6943f36e87016e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0052a01d800ca0dc34b896b81a2c7e02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0052a01d800ca0dc34b896b81a2c7e02"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>addResourceEndingDependency</b> ($mLocation, $sResourceType=null, $sIdentifier=null, $aExtraInfo=array(), $iPriority=self::PRIORITY_NORMAL, $sIeCondition=null, $bIncludeAll=false)</td></tr>
+<tr class="separator:a0052a01d800ca0dc34b896b81a2c7e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6565326afe2bd621d1b78be18dd7204"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6565326afe2bd621d1b78be18dd7204"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>addResource</b> ($mLocation, $sResourceType=null, $sIdentifier=null, $aExtraInfo=null, $iPriority=self::PRIORITY_NORMAL, $sIeCondition=null, $bIncludeAll=false, $bEndsDependencyList=false)</td></tr>
+<tr class="separator:ae6565326afe2bd621d1b78be18dd7204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6313902c98b0a6008ee6cfd357beb07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#ae6313902c98b0a6008ee6cfd357beb07">addJavaScriptLibrary</a> ($sLibraryName, $sLibraryVersion, $bUseCompression=null, $bInlcudeDependencies=true, $bUseSsl= 'default', $iPriority=self::PRIORITY_NORMAL, $bUseLocalProxy=null, $sIeCondition=null)</td></tr>
+<tr class="separator:ae6313902c98b0a6008ee6cfd357beb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06ab9bd5cd9a40233a44dc079f7c2452"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a06ab9bd5cd9a40233a44dc079f7c2452"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>addCustomResource</b> ($aResourceInfo, $iPriority=self::PRIORITY_NORMAL, $bEndsDependencyList=false)</td></tr>
 <tr class="separator:a06ab9bd5cd9a40233a44dc079f7c2452"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,6 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0f56cdadb25cfa06dc53f00b5f675c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0f56cdadb25cfa06dc53f00b5f675c4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>addCustomCss</b> ($mCustomCss, $iPriority=self::PRIORITY_NORMAL, $bEndsDependencyList=false)</td></tr>
 <tr class="separator:ae0f56cdadb25cfa06dc53f00b5f675c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f90abd19f9fcd1668231aa6fb9d61d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a54f90abd19f9fcd1668231aa6fb9d61d">addMeta</a> ($sName, $sContent, $bIsHttpEquiv=false)</td></tr>
+<tr class="separator:a54f90abd19f9fcd1668231aa6fb9d61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac34145fdcc7e54e4d20c6e1b540b08c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac34145fdcc7e54e4d20c6e1b540b08c4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>addReverseDependency</b> ($sIdentifier, $bIsBefore=false)</td></tr>
 <tr class="separator:ac34145fdcc7e54e4d20c6e1b540b08c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,9 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89025141a33590f013afc8220228a4b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89025141a33590f013afc8220228a4b9"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getLocationsForIncludedResourcesOfPriority</b> ($iPriority=self::PRIORITY_NORMAL)</td></tr>
 <tr class="separator:a89025141a33590f013afc8220228a4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a805ce530d6671f15a4f3160c4cfa66b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a805ce530d6671f15a4f3160c4cfa66b9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getIncludes</b> ($bPrintNewlines=true)</td></tr>
-<tr class="separator:a805ce530d6671f15a4f3160c4cfa66b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f20d861ee551169de658c23d4ac1ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a67f20d861ee551169de658c23d4ac1ff">getIncludes</a> ($bPrintNewlines=true, $bConsolidate=null)</td></tr>
+<tr class="separator:a67f20d861ee551169de658c23d4ac1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4814f1910b27b8e790ad07e4d4a6946f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4814f1910b27b8e790ad07e4d4a6946f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>addResourceFromTemplateIdentifier</b> ($oIdentifier)</td></tr>
 <tr class="separator:a4814f1910b27b8e790ad07e4d4a6946f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,12 +145,19 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac39ee74f8ef35984e0c897271b3a65a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36630858daa1c288100f62eb45637001"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a36630858daa1c288100f62eb45637001">defaultIncluder</a> ()</td></tr>
 <tr class="separator:a36630858daa1c288100f62eb45637001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79116491be70602f008702cfb59df033"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a79116491be70602f008702cfb59df033">metaIncluder</a> ()</td></tr>
+<tr class="separator:a79116491be70602f008702cfb59df033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a85d341cfe146300fdd19659c0d1776e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85d341cfe146300fdd19659c0d1776e4"></a>
-const&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_INSTANCE_NAME</b> = 'ResourceIncluder_default'</td></tr>
+const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#a85d341cfe146300fdd19659c0d1776e4">DEFAULT_INSTANCE_NAME</a> = 'ResourceIncluder_default'</td></tr>
+<tr class="memdesc:a85d341cfe146300fdd19659c0d1776e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default resource includer. Many plugins and internal modules use this so you should have at least one {{writeResourceIncludes}} without the includer name in your template. <br/></td></tr>
 <tr class="separator:a85d341cfe146300fdd19659c0d1776e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d4f051b7e968245bafe16ea40852e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1d4f051b7e968245bafe16ea40852e4"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResourceIncluder.html#aa1d4f051b7e968245bafe16ea40852e4">META_INSTANCE_NAME</a> = 'meta'</td></tr>
+<tr class="memdesc:aa1d4f051b7e968245bafe16ea40852e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Resource includer for meta tags like keywords, description and link tags (excluding stylesheet links). This ({{writeResourceIncludes=meta}}) is not required to have in your template but highly recommended. <br/></td></tr>
+<tr class="separator:aa1d4f051b7e968245bafe16ea40852e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa031fe7862171f2c5f41b70bc577997c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa031fe7862171f2c5f41b70bc577997c"></a>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>RESOURCE_TYPE_CSS</b> = 'css'</td></tr>
 <tr class="separator:aa031fe7862171f2c5f41b70bc577997c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +170,9 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>RESOURCE_TYPE_IMAGE<
 <tr class="memitem:afc064a7da1d414340432678a949b7c30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc064a7da1d414340432678a949b7c30"></a>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>RESOURCE_TYPE_ICON</b> = 'icons'</td></tr>
 <tr class="separator:afc064a7da1d414340432678a949b7c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42801fe9ff07e884cb93b1d4a85a03d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42801fe9ff07e884cb93b1d4a85a03d2"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>RESOURCE_TYPE_INTERNAL_LINK</b> = 'internal_link'</td></tr>
+<tr class="separator:a42801fe9ff07e884cb93b1d4a85a03d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be086456db6cab2d76c64be9d0a17ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6be086456db6cab2d76c64be9d0a17ae"></a>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>PRIORITY_FIRST</b> = -1</td></tr>
 <tr class="separator:a6be086456db6cab2d76c64be9d0a17ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,7 +202,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
 <tr class="separator:a3f40dcfbe7e81e3b2f529b6959ee9226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a54f71caa706324897d6943f36e87016e"></a>
+<a class="anchor" id="ae6313902c98b0a6008ee6cfd357beb07"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -223,7 +234,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bUseSsl</em> = <code>null</code>, </td>
+          <td class="paramname"><em>$bUseSsl</em> = <code>'default'</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -267,6 +278,47 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
 
 </div>
 </div>
+<a class="anchor" id="a54f90abd19f9fcd1668231aa6fb9d61d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ResourceIncluder::addMeta </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sContent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bIsHttpEquiv</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add a meta tag. This adds a custom resource with the “meta” template. Note: This will not add anything if the content is empty. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$sName</td><td>The name (or http-equiv) attribute of the resulting tag. </td></tr>
+    <tr><td class="paramname">$sContent</td><td>The resulting tag’s content. </td></tr>
+    <tr><td class="paramname">$bIsHttpEquiv</td><td>Whether this is a meta tag used with the name or the http-equiv attribute. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a36630858daa1c288100f62eb45637001"></a>
 <div class="memitem">
 <div class="memproto">
@@ -289,6 +341,65 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
 </div><div class="memdoc">
 <p>Get the default includer. Same as calling ResourceIncluder::namedIncluder(ResourceIncluder::DEFAULT_INSTANCE_NAME). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classResourceIncluder.html">ResourceIncluder</a> the default includer </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a67f20d861ee551169de658c23d4ac1ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ResourceIncluder::getIncludes </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bPrintNewlines</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bConsolidate</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a <a class="el" href="classTemplate.html" title="Manages a rapila Template (*.tmpl)">Template</a> containing all of the necessary HTML code for the browser to load the included resources. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$bPrintNewlines</td><td>Whether to put each include on a new line. Turn this off for “location_only”-type includes. </td></tr>
+    <tr><td class="paramname">$bConsolidate</td><td>Whether to consolidate CSS and JS includes into a single tag which will point to a new location which will serve all the scripts of one type concatenated. Valid values — true: Consolidate all css/js resources, false: Don’t consolidate, 'internal': Only consolidate internal scripts, but not the ones loaded from external servers, null: Use the default value from the general/consolidate_resources configuration seting from resource_includer.yml. Note that all concatenated scripts will have to be in the same charset, namely the one defined in the encoding/browser configuration setting. Also note that a value of "internal" for $bConsolidate will only have an effect on js libraries if they’re not being locally cached (use_local_library_cache is false) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a79116491be70602f008702cfb59df033"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ResourceIncluder::metaIncluder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the includer used for meta tags. Same as calling ResourceIncluder::namedIncluder(ResourceIncluder::META_INSTANCE_NAME). </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classResourceIncluder.html">ResourceIncluder</a> the meta includer </dd></dl>
 
 </div>
 </div>
@@ -345,7 +456,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>IE_CONDITIONAL</b> =
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:17 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:31 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

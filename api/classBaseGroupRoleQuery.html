@@ -103,8 +103,8 @@ Inheritance diagram for BaseGroupRoleQuery:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab21086bb7eb99dce4bfbbbc0c1eca26b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#ab21086bb7eb99dce4bfbbbc0c1eca26b">__construct</a> ($dbName= 'rapila', $modelName= '<a class="el" href="classGroupRole.html">GroupRole</a>', $modelAlias=null)</td></tr>
-<tr class="separator:ab21086bb7eb99dce4bfbbbc0c1eca26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03fd218f94fb2b11d2a22a638e3eca4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a03fd218f94fb2b11d2a22a638e3eca4c">__construct</a> ($dbName=null, $modelName=null, $modelAlias=null)</td></tr>
+<tr class="separator:a03fd218f94fb2b11d2a22a638e3eca4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a579ec7b402a53ba9ca9779c88d771145"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a579ec7b402a53ba9ca9779c88d771145">findPk</a> ($key, $con=null)</td></tr>
 <tr class="separator:a579ec7b402a53ba9ca9779c88d771145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ea06c234af70352e6a2f806240da78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a78ea06c234af70352e6a2f806240da78">findPks</a> ($keys, $con=null)</td></tr>
@@ -153,16 +153,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef01b68f6c55c9b9814114541996e7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af15c33fc8f6ebcb7a4b8edb9aa85de21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#af15c33fc8f6ebcb7a4b8edb9aa85de21">recentlyUpdated</a> ($nbDays=7)</td></tr>
 <tr class="separator:af15c33fc8f6ebcb7a4b8edb9aa85de21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a316f35e2971eece54ffb62cf1ae1bb45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a316f35e2971eece54ffb62cf1ae1bb45">recentlyCreated</a> ($nbDays=7)</td></tr>
-<tr class="separator:a316f35e2971eece54ffb62cf1ae1bb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28ee37b5e562db3d8144e93131855799"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a28ee37b5e562db3d8144e93131855799">lastUpdatedFirst</a> ()</td></tr>
 <tr class="separator:a28ee37b5e562db3d8144e93131855799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58769f418ff9695062eab6aa67d51554"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a58769f418ff9695062eab6aa67d51554">firstUpdatedFirst</a> ()</td></tr>
 <tr class="separator:a58769f418ff9695062eab6aa67d51554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316f35e2971eece54ffb62cf1ae1bb45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a316f35e2971eece54ffb62cf1ae1bb45">recentlyCreated</a> ($nbDays=7)</td></tr>
+<tr class="separator:a316f35e2971eece54ffb62cf1ae1bb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4afc9504195ebb051f5f253108f07924"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a4afc9504195ebb051f5f253108f07924">lastCreatedFirst</a> ()</td></tr>
 <tr class="separator:a4afc9504195ebb051f5f253108f07924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f67554684603afb10c20591e795667"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseGroupRoleQuery.html#a25f67554684603afb10c20591e795667">firstCreatedFirst</a> ()</td></tr>
 <tr class="separator:a25f67554684603afb10c20591e795667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b07f11a7719afb21577d9ef304460a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54b07f11a7719afb21577d9ef304460a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>findMostRecentUpdate</b> ($bAsTimestamp=false)</td></tr>
+<tr class="separator:a54b07f11a7719afb21577d9ef304460a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab3939f1bde16277a9c56d0a5a0eafa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ab3939f1bde16277a9c56d0a5a0eafa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKArray</b> ($pkArray)</td></tr>
+<tr class="separator:a8ab3939f1bde16277a9c56d0a5a0eafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6c760b338fa6c3149cd4eccd55be84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a6c760b338fa6c3149cd4eccd55be84"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>filterByPKString</b> ($pkString)</td></tr>
+<tr class="separator:a0a6c760b338fa6c3149cd4eccd55be84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -177,7 +186,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a2e71ef62d37a1d83946b838bdb126444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab21086bb7eb99dce4bfbbbc0c1eca26b"></a>
+<a class="anchor" id="a03fd218f94fb2b11d2a22a638e3eca4c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -185,13 +194,13 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">BaseGroupRoleQuery::__construct </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$dbName</em> = <code>'rapila'</code>, </td>
+          <td class="paramname"><em>$dbName</em> = <code>null</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$modelName</em> = <code>'<a class="el" href="classGroupRole.html">GroupRole</a>'</code>, </td>
+          <td class="paramname"><em>$modelName</em> = <code>null</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -254,7 +263,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$modelAlias</td><td>The alias of a model in the query </td></tr>
-    <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>Optional Criteria to build the query from</td></tr>
+    <tr><td class="paramtype"><a class="el" href="classGroupRoleQuery.html">GroupRoleQuery</a>&#160;|&#160;Criteria</td><td class="paramname">$criteria</td><td>Optional Criteria to build the query from</td></tr>
   </table>
   </dd>
 </dl>
@@ -286,7 +295,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the created_at column</p>
-<p>Example usage: <code> $query-&gt;filterByCreatedAt('2011-03-14'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt('now'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt(array('max' =&gt; 'yesterday')); // WHERE created_at &gt; '2011-03-13' </code></p>
+<p>Example usage: <code> $query-&gt;filterByCreatedAt('2011-03-14'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt('now'); // WHERE created_at = '2011-03-14' $query-&gt;filterByCreatedAt(array('max' =&gt; 'yesterday')); // WHERE created_at &lt; '2011-03-13' </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$createdAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
@@ -322,7 +331,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the created_by column</p>
-<p>Example usage: <code> $query-&gt;filterByCreatedBy(1234); // WHERE created_by = 1234 $query-&gt;filterByCreatedBy(array(12, 34)); // WHERE created_by IN (12, 34) $query-&gt;filterByCreatedBy(array('min' =&gt; 12)); // WHERE created_by &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByCreatedBy(1234); // WHERE created_by = 1234 $query-&gt;filterByCreatedBy(array(12, 34)); // WHERE created_by IN (12, 34) $query-&gt;filterByCreatedBy(array('min' =&gt; 12)); // WHERE created_by &gt;= 12 $query-&gt;filterByCreatedBy(array('max' =&gt; 12)); // WHERE created_by &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseGroupRoleQuery.html#aed9b5f6323ae9fe5d1b586d6b91d8f5a">filterByUserRelatedByCreatedBy()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -361,12 +370,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classGroup.html">Group</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classGroup.html">Group</a>&#160;|&#160;PropelCollection</td><td class="paramname">$group</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classGroup.html">Group</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$group</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classGroupRoleQuery.html">GroupRoleQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -394,7 +409,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the group_id column</p>
-<p>Example usage: <code> $query-&gt;filterByGroupId(1234); // WHERE group_id = 1234 $query-&gt;filterByGroupId(array(12, 34)); // WHERE group_id IN (12, 34) $query-&gt;filterByGroupId(array('min' =&gt; 12)); // WHERE group_id &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByGroupId(1234); // WHERE group_id = 1234 $query-&gt;filterByGroupId(array(12, 34)); // WHERE group_id IN (12, 34) $query-&gt;filterByGroupId(array('min' =&gt; 12)); // WHERE group_id &gt;= 12 $query-&gt;filterByGroupId(array('max' =&gt; 12)); // WHERE group_id &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseGroupRoleQuery.html#a9b0e3903e6ada5f762614ebfe177e5fc">filterByGroup()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -481,12 +496,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classRole.html">Role</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classRole.html">Role</a>&#160;|&#160;PropelCollection</td><td class="paramname">$role</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classRole.html">Role</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$role</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classGroupRoleQuery.html">GroupRoleQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -550,7 +571,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the updated_at column</p>
-<p>Example usage: <code> $query-&gt;filterByUpdatedAt('2011-03-14'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt('now'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt(array('max' =&gt; 'yesterday')); // WHERE updated_at &gt; '2011-03-13' </code></p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedAt('2011-03-14'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt('now'); // WHERE updated_at = '2011-03-14' $query-&gt;filterByUpdatedAt(array('max' =&gt; 'yesterday')); // WHERE updated_at &lt; '2011-03-13' </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">mixed</td><td class="paramname">$updatedAt</td><td>The value to use as filter. Values can be integers (unix timestamps), DateTime objects, or strings. Empty strings are treated as NULL. Use scalar values for equality. Use array values for in_array() equivalent. Use associative array('min' =&gt; $minValue, 'max' =&gt; $maxValue) for intervals. </td></tr>
@@ -586,7 +607,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Filter the query on the updated_by column</p>
-<p>Example usage: <code> $query-&gt;filterByUpdatedBy(1234); // WHERE updated_by = 1234 $query-&gt;filterByUpdatedBy(array(12, 34)); // WHERE updated_by IN (12, 34) $query-&gt;filterByUpdatedBy(array('min' =&gt; 12)); // WHERE updated_by &gt; 12 </code></p>
+<p>Example usage: <code> $query-&gt;filterByUpdatedBy(1234); // WHERE updated_by = 1234 $query-&gt;filterByUpdatedBy(array(12, 34)); // WHERE updated_by IN (12, 34) $query-&gt;filterByUpdatedBy(array('min' =&gt; 12)); // WHERE updated_by &gt;= 12 $query-&gt;filterByUpdatedBy(array('max' =&gt; 12)); // WHERE updated_by &lt;= 12 </code></p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBaseGroupRoleQuery.html#ab79b40022b09a74537611d241088a9d1">filterByUserRelatedByUpdatedBy()</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -625,12 +646,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classGroupRoleQuery.html">GroupRoleQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -660,12 +687,18 @@ Protected Member Functions</h2></td></tr>
 <p>Filter the query by a related <a class="el" href="classUser.html">User</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classUser.html">User</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$user</td><td>The related object(s) to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classGroupRoleQuery.html">GroupRoleQuery</a> The current query, for fluid interface </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the provided filter is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -696,12 +729,12 @@ Protected Member Functions</h2></td></tr>
 <p><code> $obj = $c-&gt;findPk(array(12, 34), $con); </code></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"></td><td class="paramname">array[$group_id,$role_key]</td><td>$key Primary key to use for the query </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$key</td><td>Primary key to use for the query A Primary key composition: [$group_id, $role_key] </td></tr>
     <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>an optional connection object</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>GroupRole|array|mixed the result, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>GroupRole|GroupRole[]|mixed the result, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -744,7 +777,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>GroupRole|array|mixed the result, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>GroupRole|GroupRole[]|mixed the result, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -779,7 +812,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>PropelObjectCollection|array|mixed the list of results, formatted by the current formatter </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>PropelObjectCollection|GroupRole[]|mixed the list of results, formatted by the current formatter </dd></dl>
 
 </div>
 </div>
@@ -823,6 +856,12 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classGroupRole.html">GroupRole</a> A model object, or null if the key is not found </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1256,7 +1295,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:13 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

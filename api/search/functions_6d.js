@@ -4,6 +4,7 @@ var searchData=
   ['makeroot',['makeRoot',['../classBasePage.html#afc6b6db2a730122728daf69a6f0c8165',1,'BasePage']]],
   ['mayoperateon',['mayOperateOn',['../classUserPeer.html#a0553d27a049f71a38cd007d0173e810f',1,'UserPeer']]],
   ['mayoperateonown',['mayOperateOnOwn',['../classDocumentPeer.html#a1d5f6f956ec87e86cbb0c5764e554161',1,'DocumentPeer\mayOperateOnOwn()'],['../classLinkPeer.html#afa0e6e4d2a02daaecf2b519c56728690',1,'LinkPeer\mayOperateOnOwn()']]],
+  ['metaincluder',['metaIncluder',['../classResourceIncluder.html#a79116491be70602f008702cfb59df033',1,'ResourceIncluder']]],
   ['modifydatabase',['modifyDatabase',['../classDenyableBehaviour.html#ad4363c1cee6a2edbdebb24d8d211c004',1,'DenyableBehaviour']]],
   ['modifytable',['modifyTable',['../classAttributableBehaviour.html#afa7ee4b076871230b3576e18f4a216f4',1,'AttributableBehaviour']]],
   ['movesubtreeto',['moveSubtreeTo',['../classBasePage.html#ab120cc3dce1eebdbb98e77860d99a73c',1,'BasePage\moveSubtreeTo()'],['../classPage.html#a6557f3c01ae22bc0dc59cee2320f4efd',1,'Page\moveSubtreeTo()']]],

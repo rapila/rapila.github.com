@@ -126,8 +126,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a84e8ac756e46c960d6f45808bc73b0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf15ac11fb9de3b7fc2640fae3a665a0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#aaf15ac11fb9de3b7fc2640fae3a665a0">getInstanceFromPool</a> ($key)</td></tr>
 <tr class="separator:aaf15ac11fb9de3b7fc2640fae3a665a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11abd4e73149a014a3a823859d6969a6"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a11abd4e73149a014a3a823859d6969a6">clearInstancePool</a> ()</td></tr>
-<tr class="separator:a11abd4e73149a014a3a823859d6969a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e89f75c2a10823e7f0ecd99e7939695"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a7e89f75c2a10823e7f0ecd99e7939695">clearInstancePool</a> ($and_clear_all_references=false)</td></tr>
+<tr class="separator:a7e89f75c2a10823e7f0ecd99e7939695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da49ca14807ef308b37a442f2fed9a3"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a9da49ca14807ef308b37a442f2fed9a3">clearRelatedInstancePool</a> ()</td></tr>
 <tr class="separator:a9da49ca14807ef308b37a442f2fed9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa01aeea8dd8fa806e232c794e4479211"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#aa01aeea8dd8fa806e232c794e4479211">getPrimaryKeyHashFromRow</a> ($row, $startcol=0)</td></tr>
@@ -178,8 +178,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa0d36d05b7cbb85a3753f360d55dc798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d6f9bb2cc9feb9edd7869b8ae5538d8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a6d6f9bb2cc9feb9edd7869b8ae5538d8">buildTableMap</a> ()</td></tr>
 <tr class="separator:a6d6f9bb2cc9feb9edd7869b8ae5538d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13323ee2fc8af215a53453a2a00e85ae"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a13323ee2fc8af215a53453a2a00e85ae">getOMClass</a> ($withPrefix=true)</td></tr>
-<tr class="separator:a13323ee2fc8af215a53453a2a00e85ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7115eb1d438a040ed40053310e2633a5"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a7115eb1d438a040ed40053310e2633a5">getOMClass</a> ($row=0, $colnum=0)</td></tr>
+<tr class="separator:a7115eb1d438a040ed40053310e2633a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa224549107e636aba3227e28fbabd37d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#aa224549107e636aba3227e28fbabd37d">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr class="separator:aa224549107e636aba3227e28fbabd37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480810951b73aeb0cf389d909e57bbb2"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a480810951b73aeb0cf389d909e57bbb2">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
@@ -198,6 +198,12 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreRights</b> ($
 <tr class="memitem:a6d58fe150379ed068f52a9c1d3715710"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d58fe150379ed068f52a9c1d3715710"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isIgnoringRights</b> ()</td></tr>
 <tr class="separator:a6d58fe150379ed068f52a9c1d3715710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe5e77d181be8f3d8b884c0ccdb7629"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fe5e77d181be8f3d8b884c0ccdb7629"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:a2fe5e77d181be8f3d8b884c0ccdb7629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2bba0b12083e2a85bf28b11b44ebef4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2bba0b12083e2a85bf28b11b44ebef4"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:af2bba0b12083e2a85bf28b11b44ebef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af78749a10f79db4abc1ae1bc13ed05d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af78749a10f79db4abc1ae1bc13ed05d8"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOn</b> ($oUser, $mObject, $sOperation)</td></tr>
 <tr class="separator:af78749a10f79db4abc1ae1bc13ed05d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,8 +219,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a95d6713a73650d81d19d8866e54bdea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e1169ef4d4c012a586b089705b24365"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a7e1169ef4d4c012a586b089705b24365">OM_CLASS</a> = '<a class="el" href="classPageString.html">PageString</a>'</td></tr>
 <tr class="separator:a7e1169ef4d4c012a586b089705b24365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af02e48d094cb54a35af020c119e8baff"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#af02e48d094cb54a35af020c119e8baff">CLASS_DEFAULT</a> = 'model.PageString'</td></tr>
-<tr class="separator:af02e48d094cb54a35af020c119e8baff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a031c468d68e004a2e9832acefc4a498a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a031c468d68e004a2e9832acefc4a498a">TM_CLASS</a> = '<a class="el" href="classPageStringTableMap.html">PageStringTableMap</a>'</td></tr>
 <tr class="separator:a031c468d68e004a2e9832acefc4a498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af75bf73861c44dfeec3f74d611edb9c6"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#af75bf73861c44dfeec3f74d611edb9c6">NUM_COLUMNS</a> = 11</td></tr>
@@ -223,27 +227,27 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6b94dcdf2ac9abd89c4ea0803222b20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352556ea347783ad35aa6413654b2323"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a352556ea347783ad35aa6413654b2323">NUM_HYDRATE_COLUMNS</a> = 11</td></tr>
 <tr class="separator:a352556ea347783ad35aa6413654b2323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d92f1c184223f538ccf301684a1918a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a7d92f1c184223f538ccf301684a1918a">PAGE_ID</a> = 'page_strings.PAGE_ID'</td></tr>
+<tr class="memitem:a7d92f1c184223f538ccf301684a1918a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a7d92f1c184223f538ccf301684a1918a">PAGE_ID</a> = 'page_strings.page_id'</td></tr>
 <tr class="separator:a7d92f1c184223f538ccf301684a1918a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70bf6960b98f87d01dfe2ae4059f4eb9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a70bf6960b98f87d01dfe2ae4059f4eb9">LANGUAGE_ID</a> = 'page_strings.LANGUAGE_ID'</td></tr>
+<tr class="memitem:a70bf6960b98f87d01dfe2ae4059f4eb9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a70bf6960b98f87d01dfe2ae4059f4eb9">LANGUAGE_ID</a> = 'page_strings.language_id'</td></tr>
 <tr class="separator:a70bf6960b98f87d01dfe2ae4059f4eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0d28be96df7bf8f0bcf9d9d242963f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a5e0d28be96df7bf8f0bcf9d9d242963f">IS_INACTIVE</a> = 'page_strings.IS_INACTIVE'</td></tr>
+<tr class="memitem:a5e0d28be96df7bf8f0bcf9d9d242963f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a5e0d28be96df7bf8f0bcf9d9d242963f">IS_INACTIVE</a> = 'page_strings.is_inactive'</td></tr>
 <tr class="separator:a5e0d28be96df7bf8f0bcf9d9d242963f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83ee9284d2039726467f8c9980149ad"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae83ee9284d2039726467f8c9980149ad">LINK_TEXT</a> = 'page_strings.LINK_TEXT'</td></tr>
+<tr class="memitem:ae83ee9284d2039726467f8c9980149ad"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae83ee9284d2039726467f8c9980149ad">LINK_TEXT</a> = 'page_strings.link_text'</td></tr>
 <tr class="separator:ae83ee9284d2039726467f8c9980149ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92b1a6326406cc61ced759ef78cb4509"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a92b1a6326406cc61ced759ef78cb4509">PAGE_TITLE</a> = 'page_strings.PAGE_TITLE'</td></tr>
+<tr class="memitem:a92b1a6326406cc61ced759ef78cb4509"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a92b1a6326406cc61ced759ef78cb4509">PAGE_TITLE</a> = 'page_strings.page_title'</td></tr>
 <tr class="separator:a92b1a6326406cc61ced759ef78cb4509"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516e1f68ee4bcb8b1f8a817ce76f811c"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a516e1f68ee4bcb8b1f8a817ce76f811c">META_KEYWORDS</a> = 'page_strings.META_KEYWORDS'</td></tr>
+<tr class="memitem:a516e1f68ee4bcb8b1f8a817ce76f811c"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a516e1f68ee4bcb8b1f8a817ce76f811c">META_KEYWORDS</a> = 'page_strings.meta_keywords'</td></tr>
 <tr class="separator:a516e1f68ee4bcb8b1f8a817ce76f811c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0e5edf5dd6895500f0cfcea25f6353d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ac0e5edf5dd6895500f0cfcea25f6353d">META_DESCRIPTION</a> = 'page_strings.META_DESCRIPTION'</td></tr>
+<tr class="memitem:ac0e5edf5dd6895500f0cfcea25f6353d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ac0e5edf5dd6895500f0cfcea25f6353d">META_DESCRIPTION</a> = 'page_strings.meta_description'</td></tr>
 <tr class="separator:ac0e5edf5dd6895500f0cfcea25f6353d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1990664d093dd259fcd8b21f7f03bcc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae1990664d093dd259fcd8b21f7f03bcc">CREATED_AT</a> = 'page_strings.CREATED_AT'</td></tr>
+<tr class="memitem:ae1990664d093dd259fcd8b21f7f03bcc"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae1990664d093dd259fcd8b21f7f03bcc">CREATED_AT</a> = 'page_strings.created_at'</td></tr>
 <tr class="separator:ae1990664d093dd259fcd8b21f7f03bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153396c5ab6ea56f7ee15a692f689c42"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a153396c5ab6ea56f7ee15a692f689c42">UPDATED_AT</a> = 'page_strings.UPDATED_AT'</td></tr>
+<tr class="memitem:a153396c5ab6ea56f7ee15a692f689c42"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a153396c5ab6ea56f7ee15a692f689c42">UPDATED_AT</a> = 'page_strings.updated_at'</td></tr>
 <tr class="separator:a153396c5ab6ea56f7ee15a692f689c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae87fbbcfeb309155dede305098eb452a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae87fbbcfeb309155dede305098eb452a">CREATED_BY</a> = 'page_strings.CREATED_BY'</td></tr>
+<tr class="memitem:ae87fbbcfeb309155dede305098eb452a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#ae87fbbcfeb309155dede305098eb452a">CREATED_BY</a> = 'page_strings.created_by'</td></tr>
 <tr class="separator:ae87fbbcfeb309155dede305098eb452a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa99c7681dd1d80fd31b082eae4e89d55"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#aa99c7681dd1d80fd31b082eae4e89d55">UPDATED_BY</a> = 'page_strings.UPDATED_BY'</td></tr>
+<tr class="memitem:aa99c7681dd1d80fd31b082eae4e89d55"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#aa99c7681dd1d80fd31b082eae4e89d55">UPDATED_BY</a> = 'page_strings.updated_by'</td></tr>
 <tr class="separator:aa99c7681dd1d80fd31b082eae4e89d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94966df7c1cb5efd5795c92c1dc8a066"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePageStringPeer.html#a94966df7c1cb5efd5795c92c1dc8a066">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr class="separator:a94966df7c1cb5efd5795c92c1dc8a066"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,7 +301,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doSelect*() methods in your stub classes &ndash; you may need to explicitly add objects to the cache in order to ensure that the same objects are always returned by doSelect*() and retrieveByPK*() calls.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPageString.html">PageString</a></td><td class="paramname">$value</td><td>A <a class="el" href="classPageString.html">PageString</a> object. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classPageString.html">PageString</a></td><td class="paramname">$obj</td><td>A <a class="el" href="classPageString.html">PageString</a> object. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$key</td><td>(optional) key to use for instance map (for performance boost if key was already calculated externally). </td></tr>
   </table>
   </dd>
@@ -422,7 +426,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a11abd4e73149a014a3a823859d6969a6"></a>
+<a class="anchor" id="a7e89f75c2a10823e7f0ecd99e7939695"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -432,7 +436,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static BasePageStringPeer::clearInstancePool </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$and_clear_all_references</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1112,6 +1117,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1798,7 +1809,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Prepares the Criteria object and uses the parent <a class="el" href="classBasePageStringPeer.html#aba3f01a836f0ccf7d4c14eb31a934067">doSelect()</a> method to execute a PDOStatement.</p>
-<p>Use this method directly if you want to work with an executed statement durirectly (for example to perform your own object hydration).</p>
+<p>Use this method directly if you want to work with an executed statement directly (for example to perform your own object hydration).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1939,6 +1950,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array A list of field names </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the type is not valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1972,12 +1989,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash()) for this instance. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPageString.html">PageString</a> Found object or NULL if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPageString.html">PageString</a> Found object or null if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a13323ee2fc8af215a53453a2a00e85ae"></a>
+<a class="anchor" id="a7115eb1d438a040ed40053310e2633a5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1988,8 +2005,18 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">static BasePageStringPeer::getOMClass </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$withPrefix</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>$row</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$colnum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1999,14 +2026,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The class that the Peer will make instances of.</p>
-<p>If $withPrefix is true, the returned path uses a dot-path notation which is tranalted into a path relative to a location on the PHP include_path. (e.g. path.to.MyClass -&gt; 'path/to/MyClass.php')</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$withPrefix</td><td>Whether or not to return the path with the class name </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string path.to.ClassName </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string ClassName </dd></dl>
 
 </div>
 </div>
@@ -2093,7 +2113,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or NULL if the components of primary key in result array are all null. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or null if the components of primary key in result array are all null. </dd></dl>
 
 </div>
 </div>
@@ -2233,7 +2253,14 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doDelete methods in your stub classes &ndash; you may need to explicitly remove objects from the cache in order to prevent returning objects that no longer exist.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classPageString.html">PageString</a> object or a primary key value. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classPageString.html">PageString</a> object or a primary key value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the value is invalid. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2365,15 +2392,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;PageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;LinkText&#39;</span> =&gt; 3, <span class="stringliteral">&#39;PageTitle&#39;</span> =&gt; 4, <span class="stringliteral">&#39;MetaKeywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;MetaDescription&#39;</span> =&gt; 6, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 7, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 10, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;pageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;linkText&#39;</span> =&gt; 3, <span class="stringliteral">&#39;pageTitle&#39;</span> =&gt; 4, <span class="stringliteral">&#39;metaKeywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;metaDescription&#39;</span> =&gt; 6, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 7, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 8, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 10, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::PAGE_ID =&gt; 0, self::LANGUAGE_ID =&gt; 1, self::IS_INACTIVE =&gt; 2, self::LINK_TEXT =&gt; 3, self::PAGE_TITLE =&gt; 4, self::META_KEYWORDS =&gt; 5, self::META_DESCRIPTION =&gt; 6, self::CREATED_AT =&gt; 7, self::UPDATED_AT =&gt; 8, self::CREATED_BY =&gt; 9, self::UPDATED_BY =&gt; 10, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;PAGE_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 2, <span class="stringliteral">&#39;LINK_TEXT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;PAGE_TITLE&#39;</span> =&gt; 4, <span class="stringliteral">&#39;META_KEYWORDS&#39;</span> =&gt; 5, <span class="stringliteral">&#39;META_DESCRIPTION&#39;</span> =&gt; 6, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 7, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 10, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;page_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;link_text&#39;</span> =&gt; 3, <span class="stringliteral">&#39;page_title&#39;</span> =&gt; 4, <span class="stringliteral">&#39;meta_keywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;meta_description&#39;</span> =&gt; 6, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 7, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 8, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 10, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;PageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LanguageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;LinkText&#39;</span> =&gt; 3, <span class="stringliteral">&#39;PageTitle&#39;</span> =&gt; 4, <span class="stringliteral">&#39;MetaKeywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;MetaDescription&#39;</span> =&gt; 6, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 7, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 10, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;pageId&#39;</span> =&gt; 0, <span class="stringliteral">&#39;languageId&#39;</span> =&gt; 1, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;linkText&#39;</span> =&gt; 3, <span class="stringliteral">&#39;pageTitle&#39;</span> =&gt; 4, <span class="stringliteral">&#39;metaKeywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;metaDescription&#39;</span> =&gt; 6, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 7, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 8, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 10, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBasePageStringPeer.html#a7d92f1c184223f538ccf301684a1918a">PageStringPeer::PAGE_ID</a> =&gt; 0, <a class="code" href="classBasePageStringPeer.html#a70bf6960b98f87d01dfe2ae4059f4eb9">PageStringPeer::LANGUAGE_ID</a> =&gt; 1, <a class="code" href="classBasePageStringPeer.html#a5e0d28be96df7bf8f0bcf9d9d242963f">PageStringPeer::IS_INACTIVE</a> =&gt; 2, <a class="code" href="classBasePageStringPeer.html#ae83ee9284d2039726467f8c9980149ad">PageStringPeer::LINK_TEXT</a> =&gt; 3, <a class="code" href="classBasePageStringPeer.html#a92b1a6326406cc61ced759ef78cb4509">PageStringPeer::PAGE_TITLE</a> =&gt; 4, <a class="code" href="classBasePageStringPeer.html#a516e1f68ee4bcb8b1f8a817ce76f811c">PageStringPeer::META_KEYWORDS</a> =&gt; 5, <a class="code" href="classBasePageStringPeer.html#ac0e5edf5dd6895500f0cfcea25f6353d">PageStringPeer::META_DESCRIPTION</a> =&gt; 6, <a class="code" href="classBasePageStringPeer.html#ae1990664d093dd259fcd8b21f7f03bcc">PageStringPeer::CREATED_AT</a> =&gt; 7, <a class="code" href="classBasePageStringPeer.html#a153396c5ab6ea56f7ee15a692f689c42">PageStringPeer::UPDATED_AT</a> =&gt; 8, <a class="code" href="classBasePageStringPeer.html#ae87fbbcfeb309155dede305098eb452a">PageStringPeer::CREATED_BY</a> =&gt; 9, <a class="code" href="classBasePageStringPeer.html#aa99c7681dd1d80fd31b082eae4e89d55">PageStringPeer::UPDATED_BY</a> =&gt; 10, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;PAGE_ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 2, <span class="stringliteral">&#39;LINK_TEXT&#39;</span> =&gt; 3, <span class="stringliteral">&#39;PAGE_TITLE&#39;</span> =&gt; 4, <span class="stringliteral">&#39;META_KEYWORDS&#39;</span> =&gt; 5, <span class="stringliteral">&#39;META_DESCRIPTION&#39;</span> =&gt; 6, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 7, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 9, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 10, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;page_id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;language_id&#39;</span> =&gt; 1, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 2, <span class="stringliteral">&#39;link_text&#39;</span> =&gt; 3, <span class="stringliteral">&#39;page_title&#39;</span> =&gt; 4, <span class="stringliteral">&#39;meta_keywords&#39;</span> =&gt; 5, <span class="stringliteral">&#39;meta_description&#39;</span> =&gt; 6, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 7, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 8, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 9, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 10, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of keys for quick access to the fieldnames array</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBasePageStringPeer.html#ad2fa7e6341a646acaf6f398ca401348b">PageStringPeer::$fieldNames</a>[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
 
 </div>
 </div>
@@ -2395,28 +2422,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;PageId&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;LinkText&#39;</span>, <span class="stringliteral">&#39;PageTitle&#39;</span>, <span class="stringliteral">&#39;MetaKeywords&#39;</span>, <span class="stringliteral">&#39;MetaDescription&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;pageId&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;linkText&#39;</span>, <span class="stringliteral">&#39;pageTitle&#39;</span>, <span class="stringliteral">&#39;metaKeywords&#39;</span>, <span class="stringliteral">&#39;metaDescription&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::PAGE_ID, self::LANGUAGE_ID, self::IS_INACTIVE, self::LINK_TEXT, self::PAGE_TITLE, self::META_KEYWORDS, self::META_DESCRIPTION, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;PAGE_ID&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;LINK_TEXT&#39;</span>, <span class="stringliteral">&#39;PAGE_TITLE&#39;</span>, <span class="stringliteral">&#39;META_KEYWORDS&#39;</span>, <span class="stringliteral">&#39;META_DESCRIPTION&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;page_id&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;link_text&#39;</span>, <span class="stringliteral">&#39;page_title&#39;</span>, <span class="stringliteral">&#39;meta_keywords&#39;</span>, <span class="stringliteral">&#39;meta_description&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;PageId&#39;</span>, <span class="stringliteral">&#39;LanguageId&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;LinkText&#39;</span>, <span class="stringliteral">&#39;PageTitle&#39;</span>, <span class="stringliteral">&#39;MetaKeywords&#39;</span>, <span class="stringliteral">&#39;MetaDescription&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;pageId&#39;</span>, <span class="stringliteral">&#39;languageId&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;linkText&#39;</span>, <span class="stringliteral">&#39;pageTitle&#39;</span>, <span class="stringliteral">&#39;metaKeywords&#39;</span>, <span class="stringliteral">&#39;metaDescription&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBasePageStringPeer.html#a7d92f1c184223f538ccf301684a1918a">PageStringPeer::PAGE_ID</a>, <a class="code" href="classBasePageStringPeer.html#a70bf6960b98f87d01dfe2ae4059f4eb9">PageStringPeer::LANGUAGE_ID</a>, <a class="code" href="classBasePageStringPeer.html#a5e0d28be96df7bf8f0bcf9d9d242963f">PageStringPeer::IS_INACTIVE</a>, <a class="code" href="classBasePageStringPeer.html#ae83ee9284d2039726467f8c9980149ad">PageStringPeer::LINK_TEXT</a>, <a class="code" href="classBasePageStringPeer.html#a92b1a6326406cc61ced759ef78cb4509">PageStringPeer::PAGE_TITLE</a>, <a class="code" href="classBasePageStringPeer.html#a516e1f68ee4bcb8b1f8a817ce76f811c">PageStringPeer::META_KEYWORDS</a>, <a class="code" href="classBasePageStringPeer.html#ac0e5edf5dd6895500f0cfcea25f6353d">PageStringPeer::META_DESCRIPTION</a>, <a class="code" href="classBasePageStringPeer.html#ae1990664d093dd259fcd8b21f7f03bcc">PageStringPeer::CREATED_AT</a>, <a class="code" href="classBasePageStringPeer.html#a153396c5ab6ea56f7ee15a692f689c42">PageStringPeer::UPDATED_AT</a>, <a class="code" href="classBasePageStringPeer.html#ae87fbbcfeb309155dede305098eb452a">PageStringPeer::CREATED_BY</a>, <a class="code" href="classBasePageStringPeer.html#aa99c7681dd1d80fd31b082eae4e89d55">PageStringPeer::UPDATED_BY</a>, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;PAGE_ID&#39;</span>, <span class="stringliteral">&#39;LANGUAGE_ID&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;LINK_TEXT&#39;</span>, <span class="stringliteral">&#39;PAGE_TITLE&#39;</span>, <span class="stringliteral">&#39;META_KEYWORDS&#39;</span>, <span class="stringliteral">&#39;META_DESCRIPTION&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;page_id&#39;</span>, <span class="stringliteral">&#39;language_id&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;link_text&#39;</span>, <span class="stringliteral">&#39;page_title&#39;</span>, <span class="stringliteral">&#39;meta_keywords&#39;</span>, <span class="stringliteral">&#39;meta_description&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of fieldnames</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
-
-</div>
-</div>
-<a class="anchor" id="af02e48d094cb54a35af020c119e8baff"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BasePageStringPeer::CLASS_DEFAULT = 'model.PageString'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A class that can be returned by this peer. </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBasePageStringPeer.html#ad2fa7e6341a646acaf6f398ca401348b">PageStringPeer::$fieldNames</a>[PageStringPeer::TYPE_PHPNAME][0] = 'Id' </p>
 
 </div>
 </div>
@@ -2425,11 +2439,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::CREATED_AT = 'page_strings.CREATED_AT'</td>
+          <td class="memname">const BasePageStringPeer::CREATED_AT = 'page_strings.created_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_AT field </p>
+<p>the column name for the created_at field </p>
 
 </div>
 </div>
@@ -2438,11 +2452,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::CREATED_BY = 'page_strings.CREATED_BY'</td>
+          <td class="memname">const BasePageStringPeer::CREATED_BY = 'page_strings.created_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_BY field </p>
+<p>the column name for the created_by field </p>
 
 </div>
 </div>
@@ -2477,11 +2491,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::IS_INACTIVE = 'page_strings.IS_INACTIVE'</td>
+          <td class="memname">const BasePageStringPeer::IS_INACTIVE = 'page_strings.is_inactive'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_INACTIVE field </p>
+<p>the column name for the is_inactive field </p>
 
 </div>
 </div>
@@ -2490,11 +2504,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::LANGUAGE_ID = 'page_strings.LANGUAGE_ID'</td>
+          <td class="memname">const BasePageStringPeer::LANGUAGE_ID = 'page_strings.language_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LANGUAGE_ID field </p>
+<p>the column name for the language_id field </p>
 
 </div>
 </div>
@@ -2503,11 +2517,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::LINK_TEXT = 'page_strings.LINK_TEXT'</td>
+          <td class="memname">const BasePageStringPeer::LINK_TEXT = 'page_strings.link_text'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the LINK_TEXT field </p>
+<p>the column name for the link_text field </p>
 
 </div>
 </div>
@@ -2516,11 +2530,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::META_DESCRIPTION = 'page_strings.META_DESCRIPTION'</td>
+          <td class="memname">const BasePageStringPeer::META_DESCRIPTION = 'page_strings.meta_description'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the META_DESCRIPTION field </p>
+<p>the column name for the meta_description field </p>
 
 </div>
 </div>
@@ -2529,11 +2543,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::META_KEYWORDS = 'page_strings.META_KEYWORDS'</td>
+          <td class="memname">const BasePageStringPeer::META_KEYWORDS = 'page_strings.meta_keywords'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the META_KEYWORDS field </p>
+<p>the column name for the meta_keywords field </p>
 
 </div>
 </div>
@@ -2594,11 +2608,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::PAGE_ID = 'page_strings.PAGE_ID'</td>
+          <td class="memname">const BasePageStringPeer::PAGE_ID = 'page_strings.page_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the PAGE_ID field </p>
+<p>the column name for the page_id field </p>
 
 </div>
 </div>
@@ -2607,11 +2621,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::PAGE_TITLE = 'page_strings.PAGE_TITLE'</td>
+          <td class="memname">const BasePageStringPeer::PAGE_TITLE = 'page_strings.page_title'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the PAGE_TITLE field </p>
+<p>the column name for the page_title field </p>
 
 </div>
 </div>
@@ -2646,11 +2660,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::UPDATED_AT = 'page_strings.UPDATED_AT'</td>
+          <td class="memname">const BasePageStringPeer::UPDATED_AT = 'page_strings.updated_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_AT field </p>
+<p>the column name for the updated_at field </p>
 
 </div>
 </div>
@@ -2659,11 +2673,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePageStringPeer::UPDATED_BY = 'page_strings.UPDATED_BY'</td>
+          <td class="memname">const BasePageStringPeer::UPDATED_BY = 'page_strings.updated_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_BY field </p>
+<p>the column name for the updated_by field </p>
 
 </div>
 </div>
@@ -2673,7 +2687,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

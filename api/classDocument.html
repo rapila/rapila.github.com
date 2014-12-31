@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab65c7bbdf29e2784514c1aefa8bf0731"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab65c7bbdf29e2784514c1aefa8bf0731"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>isImage</b> ()</td></tr>
 <tr class="separator:ab65c7bbdf29e2784514c1aefa8bf0731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31a3b8a1401031c8fd0545dc1cad623"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac31a3b8a1401031c8fd0545dc1cad623"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>isGDImage</b> ()</td></tr>
+<tr class="separator:ac31a3b8a1401031c8fd0545dc1cad623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb33ca25fe599881b2076a980c15df70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb33ca25fe599881b2076a980c15df70"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getDisplayUrl</b> ($aUrlParameters=array(), $sFileModule= 'display_document')</td></tr>
 <tr class="separator:abb33ca25fe599881b2076a980c15df70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,15 +137,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71fc80eb47b2f32534fd0d5bdf5ff58a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71fc80eb47b2f32534fd0d5bdf5ff58a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getCategoryName</b> ()</td></tr>
 <tr class="separator:a71fc80eb47b2f32534fd0d5bdf5ff58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a68fa42938445c6a53c77c107e1807d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a68fa42938445c6a53c77c107e1807d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getPreview</b> ($iSize=190, $bMayReturnTemplate=false)</td></tr>
-<tr class="separator:a4a68fa42938445c6a53c77c107e1807d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b84ebc7ce3b70ae01c0cd6c51bba421"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b84ebc7ce3b70ae01c0cd6c51bba421"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPreviewForAdminList</b> ($iSize=190)</td></tr>
+<tr class="separator:a0b84ebc7ce3b70ae01c0cd6c51bba421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f113a7a59b82fa22e802a45e0de7050"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f113a7a59b82fa22e802a45e0de7050"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPreview</b> ($iSize=190, $bRefresh=true, $bMayReturnTemplate=false)</td></tr>
+<tr class="separator:a1f113a7a59b82fa22e802a45e0de7050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8631504f2c662b5aa819b2fafcd5f65f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8631504f2c662b5aa819b2fafcd5f65f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getImage</b> ()</td></tr>
 <tr class="separator:a8631504f2c662b5aa819b2fafcd5f65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd551ccfaa9da1c96a7e190b8e8b2d22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd551ccfaa9da1c96a7e190b8e8b2d22"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDataSize</b> (PropelPDO $oConnection=null)</td></tr>
-<tr class="separator:abd551ccfaa9da1c96a7e190b8e8b2d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d6d316193fe54dca5ebea49dfa3ced"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91d6d316193fe54dca5ebea49dfa3ced"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDimensionsIfImage</b> ($sPostfix=&quot;px&quot;)</td></tr>
+<tr class="separator:a91d6d316193fe54dca5ebea49dfa3ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba88a1361b4028de25d406a402bdded6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba88a1361b4028de25d406a402bdded6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getData</b> (PropelPDO $oConnection=null)</td></tr>
+<tr class="separator:aba88a1361b4028de25d406a402bdded6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea45a98b7afb764a202fe5ba39a1359"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ea45a98b7afb764a202fe5ba39a1359"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setData</b> ($mData)</td></tr>
+<tr class="separator:a7ea45a98b7afb764a202fe5ba39a1359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd9ee723ccee7a38b412f2143b8545bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd9ee723ccee7a38b412f2143b8545bf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDataSize</b> ()</td></tr>
+<tr class="separator:abd9ee723ccee7a38b412f2143b8545bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc6f1634db04fa5c5683dce5d57bd27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebc6f1634db04fa5c5683dce5d57bd27"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFileSize</b> ($sFilesizeFormat= 'auto_iso')</td></tr>
+<tr class="separator:aebc6f1634db04fa5c5683dce5d57bd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c2e3ed3de9c9f8e50508cad2cbc1505"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3c2e3ed3de9c9f8e50508cad2cbc1505"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getFileInfo</b> ($sFilesizeFormat= 'auto_iso')</td></tr>
 <tr class="separator:a3c2e3ed3de9c9f8e50508cad2cbc1505"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,15 +178,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad626d7d6d4e804c8ca2ff262f21d8d76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad626d7d6d4e804c8ca2ff262f21d8d76"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getLicenseDisclaimer</b> ()</td></tr>
 <tr class="separator:ad626d7d6d4e804c8ca2ff262f21d8d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7938e05c71326782ec7c51e3e5e016c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7938e05c71326782ec7c51e3e5e016c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDocumentCategory</b> (PropelPDO $con=null)</td></tr>
-<tr class="separator:ab7938e05c71326782ec7c51e3e5e016c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71b5bd36bccf68a499f33728994e143"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad71b5bd36bccf68a499f33728994e143"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setDocumentCategoryId</b> ($mCategoryId)</td></tr>
-<tr class="separator:ad71b5bd36bccf68a499f33728994e143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae951bb2f078661b712dde82a834b8b06"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae951bb2f078661b712dde82a834b8b06"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDocumentCategory</b> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:ae951bb2f078661b712dde82a834b8b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b596086c292fe3bccd1863eab4c8193"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b596086c292fe3bccd1863eab4c8193"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>isInternallyManaged</b> ()</td></tr>
 <tr class="separator:a8b596086c292fe3bccd1863eab4c8193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1697e6855aa41142ad18e8e0d33b536a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1697e6855aa41142ad18e8e0d33b536a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>hasTags</b> ()</td></tr>
+<tr class="separator:a1697e6855aa41142ad18e8e0d33b536a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ba81e969001e54282e7d40091f40e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03ba81e969001e54282e7d40091f40e0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getHasTags</b> ()</td></tr>
+<tr class="separator:a03ba81e969001e54282e7d40091f40e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815490117afeb00deba5fafdb3f40cac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a815490117afeb00deba5fafdb3f40cac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getHasDescription</b> ()</td></tr>
+<tr class="separator:a815490117afeb00deba5fafdb3f40cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6aac7ac6d8c106f6756783279f65279"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6aac7ac6d8c106f6756783279f65279"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>hasReferees</b> ()</td></tr>
 <tr class="separator:af6aac7ac6d8c106f6756783279f65279"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,14 +225,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e8367af74fc6629fcc75d2e21e193c0 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac32c5990066b1153c56add1381437a07 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac32c5990066b1153c56add1381437a07">getIsPrivate</a> ()</td></tr>
 <tr class="separator:ac32c5990066b1153c56add1381437a07 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a106f726dc1860047345d6320154e6d90 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a106f726dc1860047345d6320154e6d90">getIsInactive</a> ()</td></tr>
-<tr class="separator:a106f726dc1860047345d6320154e6d90 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4125b7cc21316602ac57fe67f5063bb inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ad4125b7cc21316602ac57fe67f5063bb">getIsProtected</a> ()</td></tr>
 <tr class="separator:ad4125b7cc21316602ac57fe67f5063bb inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d6725cf5adf2b1c9326171ee37c53f inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a58d6725cf5adf2b1c9326171ee37c53f">getSort</a> ()</td></tr>
 <tr class="separator:a58d6725cf5adf2b1c9326171ee37c53f inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84a15f4a9c47a9723213b18936ef9ccf inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a84a15f4a9c47a9723213b18936ef9ccf">getData</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a84a15f4a9c47a9723213b18936ef9ccf inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7165584d0ec23941de2c6fc759becb3 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#aa7165584d0ec23941de2c6fc759becb3">getHash</a> ()</td></tr>
+<tr class="separator:aa7165584d0ec23941de2c6fc759becb3 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12d2fbd92d949056385ffe4b52fc95c0 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a12d2fbd92d949056385ffe4b52fc95c0">getCreatedAt</a> ($format= 'Y-m-d H:i:s')</td></tr>
 <tr class="separator:a12d2fbd92d949056385ffe4b52fc95c0 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a078549eee4b02bfb6c99524653ce9718 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a078549eee4b02bfb6c99524653ce9718">getUpdatedAt</a> ($format= 'Y-m-d H:i:s')</td></tr>
@@ -241,14 +263,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6dff116b953077b1693a0ddf8fc123e7 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3ffa5f95756bfbdd162e092211fba2 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a7c3ffa5f95756bfbdd162e092211fba2">setIsPrivate</a> ($v)</td></tr>
 <tr class="separator:a7c3ffa5f95756bfbdd162e092211fba2 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e599462af3e575c35a70064bc0df1a5 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a6e599462af3e575c35a70064bc0df1a5">setIsInactive</a> ($v)</td></tr>
-<tr class="separator:a6e599462af3e575c35a70064bc0df1a5 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92173fc2bf2a52749a7da2e93f497c5b inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a92173fc2bf2a52749a7da2e93f497c5b">setIsProtected</a> ($v)</td></tr>
 <tr class="separator:a92173fc2bf2a52749a7da2e93f497c5b inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e32b475f0f3acbd26e6d8306d0caf1 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac8e32b475f0f3acbd26e6d8306d0caf1">setSort</a> ($v)</td></tr>
 <tr class="separator:ac8e32b475f0f3acbd26e6d8306d0caf1 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d82d038a4f3fcee95798bcf61ddf8fc inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a6d82d038a4f3fcee95798bcf61ddf8fc">setData</a> ($v)</td></tr>
-<tr class="separator:a6d82d038a4f3fcee95798bcf61ddf8fc inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127c9641feb21300a67001ed7e9c6cdc inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a127c9641feb21300a67001ed7e9c6cdc">setHash</a> ($v)</td></tr>
+<tr class="separator:a127c9641feb21300a67001ed7e9c6cdc inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7eaf5e22f47a5138394823cb7cf1d2ad inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a7eaf5e22f47a5138394823cb7cf1d2ad">setCreatedAt</a> ($v)</td></tr>
 <tr class="separator:a7eaf5e22f47a5138394823cb7cf1d2ad inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacf195340b5921f50a4ecf732a6b5d32 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#aacf195340b5921f50a4ecf732a6b5d32">setUpdatedAt</a> ($v)</td></tr>
@@ -303,34 +323,40 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8630c2612eda2e0fb901462da516eba1 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4140d4adb1102e1a9b9c32a90c426cfd inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a4140d4adb1102e1a9b9c32a90c426cfd">setLanguage</a> (<a class="el" href="classLanguage.html">Language</a> $v=null)</td></tr>
 <tr class="separator:a4140d4adb1102e1a9b9c32a90c426cfd inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a043615aa491c0ab1aec55eac90b9ed33 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a043615aa491c0ab1aec55eac90b9ed33">getLanguage</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a043615aa491c0ab1aec55eac90b9ed33 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8494e76b832625fd44d46d91385894 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a5c8494e76b832625fd44d46d91385894">getLanguage</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:a5c8494e76b832625fd44d46d91385894 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ed0a692600201524956139b33791582 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a6ed0a692600201524956139b33791582">setUserRelatedByOwnerId</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr class="separator:a6ed0a692600201524956139b33791582 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcb2133f9e2da0974171b9958766a8d2 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#abcb2133f9e2da0974171b9958766a8d2">getUserRelatedByOwnerId</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:abcb2133f9e2da0974171b9958766a8d2 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9294414dc643b96cc64372ada69d146 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#af9294414dc643b96cc64372ada69d146">getUserRelatedByOwnerId</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:af9294414dc643b96cc64372ada69d146 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c0e4e256e62528649506f809677b019 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a1c0e4e256e62528649506f809677b019">setDocumentType</a> (<a class="el" href="classDocumentType.html">DocumentType</a> $v=null)</td></tr>
 <tr class="separator:a1c0e4e256e62528649506f809677b019 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90800819626ca58f57568505f49a8369 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a90800819626ca58f57568505f49a8369">getDocumentType</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a90800819626ca58f57568505f49a8369 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab615be65fbfcbb1482e7e3d5b8d85055 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ab615be65fbfcbb1482e7e3d5b8d85055">getDocumentType</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:ab615be65fbfcbb1482e7e3d5b8d85055 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfcb1e743eac29d1f4d742d1dc952c7c inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#acfcb1e743eac29d1f4d742d1dc952c7c">setDocumentCategory</a> (<a class="el" href="classDocumentCategory.html">DocumentCategory</a> $v=null)</td></tr>
 <tr class="separator:acfcb1e743eac29d1f4d742d1dc952c7c inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7290cd2bb7c7df4d4c8905a952ab77f4 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a7290cd2bb7c7df4d4c8905a952ab77f4">getDocumentCategory</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a7290cd2bb7c7df4d4c8905a952ab77f4 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b4eb74d674875f68bf4b8928873a65 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a87b4eb74d674875f68bf4b8928873a65">getDocumentCategory</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:a87b4eb74d674875f68bf4b8928873a65 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a2ab64ec8dfbdd0245043bbc93bfe7 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac6a2ab64ec8dfbdd0245043bbc93bfe7">setDocumentData</a> (<a class="el" href="classDocumentData.html">DocumentData</a> $v=null)</td></tr>
+<tr class="separator:ac6a2ab64ec8dfbdd0245043bbc93bfe7 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52c2b1a33cb208e1f6c311fc7c4c0a0 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac52c2b1a33cb208e1f6c311fc7c4c0a0">getDocumentData</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:ac52c2b1a33cb208e1f6c311fc7c4c0a0 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83bd3810f96936e8af5e1c800b5d2ac6 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a83bd3810f96936e8af5e1c800b5d2ac6">setUserRelatedByCreatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr class="separator:a83bd3810f96936e8af5e1c800b5d2ac6 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6d7465805142baca35132f58b2d5ea1 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ae6d7465805142baca35132f58b2d5ea1">getUserRelatedByCreatedBy</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:ae6d7465805142baca35132f58b2d5ea1 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e60b2ff209da6f7e5ed9e8615050e6a inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a5e60b2ff209da6f7e5ed9e8615050e6a">getUserRelatedByCreatedBy</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:a5e60b2ff209da6f7e5ed9e8615050e6a inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9910369b24c70f2cccb78e45f4107e7 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac9910369b24c70f2cccb78e45f4107e7">setUserRelatedByUpdatedBy</a> (<a class="el" href="classUser.html">User</a> $v=null)</td></tr>
 <tr class="separator:ac9910369b24c70f2cccb78e45f4107e7 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c122c22da74ce0c8e319691a5e11937 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a5c122c22da74ce0c8e319691a5e11937">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a5c122c22da74ce0c8e319691a5e11937 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58252e8e28031ac979615560ce97ae9a inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a58252e8e28031ac979615560ce97ae9a">getUserRelatedByUpdatedBy</a> (PropelPDO $con=null, $doQuery=true)</td></tr>
+<tr class="separator:a58252e8e28031ac979615560ce97ae9a inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0068e82ee9c55fd4fdc4056c4165431 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#aa0068e82ee9c55fd4fdc4056c4165431">clear</a> ()</td></tr>
 <tr class="separator:aa0068e82ee9c55fd4fdc4056c4165431 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac86d543d4ad18d1f606f33a6129f747f inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac86d543d4ad18d1f606f33a6129f747f">clearAllReferences</a> ($deep=false)</td></tr>
 <tr class="separator:ac86d543d4ad18d1f606f33a6129f747f inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a422936687548cf9fb7e8597dfc28af31 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a422936687548cf9fb7e8597dfc28af31">__toString</a> ()</td></tr>
 <tr class="separator:a422936687548cf9fb7e8597dfc28af31 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04efd2ef22ec3ffdb4c1fe7b7dd2004 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ad04efd2ef22ec3ffdb4c1fe7b7dd2004">isAlreadyInSave</a> ()</td></tr>
+<tr class="separator:ad04efd2ef22ec3ffdb4c1fe7b7dd2004 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01e040b6d33ea31f39cc08153d5eef0f inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a01e040b6d33ea31f39cc08153d5eef0f">getReferees</a> ()</td></tr>
 <tr class="separator:a01e040b6d33ea31f39cc08153d5eef0f inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace77efc4e8a9a0f49c71f49687b56754 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ace77efc4e8a9a0f49c71f49687b56754">getTags</a> ()</td></tr>
@@ -359,6 +385,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e683bacb8aebe9a8fc0389eb22db837 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee6aa184c4377a1cf3041b5c08105616 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#aee6aa184c4377a1cf3041b5c08105616">keepUpdateUserUnchanged</a> ()</td></tr>
 <tr class="separator:aee6aa184c4377a1cf3041b5c08105616 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedc1a6bf789652065173328be2000f4 inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#afedc1a6bf789652065173328be2000f4">getPKArray</a> ()</td></tr>
+<tr class="separator:afedc1a6bf789652065173328be2000f4 inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3780f350227ac9f7c9bdbdea6e36dbbe inherit pub_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a3780f350227ac9f7c9bdbdea6e36dbbe">getPKString</a> ()</td></tr>
+<tr class="separator:a3780f350227ac9f7c9bdbdea6e36dbbe inherit pub_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -366,8 +396,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a19fe827351d739cc61f01d3c6ab1fc75 inherit pub_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a19fe827351d739cc61f01d3c6ab1fc75">PEER</a> = '<a class="el" href="classDocumentPeer.html">DocumentPeer</a>'</td></tr>
 <tr class="separator:a19fe827351d739cc61f01d3c6ab1fc75 inherit pub_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classBaseDocument"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classBaseDocument')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classBaseDocument.html">BaseDocument</a></td></tr>
-<tr class="memitem:a4d726dd9c2ef3b20e5e11eb0b195f68a inherit pro_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#a4d726dd9c2ef3b20e5e11eb0b195f68a">loadData</a> (PropelPDO $con=null)</td></tr>
-<tr class="separator:a4d726dd9c2ef3b20e5e11eb0b195f68a inherit pro_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03f96bab6b25d257aaf41ec25c23190 inherit pro_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ae03f96bab6b25d257aaf41ec25c23190">doSave</a> (PropelPDO $con)</td></tr>
 <tr class="separator:ae03f96bab6b25d257aaf41ec25c23190 inherit pro_methods_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac760875a33e18baa5f27bf5e341c8ac4 inherit pro_methods_classBaseDocument"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseDocument.html#ac760875a33e18baa5f27bf5e341c8ac4">doInsert</a> (PropelPDO $con)</td></tr>
@@ -416,21 +444,15 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae55115fc5d782e5995256a1000f698b2 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae55115fc5d782e5995256a1000f698b2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_private</b></td></tr>
 <tr class="separator:ae55115fc5d782e5995256a1000f698b2 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220b20412ee28bb3bfef52d0d1e14f66 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a220b20412ee28bb3bfef52d0d1e14f66"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$is_inactive</b></td></tr>
-<tr class="separator:a220b20412ee28bb3bfef52d0d1e14f66 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c57a080aa337e16bf086126a8bfbc6e inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c57a080aa337e16bf086126a8bfbc6e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$is_protected</b></td></tr>
 <tr class="separator:a1c57a080aa337e16bf086126a8bfbc6e inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af939fe0dce5fe0a7f7240fd6b1f03066 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af939fe0dce5fe0a7f7240fd6b1f03066"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$sort</b></td></tr>
 <tr class="separator:af939fe0dce5fe0a7f7240fd6b1f03066 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37a43b27601a7b9d508570d505f124b7 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37a43b27601a7b9d508570d505f124b7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$data</b></td></tr>
-<tr class="separator:a37a43b27601a7b9d508570d505f124b7 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a05a78d2e2edae9e5ba2922cdafdf2 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00a05a78d2e2edae9e5ba2922cdafdf2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$data_isLoaded</b> = false</td></tr>
-<tr class="separator:a00a05a78d2e2edae9e5ba2922cdafdf2 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3927b2b7e9d1c82a46a64343e687889 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3927b2b7e9d1c82a46a64343e687889"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$hash</b></td></tr>
+<tr class="separator:ac3927b2b7e9d1c82a46a64343e687889 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e3fe3b9c79240e03ab6d1b176e505c inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1e3fe3b9c79240e03ab6d1b176e505c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$created_at</b></td></tr>
 <tr class="separator:aa1e3fe3b9c79240e03ab6d1b176e505c inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,6 +477,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8fa5f6de235e9a7bf289cc7c00edeea4 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fa5f6de235e9a7bf289cc7c00edeea4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$aDocumentCategory</b></td></tr>
 <tr class="separator:a8fa5f6de235e9a7bf289cc7c00edeea4 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa182bd713a51bb63cc537b4a9eddf2f6 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa182bd713a51bb63cc537b4a9eddf2f6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$aDocumentData</b></td></tr>
+<tr class="separator:aa182bd713a51bb63cc537b4a9eddf2f6 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6cf303d20f2c0c80766c2aca2d7fc4 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6cf303d20f2c0c80766c2aca2d7fc4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$aUserRelatedByCreatedBy</b></td></tr>
 <tr class="separator:a4f6cf303d20f2c0c80766c2aca2d7fc4 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -467,6 +492,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aa2632db9f968f9633b924dd5680a4d6c inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2632db9f968f9633b924dd5680a4d6c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInValidation</b> = false</td></tr>
 <tr class="separator:aa2632db9f968f9633b924dd5680a4d6c inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe66c1014ee4ab62fcb69f211335688 inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fe66c1014ee4ab62fcb69f211335688"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$alreadyInClearAllReferencesDeep</b> = false</td></tr>
+<tr class="separator:a1fe66c1014ee4ab62fcb69f211335688 inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda86d8fa12946140862c30d7150043f inherit pro_attribs_classBaseDocument"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afda86d8fa12946140862c30d7150043f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>$validationFailures</b> = array()</td></tr>
 <tr class="separator:afda86d8fa12946140862c30d7150043f inherit pro_attribs_classBaseDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -489,8 +517,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Shortcut for getDisplayUrl(array(), 'display_document'); </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>use Document-&gt;getDisplayUrl() instead </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>remove </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000024">Deprecated:</a></b></dt><dd>use Document-&gt;getDisplayUrl() instead </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>remove </dd></dl>
 
 </div>
 </div>
@@ -500,7 +528,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$peer</b></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -142,6 +142,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>identifiersMatching()
 : <a class="el" href="classAjaxTemplate.html#a4f015d3f9ef0ff1c7db4bfdf68cd9e6f">AjaxTemplate</a>
 </li>
+<li>idForObject()
+: <a class="el" href="classUtil.html#ad7b409759864c09287aef6d5cb9ece9d">Util</a>
+</li>
 <li>initContentObjects()
 : <a class="el" href="classBasePage.html#a911add79ab2d90ce743d455727ffb44c">BasePage</a>
 </li>
@@ -157,8 +160,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>initDocumentCategorysRelatedByUpdatedBy()
 : <a class="el" href="classBaseUser.html#a7a1978139be607c114466acf6166c2a0">BaseUser</a>
 </li>
+<li>initDocumentDatasRelatedByCreatedBy()
+: <a class="el" href="classBaseUser.html#a2850de05cbcc88af2446ba8db5737dd8">BaseUser</a>
+</li>
+<li>initDocumentDatasRelatedByUpdatedBy()
+: <a class="el" href="classBaseUser.html#ae602c0b321c6d4308faf2212816b129d">BaseUser</a>
+</li>
 <li>initDocuments()
 : <a class="el" href="classBaseDocumentCategory.html#a38be64e9f81ce861402fc5e6120d5e30">BaseDocumentCategory</a>
+, <a class="el" href="classBaseDocumentData.html#a039ffc16326001671580c4e4e01f01dc">BaseDocumentData</a>
 , <a class="el" href="classBaseDocumentType.html#a6837111c6a287fcc92a6e7f3ae18f4bb">BaseDocumentType</a>
 , <a class="el" href="classBaseLanguage.html#acac9897478f9ba5e799e4bb926a1a90e">BaseLanguage</a>
 </li>
@@ -196,6 +206,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>initialize()
 : <a class="el" href="classContentObjectTableMap.html#aea726eb066ab6a549be129d6502e926e">ContentObjectTableMap</a>
 , <a class="el" href="classDocumentCategoryTableMap.html#a8647422f6507d25fa64317298230d668">DocumentCategoryTableMap</a>
+, <a class="el" href="classDocumentDataTableMap.html#a56355216ff440c3b8da9a18b144d583e">DocumentDataTableMap</a>
 , <a class="el" href="classDocumentTableMap.html#a6f7af71ff04fc3c92e7d1d6f8bbc519b">DocumentTableMap</a>
 , <a class="el" href="classDocumentTypeTableMap.html#a2ba2e4ee2d9b270ae10b0bd771b7e5db">DocumentTypeTableMap</a>
 , <a class="el" href="classGroupRoleTableMap.html#a08b26f13bfddd2737cf1d05110558d7c">GroupRoleTableMap</a>
@@ -304,12 +315,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classBaseUser.html#ac12b38bb7207e3d0faabb7498ec4bc6a">BaseUser</a>
 </li>
 <li>initRelation()
-: <a class="el" href="classBaseLinkCategory.html#ac548aa496bb467873c67c8d61bd2fe88">BaseLinkCategory</a>
-, <a class="el" href="classBaseContentObject.html#ab7335737915453b0cb9b7a322a746015">BaseContentObject</a>
+: <a class="el" href="classBaseContentObject.html#ab7335737915453b0cb9b7a322a746015">BaseContentObject</a>
 , <a class="el" href="classBaseDocumentCategory.html#abbe07bd5189fd81e9725a2073c816d21">BaseDocumentCategory</a>
+, <a class="el" href="classBaseDocumentData.html#af130f3fc63f5f41450922a719ecd969c">BaseDocumentData</a>
 , <a class="el" href="classBaseDocumentType.html#a37785af861d961bc7c17c41517582406">BaseDocumentType</a>
 , <a class="el" href="classBaseGroup.html#aba8258113f75832a2d47e90367ca69ad">BaseGroup</a>
 , <a class="el" href="classBaseLanguage.html#a08982420dcf2128ad0d92c01dcf2b7aa">BaseLanguage</a>
+, <a class="el" href="classBaseLinkCategory.html#ac548aa496bb467873c67c8d61bd2fe88">BaseLinkCategory</a>
 , <a class="el" href="classBasePage.html#aedeb545e4bdbf74b5457d8b04af68772">BasePage</a>
 , <a class="el" href="classBaseRole.html#ac6d773530a93554cf319c10c4d621507">BaseRole</a>
 , <a class="el" href="classBaseTag.html#a774647539ba912028747165d230c147a">BaseTag</a>
@@ -407,8 +419,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classBaseUserPeer.html#ae2abd83b27350831b562f155e8d79f73">BaseUserPeer</a>
 </li>
 <li>IS_EXTERNALLY_MANAGED
-: <a class="el" href="classBaseLinkCategoryPeer.html#a6ea57c6547d22be0a3cbd469bc39f1ae">BaseLinkCategoryPeer</a>
-, <a class="el" href="classBaseDocumentCategoryPeer.html#a522166ee0aef243da07d51568d406b72">BaseDocumentCategoryPeer</a>
+: <a class="el" href="classBaseDocumentCategoryPeer.html#a522166ee0aef243da07d51568d406b72">BaseDocumentCategoryPeer</a>
+, <a class="el" href="classBaseLinkCategoryPeer.html#a6ea57c6547d22be0a3cbd469bc39f1ae">BaseLinkCategoryPeer</a>
 </li>
 <li>IS_FOLDER
 : <a class="el" href="classBasePagePeer.html#af34d337aeddc05cdb7ca0c9daafab34f">BasePagePeer</a>
@@ -417,12 +429,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classBasePagePeer.html#ad2978ff70f76d734f9546d9264feb954">BasePagePeer</a>
 </li>
 <li>IS_INACTIVE
-: <a class="el" href="classBaseDocumentPeer.html#ad237c366df61bbc1cc4d5f67173f9a3a">BaseDocumentPeer</a>
+: <a class="el" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">BaseUserPeer</a>
 , <a class="el" href="classBasePagePeer.html#a582facca86f4c256d4813ed8bcd4706d">BasePagePeer</a>
-, <a class="el" href="classBaseUserPeer.html#abcf24cf71cb89af41d58db7bb0332fc0">BaseUserPeer</a>
-, <a class="el" href="classBaseLinkPeer.html#a84e00e7bb6eccda0cd715f1fca5bcb76">BaseLinkPeer</a>
 , <a class="el" href="classBasePageStringPeer.html#a5e0d28be96df7bf8f0bcf9d9d242963f">BasePageStringPeer</a>
-, <a class="el" href="classBaseDocumentCategoryPeer.html#a8541b453eba3fe467342cd5661cadc75">BaseDocumentCategoryPeer</a>
 </li>
 <li>IS_INHERITED
 : <a class="el" href="classBaseRightPeer.html#a0f5231154d52590d3bbf13b771c59683">BaseRightPeer</a>
@@ -438,6 +447,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classBaseDocumentPeer.html#a133eb7a15e1e2b5c4144ec2743090d37">BaseDocumentPeer</a>
 , <a class="el" href="classBasePagePeer.html#a49602ada1f0621da9df6fc607519346a">BasePagePeer</a>
 </li>
+<li>isAlreadyInSave()
+: <a class="el" href="classBasePageString.html#aa26c02e24a9ecfa35f9223cf69e48206">BasePageString</a>
+, <a class="el" href="classBaseRight.html#a2543c68e9f8401f347fd868503dd0b6e">BaseRight</a>
+, <a class="el" href="classBaseDocumentCategory.html#a80f8cf0beca273437bc78ed832e9ffa1">BaseDocumentCategory</a>
+, <a class="el" href="classBaseDocumentType.html#aa7798e3ed5a93d8319f5cda911407c11">BaseDocumentType</a>
+, <a class="el" href="classBaseGroupRole.html#ae8708b98c436714ad60fbb6409919281">BaseGroupRole</a>
+, <a class="el" href="classBaseUser.html#a6ba29b98c71953ae04c2871343d2c8de">BaseUser</a>
+, <a class="el" href="classBaseLink.html#a9acd86734d0607eaccc39c3c289c5e71">BaseLink</a>
+, <a class="el" href="classBasePage.html#a35bf8dccabeeb6932008423f36474f95">BasePage</a>
+, <a class="el" href="classBaseReference.html#ad56feb5f41399b8400b227851a3988de">BaseReference</a>
+, <a class="el" href="classBaseString.html#ac10f3526c8538be84036b65e011458d8">BaseString</a>
+, <a class="el" href="classBaseUserGroup.html#a6070ab66329f1d9085ba936a9709d92c">BaseUserGroup</a>
+, <a class="el" href="classBaseUserRole.html#a504bcb7d6f88ff9121b63d697269afc1">BaseUserRole</a>
+, <a class="el" href="classBaseRole.html#a3c2c9cb3ca5fa8648db285fbdebcefbb">BaseRole</a>
+, <a class="el" href="classBaseTagInstance.html#ac82fc062c04c874454ce9095401b5ca6">BaseTagInstance</a>
+, <a class="el" href="classBaseDocumentData.html#a3810e9054a1cb134e5498e1a09fd81d4">BaseDocumentData</a>
+, <a class="el" href="classBaseLanguage.html#a878991917a5b1e7f05fdde64f146f337">BaseLanguage</a>
+, <a class="el" href="classBaseTag.html#a4588f531052dacc3623afd0bd02f3860">BaseTag</a>
+, <a class="el" href="classBasePageProperty.html#a19d25375f109a308ef846243bbede619">BasePageProperty</a>
+, <a class="el" href="classBaseLanguageObject.html#ad891182c100945cc9a200219d66b9ad1">BaseLanguageObject</a>
+, <a class="el" href="classBaseContentObject.html#a92aca4a26c55feaac94543e5941cd716">BaseContentObject</a>
+, <a class="el" href="classBaseLanguageObjectHistory.html#a1fa3776d49acd73a88f8d2e513d93c21">BaseLanguageObjectHistory</a>
+, <a class="el" href="classBaseLinkCategory.html#a82079ab5060dc0aec92f40ec25f5845a">BaseLinkCategory</a>
+, <a class="el" href="classBaseGroup.html#abfe503206da6b59a5990a445aed2ba52">BaseGroup</a>
+, <a class="el" href="classBaseDocument.html#ad04efd2ef22ec3ffdb4c1fe7b7dd2004">BaseDocument</a>
+</li>
 <li>isAncestorOf()
 : <a class="el" href="classBasePage.html#a109b9b2ea49f72eba5f6ad20a072d4a1">BasePage</a>
 </li>
@@ -446,6 +481,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>isFinal()
 : <a class="el" href="classTemplateIdentifier.html#a55599f7d7c3a97515b31dd8e44a72f74">TemplateIdentifier</a>
+</li>
+<li>isGDImageType()
+: <a class="el" href="classDocumentType.html#af51f157dfd81a0082d0f5e4f486b559d">DocumentType</a>
 </li>
 <li>isIndexed()
 : <a class="el" href="classNavigationItem.html#a22fb1d2211fcdae933ceaf090d06f8ba">NavigationItem</a>
@@ -459,6 +497,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>isLeaf()
 : <a class="el" href="classBasePage.html#a1cb1755bbfcafd5260c3d52c300a97c8">BasePage</a>
 </li>
+<li>isMonolingual()
+: <a class="el" href="classLanguagePeer.html#a89940beee1e8ecaba751e92b55ff22a2">LanguagePeer</a>
+</li>
 <li>isOlderThan()
 : <a class="el" href="classCache.html#a9978261d84e08ea7b60f37d6afb59400">Cache</a>
 </li>
@@ -466,29 +507,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classCache.html#a54f5bc389d11ebefdf83f8c61af33a7b">Cache</a>
 </li>
 <li>isPrimaryKeyNull()
-: <a class="el" href="classBaseRole.html#a5116b40b7678679f66795570968a0e0d">BaseRole</a>
-, <a class="el" href="classBaseUserRole.html#a21f274cde40129a26ebf9c7d4b1101b9">BaseUserRole</a>
-, <a class="el" href="classBaseReference.html#ac69385d708f26f3a23c69a5be86dfe3f">BaseReference</a>
-, <a class="el" href="classBaseGroupRole.html#a234fcfc7313250f88d08ba498044cbf9">BaseGroupRole</a>
-, <a class="el" href="classBaseDocumentType.html#ac96b42836e467c8dd83730464f000ed5">BaseDocumentType</a>
-, <a class="el" href="classBaseRight.html#a58558c67d02665e18fddde1c5de8b8df">BaseRight</a>
-, <a class="el" href="classBasePageProperty.html#ad3a2959fdc8903705aa74c13b05238b9">BasePageProperty</a>
-, <a class="el" href="classBaseLanguage.html#adc6c1b85dbb0b28bd5945c99cbb54d4f">BaseLanguage</a>
-, <a class="el" href="classBaseContentObject.html#a7f46f0d40af27fbc6866f91f28c47bdb">BaseContentObject</a>
-, <a class="el" href="classBaseString.html#a588f79348a015be7279949fe2dd73d5f">BaseString</a>
-, <a class="el" href="classBaseDocument.html#ac300f2f1f689229a5b62380e5df19602">BaseDocument</a>
-, <a class="el" href="classBaseLink.html#a326bdb24964f0a11e1dbe749826a5969">BaseLink</a>
+: <a class="el" href="classBaseGroup.html#ab28facc2915a1a498185478028b4ba8f">BaseGroup</a>
 , <a class="el" href="classBaseLinkCategory.html#ae66c3fc24d09dd174f85b8c45fd07dbb">BaseLinkCategory</a>
-, <a class="el" href="classBasePage.html#ac0432ab7186391f9b0acf556fd38fd25">BasePage</a>
-, <a class="el" href="classBaseLanguageObject.html#a1b28d23dc3ed1e3d1df019b67f6fd662">BaseLanguageObject</a>
-, <a class="el" href="classBaseTag.html#adb60be8ee182d397ecc9023461c2d2f3">BaseTag</a>
-, <a class="el" href="classBaseUser.html#acb12c203eea7d8256a56d10f5904c195">BaseUser</a>
-, <a class="el" href="classBaseGroup.html#ab28facc2915a1a498185478028b4ba8f">BaseGroup</a>
-, <a class="el" href="classBaseTagInstance.html#a8ffd0ebe16077a947924e2ff5143c27b">BaseTagInstance</a>
-, <a class="el" href="classBaseDocumentCategory.html#af262a39de1ea4e4253a99c5d859605f0">BaseDocumentCategory</a>
+, <a class="el" href="classBaseDocumentData.html#a8da14c8b8b4b0c49996b3be8299755ba">BaseDocumentData</a>
+, <a class="el" href="classBaseString.html#a588f79348a015be7279949fe2dd73d5f">BaseString</a>
+, <a class="el" href="classBaseReference.html#ac69385d708f26f3a23c69a5be86dfe3f">BaseReference</a>
+, <a class="el" href="classBaseContentObject.html#a7f46f0d40af27fbc6866f91f28c47bdb">BaseContentObject</a>
 , <a class="el" href="classBaseUserGroup.html#a76771b8fc7ed4fce920c41564e1deea3">BaseUserGroup</a>
+, <a class="el" href="classBaseLanguageObject.html#a1b28d23dc3ed1e3d1df019b67f6fd662">BaseLanguageObject</a>
+, <a class="el" href="classBaseLink.html#a326bdb24964f0a11e1dbe749826a5969">BaseLink</a>
+, <a class="el" href="classBaseUser.html#acb12c203eea7d8256a56d10f5904c195">BaseUser</a>
+, <a class="el" href="classBaseGroupRole.html#a234fcfc7313250f88d08ba498044cbf9">BaseGroupRole</a>
+, <a class="el" href="classBaseTagInstance.html#a8ffd0ebe16077a947924e2ff5143c27b">BaseTagInstance</a>
 , <a class="el" href="classBasePageString.html#a15c48f53fae54e57d526c50bce61c548">BasePageString</a>
 , <a class="el" href="classBaseLanguageObjectHistory.html#ac4cd84e0cbf89e59f24db012d4ed10fc">BaseLanguageObjectHistory</a>
+, <a class="el" href="classBaseDocumentCategory.html#af262a39de1ea4e4253a99c5d859605f0">BaseDocumentCategory</a>
+, <a class="el" href="classBaseRight.html#a58558c67d02665e18fddde1c5de8b8df">BaseRight</a>
+, <a class="el" href="classBaseTag.html#adb60be8ee182d397ecc9023461c2d2f3">BaseTag</a>
+, <a class="el" href="classBaseRole.html#a5116b40b7678679f66795570968a0e0d">BaseRole</a>
+, <a class="el" href="classBasePage.html#ac0432ab7186391f9b0acf556fd38fd25">BasePage</a>
+, <a class="el" href="classBaseDocumentType.html#ac96b42836e467c8dd83730464f000ed5">BaseDocumentType</a>
+, <a class="el" href="classBaseUserRole.html#a21f274cde40129a26ebf9c7d4b1101b9">BaseUserRole</a>
+, <a class="el" href="classBaseLanguage.html#adc6c1b85dbb0b28bd5945c99cbb54d4f">BaseLanguage</a>
+, <a class="el" href="classBaseDocument.html#ac300f2f1f689229a5b62380e5df19602">BaseDocument</a>
+, <a class="el" href="classBasePageProperty.html#ad3a2959fdc8903705aa74c13b05238b9">BasePageProperty</a>
 </li>
 <li>isRoot()
 : <a class="el" href="classBasePage.html#ae6a54ce03220f6c62253479f2f9b2cab">BasePage</a>
@@ -500,7 +542,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:19 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:32 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

@@ -127,8 +127,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a532482f1c7012a6b1289699010d02427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a22acbf63716fe60ccc05dbc0c85f3a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a2a22acbf63716fe60ccc05dbc0c85f3a">getInstanceFromPool</a> ($key)</td></tr>
 <tr class="separator:a2a22acbf63716fe60ccc05dbc0c85f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a023a938dab923754c0ee06deb7d68d60"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a023a938dab923754c0ee06deb7d68d60">clearInstancePool</a> ()</td></tr>
-<tr class="separator:a023a938dab923754c0ee06deb7d68d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007999c28ee79b2045b94b845f31eee8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a007999c28ee79b2045b94b845f31eee8">clearInstancePool</a> ($and_clear_all_references=false)</td></tr>
+<tr class="separator:a007999c28ee79b2045b94b845f31eee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa724b7d5a5557c5c0aea17668835821f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aa724b7d5a5557c5c0aea17668835821f">clearRelatedInstancePool</a> ()</td></tr>
 <tr class="separator:aa724b7d5a5557c5c0aea17668835821f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870a070311156eee4da2b057e6808db3"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a870a070311156eee4da2b057e6808db3">getPrimaryKeyHashFromRow</a> ($row, $startcol=0)</td></tr>
@@ -167,8 +167,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9a6bdadd3b5cfd65fc81fa9a1f485fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36cc2fcd4fb64b1d6246c3cc53a46b3b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a36cc2fcd4fb64b1d6246c3cc53a46b3b">buildTableMap</a> ()</td></tr>
 <tr class="separator:a36cc2fcd4fb64b1d6246c3cc53a46b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb3ca5b93680ab5086c65fc970c00121"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#afb3ca5b93680ab5086c65fc970c00121">getOMClass</a> ($withPrefix=true)</td></tr>
-<tr class="separator:afb3ca5b93680ab5086c65fc970c00121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0ebab350f4d7e40ad28ed81f27255a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a3b0ebab350f4d7e40ad28ed81f27255a">getOMClass</a> ($row=0, $colnum=0)</td></tr>
+<tr class="separator:a3b0ebab350f4d7e40ad28ed81f27255a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf8ca2c613a654f5559db7c087e11cbe"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#adf8ca2c613a654f5559db7c087e11cbe">doInsert</a> ($values, PropelPDO $con=null)</td></tr>
 <tr class="separator:adf8ca2c613a654f5559db7c087e11cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeead2164b8f416a45817abbe31e85a23"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aeead2164b8f416a45817abbe31e85a23">doUpdate</a> ($values, PropelPDO $con=null)</td></tr>
@@ -190,6 +190,12 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>ignoreRights</b> ($
 <tr class="memitem:a86760f9f62a61be55dbaaa024129ba03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86760f9f62a61be55dbaaa024129ba03"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>isIgnoringRights</b> ()</td></tr>
 <tr class="separator:a86760f9f62a61be55dbaaa024129ba03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad45b81fe4825fb0174d06b7207862a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad45b81fe4825fb0174d06b7207862a0"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:aad45b81fe4825fb0174d06b7207862a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb83ebff4b65a09d4fa4e0434ec4c61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeeb83ebff4b65a09d4fa4e0434ec4c61"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getRightsUser</b> ($oUser=false)</td></tr>
+<tr class="separator:aeeb83ebff4b65a09d4fa4e0434ec4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d664a1f4379e86f84a169aed9beea3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d664a1f4379e86f84a169aed9beea3b"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOn</b> ($oUser, $mObject, $sOperation)</td></tr>
 <tr class="separator:a5d664a1f4379e86f84a169aed9beea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,6 +220,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>mayOperateOnOwn</b>
 <tr class="separator:a8ab96c7d213e7097be87fcd54be58180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ea4b175a184ad82ccadf015cdb0d6d1"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a9ea4b175a184ad82ccadf015cdb0d6d1">fixLevels</a> (PropelPDO $con=null)</td></tr>
 <tr class="separator:a9ea4b175a184ad82ccadf015cdb0d6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b410a4b7f3db3c50ca1ff25270467a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a41b410a4b7f3db3c50ca1ff25270467a">setNegativeScope</a> ($scope, PropelPDO $con=null)</td></tr>
+<tr class="separator:a41b410a4b7f3db3c50ca1ff25270467a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -223,8 +231,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2602d03dd45acfba110f5c9c9abb1195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d6e550120f579784d3da63485f2052"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ad7d6e550120f579784d3da63485f2052">OM_CLASS</a> = '<a class="el" href="classPage.html">Page</a>'</td></tr>
 <tr class="separator:ad7d6e550120f579784d3da63485f2052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade444628190ce4104d298ffe8bd587e5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ade444628190ce4104d298ffe8bd587e5">CLASS_DEFAULT</a> = 'model.Page'</td></tr>
-<tr class="separator:ade444628190ce4104d298ffe8bd587e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af18b214229189c111ef243d78cfb2915"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#af18b214229189c111ef243d78cfb2915">TM_CLASS</a> = '<a class="el" href="classPageTableMap.html">PageTableMap</a>'</td></tr>
 <tr class="separator:af18b214229189c111ef243d78cfb2915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae57c293b9be731de039cbcf21ec2db4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aae57c293b9be731de039cbcf21ec2db4">NUM_COLUMNS</a> = 17</td></tr>
@@ -233,47 +239,47 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a35afce115d2e09a87d1f44150a843439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f4331a898ed094e9df1c484275c30d2"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a3f4331a898ed094e9df1c484275c30d2">NUM_HYDRATE_COLUMNS</a> = 17</td></tr>
 <tr class="separator:a3f4331a898ed094e9df1c484275c30d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8c6e7de7e5d64f7418a8428e632ef1e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ac8c6e7de7e5d64f7418a8428e632ef1e">ID</a> = 'pages.ID'</td></tr>
+<tr class="memitem:ac8c6e7de7e5d64f7418a8428e632ef1e"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ac8c6e7de7e5d64f7418a8428e632ef1e">ID</a> = 'pages.id'</td></tr>
 <tr class="separator:ac8c6e7de7e5d64f7418a8428e632ef1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd7ee27a8a3083b839aba05133714134"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#afd7ee27a8a3083b839aba05133714134">NAME</a> = 'pages.NAME'</td></tr>
+<tr class="memitem:afd7ee27a8a3083b839aba05133714134"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#afd7ee27a8a3083b839aba05133714134">NAME</a> = 'pages.name'</td></tr>
 <tr class="separator:afd7ee27a8a3083b839aba05133714134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba5ee7d0c56505841b282dbe02cd71c"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a9ba5ee7d0c56505841b282dbe02cd71c">IDENTIFIER</a> = 'pages.IDENTIFIER'</td></tr>
+<tr class="memitem:a9ba5ee7d0c56505841b282dbe02cd71c"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a9ba5ee7d0c56505841b282dbe02cd71c">IDENTIFIER</a> = 'pages.identifier'</td></tr>
 <tr class="separator:a9ba5ee7d0c56505841b282dbe02cd71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8407b52790130a511d0cc3f35c2b539"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aa8407b52790130a511d0cc3f35c2b539">PAGE_TYPE</a> = 'pages.PAGE_TYPE'</td></tr>
+<tr class="memitem:aa8407b52790130a511d0cc3f35c2b539"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aa8407b52790130a511d0cc3f35c2b539">PAGE_TYPE</a> = 'pages.page_type'</td></tr>
 <tr class="separator:aa8407b52790130a511d0cc3f35c2b539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae686cf13fcae9968594b8809b95496ee"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ae686cf13fcae9968594b8809b95496ee">TEMPLATE_NAME</a> = 'pages.TEMPLATE_NAME'</td></tr>
+<tr class="memitem:ae686cf13fcae9968594b8809b95496ee"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ae686cf13fcae9968594b8809b95496ee">TEMPLATE_NAME</a> = 'pages.template_name'</td></tr>
 <tr class="separator:ae686cf13fcae9968594b8809b95496ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a582facca86f4c256d4813ed8bcd4706d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a582facca86f4c256d4813ed8bcd4706d">IS_INACTIVE</a> = 'pages.IS_INACTIVE'</td></tr>
+<tr class="memitem:a582facca86f4c256d4813ed8bcd4706d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a582facca86f4c256d4813ed8bcd4706d">IS_INACTIVE</a> = 'pages.is_inactive'</td></tr>
 <tr class="separator:a582facca86f4c256d4813ed8bcd4706d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34d337aeddc05cdb7ca0c9daafab34f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#af34d337aeddc05cdb7ca0c9daafab34f">IS_FOLDER</a> = 'pages.IS_FOLDER'</td></tr>
+<tr class="memitem:af34d337aeddc05cdb7ca0c9daafab34f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#af34d337aeddc05cdb7ca0c9daafab34f">IS_FOLDER</a> = 'pages.is_folder'</td></tr>
 <tr class="separator:af34d337aeddc05cdb7ca0c9daafab34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2978ff70f76d734f9546d9264feb954"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ad2978ff70f76d734f9546d9264feb954">IS_HIDDEN</a> = 'pages.IS_HIDDEN'</td></tr>
+<tr class="memitem:ad2978ff70f76d734f9546d9264feb954"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ad2978ff70f76d734f9546d9264feb954">IS_HIDDEN</a> = 'pages.is_hidden'</td></tr>
 <tr class="separator:ad2978ff70f76d734f9546d9264feb954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49602ada1f0621da9df6fc607519346a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a49602ada1f0621da9df6fc607519346a">IS_PROTECTED</a> = 'pages.IS_PROTECTED'</td></tr>
+<tr class="memitem:a49602ada1f0621da9df6fc607519346a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a49602ada1f0621da9df6fc607519346a">IS_PROTECTED</a> = 'pages.is_protected'</td></tr>
 <tr class="separator:a49602ada1f0621da9df6fc607519346a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3009d7d986d2938820c310866653840"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ae3009d7d986d2938820c310866653840">CANONICAL_ID</a> = 'pages.CANONICAL_ID'</td></tr>
+<tr class="memitem:ae3009d7d986d2938820c310866653840"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#ae3009d7d986d2938820c310866653840">CANONICAL_ID</a> = 'pages.canonical_id'</td></tr>
 <tr class="separator:ae3009d7d986d2938820c310866653840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4b40b5a891c65a620826bd8e75d3df9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#af4b40b5a891c65a620826bd8e75d3df9">TREE_LEFT</a> = 'pages.TREE_LEFT'</td></tr>
+<tr class="memitem:af4b40b5a891c65a620826bd8e75d3df9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#af4b40b5a891c65a620826bd8e75d3df9">TREE_LEFT</a> = 'pages.tree_left'</td></tr>
 <tr class="separator:af4b40b5a891c65a620826bd8e75d3df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66aaef7eca1a4066e7e34a5ffe1ff921"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a66aaef7eca1a4066e7e34a5ffe1ff921">TREE_RIGHT</a> = 'pages.TREE_RIGHT'</td></tr>
+<tr class="memitem:a66aaef7eca1a4066e7e34a5ffe1ff921"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a66aaef7eca1a4066e7e34a5ffe1ff921">TREE_RIGHT</a> = 'pages.tree_right'</td></tr>
 <tr class="separator:a66aaef7eca1a4066e7e34a5ffe1ff921"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a845f9276c3aeca3cbbe022ea98c9cb09"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a845f9276c3aeca3cbbe022ea98c9cb09">TREE_LEVEL</a> = 'pages.TREE_LEVEL'</td></tr>
+<tr class="memitem:a845f9276c3aeca3cbbe022ea98c9cb09"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a845f9276c3aeca3cbbe022ea98c9cb09">TREE_LEVEL</a> = 'pages.tree_level'</td></tr>
 <tr class="separator:a845f9276c3aeca3cbbe022ea98c9cb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa2f032ebe7999ff0f1072e0d334bb3"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a1fa2f032ebe7999ff0f1072e0d334bb3">CREATED_AT</a> = 'pages.CREATED_AT'</td></tr>
+<tr class="memitem:a1fa2f032ebe7999ff0f1072e0d334bb3"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a1fa2f032ebe7999ff0f1072e0d334bb3">CREATED_AT</a> = 'pages.created_at'</td></tr>
 <tr class="separator:a1fa2f032ebe7999ff0f1072e0d334bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966c15f89c5dc6a0c1d98d2a81d1fbb4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a966c15f89c5dc6a0c1d98d2a81d1fbb4">UPDATED_AT</a> = 'pages.UPDATED_AT'</td></tr>
+<tr class="memitem:a966c15f89c5dc6a0c1d98d2a81d1fbb4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a966c15f89c5dc6a0c1d98d2a81d1fbb4">UPDATED_AT</a> = 'pages.updated_at'</td></tr>
 <tr class="separator:a966c15f89c5dc6a0c1d98d2a81d1fbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72879778b1aa56c8ab6284eb47ec2089"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a72879778b1aa56c8ab6284eb47ec2089">CREATED_BY</a> = 'pages.CREATED_BY'</td></tr>
+<tr class="memitem:a72879778b1aa56c8ab6284eb47ec2089"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a72879778b1aa56c8ab6284eb47ec2089">CREATED_BY</a> = 'pages.created_by'</td></tr>
 <tr class="separator:a72879778b1aa56c8ab6284eb47ec2089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cc73c94d77389a77bb5e1def1c83a3d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a7cc73c94d77389a77bb5e1def1c83a3d">UPDATED_BY</a> = 'pages.UPDATED_BY'</td></tr>
+<tr class="memitem:a7cc73c94d77389a77bb5e1def1c83a3d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a7cc73c94d77389a77bb5e1def1c83a3d">UPDATED_BY</a> = 'pages.updated_by'</td></tr>
 <tr class="separator:a7cc73c94d77389a77bb5e1def1c83a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac14309591fc6497c26f9983055f430"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a4ac14309591fc6497c26f9983055f430">DEFAULT_STRING_FORMAT</a> = 'YAML'</td></tr>
 <tr class="separator:a4ac14309591fc6497c26f9983055f430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a9ab5b894d654ea495f64fd2ae0b9c6"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a2a9ab5b894d654ea495f64fd2ae0b9c6">LEFT_COL</a> = 'pages.TREE_LEFT'</td></tr>
+<tr class="memitem:a2a9ab5b894d654ea495f64fd2ae0b9c6"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a2a9ab5b894d654ea495f64fd2ae0b9c6">LEFT_COL</a> = 'pages.tree_left'</td></tr>
 <tr class="separator:a2a9ab5b894d654ea495f64fd2ae0b9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c10a2187ffa78fb87d67652b8eb013d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a0c10a2187ffa78fb87d67652b8eb013d">RIGHT_COL</a> = 'pages.TREE_RIGHT'</td></tr>
+<tr class="memitem:a0c10a2187ffa78fb87d67652b8eb013d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#a0c10a2187ffa78fb87d67652b8eb013d">RIGHT_COL</a> = 'pages.tree_right'</td></tr>
 <tr class="separator:a0c10a2187ffa78fb87d67652b8eb013d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb88ad59dcd4502a03e9e19a089055aa"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aeb88ad59dcd4502a03e9e19a089055aa">LEVEL_COL</a> = 'pages.TREE_LEVEL'</td></tr>
+<tr class="memitem:aeb88ad59dcd4502a03e9e19a089055aa"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePagePeer.html#aeb88ad59dcd4502a03e9e19a089055aa">LEVEL_COL</a> = 'pages.tree_level'</td></tr>
 <tr class="separator:aeb88ad59dcd4502a03e9e19a089055aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -332,7 +338,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doSelect*() methods in your stub classes &ndash; you may need to explicitly add objects to the cache in order to ensure that the same objects are always returned by doSelect*() and retrieveByPK*() calls.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classPage.html">Page</a></td><td class="paramname">$value</td><td>A <a class="el" href="classPage.html">Page</a> object. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classPage.html">Page</a></td><td class="paramname">$obj</td><td>A <a class="el" href="classPage.html">Page</a> object. </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$key</td><td>(optional) key to use for instance map (for performance boost if key was already calculated externally). </td></tr>
   </table>
   </dd>
@@ -457,7 +463,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a023a938dab923754c0ee06deb7d68d60"></a>
+<a class="anchor" id="a007999c28ee79b2045b94b845f31eee8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -467,7 +473,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static BasePagePeer::clearInstancePool </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$and_clear_all_references</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -959,6 +966,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int The number of affected rows (if supported by underlying database driver). </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1567,7 +1580,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Prepares the Criteria object and uses the parent <a class="el" href="classBasePagePeer.html#a94c8069a5d743d5b03c2378a010639ec">doSelect()</a> method to execute a PDOStatement.</p>
-<p>Use this method directly if you want to work with an executed statement durirectly (for example to perform your own object hydration).</p>
+<p>Use this method directly if you want to work with an executed statement directly (for example to perform your own object hydration).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">Criteria</td><td class="paramname">$criteria</td><td>The Criteria object used to build the SELECT statement. </td></tr>
@@ -1739,6 +1752,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array A list of field names </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the type is not valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1772,12 +1791,12 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash()) for this instance. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPage.html">Page</a> Found object or NULL if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPage.html">Page</a> Found object or null if 1) no instance exists for specified key or 2) instance pooling has been disabled. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>getPrimaryKeyHash() </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="afb3ca5b93680ab5086c65fc970c00121"></a>
+<a class="anchor" id="a3b0ebab350f4d7e40ad28ed81f27255a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1788,8 +1807,18 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">static BasePagePeer::getOMClass </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$withPrefix</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>$row</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$colnum</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1799,14 +1828,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The class that the Peer will make instances of.</p>
-<p>If $withPrefix is true, the returned path uses a dot-path notation which is tranalted into a path relative to a location on the PHP include_path. (e.g. path.to.MyClass -&gt; 'path/to/MyClass.php')</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramtype">boolean</td><td class="paramname">$withPrefix</td><td>Whether or not to return the path with the class name </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>string path.to.ClassName </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string ClassName </dd></dl>
 
 </div>
 </div>
@@ -1893,7 +1915,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or NULL if the components of primary key in result array are all null. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>string A string version of PK or null if the components of primary key in result array are all null. </dd></dl>
 
 </div>
 </div>
@@ -2114,7 +2136,14 @@ Static Protected Attributes</h2></td></tr>
 <p>Propel keeps cached copies of objects in an instance pool when they are retrieved from the database. In some cases &ndash; especially when you override doDelete methods in your stub classes &ndash; you may need to explicitly remove objects from the cache in order to prevent returning objects that no longer exist.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classPage.html">Page</a> object or a primary key value. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$value</td><td>A <a class="el" href="classPage.html">Page</a> object or a primary key value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">PropelException</td><td>- if the value is invalid. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2203,6 +2232,7 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPage.html">Page</a>[] </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">PropelException</td><td>Any exceptions caught during processing will be rethrown wrapped into a PropelException. </td></tr>
@@ -2284,6 +2314,48 @@ Static Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classPage.html">Page</a> Propel object for root node </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a41b410a4b7f3db3c50ca1ff25270467a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static BasePagePeer::setNegativeScope </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$scope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PropelPDO&#160;</td>
+          <td class="paramname"><em>$con</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Updates all scope values for items that has negative left (&lt;=0) values.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">mixed</td><td class="paramname">$scope</td><td></td></tr>
+    <tr><td class="paramtype">PropelPDO</td><td class="paramname">$con</td><td>Connection to use. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2516,15 +2588,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;PageType&#39;</span> =&gt; 3, <span class="stringliteral">&#39;TemplateName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;IsFolder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;IsHidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IsProtected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CanonicalId&#39;</span> =&gt; 9, <span class="stringliteral">&#39;TreeLeft&#39;</span> =&gt; 10, <span class="stringliteral">&#39;TreeRight&#39;</span> =&gt; 11, <span class="stringliteral">&#39;TreeLevel&#39;</span> =&gt; 12, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 13, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 16, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;pageType&#39;</span> =&gt; 3, <span class="stringliteral">&#39;templateName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;isFolder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;isHidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;isProtected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;canonicalId&#39;</span> =&gt; 9, <span class="stringliteral">&#39;treeLeft&#39;</span> =&gt; 10, <span class="stringliteral">&#39;treeRight&#39;</span> =&gt; 11, <span class="stringliteral">&#39;treeLevel&#39;</span> =&gt; 12, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 13, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 16, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID =&gt; 0, self::NAME =&gt; 1, self::IDENTIFIER =&gt; 2, self::PAGE_TYPE =&gt; 3, self::TEMPLATE_NAME =&gt; 4, self::IS_INACTIVE =&gt; 5, self::IS_FOLDER =&gt; 6, self::IS_HIDDEN =&gt; 7, self::IS_PROTECTED =&gt; 8, self::CANONICAL_ID =&gt; 9, self::TREE_LEFT =&gt; 10, self::TREE_RIGHT =&gt; 11, self::TREE_LEVEL =&gt; 12, self::CREATED_AT =&gt; 13, self::UPDATED_AT =&gt; 14, self::CREATED_BY =&gt; 15, self::UPDATED_BY =&gt; 16, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;NAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IDENTIFIER&#39;</span> =&gt; 2, <span class="stringliteral">&#39;PAGE_TYPE&#39;</span> =&gt; 3, <span class="stringliteral">&#39;TEMPLATE_NAME&#39;</span> =&gt; 4, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 5, <span class="stringliteral">&#39;IS_FOLDER&#39;</span> =&gt; 6, <span class="stringliteral">&#39;IS_HIDDEN&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IS_PROTECTED&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CANONICAL_ID&#39;</span> =&gt; 9, <span class="stringliteral">&#39;TREE_LEFT&#39;</span> =&gt; 10, <span class="stringliteral">&#39;TREE_RIGHT&#39;</span> =&gt; 11, <span class="stringliteral">&#39;TREE_LEVEL&#39;</span> =&gt; 12, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 13, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 16, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;page_type&#39;</span> =&gt; 3, <span class="stringliteral">&#39;template_name&#39;</span> =&gt; 4, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;is_folder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;is_hidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;is_protected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;canonical_id&#39;</span> =&gt; 9, <span class="stringliteral">&#39;tree_left&#39;</span> =&gt; 10, <span class="stringliteral">&#39;tree_right&#39;</span> =&gt; 11, <span class="stringliteral">&#39;tree_level&#39;</span> =&gt; 12, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 13, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 14, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 16, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;Name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;Identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;PageType&#39;</span> =&gt; 3, <span class="stringliteral">&#39;TemplateName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;IsInactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;IsFolder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;IsHidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IsProtected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CanonicalId&#39;</span> =&gt; 9, <span class="stringliteral">&#39;TreeLeft&#39;</span> =&gt; 10, <span class="stringliteral">&#39;TreeRight&#39;</span> =&gt; 11, <span class="stringliteral">&#39;TreeLevel&#39;</span> =&gt; 12, <span class="stringliteral">&#39;CreatedAt&#39;</span> =&gt; 13, <span class="stringliteral">&#39;UpdatedAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CreatedBy&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UpdatedBy&#39;</span> =&gt; 16, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;pageType&#39;</span> =&gt; 3, <span class="stringliteral">&#39;templateName&#39;</span> =&gt; 4, <span class="stringliteral">&#39;isInactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;isFolder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;isHidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;isProtected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;canonicalId&#39;</span> =&gt; 9, <span class="stringliteral">&#39;treeLeft&#39;</span> =&gt; 10, <span class="stringliteral">&#39;treeRight&#39;</span> =&gt; 11, <span class="stringliteral">&#39;treeLevel&#39;</span> =&gt; 12, <span class="stringliteral">&#39;createdAt&#39;</span> =&gt; 13, <span class="stringliteral">&#39;updatedAt&#39;</span> =&gt; 14, <span class="stringliteral">&#39;createdBy&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updatedBy&#39;</span> =&gt; 16, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBasePagePeer.html#ac8c6e7de7e5d64f7418a8428e632ef1e">PagePeer::ID</a> =&gt; 0, <a class="code" href="classBasePagePeer.html#afd7ee27a8a3083b839aba05133714134">PagePeer::NAME</a> =&gt; 1, <a class="code" href="classBasePagePeer.html#a9ba5ee7d0c56505841b282dbe02cd71c">PagePeer::IDENTIFIER</a> =&gt; 2, <a class="code" href="classBasePagePeer.html#aa8407b52790130a511d0cc3f35c2b539">PagePeer::PAGE_TYPE</a> =&gt; 3, <a class="code" href="classBasePagePeer.html#ae686cf13fcae9968594b8809b95496ee">PagePeer::TEMPLATE_NAME</a> =&gt; 4, <a class="code" href="classBasePagePeer.html#a582facca86f4c256d4813ed8bcd4706d">PagePeer::IS_INACTIVE</a> =&gt; 5, <a class="code" href="classBasePagePeer.html#af34d337aeddc05cdb7ca0c9daafab34f">PagePeer::IS_FOLDER</a> =&gt; 6, <a class="code" href="classBasePagePeer.html#ad2978ff70f76d734f9546d9264feb954">PagePeer::IS_HIDDEN</a> =&gt; 7, <a class="code" href="classBasePagePeer.html#a49602ada1f0621da9df6fc607519346a">PagePeer::IS_PROTECTED</a> =&gt; 8, <a class="code" href="classBasePagePeer.html#ae3009d7d986d2938820c310866653840">PagePeer::CANONICAL_ID</a> =&gt; 9, <a class="code" href="classBasePagePeer.html#af4b40b5a891c65a620826bd8e75d3df9">PagePeer::TREE_LEFT</a> =&gt; 10, <a class="code" href="classBasePagePeer.html#a66aaef7eca1a4066e7e34a5ffe1ff921">PagePeer::TREE_RIGHT</a> =&gt; 11, <a class="code" href="classBasePagePeer.html#a845f9276c3aeca3cbbe022ea98c9cb09">PagePeer::TREE_LEVEL</a> =&gt; 12, <a class="code" href="classBasePagePeer.html#a1fa2f032ebe7999ff0f1072e0d334bb3">PagePeer::CREATED_AT</a> =&gt; 13, <a class="code" href="classBasePagePeer.html#a966c15f89c5dc6a0c1d98d2a81d1fbb4">PagePeer::UPDATED_AT</a> =&gt; 14, <a class="code" href="classBasePagePeer.html#a72879778b1aa56c8ab6284eb47ec2089">PagePeer::CREATED_BY</a> =&gt; 15, <a class="code" href="classBasePagePeer.html#a7cc73c94d77389a77bb5e1def1c83a3d">PagePeer::UPDATED_BY</a> =&gt; 16, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span> =&gt; 0, <span class="stringliteral">&#39;NAME&#39;</span> =&gt; 1, <span class="stringliteral">&#39;IDENTIFIER&#39;</span> =&gt; 2, <span class="stringliteral">&#39;PAGE_TYPE&#39;</span> =&gt; 3, <span class="stringliteral">&#39;TEMPLATE_NAME&#39;</span> =&gt; 4, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span> =&gt; 5, <span class="stringliteral">&#39;IS_FOLDER&#39;</span> =&gt; 6, <span class="stringliteral">&#39;IS_HIDDEN&#39;</span> =&gt; 7, <span class="stringliteral">&#39;IS_PROTECTED&#39;</span> =&gt; 8, <span class="stringliteral">&#39;CANONICAL_ID&#39;</span> =&gt; 9, <span class="stringliteral">&#39;TREE_LEFT&#39;</span> =&gt; 10, <span class="stringliteral">&#39;TREE_RIGHT&#39;</span> =&gt; 11, <span class="stringliteral">&#39;TREE_LEVEL&#39;</span> =&gt; 12, <span class="stringliteral">&#39;CREATED_AT&#39;</span> =&gt; 13, <span class="stringliteral">&#39;UPDATED_AT&#39;</span> =&gt; 14, <span class="stringliteral">&#39;CREATED_BY&#39;</span> =&gt; 15, <span class="stringliteral">&#39;UPDATED_BY&#39;</span> =&gt; 16, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span> =&gt; 0, <span class="stringliteral">&#39;name&#39;</span> =&gt; 1, <span class="stringliteral">&#39;identifier&#39;</span> =&gt; 2, <span class="stringliteral">&#39;page_type&#39;</span> =&gt; 3, <span class="stringliteral">&#39;template_name&#39;</span> =&gt; 4, <span class="stringliteral">&#39;is_inactive&#39;</span> =&gt; 5, <span class="stringliteral">&#39;is_folder&#39;</span> =&gt; 6, <span class="stringliteral">&#39;is_hidden&#39;</span> =&gt; 7, <span class="stringliteral">&#39;is_protected&#39;</span> =&gt; 8, <span class="stringliteral">&#39;canonical_id&#39;</span> =&gt; 9, <span class="stringliteral">&#39;tree_left&#39;</span> =&gt; 10, <span class="stringliteral">&#39;tree_right&#39;</span> =&gt; 11, <span class="stringliteral">&#39;tree_level&#39;</span> =&gt; 12, <span class="stringliteral">&#39;created_at&#39;</span> =&gt; 13, <span class="stringliteral">&#39;updated_at&#39;</span> =&gt; 14, <span class="stringliteral">&#39;created_by&#39;</span> =&gt; 15, <span class="stringliteral">&#39;updated_by&#39;</span> =&gt; 16, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of keys for quick access to the fieldnames array</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBasePagePeer.html#a7fab83d01610babb868a8c45108550f5">PagePeer::$fieldNames</a>[BasePeer::TYPE_PHPNAME]['Id'] = 0 </p>
 
 </div>
 </div>
@@ -2546,15 +2618,15 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= array (</div>
-<div class="line">    BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Name&#39;</span>, <span class="stringliteral">&#39;Identifier&#39;</span>, <span class="stringliteral">&#39;PageType&#39;</span>, <span class="stringliteral">&#39;TemplateName&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;IsFolder&#39;</span>, <span class="stringliteral">&#39;IsHidden&#39;</span>, <span class="stringliteral">&#39;IsProtected&#39;</span>, <span class="stringliteral">&#39;CanonicalId&#39;</span>, <span class="stringliteral">&#39;TreeLeft&#39;</span>, <span class="stringliteral">&#39;TreeRight&#39;</span>, <span class="stringliteral">&#39;TreeLevel&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;identifier&#39;</span>, <span class="stringliteral">&#39;pageType&#39;</span>, <span class="stringliteral">&#39;templateName&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;isFolder&#39;</span>, <span class="stringliteral">&#39;isHidden&#39;</span>, <span class="stringliteral">&#39;isProtected&#39;</span>, <span class="stringliteral">&#39;canonicalId&#39;</span>, <span class="stringliteral">&#39;treeLeft&#39;</span>, <span class="stringliteral">&#39;treeRight&#39;</span>, <span class="stringliteral">&#39;treeLevel&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_COLNAME =&gt; array (self::ID, self::NAME, self::IDENTIFIER, self::PAGE_TYPE, self::TEMPLATE_NAME, self::IS_INACTIVE, self::IS_FOLDER, self::IS_HIDDEN, self::IS_PROTECTED, self::CANONICAL_ID, self::TREE_LEFT, self::TREE_RIGHT, self::TREE_LEVEL, self::CREATED_AT, self::UPDATED_AT, self::CREATED_BY, self::UPDATED_BY, ),</div>
-<div class="line">    BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;NAME&#39;</span>, <span class="stringliteral">&#39;IDENTIFIER&#39;</span>, <span class="stringliteral">&#39;PAGE_TYPE&#39;</span>, <span class="stringliteral">&#39;TEMPLATE_NAME&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;IS_FOLDER&#39;</span>, <span class="stringliteral">&#39;IS_HIDDEN&#39;</span>, <span class="stringliteral">&#39;IS_PROTECTED&#39;</span>, <span class="stringliteral">&#39;CANONICAL_ID&#39;</span>, <span class="stringliteral">&#39;TREE_LEFT&#39;</span>, <span class="stringliteral">&#39;TREE_RIGHT&#39;</span>, <span class="stringliteral">&#39;TREE_LEVEL&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;identifier&#39;</span>, <span class="stringliteral">&#39;page_type&#39;</span>, <span class="stringliteral">&#39;template_name&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;is_folder&#39;</span>, <span class="stringliteral">&#39;is_hidden&#39;</span>, <span class="stringliteral">&#39;is_protected&#39;</span>, <span class="stringliteral">&#39;canonical_id&#39;</span>, <span class="stringliteral">&#39;tree_left&#39;</span>, <span class="stringliteral">&#39;tree_right&#39;</span>, <span class="stringliteral">&#39;tree_level&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
-<div class="line">    BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, )</div>
-<div class="line">  )</div>
+<div class="line">        BasePeer::TYPE_PHPNAME =&gt; array (<span class="stringliteral">&#39;Id&#39;</span>, <span class="stringliteral">&#39;Name&#39;</span>, <span class="stringliteral">&#39;Identifier&#39;</span>, <span class="stringliteral">&#39;PageType&#39;</span>, <span class="stringliteral">&#39;TemplateName&#39;</span>, <span class="stringliteral">&#39;IsInactive&#39;</span>, <span class="stringliteral">&#39;IsFolder&#39;</span>, <span class="stringliteral">&#39;IsHidden&#39;</span>, <span class="stringliteral">&#39;IsProtected&#39;</span>, <span class="stringliteral">&#39;CanonicalId&#39;</span>, <span class="stringliteral">&#39;TreeLeft&#39;</span>, <span class="stringliteral">&#39;TreeRight&#39;</span>, <span class="stringliteral">&#39;TreeLevel&#39;</span>, <span class="stringliteral">&#39;CreatedAt&#39;</span>, <span class="stringliteral">&#39;UpdatedAt&#39;</span>, <span class="stringliteral">&#39;CreatedBy&#39;</span>, <span class="stringliteral">&#39;UpdatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_STUDLYPHPNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;identifier&#39;</span>, <span class="stringliteral">&#39;pageType&#39;</span>, <span class="stringliteral">&#39;templateName&#39;</span>, <span class="stringliteral">&#39;isInactive&#39;</span>, <span class="stringliteral">&#39;isFolder&#39;</span>, <span class="stringliteral">&#39;isHidden&#39;</span>, <span class="stringliteral">&#39;isProtected&#39;</span>, <span class="stringliteral">&#39;canonicalId&#39;</span>, <span class="stringliteral">&#39;treeLeft&#39;</span>, <span class="stringliteral">&#39;treeRight&#39;</span>, <span class="stringliteral">&#39;treeLevel&#39;</span>, <span class="stringliteral">&#39;createdAt&#39;</span>, <span class="stringliteral">&#39;updatedAt&#39;</span>, <span class="stringliteral">&#39;createdBy&#39;</span>, <span class="stringliteral">&#39;updatedBy&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_COLNAME =&gt; array (<a class="code" href="classBasePagePeer.html#ac8c6e7de7e5d64f7418a8428e632ef1e">PagePeer::ID</a>, <a class="code" href="classBasePagePeer.html#afd7ee27a8a3083b839aba05133714134">PagePeer::NAME</a>, <a class="code" href="classBasePagePeer.html#a9ba5ee7d0c56505841b282dbe02cd71c">PagePeer::IDENTIFIER</a>, <a class="code" href="classBasePagePeer.html#aa8407b52790130a511d0cc3f35c2b539">PagePeer::PAGE_TYPE</a>, <a class="code" href="classBasePagePeer.html#ae686cf13fcae9968594b8809b95496ee">PagePeer::TEMPLATE_NAME</a>, <a class="code" href="classBasePagePeer.html#a582facca86f4c256d4813ed8bcd4706d">PagePeer::IS_INACTIVE</a>, <a class="code" href="classBasePagePeer.html#af34d337aeddc05cdb7ca0c9daafab34f">PagePeer::IS_FOLDER</a>, <a class="code" href="classBasePagePeer.html#ad2978ff70f76d734f9546d9264feb954">PagePeer::IS_HIDDEN</a>, <a class="code" href="classBasePagePeer.html#a49602ada1f0621da9df6fc607519346a">PagePeer::IS_PROTECTED</a>, <a class="code" href="classBasePagePeer.html#ae3009d7d986d2938820c310866653840">PagePeer::CANONICAL_ID</a>, <a class="code" href="classBasePagePeer.html#af4b40b5a891c65a620826bd8e75d3df9">PagePeer::TREE_LEFT</a>, <a class="code" href="classBasePagePeer.html#a66aaef7eca1a4066e7e34a5ffe1ff921">PagePeer::TREE_RIGHT</a>, <a class="code" href="classBasePagePeer.html#a845f9276c3aeca3cbbe022ea98c9cb09">PagePeer::TREE_LEVEL</a>, <a class="code" href="classBasePagePeer.html#a1fa2f032ebe7999ff0f1072e0d334bb3">PagePeer::CREATED_AT</a>, <a class="code" href="classBasePagePeer.html#a966c15f89c5dc6a0c1d98d2a81d1fbb4">PagePeer::UPDATED_AT</a>, <a class="code" href="classBasePagePeer.html#a72879778b1aa56c8ab6284eb47ec2089">PagePeer::CREATED_BY</a>, <a class="code" href="classBasePagePeer.html#a7cc73c94d77389a77bb5e1def1c83a3d">PagePeer::UPDATED_BY</a>, ),</div>
+<div class="line">        BasePeer::TYPE_RAW_COLNAME =&gt; array (<span class="stringliteral">&#39;ID&#39;</span>, <span class="stringliteral">&#39;NAME&#39;</span>, <span class="stringliteral">&#39;IDENTIFIER&#39;</span>, <span class="stringliteral">&#39;PAGE_TYPE&#39;</span>, <span class="stringliteral">&#39;TEMPLATE_NAME&#39;</span>, <span class="stringliteral">&#39;IS_INACTIVE&#39;</span>, <span class="stringliteral">&#39;IS_FOLDER&#39;</span>, <span class="stringliteral">&#39;IS_HIDDEN&#39;</span>, <span class="stringliteral">&#39;IS_PROTECTED&#39;</span>, <span class="stringliteral">&#39;CANONICAL_ID&#39;</span>, <span class="stringliteral">&#39;TREE_LEFT&#39;</span>, <span class="stringliteral">&#39;TREE_RIGHT&#39;</span>, <span class="stringliteral">&#39;TREE_LEVEL&#39;</span>, <span class="stringliteral">&#39;CREATED_AT&#39;</span>, <span class="stringliteral">&#39;UPDATED_AT&#39;</span>, <span class="stringliteral">&#39;CREATED_BY&#39;</span>, <span class="stringliteral">&#39;UPDATED_BY&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_FIELDNAME =&gt; array (<span class="stringliteral">&#39;id&#39;</span>, <span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;identifier&#39;</span>, <span class="stringliteral">&#39;page_type&#39;</span>, <span class="stringliteral">&#39;template_name&#39;</span>, <span class="stringliteral">&#39;is_inactive&#39;</span>, <span class="stringliteral">&#39;is_folder&#39;</span>, <span class="stringliteral">&#39;is_hidden&#39;</span>, <span class="stringliteral">&#39;is_protected&#39;</span>, <span class="stringliteral">&#39;canonical_id&#39;</span>, <span class="stringliteral">&#39;tree_left&#39;</span>, <span class="stringliteral">&#39;tree_right&#39;</span>, <span class="stringliteral">&#39;tree_level&#39;</span>, <span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;updated_at&#39;</span>, <span class="stringliteral">&#39;created_by&#39;</span>, <span class="stringliteral">&#39;updated_by&#39;</span>, ),</div>
+<div class="line">        BasePeer::TYPE_NUM =&gt; array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, )</div>
+<div class="line">    )</div>
 </div><!-- fragment --><p>holds an array of fieldnames</p>
-<p>first dimension keys are the type constants e.g. self::$fieldNames[self::TYPE_PHPNAME][0] = 'Id' </p>
+<p>first dimension keys are the type constants e.g. <a class="el" href="classBasePagePeer.html#a7fab83d01610babb868a8c45108550f5">PagePeer::$fieldNames</a>[PagePeer::TYPE_PHPNAME][0] = 'Id' </p>
 
 </div>
 </div>
@@ -2563,24 +2635,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::CANONICAL_ID = 'pages.CANONICAL_ID'</td>
+          <td class="memname">const BasePagePeer::CANONICAL_ID = 'pages.canonical_id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CANONICAL_ID field </p>
-
-</div>
-</div>
-<a class="anchor" id="ade444628190ce4104d298ffe8bd587e5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const BasePagePeer::CLASS_DEFAULT = 'model.Page'</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>A class that can be returned by this peer. </p>
+<p>the column name for the canonical_id field </p>
 
 </div>
 </div>
@@ -2589,11 +2648,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::CREATED_AT = 'pages.CREATED_AT'</td>
+          <td class="memname">const BasePagePeer::CREATED_AT = 'pages.created_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_AT field </p>
+<p>the column name for the created_at field </p>
 
 </div>
 </div>
@@ -2602,11 +2661,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::CREATED_BY = 'pages.CREATED_BY'</td>
+          <td class="memname">const BasePagePeer::CREATED_BY = 'pages.created_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the CREATED_BY field </p>
+<p>the column name for the created_by field </p>
 
 </div>
 </div>
@@ -2641,11 +2700,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::ID = 'pages.ID'</td>
+          <td class="memname">const BasePagePeer::ID = 'pages.id'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the ID field </p>
+<p>the column name for the id field </p>
 
 </div>
 </div>
@@ -2654,11 +2713,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::IDENTIFIER = 'pages.IDENTIFIER'</td>
+          <td class="memname">const BasePagePeer::IDENTIFIER = 'pages.identifier'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IDENTIFIER field </p>
+<p>the column name for the identifier field </p>
 
 </div>
 </div>
@@ -2667,11 +2726,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::IS_FOLDER = 'pages.IS_FOLDER'</td>
+          <td class="memname">const BasePagePeer::IS_FOLDER = 'pages.is_folder'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_FOLDER field </p>
+<p>the column name for the is_folder field </p>
 
 </div>
 </div>
@@ -2680,11 +2739,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::IS_HIDDEN = 'pages.IS_HIDDEN'</td>
+          <td class="memname">const BasePagePeer::IS_HIDDEN = 'pages.is_hidden'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_HIDDEN field </p>
+<p>the column name for the is_hidden field </p>
 
 </div>
 </div>
@@ -2693,11 +2752,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::IS_INACTIVE = 'pages.IS_INACTIVE'</td>
+          <td class="memname">const BasePagePeer::IS_INACTIVE = 'pages.is_inactive'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_INACTIVE field </p>
+<p>the column name for the is_inactive field </p>
 
 </div>
 </div>
@@ -2706,11 +2765,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::IS_PROTECTED = 'pages.IS_PROTECTED'</td>
+          <td class="memname">const BasePagePeer::IS_PROTECTED = 'pages.is_protected'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the IS_PROTECTED field </p>
+<p>the column name for the is_protected field </p>
 
 </div>
 </div>
@@ -2719,7 +2778,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::LEFT_COL = 'pages.TREE_LEFT'</td>
+          <td class="memname">const BasePagePeer::LEFT_COL = 'pages.tree_left'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2732,7 +2791,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::LEVEL_COL = 'pages.TREE_LEVEL'</td>
+          <td class="memname">const BasePagePeer::LEVEL_COL = 'pages.tree_level'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2745,11 +2804,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::NAME = 'pages.NAME'</td>
+          <td class="memname">const BasePagePeer::NAME = 'pages.name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the NAME field </p>
+<p>the column name for the name field </p>
 
 </div>
 </div>
@@ -2810,11 +2869,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::PAGE_TYPE = 'pages.PAGE_TYPE'</td>
+          <td class="memname">const BasePagePeer::PAGE_TYPE = 'pages.page_type'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the PAGE_TYPE field </p>
+<p>the column name for the page_type field </p>
 
 </div>
 </div>
@@ -2823,7 +2882,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::RIGHT_COL = 'pages.TREE_RIGHT'</td>
+          <td class="memname">const BasePagePeer::RIGHT_COL = 'pages.tree_right'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2849,11 +2908,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::TEMPLATE_NAME = 'pages.TEMPLATE_NAME'</td>
+          <td class="memname">const BasePagePeer::TEMPLATE_NAME = 'pages.template_name'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TEMPLATE_NAME field </p>
+<p>the column name for the template_name field </p>
 
 </div>
 </div>
@@ -2875,11 +2934,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::TREE_LEFT = 'pages.TREE_LEFT'</td>
+          <td class="memname">const BasePagePeer::TREE_LEFT = 'pages.tree_left'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TREE_LEFT field </p>
+<p>the column name for the tree_left field </p>
 
 </div>
 </div>
@@ -2888,11 +2947,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::TREE_LEVEL = 'pages.TREE_LEVEL'</td>
+          <td class="memname">const BasePagePeer::TREE_LEVEL = 'pages.tree_level'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TREE_LEVEL field </p>
+<p>the column name for the tree_level field </p>
 
 </div>
 </div>
@@ -2901,11 +2960,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::TREE_RIGHT = 'pages.TREE_RIGHT'</td>
+          <td class="memname">const BasePagePeer::TREE_RIGHT = 'pages.tree_right'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the TREE_RIGHT field </p>
+<p>the column name for the tree_right field </p>
 
 </div>
 </div>
@@ -2914,11 +2973,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::UPDATED_AT = 'pages.UPDATED_AT'</td>
+          <td class="memname">const BasePagePeer::UPDATED_AT = 'pages.updated_at'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_AT field </p>
+<p>the column name for the updated_at field </p>
 
 </div>
 </div>
@@ -2927,11 +2986,11 @@ Static Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const BasePagePeer::UPDATED_BY = 'pages.UPDATED_BY'</td>
+          <td class="memname">const BasePagePeer::UPDATED_BY = 'pages.updated_by'</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the column name for the UPDATED_BY field </p>
+<p>the column name for the updated_by field </p>
 
 </div>
 </div>
@@ -2941,7 +3000,7 @@ Static Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>

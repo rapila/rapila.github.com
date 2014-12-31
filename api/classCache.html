@@ -85,24 +85,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classCache-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Cache Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Represents one file in the cache, identified by the dirname and the key (generated/caches/&lt;dir&gt;/&lt;md5(key)&gt;.cache).  
- <a href="classCache.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9bb641ed4355cabdb30cd276bc81873b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bb641ed4355cabdb30cd276bc81873b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($sKey, $mPath=null)</td></tr>
-<tr class="separator:a9bb641ed4355cabdb30cd276bc81873b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969c5130a983692ab0df623ddb4592c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a969c5130a983692ab0df623ddb4592c9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($sKey, $mPath=null, $iFlags=0)</td></tr>
+<tr class="separator:a969c5130a983692ab0df623ddb4592c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03615cf45623490afb121b65133608b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#ae03615cf45623490afb121b65133608b">cacheFileExists</a> ($bTakeOffStatusIntoAccount=true)</td></tr>
 <tr class="separator:ae03615cf45623490afb121b65133608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff49547a1a73acaf02f0c948c48c119"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a7ff49547a1a73acaf02f0c948c48c119">getFilePath</a> ()</td></tr>
 <tr class="separator:a7ff49547a1a73acaf02f0c948c48c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0133ad2315afc2a42a51bbe8e0bc413c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a0133ad2315afc2a42a51bbe8e0bc413c">getFileName</a> ()</td></tr>
+<tr class="separator:a0133ad2315afc2a42a51bbe8e0bc413c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0418d9766593260c27bf06e502eb299"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aa0418d9766593260c27bf06e502eb299">getModificationDate</a> ()</td></tr>
 <tr class="separator:aa0418d9766593260c27bf06e502eb299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8532a190b81a8499ace9be8d60578e8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a8532a190b81a8499ace9be8d60578e8b">getAge</a> ()</td></tr>
@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a487a021a021c429ed2be998b89f62bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f36357302ba6b7cd0275273cb128ad4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a5f36357302ba6b7cd0275273cb128ad4">getContentsAsVariable</a> ()</td></tr>
 <tr class="separator:a5f36357302ba6b7cd0275273cb128ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c407d59a4c36c6680aa830b9ba850a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#ac1c407d59a4c36c6680aa830b9ba850a">setContents</a> ($mContents, $bForceSerialize=false)</td></tr>
-<tr class="separator:ac1c407d59a4c36c6680aa830b9ba850a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50055ff04540d811e20ed481507a0c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a50055ff04540d811e20ed481507a0c5c">setContents</a> ($mContents, $bForceSerialize=false, $bAppend=false)</td></tr>
+<tr class="separator:a50055ff04540d811e20ed481507a0c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a432777089014b30cac00e25e97584c0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a432777089014b30cac00e25e97584c0c">sendCacheControlHeaders</a> ($iTimestamp=null)</td></tr>
 <tr class="separator:a432777089014b30cac00e25e97584c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0bbf2b30ce981767719975aa4dd8014"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aa0bbf2b30ce981767719975aa4dd8014">cacheIsOffForWriting</a> ()</td></tr>
@@ -134,6 +134,15 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a71848003e9645abc57e2d4e8871c775a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a71848003e9645abc57e2d4e8871c775a">clearAllCaches</a> ()</td></tr>
 <tr class="separator:a71848003e9645abc57e2d4e8871c775a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a13e37bced95bec725ee7aba0f5f10380"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13e37bced95bec725ee7aba0f5f10380"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>CACHE_EXTENSION</b> = '.cache'</td></tr>
+<tr class="separator:a13e37bced95bec725ee7aba0f5f10380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6a6ce49cf9010eafffb9d698d82fe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb6a6ce49cf9010eafffb9d698d82fe3"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b> = 1</td></tr>
+<tr class="separator:abb6a6ce49cf9010eafffb9d698d82fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents one file in the cache, identified by the dirname and the key (generated/caches/&lt;dir&gt;/&lt;md5(key)&gt;.cache). </p>
@@ -314,6 +323,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0133ad2315afc2a42a51bbe8e0bc413c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::getFileName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the md5()’ed cache key. </p>
+
+</div>
+</div>
 <a class="anchor" id="a7ff49547a1a73acaf02f0c948c48c119"></a>
 <div class="memitem">
 <div class="memproto">
@@ -416,11 +441,17 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sends the cache control headers Last-Modified and ETag Uses the given timestamp as base for calculation. If it is omitted, the timestamp of the cache file is used; Additionally, this method exits if the client sent a matching If-None-Match or If-Modified-Since header You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p>
+<p>Sends the cache control headers Last-Modified and ETag Uses the timestamp of the cache file as base for calculation. Additionally, this method exits if the client sent a matching If-None-Match or If-Modified-Since header You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$iTimestamp</td><td>deprecated: to use this method without a cache file, call <a class="el" href="classLinkUtil.html#aa2f95f117f7594b4cd417efa040fa3c3">LinkUtil::sendCacheControlHeaders</a> directly </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a class="anchor" id="ac1c407d59a4c36c6680aa830b9ba850a"></a>
+<a class="anchor" id="a50055ff04540d811e20ed481507a0c5c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -434,7 +465,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bForceSerialize</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>$bForceSerialize</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bAppend</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -453,7 +490,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 31 2014 03:07:16 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 31 2014 18:16:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>
