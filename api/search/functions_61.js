@@ -38,6 +38,7 @@ var searchData=
   ['addlinkrelatedbyupdatedby',['addLinkRelatedByUpdatedBy',['../classBaseUser.html#a05e5f516a31892a55157bb11d886209e',1,'BaseUser']]],
   ['addmeta',['addMeta',['../classResourceIncluder.html#a54f90abd19f9fcd1668231aa6fb9d61d',1,'ResourceIncluder']]],
   ['addnestedsetchild',['addNestedSetChild',['../classBasePage.html#a2559a8422e1ad4c947213645b7e94f30',1,'BasePage']]],
+  ['addoverride',['addOverride',['../classSettings.html#a31b1dc609806663688ea7d28581451d0',1,'Settings']]],
   ['addpageproperty',['addPageProperty',['../classBasePage.html#af9b3ab1dadd7523d7dff39a63f242d44',1,'BasePage']]],
   ['addpagepropertyrelatedbycreatedby',['addPagePropertyRelatedByCreatedBy',['../classBaseUser.html#a89dcb11886f3d5d2d8eff37f2702e59d',1,'BaseUser']]],
   ['addpagepropertyrelatedbyupdatedby',['addPagePropertyRelatedByUpdatedBy',['../classBaseUser.html#ae71fe7ea69ec131063c5008f9c5b1d15',1,'BaseUser']]],

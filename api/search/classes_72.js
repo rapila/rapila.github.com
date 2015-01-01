@@ -10,6 +10,7 @@ var searchData=
   ['resourcefinder',['ResourceFinder',['../classResourceFinder.html',1,'']]],
   ['resourcefindertests',['ResourceFinderTests',['../classResourceFinderTests.html',1,'']]],
   ['resourceincluder',['ResourceIncluder',['../classResourceIncluder.html',1,'']]],
+  ['resourceincluderconsolidationtests',['ResourceIncluderConsolidationTests',['../classResourceIncluderConsolidationTests.html',1,'']]],
   ['resourceincludertests',['ResourceIncluderTests',['../classResourceIncluderTests.html',1,'']]],
   ['richtextutil',['RichtextUtil',['../classRichtextUtil.html',1,'']]],
   ['richtextwidgetmodule',['RichTextWidgetModule',['../classRichTextWidgetModule.html',1,'']]],
