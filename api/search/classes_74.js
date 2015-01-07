@@ -35,7 +35,6 @@ var searchData=
   ['templatestringtests',['TemplateStringTests',['../classTemplateStringTests.html',1,'']]],
   ['templatetest',['TemplateTest',['../classTemplateTest.html',1,'']]],
   ['testeverything',['TestEverything',['../classTestEverything.html',1,'']]],
-  ['testlistwidgetdelegate',['TestListWidgetDelegate',['../classTestListWidgetDelegate.html',1,'']]],
   ['testpart',['TestPart',['../classTestPart.html',1,'']]],
   ['testreferencesfilemodule',['TestReferencesFileModule',['../classTestReferencesFileModule.html',1,'']]],
   ['testresourcefinder',['TestResourceFinder',['../classTestResourceFinder.html',1,'']]],

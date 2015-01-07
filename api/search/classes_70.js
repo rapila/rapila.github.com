@@ -35,5 +35,6 @@ var searchData=
   ['propelmigration_5f1408702847',['PropelMigration_1408702847',['../classPropelMigration__1408702847.html',1,'']]],
   ['propelmigration_5f1409746497',['PropelMigration_1409746497',['../classPropelMigration__1409746497.html',1,'']]],
   ['propelmigration_5f1412886439',['PropelMigration_1412886439',['../classPropelMigration__1412886439.html',1,'']]],
-  ['propelmigration_5f1419248277',['PropelMigration_1419248277',['../classPropelMigration__1419248277.html',1,'']]]
+  ['propelmigration_5f1419248277',['PropelMigration_1419248277',['../classPropelMigration__1419248277.html',1,'']]],
+  ['prototypelistwidgetdelegate',['PrototypeListWidgetDelegate',['../classPrototypeListWidgetDelegate.html',1,'']]]
 ];

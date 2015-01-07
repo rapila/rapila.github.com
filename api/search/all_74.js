@@ -40,7 +40,6 @@ var searchData=
   ['templatetest',['TemplateTest',['../classTemplateTest.html',1,'']]],
   ['testeverything',['TestEverything',['../classTestEverything.html',1,'']]],
   ['testidentifierescaping',['testIdentifierEscaping',['../classTemplateReplacementTests.html#a5d8ec6665e8a27157a29b1a57899d747',1,'TemplateReplacementTests']]],
-  ['testlistwidgetdelegate',['TestListWidgetDelegate',['../classTestListWidgetDelegate.html',1,'']]],
   ['testpart',['TestPart',['../classTestPart.html',1,'']]],
   ['testreferencesfilemodule',['TestReferencesFileModule',['../classTestReferencesFileModule.html',1,'']]],
   ['testresourcefinder',['TestResourceFinder',['../classTestResourceFinder.html',1,'']]],
