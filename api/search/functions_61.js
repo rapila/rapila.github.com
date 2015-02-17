@@ -48,6 +48,7 @@ var searchData=
   ['addpagestring',['addPageString',['../classBaseLanguage.html#a86d822d5165d8f3d2a742ca326cabdac',1,'BaseLanguage\addPageString()'],['../classBasePage.html#af9d378bcffe2bb59ffdd597048965e34',1,'BasePage\addPageString()']]],
   ['addpagestringrelatedbycreatedby',['addPageStringRelatedByCreatedBy',['../classBaseUser.html#add06af36b95d530db2e3ed58868c63e4',1,'BaseUser']]],
   ['addpagestringrelatedbyupdatedby',['addPageStringRelatedByUpdatedBy',['../classBaseUser.html#a15bcb21294636a3356eb89643b5220ef',1,'BaseUser']]],
+  ['addpaging',['addPaging',['../classSpecializedListWidgetModule.html#a01161ddd181ce4e1f2dab236394d1cd9',1,'SpecializedListWidgetModule']]],
   ['addreference',['addReference',['../classReferencePeer.html#afae4566bd4fe4ff4d20ab6ec06dc17b2',1,'ReferencePeer']]],
   ['addreferencerelatedbycreatedby',['addReferenceRelatedByCreatedBy',['../classBaseUser.html#a6d53a2aecc2503ea3b69f4c4815a1f6b',1,'BaseUser']]],
   ['addreferencerelatedbyupdatedby',['addReferenceRelatedByUpdatedBy',['../classBaseUser.html#ae7a0ac728c5623625211ba0169a6e5e0',1,'BaseUser']]],
