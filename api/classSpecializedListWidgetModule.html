@@ -109,8 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a4391fa324a17475dbc4baba65e59d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a4391fa324a17475dbc4baba65e59d7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getListWidget</b> ()</td></tr>
 <tr class="separator:a3a4391fa324a17475dbc4baba65e59d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01161ddd181ce4e1f2dab236394d1cd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpecializedListWidgetModule.html#a01161ddd181ce4e1f2dab236394d1cd9">addPaging</a> ($iPageSize=null, $sModule=null)</td></tr>
-<tr class="separator:a01161ddd181ce4e1f2dab236394d1cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788f2943394ab5b9ac8cba38c7adb398"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpecializedListWidgetModule.html#a788f2943394ab5b9ac8cba38c7adb398">addPaging</a> ($iPageSize= 'default')</td></tr>
+<tr class="separator:a788f2943394ab5b9ac8cba38c7adb398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d92abfb5b00235ef8e76ab8644131bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d92abfb5b00235ef8e76ab8644131bc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getSessionKey</b> ()</td></tr>
 <tr class="separator:a6d92abfb5b00235ef8e76ab8644131bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +221,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$MODULE_TYPE</b> = 
 <tr class="separator:a36062be954713046cb5dab93c53deee9 inherit pro_static_attribs_classWidgetModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a01161ddd181ce4e1f2dab236394d1cd9"></a>
+<a class="anchor" id="a788f2943394ab5b9ac8cba38c7adb398"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -229,25 +229,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$MODULE_TYPE</b> = 
           <td class="memname">SpecializedListWidgetModule::addPaging </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$iPageSize</em> = <code>null</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>$iPageSize</em> = <code>'default'</code></td><td>)</td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$sModule</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">optional</td><td>int / string $iPageSize </td></tr>
-    <tr><td class="paramname">optional</td><td>string $sModule ExampleNameModule &gt; example_name configure page_size per site or module – globally by configuring section admin: page_size – overwrite page_size locally configuring admin: example_name-page_size </td></tr>
+    <tr><td class="paramname">optional</td><td>int / string $iPageSize configure page_size per site or list-widget – by configuring global value or local overwrite value in config.yml admin: page_size: number [0, none] example-list-widget-page_size: number [0, none] </td></tr>
   </table>
   </dd>
 </dl>
@@ -260,7 +249,7 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>$MODULE_TYPE</b> = 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 17 2015 19:18:29 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 18 2015 14:05:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.2
 </small></address>
