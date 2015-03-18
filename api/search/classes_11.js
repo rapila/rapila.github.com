@@ -21,5 +21,6 @@ var searchData=
   ['utildatefunctiontests',['UtilDateFunctionTests',['../classUtilDateFunctionTests.html',1,'']]],
   ['utilgetwordstests',['UtilGetWordsTests',['../classUtilGetWordsTests.html',1,'']]],
   ['utillocaletests',['UtilLocaleTests',['../classUtilLocaleTests.html',1,'']]],
+  ['utilstringtests',['UtilStringTests',['../classUtilStringTests.html',1,'']]],
   ['utilsystemparttests',['UtilSystemPartTests',['../classUtilSystemPartTests.html',1,'']]]
 ];
