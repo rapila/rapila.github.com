@@ -87,7 +87,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classCache-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Cache Class Reference</div>  </div>
@@ -96,15 +95,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a969c5130a983692ab0df623ddb4592c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a969c5130a983692ab0df623ddb4592c9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($sKey, $mPath=null, $iFlags=0)</td></tr>
-<tr class="separator:a969c5130a983692ab0df623ddb4592c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03061748b14ada76c93fb76aaebbff46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03061748b14ada76c93fb76aaebbff46"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($sKey, $sModule, $oStrategy=null)</td></tr>
+<tr class="separator:a03061748b14ada76c93fb76aaebbff46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03615cf45623490afb121b65133608b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#ae03615cf45623490afb121b65133608b">cacheFileExists</a> ($bTakeOffStatusIntoAccount=true)</td></tr>
 <tr class="separator:ae03615cf45623490afb121b65133608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ac87a3866e024738c968034121a142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a61ac87a3866e024738c968034121a142">entryExists</a> ($bTakeOffStatusIntoAccount=true)</td></tr>
+<tr class="separator:a61ac87a3866e024738c968034121a142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff49547a1a73acaf02f0c948c48c119"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a7ff49547a1a73acaf02f0c948c48c119">getFilePath</a> ()</td></tr>
 <tr class="separator:a7ff49547a1a73acaf02f0c948c48c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0133ad2315afc2a42a51bbe8e0bc413c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a0133ad2315afc2a42a51bbe8e0bc413c">getFileName</a> ()</td></tr>
 <tr class="separator:a0133ad2315afc2a42a51bbe8e0bc413c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b7500317ef85e30a8e417437b01bec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a73b7500317ef85e30a8e417437b01bec">getKey</a> ()</td></tr>
+<tr class="separator:a73b7500317ef85e30a8e417437b01bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad727cf248ea07deb25a3eb2dd03f528a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#ad727cf248ea07deb25a3eb2dd03f528a">getModule</a> ()</td></tr>
+<tr class="separator:ad727cf248ea07deb25a3eb2dd03f528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b92033d385e3e8a7532ee1e36c28e7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a4b92033d385e3e8a7532ee1e36c28e7e">getStrategy</a> ()</td></tr>
+<tr class="separator:a4b92033d385e3e8a7532ee1e36c28e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0418d9766593260c27bf06e502eb299"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aa0418d9766593260c27bf06e502eb299">getModificationDate</a> ()</td></tr>
 <tr class="separator:aa0418d9766593260c27bf06e502eb299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8532a190b81a8499ace9be8d60578e8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a8532a190b81a8499ace9be8d60578e8b">getAge</a> ()</td></tr>
@@ -115,12 +122,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9978261d84e08ea7b60f37d6afb59400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50664c49a105115cba1f7d2326dcf042"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a50664c49a105115cba1f7d2326dcf042">ageIsMoreThan</a> ($iSeconds=0, $iMinutes=0, $iHours=0, $iDays=0)</td></tr>
 <tr class="separator:a50664c49a105115cba1f7d2326dcf042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe23c6ea5ea237f9533aa6500e1fe76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aafe23c6ea5ea237f9533aa6500e1fe76">getContentsAsString</a> ()</td></tr>
-<tr class="separator:aafe23c6ea5ea237f9533aa6500e1fe76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaea755a4fee40589895521bd1dccfd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aaaea755a4fee40589895521bd1dccfd4">fileSize</a> ()</td></tr>
 <tr class="separator:aaaea755a4fee40589895521bd1dccfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f7c175a44e7aeb5c3846b11bfbe516"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#af1f7c175a44e7aeb5c3846b11bfbe516">size</a> ()</td></tr>
+<tr class="separator:af1f7c175a44e7aeb5c3846b11bfbe516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487a021a021c429ed2be998b89f62bba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a487a021a021c429ed2be998b89f62bba">passContents</a> ($bOutputContentLength=false)</td></tr>
 <tr class="separator:a487a021a021c429ed2be998b89f62bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe23c6ea5ea237f9533aa6500e1fe76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#aafe23c6ea5ea237f9533aa6500e1fe76">getContentsAsString</a> ()</td></tr>
+<tr class="separator:aafe23c6ea5ea237f9533aa6500e1fe76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f36357302ba6b7cd0275273cb128ad4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a5f36357302ba6b7cd0275273cb128ad4">getContentsAsVariable</a> ()</td></tr>
 <tr class="separator:a5f36357302ba6b7cd0275273cb128ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50055ff04540d811e20ed481507a0c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a50055ff04540d811e20ed481507a0c5c">setContents</a> ($mContents, $bForceSerialize=false, $bAppend=false)</td></tr>
@@ -136,15 +145,6 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a71848003e9645abc57e2d4e8871c775a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCache.html#a71848003e9645abc57e2d4e8871c775a">clearAllCaches</a> ()</td></tr>
 <tr class="separator:a71848003e9645abc57e2d4e8871c775a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a13e37bced95bec725ee7aba0f5f10380"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13e37bced95bec725ee7aba0f5f10380"></a>
-const&#160;</td><td class="memItemRight" valign="bottom"><b>CACHE_EXTENSION</b> = '.cache'</td></tr>
-<tr class="separator:a13e37bced95bec725ee7aba0f5f10380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb6a6ce49cf9010eafffb9d698d82fe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb6a6ce49cf9010eafffb9d698d82fe3"></a>
-const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b> = 1</td></tr>
-<tr class="separator:abb6a6ce49cf9010eafffb9d698d82fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents one file in the cache, identified by the dirname and the key (generated/caches/&lt;dir&gt;/&lt;md5(key)&gt;.cache). </p>
@@ -201,7 +201,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if a file representing this cache entry already exists, false otherwise </p>
+<p>Returns true if a file representing this cache entry already exists, false otherwise </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>use cacheEntryExists </dd></dl>
 
 </div>
 </div>
@@ -233,7 +233,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if, for whatever reason, no data should be written to the cache. This can be triggered by the general-&gt;caching boolean setting in config.yml Caching of config files is always on </p>
+<p>Returns true if, for whatever reason, no data should be written to the cache. This can be triggered by the general-&gt;caching boolean setting in config.yml Caching of config files is always on (because it is there that this setting is defined) </p>
 
 </div>
 </div>
@@ -261,6 +261,23 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
 
 </div>
 </div>
+<a class="anchor" id="a61ac87a3866e024738c968034121a142"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::entryExists </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bTakeOffStatusIntoAccount</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if this cache entry already exists, false otherwise </p>
+
+</div>
+</div>
 <a class="anchor" id="aaaea755a4fee40589895521bd1dccfd4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +290,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets the size of the cache file without reading the contents </p>
+<p>Gets the size of the cache file without reading the contents </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>use <a class="el" href="classCache.html#af1f7c175a44e7aeb5c3846b11bfbe516">size()</a> </dd></dl>
 
 </div>
 </div>
@@ -337,7 +354,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the md5()’ed cache key. </p>
+<p>Returns the md5()’ed cache key. </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>use md5(getKey()) or $oCache-&gt;<a class="el" href="classCache.html#a4b92033d385e3e8a7532ee1e36c28e7e">getStrategy()</a>-&gt;encodedKey($oCache) </dd></dl>
 
 </div>
 </div>
@@ -353,7 +370,23 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the full path to the cache file. Note that this file may not yet exist </p>
+<p>Returns the full path to the cache file. Note that this file may not yet exist </p><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>only works if caching strategy is <a class="el" href="classCachingStrategyFile.html">CachingStrategyFile</a>. Use $oCache-&gt;<a class="el" href="classCache.html#a4b92033d385e3e8a7532ee1e36c28e7e">getStrategy()</a>-&gt;getFilePath($oCache) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a73b7500317ef85e30a8e417437b01bec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::getKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the cache key. </p>
 
 </div>
 </div>
@@ -369,7 +402,39 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the cached content's modification date. Note that this will result in an error if the cache file does not (yet) exist </p>
+<p>Returns the cached content's modification date. Note that this will possibly result in an error if the cache entry does not (yet) exist </p>
+
+</div>
+</div>
+<a class="anchor" id="ad727cf248ea07deb25a3eb2dd03f528a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::getModule </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the cache module. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b92033d385e3e8a7532ee1e36c28e7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::getStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the caching strategy used. </p>
 
 </div>
 </div>
@@ -484,13 +549,29 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>FLAG_FILE_DIRECT</b>
 
 </div>
 </div>
+<a class="anchor" id="af1f7c175a44e7aeb5c3846b11bfbe516"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cache::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the size of the cache contents without reading the contents. May return null if unknown. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/Cache.php</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 19 2015 23:29:30 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 28 2015 19:16:51 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

@@ -111,6 +111,7 @@ var searchData=
   ['setnegativescope',['setNegativeScope',['../classBasePagePeer.html#a41b410a4b7f3db3c50ca1ff25270467a',1,'BasePagePeer']]],
   ['setobjectid',['setObjectId',['../classBaseLanguageObject.html#a5e0ba7b299aca3bfef9b04e8da17a389',1,'BaseLanguageObject\setObjectId()'],['../classBaseLanguageObjectHistory.html#ac20cfe734c5d71df3b0b75b7b1c2803a',1,'BaseLanguageObjectHistory\setObjectId()']]],
   ['setobjecttype',['setObjectType',['../classBaseContentObject.html#a8cd73d32e5f409ca0fda101c91836a61',1,'BaseContentObject']]],
+  ['setoption',['setOption',['../classCachingStrategy.html#a062cb72278432ebe2e959e4b90a3779d',1,'CachingStrategy']]],
   ['setoriginalname',['setOriginalName',['../classBaseDocument.html#ad7213d3974e0ba3e606761dd044d74d1',1,'BaseDocument']]],
   ['setownerid',['setOwnerId',['../classBaseDocument.html#a7a433e244a3f6a7a86e7391d41a744c9',1,'BaseDocument\setOwnerId()'],['../classBaseLink.html#a7071eb4b923134b1ffad61639a80f5f2',1,'BaseLink\setOwnerId()']]],
   ['setpage',['setPage',['../classSimplePager.html#a448da596c0425d5491845a262c745bfc',1,'SimplePager\setPage()'],['../classBaseContentObject.html#a81d1cbaf549a9a7dc2664f3332c1ee1d',1,'BaseContentObject\setPage()'],['../classBasePageProperty.html#a11eb445a56d155a780c09083c88d8349',1,'BasePageProperty\setPage()'],['../classBasePageString.html#ace9a505d589706fc5b863ed5db430120',1,'BasePageString\setPage()'],['../classBaseRight.html#ac9428f2ce93c098bf1d0a746e59e6fa9',1,'BaseRight\setPage()']]],
@@ -189,6 +190,7 @@ var searchData=
   ['shiftlevel',['shiftLevel',['../classBasePagePeer.html#a42ed20ba5e086b2957b5c70e59226ba8',1,'BasePagePeer']]],
   ['shiftrlvalues',['shiftRLValues',['../classBasePagePeer.html#a0c28d3031050d3b315fec1cd5b9297d3',1,'BasePagePeer']]],
   ['siblingsof',['siblingsOf',['../classBasePageQuery.html#aee54145300590d435b91ccf2310c756c',1,'BasePageQuery']]],
+  ['size',['size',['../classCache.html#af1f7c175a44e7aeb5c3846b11bfbe516',1,'Cache']]],
   ['startdependencies',['startDependencies',['../classResourceIncluder.html#a4adf4562e9de31c49962972732237249',1,'ResourceIncluder']]],
   ['starttimer',['startTimer',['../classTimer.html#ae5134ca96f584ad5c21624384f371602',1,'Timer']]]
 ];

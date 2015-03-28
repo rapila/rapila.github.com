@@ -8,6 +8,7 @@ var searchData=
   ['imagepickerinputwidgetmodule',['ImagePickerInputWidgetModule',['../classImagePickerInputWidgetModule.html',1,'']]],
   ['imagepickerwidgetmodule',['ImagePickerWidgetModule',['../classImagePickerWidgetModule.html',1,'']]],
   ['infobarwidgetmodule',['InfoBarWidgetModule',['../classInfoBarWidgetModule.html',1,'']]],
+  ['init',['init',['../classCachingStrategy.html#a1753a050ec9553c8ad1ba5742682574f',1,'CachingStrategy']]],
   ['initcontentobjects',['initContentObjects',['../classBasePage.html#a911add79ab2d90ce743d455727ffb44c',1,'BasePage']]],
   ['initcontentobjectsrelatedbycreatedby',['initContentObjectsRelatedByCreatedBy',['../classBaseUser.html#ac4910c94e240dbf6c8254831ff75141e',1,'BaseUser']]],
   ['initcontentobjectsrelatedbyupdatedby',['initContentObjectsRelatedByUpdatedBy',['../classBaseUser.html#a3b0b3f3447f56cd4f2008f467d256dd3',1,'BaseUser']]],
