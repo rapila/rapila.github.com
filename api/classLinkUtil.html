@@ -106,8 +106,14 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>redirectToLanguage<
 <tr class="memitem:a059539b2e31fa420bebddb6bf0f97077"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a059539b2e31fa420bebddb6bf0f97077"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>sendHTTPStatusCode</b> ($iCode, $sName)</td></tr>
 <tr class="separator:a059539b2e31fa420bebddb6bf0f97077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f95f117f7594b4cd417efa040fa3c3"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#aa2f95f117f7594b4cd417efa040fa3c3">sendCacheControlHeaders</a> ($iTimestamp)</td></tr>
-<tr class="separator:aa2f95f117f7594b4cd417efa040fa3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c201bf8fd48b42fb6318410126e258f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a5c201bf8fd48b42fb6318410126e258f">sendCacheControlHeaders</a> ($mLastModified, $mExpires=null)</td></tr>
+<tr class="separator:a5c201bf8fd48b42fb6318410126e258f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad705270374fd9451754d5360f9f7034e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#ad705270374fd9451754d5360f9f7034e">sendCacheControlHeadersForCache</a> ($oCache)</td></tr>
+<tr class="separator:ad705270374fd9451754d5360f9f7034e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2716c1ca7ef792dff8e6c73511b40721"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a2716c1ca7ef792dff8e6c73511b40721">sendLastModifiedAndCheckModifiedSince</a> ($mTimestamp)</td></tr>
+<tr class="separator:a2716c1ca7ef792dff8e6c73511b40721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465ffea289f72dda2c6d1c3b5aa900df"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a465ffea289f72dda2c6d1c3b5aa900df">sendExpires</a> ($mTimestamp)</td></tr>
+<tr class="separator:a465ffea289f72dda2c6d1c3b5aa900df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ddf2e619226838546e45b7a825ce826"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinkUtil.html#a3ddf2e619226838546e45b7a825ce826">absoluteLink</a> ($sLocation, $sHost=null, $mProtocolSetting= 'default', $bAbsoluteLinkMayBeOmitted=false)</td></tr>
 <tr class="separator:a3ddf2e619226838546e45b7a825ce826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4694ca74ffa7e951a424e3e0b0d268ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4694ca74ffa7e951a424e3e0b0d268ed"></a>
@@ -307,7 +313,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>DATE_RFC2616</b> = '
 
 </div>
 </div>
-<a class="anchor" id="aa2f95f117f7594b4cd417efa040fa3c3"></a>
+<a class="anchor" id="a5c201bf8fd48b42fb6318410126e258f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -318,7 +324,48 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>DATE_RFC2616</b> = '
           <td class="memname">static LinkUtil::sendCacheControlHeaders </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$iTimestamp</em></td><td>)</td>
+          <td class="paramname"><em>$mLastModified</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$mExpires</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends the cache control headers. Shortcut for calling sendLastModifiedAndCheckModifiedSince and sendExpires. • Last-Modified and checks If-Modified-Since for a match (if so, terminates and sends a 304 Not Modified status code) • Uses the given timestamp as base for calculation. If it is an object or a query, the updated-at field of the object (or the newest item that matches the query) is used. • You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$mLastModified</td><td>The last-modified date to send. Can be one of the following: • <code>null</code> to not send a last-modified (only applicable if the second argument is non-null) • A UNIX timestamp as an integer • A string to be parsed into a date using strtotime • A DateTime object • A Propel database object whose updated_at timestamp will be used • A Propel query that will find the object most recently updated and use its updated_at timestamp </td></tr>
+    <tr><td class="paramname">$mExpires</td><td>The expires header to send. Can be one of the following: • <code>null</code> to not send an expires header (only applicable if first argument is non-null) • A DateInterval object • A date interval spec in the form of Pxx (<a href="http://en.wikipedia.org/wiki/Iso8601#Durations">http://en.wikipedia.org/wiki/Iso8601#Durations</a>) which will be added to today’s date • A UNIX timestamp as an integer • A string to be parsed into a date using strtotime • A DateTime object • A <a class="el" href="classCache.html">Cache</a> object (which will be asked about the expiresTimestamp) • <code>true</code> to expire in a year (the maxiumum permitted by RFC2616) • <code>false</code> to mark as already expired (and to force re-evaluation) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad705270374fd9451754d5360f9f7034e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkUtil::sendCacheControlHeadersForCache </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$oCache</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -328,9 +375,64 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>DATE_RFC2616</b> = '
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sends the cache control header Last-Modified and checks If-Modified-Since for a match (if so, terminates and sends a 304 Not Modified status code) Uses the given timestamp as base for calculation. If it is an object or a query, the updated-at field of the object (or the newest item that matches the query) is used. You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Version of sendCacheControlHeaders that uses a cache object to calculate the last-modified timestamp </p>
+
+</div>
+</div>
+<a class="anchor" id="a465ffea289f72dda2c6d1c3b5aa900df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkUtil::sendExpires </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$mTimestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends an expires header. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$iTimestamp</td><td>deprecated: to use this method without a cache file, call <a class="el" href="classLinkUtil.html#aa2f95f117f7594b4cd417efa040fa3c3">LinkUtil::sendCacheControlHeaders</a> directly </td></tr>
+    <tr><td class="paramname">$mExpires</td><td>The expires header to send. Can be one of the following: • A DateInterval object • A date interval spec in the form of Pxx (<a href="http://en.wikipedia.org/wiki/Iso8601#Durations">http://en.wikipedia.org/wiki/Iso8601#Durations</a>) which will be added to today’s date • A UNIX timestamp as an integer • A string to be parsed into a date using strtotime • A DateTime object • A <a class="el" href="classCache.html">Cache</a> object (which will be asked about the expiresTimestamp) • <code>true</code> to expire in a year (the maxiumum permitted by RFC2616) • <code>false</code> to mark as already expired (and to force re-evaluation) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2716c1ca7ef792dff8e6c73511b40721"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LinkUtil::sendLastModifiedAndCheckModifiedSince </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$mTimestamp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sends Last-Modified and checks If-Modified-Since for a match (if so, terminates and sends a 304 Not Modified status code). Uses the given timestamp as base for calculation. If it is an object or a query, the updated-at field of the object (or the newest item that matches the query) is used. You can call this method twice if you created a new cache file and don’t have any other timestamp. It will only output the headers once. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$mTimestamp</td><td>The last-modified date to send. Can be one of the following: • A UNIX timestamp as an integer • A string to be parsed into a date using strtotime • A DateTime object • A Propel database object whose updated_at timestamp will be used • A Propel query that will find the object most recently updated and use its updated_at timestamp </td></tr>
   </table>
   </dd>
 </dl>
@@ -343,7 +445,7 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>DATE_RFC2616</b> = '
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 28 2015 09:15:14 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 1 2015 18:52:47 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

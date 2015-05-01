@@ -89,6 +89,7 @@ var searchData=
   ['clearuserrolesrelatedbyupdatedby',['clearUserRolesRelatedByUpdatedBy',['../classBaseUser.html#aa4d954d27faf77ccc15b70fee1ee9168',1,'BaseUser']]],
   ['clearuserrolesrelatedbyuserid',['clearUserRolesRelatedByUserId',['../classBaseUser.html#aa4dce92a6a33f1fd3798629de77a069d',1,'BaseUser']]],
   ['clearusersrelatedbylanguageid',['clearUsersRelatedByLanguageId',['../classBaseLanguage.html#a9425bb054e2081f594d63832f371346f',1,'BaseLanguage']]],
+  ['close',['close',['../classSession.html#a47698add59d03bcabb0fc1cff86cf52f',1,'Session']]],
   ['completesanitycheck',['CompleteSanityCheck',['../classCompleteSanityCheck.html',1,'']]],
   ['condition_5fserialized',['CONDITION_SERIALIZED',['../classBaseContentObjectPeer.html#ab9e1385ab849ae820ccf74a12179796c',1,'BaseContentObjectPeer']]],
   ['configuredstrategies',['configuredStrategies',['../classCachingStrategy.html#a9f0237de10303077693f5e0d44976cdb',1,'CachingStrategy']]],
