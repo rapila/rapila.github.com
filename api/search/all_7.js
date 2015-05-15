@@ -38,6 +38,7 @@ var searchData=
   ['filterbydocumenttyperelatedbyupdatedby',['filterByDocumentTypeRelatedByUpdatedBy',['../classBaseUserQuery.html#a3cbf2495f771f3a289b687a105f2c2ea',1,'BaseUserQuery']]],
   ['filterbyemail',['filterByEmail',['../classBaseUserQuery.html#a63875c21fc405c3f92a33e98394d73ba',1,'BaseUserQuery']]],
   ['filterbyextension',['filterByExtension',['../classBaseDocumentTypeQuery.html#aca86df89a4685642bb80632b465fd346',1,'BaseDocumentTypeQuery']]],
+  ['filterbyfirstlevelnameoridentifier',['filterByFirstLevelNameOrIdentifier',['../classPageQuery.html#a3a3529ab6580161f07768c1f294d1e84',1,'PageQuery']]],
   ['filterbyfirstname',['filterByFirstName',['../classBaseUserQuery.html#aca8579a202ba4a0f19f5b8bddc961eb3',1,'BaseUserQuery']]],
   ['filterbyfromid',['filterByFromId',['../classBaseReferenceQuery.html#ad82b9dac164a6db6a87b2a5f38ed6632',1,'BaseReferenceQuery']]],
   ['filterbyfrommodelname',['filterByFromModelName',['../classBaseReferenceQuery.html#ac4b0d31cb9cb5ac46b5d58d87649a9e4',1,'BaseReferenceQuery']]],
