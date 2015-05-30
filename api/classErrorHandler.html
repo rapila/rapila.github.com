@@ -100,6 +100,8 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>handleError</b> ($i
 <tr class="memitem:ada9abde65beaa485253ed6d6fb55cac3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada9abde65beaa485253ed6d6fb55cac3"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>handleException</b> ($oException, $bNeverPrint=false)</td></tr>
 <tr class="separator:ada9abde65beaa485253ed6d6fb55cac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d84169102ac20b3098732129c1d16b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandler.html#a42d84169102ac20b3098732129c1d16b">displayErrorMessage</a> ($aError, $bMayPrintDetailedMessage=false)</td></tr>
+<tr class="separator:a42d84169102ac20b3098732129c1d16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a035007c99d23f049df487c237170a191"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a035007c99d23f049df487c237170a191"></a>
 static&#160;</td><td class="memItemRight" valign="bottom"><b>getEnvironment</b> ()</td></tr>
 <tr class="separator:a035007c99d23f049df487c237170a191"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,13 +127,49 @@ static&#160;</td><td class="memItemRight" valign="bottom"><b>trace</b> ($bClean=
 static&#160;</td><td class="memItemRight" valign="bottom"><b>setEnvironment</b> ($sEnvironment)</td></tr>
 <tr class="separator:aaa30271cdf930304229de0b476b1bc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a42d84169102ac20b3098732129c1d16b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ErrorHandler::displayErrorMessage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$aError</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bMayPrintDetailedMessage</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>if possible, reads the file php_error.php in the site/lib directory and outputs it as an error message. This is called from the handleError and handleException methods if the error was not output directly to screen (like in the test environment) and could not be recovered from. If the file does not exist, it will output the text "An Error occured, exiting" </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>cms-full/base/lib/classes/ErrorHandler.php</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 28 2015 15:39:12 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 30 2015 12:37:48 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
