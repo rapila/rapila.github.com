@@ -163,7 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a50bc94373300c787bad5276253645858"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50bc94373300c787bad5276253645858"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getLink</b> ()</td></tr>
 <tr class="separator:a50bc94373300c787bad5276253645858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbebf772362cc2510b61cabde7c8b1f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNavigationItem.html#acbebf772362cc2510b61cabde7c8b1f1">getId</a> ()</td></tr>
+<tr class="memitem:acbebf772362cc2510b61cabde7c8b1f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbebf772362cc2510b61cabde7c8b1f1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getId</b> ()</td></tr>
 <tr class="separator:acbebf772362cc2510b61cabde7c8b1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29d77a4de7226966fb51c45c1b205d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29d77a4de7226966fb51c45c1b205d9"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getParent</b> ()</td></tr>
@@ -218,6 +219,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab2caf5e4b0e5519a8db216b8c8f75988"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2caf5e4b0e5519a8db216b8c8f75988"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>hasCustomChildren</b> ($sLanguageId=null, $bIncludeDisabled=false, $bIncludeInvisible=false)</td></tr>
 <tr class="separator:ab2caf5e4b0e5519a8db216b8c8f75988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b232d7b9fbf66cedcc1c0ffcf494abe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNavigationItem.html#a1b232d7b9fbf66cedcc1c0ffcf494abe">getIdImpl</a> ()</td></tr>
+<tr class="separator:a1b232d7b9fbf66cedcc1c0ffcf494abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c7a2fada4132320e04d758eec025cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8c7a2fada4132320e04d758eec025cf"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>getCanonicalImpl</b> ($sLanguageId=null)</td></tr>
 <tr class="separator:ae8c7a2fada4132320e04d758eec025cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,17 +238,25 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a9de70f511c99a3f7eb0890ce0f4ac7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="acbebf772362cc2510b61cabde7c8b1f1"></a>
+<a class="anchor" id="a1b232d7b9fbf66cedcc1c0ffcf494abe"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">NavigationItem::getId </td>
+          <td class="memname">NavigationItem::getIdImpl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Gets a value uniquely identifying this navigation item. This could be a full path or an internal id of the backing store. Note: This is NOT the same as the identifier retrieved using getIdentifier()) as that is allowed to return null in some implementations. </p>
 
@@ -273,7 +284,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 29 2016 10:48:15 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 2 2016 16:06:27 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
