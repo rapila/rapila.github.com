@@ -40,6 +40,7 @@ var searchData=
   ['templatespecialidentifiertests',['TemplateSpecialIdentifierTests',['../classTemplateSpecialIdentifierTests.html',1,'']]],
   ['templatestringtests',['TemplateStringTests',['../classTemplateStringTests.html',1,'']]],
   ['templatetest',['TemplateTest',['../classTemplateTest.html',1,'']]],
+  ['testcalculations',['testCalculations',['../classTemplateSpecialIdentifierTests.html#a9f9bb007df88ebf586c35bcaf9014c47',1,'TemplateSpecialIdentifierTests']]],
   ['testerrorpagefilemodule',['TestErrorPageFileModule',['../classTestErrorPageFileModule.html',1,'']]],
   ['testeverything',['TestEverything',['../classTestEverything.html',1,'']]],
   ['testidentifierescaping',['testIdentifierEscaping',['../classTemplateReplacementTests.html#a5d8ec6665e8a27157a29b1a57899d747',1,'TemplateReplacementTests']]],
