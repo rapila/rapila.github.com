@@ -226,7 +226,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classBaseLanguageObjectQuery.html#a54a16473b50be9eca30cef5b6354a349">BaseLanguageObjectQuery</a>
 , <a class="el" href="classBaseLinkQuery.html#ac47354ee4ee1e54e09ef1a03c6b6cbbe">BaseLinkQuery</a>
 , <a class="el" href="classBasePageStringQuery.html#a488ec6e06ab26f343a4f2bc7419c57f6">BasePageStringQuery</a>
-, <a class="el" href="classBaseStringQuery.html#a1a71f1e6faed4259f0a06efdded81ef4">BaseStringQuery</a>
+, <a class="el" href="classBaseTranslationQuery.html#a37822a7ce56b7f853a8038aaaeb09640">BaseTranslationQuery</a>
 </li>
 <li>useLanguageRelatedByCreatedByQuery()
 : <a class="el" href="classBaseUserQuery.html#a8b69a157037a54ea34c4c6ef2a192ae5">BaseUserQuery</a>
@@ -329,15 +329,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>useRoleRelatedByUpdatedByQuery()
 : <a class="el" href="classBaseUserQuery.html#a53ec577b077927a1756a230f8a1c78e8">BaseUserQuery</a>
 </li>
-<li>useStringQuery()
-: <a class="el" href="classBaseLanguageQuery.html#a6ac639dd4f4df963b56c06acb16cff31">BaseLanguageQuery</a>
-</li>
-<li>useStringRelatedByCreatedByQuery()
-: <a class="el" href="classBaseUserQuery.html#a013bf77a01038536b0b31d083c0584f7">BaseUserQuery</a>
-</li>
-<li>useStringRelatedByUpdatedByQuery()
-: <a class="el" href="classBaseUserQuery.html#a94b385e91a257cc7315c72bbaddadf1b">BaseUserQuery</a>
-</li>
 <li>useTagInstanceQuery()
 : <a class="el" href="classBaseTagQuery.html#a0ecd5112d98bdddbf287db588f3ab540">BaseTagQuery</a>
 </li>
@@ -355,6 +346,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>useTagRelatedByUpdatedByQuery()
 : <a class="el" href="classBaseUserQuery.html#aa27853aee5ef5822e07e1ed1effc1c8b">BaseUserQuery</a>
+</li>
+<li>useTranslationQuery()
+: <a class="el" href="classBaseLanguageQuery.html#ab00b2feb4cc1c9636272070b76703354">BaseLanguageQuery</a>
+</li>
+<li>useTranslationRelatedByCreatedByQuery()
+: <a class="el" href="classBaseUserQuery.html#a2d2ef504c605c07a047a37c1534e5bd5">BaseUserQuery</a>
+</li>
+<li>useTranslationRelatedByUpdatedByQuery()
+: <a class="el" href="classBaseUserQuery.html#a7f6cb4dbdae179ba018648fabc40c35f">BaseUserQuery</a>
 </li>
 <li>useUserGroupQuery()
 : <a class="el" href="classBaseGroupQuery.html#a2ca673a40ffd842907d4d9a826fba384">BaseGroupQuery</a>
@@ -387,9 +387,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classBaseReferenceQuery.html#a709460db3c1dfecea836d5d6c78b60ed">BaseReferenceQuery</a>
 , <a class="el" href="classBaseRightQuery.html#af90836d9dfd125e68995996df7f9c5b5">BaseRightQuery</a>
 , <a class="el" href="classBaseRoleQuery.html#a40fa9b9a5e462681ce3982888995b9a4">BaseRoleQuery</a>
-, <a class="el" href="classBaseStringQuery.html#a7a2f328e04802bc1295c5d7f33d43a45">BaseStringQuery</a>
 , <a class="el" href="classBaseTagInstanceQuery.html#a76f39f78d1eccc0688df53b8431a5d6d">BaseTagInstanceQuery</a>
 , <a class="el" href="classBaseTagQuery.html#a5af3d9aef07a8b0e8fce68d89c1d6666">BaseTagQuery</a>
+, <a class="el" href="classBaseTranslationQuery.html#aea212c814bd1aa12b64e86e2134bfb69">BaseTranslationQuery</a>
 , <a class="el" href="classBaseUserGroupQuery.html#a9ecb3d8738cdcf421e224dac0a3e2357">BaseUserGroupQuery</a>
 , <a class="el" href="classBaseUserRoleQuery.html#af00cf20791c5f210b86cbf2072136f1e">BaseUserRoleQuery</a>
 </li>
@@ -419,9 +419,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classBaseReferenceQuery.html#ad099b8c374cebb2cc6d3d992a7039cb3">BaseReferenceQuery</a>
 , <a class="el" href="classBaseRightQuery.html#afdb0aa722778997c3e02a32408fc130e">BaseRightQuery</a>
 , <a class="el" href="classBaseRoleQuery.html#a460b9155891fdb77c36ef89ea244d9fb">BaseRoleQuery</a>
-, <a class="el" href="classBaseStringQuery.html#a9b6e5e965161e0119bba10f971cdf25a">BaseStringQuery</a>
 , <a class="el" href="classBaseTagInstanceQuery.html#a9c7af8fe696b87e41a779dd8c5cde938">BaseTagInstanceQuery</a>
 , <a class="el" href="classBaseTagQuery.html#ab08fe7473e3ad753a73e0a0fc56a4b7a">BaseTagQuery</a>
+, <a class="el" href="classBaseTranslationQuery.html#a3131255ecc4701ad64725ae934372d40">BaseTranslationQuery</a>
 , <a class="el" href="classBaseUserGroupQuery.html#a8891d8e7580d53c599c0a8285f14ab0c">BaseUserGroupQuery</a>
 , <a class="el" href="classBaseUserRoleQuery.html#a264023655862ec627ad8b1f692c2cff2">BaseUserRoleQuery</a>
 </li>
@@ -445,7 +445,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 15 2016 14:20:41 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 15 2016 14:41:25 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

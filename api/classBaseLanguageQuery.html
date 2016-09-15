@@ -163,12 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae3e80a18690e42f5c745bf77f718b971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8c8fcb32eed121dea107e60d47db374"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#ab8c8fcb32eed121dea107e60d47db374">useLanguageObjectHistoryQuery</a> ($relationAlias=null, $joinType=Criteria::INNER_JOIN)</td></tr>
 <tr class="separator:ab8c8fcb32eed121dea107e60d47db374"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1752e5c9066fa3ec6962460a4d95e2ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a1752e5c9066fa3ec6962460a4d95e2ec">filterByString</a> ($string, $comparison=null)</td></tr>
-<tr class="separator:a1752e5c9066fa3ec6962460a4d95e2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ef1ffcf566d7486e2ea38b0f244ded"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a33ef1ffcf566d7486e2ea38b0f244ded">joinString</a> ($relationAlias=null, $joinType=Criteria::INNER_JOIN)</td></tr>
-<tr class="separator:a33ef1ffcf566d7486e2ea38b0f244ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ac639dd4f4df963b56c06acb16cff31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a6ac639dd4f4df963b56c06acb16cff31">useStringQuery</a> ($relationAlias=null, $joinType=Criteria::INNER_JOIN)</td></tr>
-<tr class="separator:a6ac639dd4f4df963b56c06acb16cff31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761711450c3d36b2aeefab85c9b7163b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a761711450c3d36b2aeefab85c9b7163b">filterByTranslation</a> ($translation, $comparison=null)</td></tr>
+<tr class="separator:a761711450c3d36b2aeefab85c9b7163b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a046401ecd101276e97f1070e4367d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a9a046401ecd101276e97f1070e4367d5">joinTranslation</a> ($relationAlias=null, $joinType=Criteria::INNER_JOIN)</td></tr>
+<tr class="separator:a9a046401ecd101276e97f1070e4367d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00b2feb4cc1c9636272070b76703354"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#ab00b2feb4cc1c9636272070b76703354">useTranslationQuery</a> ($relationAlias=null, $joinType=Criteria::INNER_JOIN)</td></tr>
+<tr class="separator:ab00b2feb4cc1c9636272070b76703354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bdf6b638d73d44836b121e781019ea5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#a6bdf6b638d73d44836b121e781019ea5">filterByUserRelatedByLanguageId</a> ($user, $comparison=null)</td></tr>
 <tr class="separator:a6bdf6b638d73d44836b121e781019ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d6b3a9af4543af2cde90f6a4c2f079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseLanguageQuery.html#ad4d6b3a9af4543af2cde90f6a4c2f079">joinUserRelatedByLanguageId</a> ($relationAlias=null, $joinType=Criteria::LEFT_JOIN)</td></tr>
@@ -783,15 +783,15 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1752e5c9066fa3ec6962460a4d95e2ec"></a>
+<a class="anchor" id="a761711450c3d36b2aeefab85c9b7163b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseLanguageQuery::filterByString </td>
+          <td class="memname">BaseLanguageQuery::filterByTranslation </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$string</em>, </td>
+          <td class="paramname"><em>$translation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -806,10 +806,10 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Filter the query by a related <a class="el" href="classString.html">String</a> object</p>
+<p>Filter the query by a related <a class="el" href="classTranslation.html">Translation</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype"><a class="el" href="classString.html">String</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$string</td><td>the related object to use as filter </td></tr>
+    <tr><td class="paramtype"><a class="el" href="classTranslation.html">Translation</a>&#160;|&#160;PropelObjectCollection</td><td class="paramname">$translation</td><td>the related object to use as filter </td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$comparison</td><td>Operator to use for the column comparison, defaults to Criteria::EQUAL</td></tr>
   </table>
   </dd>
@@ -1432,12 +1432,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a33ef1ffcf566d7486e2ea38b0f244ded"></a>
+<a class="anchor" id="a9a046401ecd101276e97f1070e4367d5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseLanguageQuery::joinString </td>
+          <td class="memname">BaseLanguageQuery::joinTranslation </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$relationAlias</em> = <code>null</code>, </td>
@@ -1455,7 +1455,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds a JOIN clause to the query using the <a class="el" href="classString.html">String</a> relation</p>
+<p>Adds a JOIN clause to the query using the <a class="el" href="classTranslation.html">Translation</a> relation</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$relationAlias</td><td>optional alias for the relation </td></tr>
@@ -1858,12 +1858,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6ac639dd4f4df963b56c06acb16cff31"></a>
+<a class="anchor" id="ab00b2feb4cc1c9636272070b76703354"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BaseLanguageQuery::useStringQuery </td>
+          <td class="memname">BaseLanguageQuery::useTranslationQuery </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$relationAlias</em> = <code>null</code>, </td>
@@ -1881,7 +1881,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Use the <a class="el" href="classString.html">String</a> relation <a class="el" href="classString.html">String</a> object</p>
+<p>Use the <a class="el" href="classTranslation.html">Translation</a> relation <a class="el" href="classTranslation.html">Translation</a> object</p>
 <dl class="section see"><dt>See also</dt><dd>useQuery()</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1890,7 +1890,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classStringQuery.html">StringQuery</a> A secondary query class using the current class as primary query </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classTranslationQuery.html">TranslationQuery</a> A secondary query class using the current class as primary query </dd></dl>
 
 </div>
 </div>
@@ -2008,7 +2008,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 15 2016 14:20:38 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 15 2016 14:41:22 for rapila by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

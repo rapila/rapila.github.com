@@ -46,5 +46,9 @@ var searchData=
   ['textfrontendmodule',['TextFrontendModule',['../classTextFrontendModule.html',1,'']]],
   ['timer',['Timer',['../classTimer.html',1,'']]],
   ['timezoneinputwidgetmodule',['TimezoneInputWidgetModule',['../classTimezoneInputWidgetModule.html',1,'']]],
+  ['translation',['Translation',['../classTranslation.html',1,'']]],
+  ['translationpeer',['TranslationPeer',['../classTranslationPeer.html',1,'']]],
+  ['translationquery',['TranslationQuery',['../classTranslationQuery.html',1,'']]],
+  ['translationtablemap',['TranslationTableMap',['../classTranslationTableMap.html',1,'']]],
   ['treewidgetmodule',['TreeWidgetModule',['../classTreeWidgetModule.html',1,'']]]
 ];
